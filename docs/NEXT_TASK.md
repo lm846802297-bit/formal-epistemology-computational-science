@@ -2,30 +2,34 @@
 
 ## Task
 
-Conduct one critical review of the revised manuscript's central concept and argument before resuming EJPS formatting.
+Complete the author-led source and claim audit, then proceed to EJPS submission formatting. The critical review of the major revision is complete; do not reopen the research scope absent a concrete error.
 
 ## Current manuscript
 
-- `manuscript/full_manuscript.md` — integrated article with abstract, main text, conclusion, and 23 cited references.
+- `manuscript/full_manuscript.md` — integrated article with abstract, main text, conclusion, and references.
 - Separate section files remain the editable sources in `manuscript/`.
+- The revised central question concerns the conditions under which a machine-checked theorem in one formalization can support an inference in another.
 
 ## Fixed acceptance criteria
 
-1. The distinction between local proof warrant and inter-formalization warrant is clear and not merely terminological.
-2. The proposed interface conditions (object, predicate, hypothesis, conclusion/witness, and proof transport) are supported by the OS source analysis.
-3. Bobbin et al. (2024), Douglas et al. (2026), FormalScience, DeDeo and Duede, Gelfert, Rabe (2017), DAMF, and SC-TPTP are accurately differentiated from the paper's bounded contribution.
-4. The Comparator is described precisely: verbatim Mathlib-only challenge definitions, explicit bidirectional record bridges, theorem equivalences (eToR_iff, eToROSII_iff, rToE_iff), proof replay, disclosed fidelity conventions, and self-assessed review status; distinguish relative record correspondence from independent source-formalism adequacy.
-5. The private companion examples are not identified with the pinned OSforGFF object without an inspectable bridge.
-6. The OSforGFF and OSreconstruction growth predicates, dimensional conventions, test spaces, and theorem endpoints match the pinned sources.
-7. All 23 cited works have matching APA-style references and BibTeX records.
-8. The revised paper makes no universal or priority claim.
+1. The author verifies all source-level paraphrases and mathematical claims, particularly the OSforGFF explanatory paper, Rabe (2017), DAMF, SC-TPTP, and the Comparator bridges.
+2. Inter-formalization warrant remains a bounded analytical label for warrant relative to formal records, not a new universal theory or technical proof-transfer mechanism.
+3. Comparator independence is described as an import/elaboration/checking boundary; the challenge definitions are copied from the production package's own audit definitions.
+4. The positive Comparator bridge and the absent public OSforGFF-to-OSreconstruction instantiation remain clearly distinguished.
+5. Cherkis et al. are cited for the OSforGFF repository artifact; Douglas et al. for the accompanying Formalization of QFT paper.
+6. The private companion examples are not identified with the pinned OSforGFF object without an inspectable bridge.
+7. All cited works match the manuscript reference list and BibTeX; APA 7 and EJPS requirements are satisfied.
+8. EJPS AI-use disclosure is reviewed and approved by the submitting author; the manuscript is anonymized and accompanied by a separate title page.
+9. Springer Nature LaTeX source compiles locally, and the anonymous PDF passes formula, reference, metadata, and double-blind checks.
+10. Subscription publishing is selected; no APC/Open Choice option is selected.
 
 ## Outputs
 
-- A reviewer-style report identifying only substantive remaining problems.
-- Targeted revisions to the manuscript if a concrete issue is found.
-- A final decision on whether the argument is sufficiently original and coherent to proceed to EJPS formatting.
+- Final source/claim audit.
+- EJPS-format LaTeX source, anonymous manuscript, separate title page, BibTeX and compiled PDF.
+- Build environment and compilation log.
+- Final submission checklist.
 
 ## Non-goals
 
-No new Lean implementation, fork, numerical computation, broad literature sweep, or journal-format conversion during this review.
+No new Lean implementation, fork, numerical computation, broad literature sweep, or expansion of the research question.
