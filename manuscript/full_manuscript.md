@@ -179,8 +179,6 @@ The broader implication is that the epistemology of formalized mathematical phys
 
 # References
 
-Avigad, J. (2024). Mathematics and the formal turn. *Bulletin of the American Mathematical Society*, 61(2), 225–240. https://doi.org/10.1090/bull/1832
-
 Bobbin, M. P., Sharlin, S., Feyzishendi, P., Dang, A. H., Wraback, C. M., & Josephson, T. R. (2024). Formalizing chemical physics using the Lean theorem prover. *Digital Discovery*, 3(2), 264–280. https://doi.org/10.1039/D3DD00077J
 
 Cherkis, S. A., Douglas, M. R., Hoback, S., Mei, A., & Nissim, R. (2026). *OSforGFF* [Lean 4 formalization]. GitHub. Commit fef84a82937dfd2bb7f672108a72da329d3ef0fd. https://github.com/mrdouglasny/OSforGFF/tree/fef84a82937dfd2bb7f672108a72da329d3ef0fd
@@ -193,8 +191,6 @@ Douglas, M. R., Hoback, S., Mei, A., & Nissim, R. (2026). *Formalization of QFT*
 
 Douglas, M. R., Yin, X., & Mei, A. (2026). *OSreconstruction-comparator* [Formal specification and proof-checking project]. GitHub. Commit 93cdb40e728ba27b7b1b55efc30d57f7b43de9aa. https://github.com/mrdouglasny/OSreconstruction-comparator/tree/93cdb40e728ba27b7b1b55efc30d57f7b43de9aa
 
-Duede, E., & Davey, K. (2025). A priori knowledge in an era of computational opacity: The role of artificial intelligence in mathematical discovery. *Philosophy of Science*, 92(5), 1394–1404. https://doi.org/10.1017/psa.2025.10160
-
 Frigg, R., & Nguyen, J. (2018). The turn of the valve: Representing with material models. *European Journal for Philosophy of Science*, 8(2), 205–224. https://doi.org/10.1007/s13194-017-0182-4
 
 Gelfert, A. (2009). Rigorous results, cross-model justification, and the transfer of empirical warrant: The case of many-body models in physics. *Synthese*, 169(3), 497–519. https://doi.org/10.1007/s11229-008-9431-6
@@ -202,8 +198,6 @@ Gelfert, A. (2009). Rigorous results, cross-model justification, and the transfe
 Gelfert, A. (2011). Mathematical formalisms in scientific practice: From denotation to model-based representation. *Studies in History and Philosophy of Science Part A*, 42(2), 272–286. https://doi.org/10.1016/j.shpsa.2010.11.035
 
 Gelfert, A. (2022). Thinking with notations: Epistemic actions and epistemic activities in mathematical practice. In M. Friedman & K. Krauthausen (Eds.), *Model and Mathematics: From the 19th to the 21st Century* (pp. 333–362). Birkhäuser. https://doi.org/10.1007/978-3-030-97833-4_11
-
-Giere, R. N. (2004). How models are used to represent reality. *Philosophy of Science*, 71(5), 742–752. https://doi.org/10.1086/425063
 
 Glimm, J., & Jaffe, A. (1987). *Quantum physics: A functional integral point of view* (2nd ed.). Springer. https://doi.org/10.1007/978-1-4612-4728-9
 
