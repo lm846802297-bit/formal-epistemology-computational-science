@@ -75,3 +75,6 @@ The paper concerns the epistemic role of machine-checked demonstration within ma
 - **DEC-057 (2026-11-26):** Comparator analysis now names eToR_iff, eToROSII_iff, and rToE_iff, and records the disclosed forward-tube, adjacent-locality, totalized-reflection-positivity, and growth-as-hypothesis conventions.
 - **DEC-058:** Comparator review status is self-assessed with no external reviewers listed; it must not be described as an independent external audit.
 - **DEC-059:** The integrated manuscript contains approximately 6,538 words of main text, 211 abstract words, six keywords, and 23 cited references.
+
+- **DEC-060 (2026-11-26):** The Comparator's positive result is described as relative interface warrant: record and theorem correspondence is proved, but the copied challenge definitions do not independently validate the source specification's physical adequacy.
+- **DEC-061:** The integrated manuscript contains 23 cited references, a 219-word abstract, six keywords, and approximately 6,693 words of main text excluding abstract and references.
