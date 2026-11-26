@@ -2,40 +2,35 @@
 
 ## Working title
 
-*Machine-Checked Proofs and Mature Mathematical Formalisms in Physics: The Epistemology of Formalized Osterwalder–Schrader Reconstruction*
+*Machine-Checked Proofs and Formalization Interfaces in Mathematical Physics: The Epistemology of Osterwalder–Schrader Reconstruction*
 
 ## Complete manuscript
 
-[Open the integrated manuscript](full_manuscript.md). The manuscript is also maintained in separate section files:
+[Open the integrated manuscript](full_manuscript.md). Editable sections:
 
 1. [Abstract](00_abstract.md)
 2. [Introduction](01_introduction.md)
-3. [Epistemological Analysis of Osterwalder–Schrader Reconstruction](02_epistemological_analysis_os_reconstruction.md)
-4. [Discussion](03_discussion.md)
+3. [The Osterwalder–Schrader Formalization Network](02_epistemological_analysis_os_reconstruction.md)
+4. [Inter-Formalization Warrant and Scientific Knowledge](03_discussion.md)
 5. [Conclusion](04_conclusion.md)
 
 ## Writing standard
 
-The manuscript follows the conventions of peer-reviewed research articles in philosophy of science and philosophy of physics. The current primary target is the European Journal for Philosophy of Science (EJPS); formatting is being aligned with its author instructions and APA 7. It draws selectively on related work rather than imitating one journal or author. The prose is argumentative and continuous, with section headings used to clarify the structure. Conceptual claims are situated in the relevant literature; mathematical and repository claims are attributed to their sources; the paper's contribution is stated narrowly.
+The manuscript follows peer-reviewed research-article conventions in philosophy of science and philosophy of physics. It draws selectively on related papers rather than imitating one journal or author. Prose is argumentative and continuous; conceptual claims are situated in the literature; mathematical and repository claims are attributed to exact sources; novelty is bounded.
 
-The principal stylistic and argumentative exemplars are Hughes (1997), Gelfert (2009, 2011), Imbert and Ardourel (2023), and DeDeo and Duede (2026). These works inform the level of conceptual precision, case-based analysis, and restraint in novelty claims; their wording and structures are not copied.
+## Central argument
+
+The revised paper asks when a machine-checked theorem in one formalization can support an inference in another formalization of the same physical theory. It distinguishes local proof warrant, source-formalism correspondence, inter-formalization warrant, model instantiation, and target-directed scientific inference. The term inter-formalization warrant is an analytical distinction, not a universal theory.
 
 ## Citation and source practice
 
-- Author–year citations are used throughout.
-- Formalization projects are cited as scholarly software artifacts with exact commit pins.
-- Original OS papers are cited for mathematical claims about the reconstruction programme.
+- APA 7 author–date citations.
+- Formalization projects cited as scholarly software artifacts with exact commit pins.
+- Original OS papers and Glimm–Jaffe cited for the mathematical formulations.
 - Repository-reported verification status is attributed to maintainers; this project does not claim an independent Lean rebuild or proof replay.
-- The root BibTeX database is **bibliography/references.bib**; a human-readable reference list is included in the integrated manuscript. EJPS-specific AI-use disclosure is documented in **docs/EJPS_AI_DISCLOSURE_FOR_AUTHOR_REVIEW.md** and requires author confirmation.
-
-## Mathematical presentation
-
-Central equations use display LaTeX and are integrated into the prose. Formal theorem statements are distinguished from their physical interpretation.
-
-## Scope and authorship discipline
-
-The OSforGFF, OSreconstruction, and Comparator results are prior work. The manuscript's contribution is their source-critical and epistemological analysis. It does not claim a new theorem, numerical result, general theory of scientific representation, or general theory of cross-model warrant transfer.
+- Root BibTeX: **bibliography/references.bib**. The integrated manuscript contains 20 cited works.
+- EJPS AI-use disclosure is in **docs/EJPS_AI_DISCLOSURE_FOR_AUTHOR_REVIEW.md** and requires author confirmation.
 
 ## Editorial status
 
-Abstract, conclusion, and the three core sections have been drafted and harmonized into a single manuscript. The integrated Markdown file is a working manuscript, not yet a journal-formatted submission file. Journal-specific style, final bibliography verification, and any final copyediting are subsequent editorial steps.
+The major revision, abstract, conclusion, and integrated manuscript are complete. One critical review of the originality argument remains before journal formatting. The manuscript is not yet submission-ready.
