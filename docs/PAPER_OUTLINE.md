@@ -1,18 +1,18 @@
-# Paper Outline
+# Paper Outline (updated after phase-two review)
 
-**Title:** What Does a Machine-Checked Proof Establish in Physics? The Epistemology of Formalized Osterwalder-Schrader Reconstruction
+**Working title:** Machine-Checked Proofs and Mature Mathematical Formalisms in Physics: The Epistemology of Formalized Osterwalder–Schrader Reconstruction
 
-**Target length:** approximately 7,000-9,000 words.
+**Target length:** approximately 7,000–9,000 words, subject to journal conventions.
 
-1. Introduction: machine checking in science; local guarantee; bounded contribution.
-2. What machine checking establishes: proof objects, kernel, assumptions, imports, trust base; Duede & Davey.
-3. Informal science to formal proposition: DeDeo & Duede; FormalScience; semantic drift and tracking.
-4. Formal proposition to physical model: interpretation of fields, states, operators, observables, symmetries; idealization and epistemic artifacts.
-5. Model to target: verification, validation, purpose-sensitive inference, empirical warrant.
-6. Warrant architecture: C_F, C_M, C_W, C_E; two-track model; claim-sensitive transfer.
-7. Case study: OSforGFF + OSreconstruction + Comparator; Bobbin et al.; bounded axial anomaly stress test.
-8. Discussion.
-9. Conclusion.
+1. **Introduction:** machine-checked proofs in mathematical physics; distinguish formal derivability from scientific warrant; state the bounded question.
+2. **Scientific representation and model-based reasoning:** DDI, inferentialism, DEKI, model artifacts, and purpose-relative evaluation. Do not present these as new.
+3. **Mature mathematical formalisms:** Gelfert's account; locally applicable rules, physical interpretation, and embedded commitments. Operator formalism and Feynman diagrams as bounded examples.
+4. **Formalization and machine-checked Demonstration:** correspondence to source formalism, assumptions, formal theorem, kernel, trust base, and proof assistant's role in shaping practice.
+5. **From model result to target claim:** surrogate inference, keying/imputation, cross-model warrant transfer, and adequacy-for-purpose. Gelfert 2009 is a direct antecedent.
+6. **OS reconstruction case study:** OSforGFF, OSreconstruction, Comparator; exact growth hypotheses, model instantiation, theorem endpoints, and public composition boundary.
+7. **Comparison and implications:** what machine checking strengthens, what it does not establish, and when model-internal/modal knowledge is the relevant endpoint.
+8. **Conclusion:** answer what a machine-checked proof establishes within mature mathematical formalisms in physics.
 
-## Working abstract
-This paper examines the epistemic scope of machine-checked proofs in mathematical physics through recent Lean formalizations of the Osterwalder-Schrader (OS) axioms and reconstruction theorem. It distinguishes formal validity, theorem-statement adequacy, instantiation of analytic growth assumptions, reconstruction of Wightman distributions, and empirical warrant for a physical target. The analysis compares a public formalization showing that a massive Gaussian free field satisfies the OS axioms with a separate package proving conditional OS-to-Wightman and reverse reconstruction theorems, together with a Comparator audit of theorem statements. These results are mathematically substantial, but their exact hypotheses and endpoints matter. In particular, the forward reconstruction theorem requires an arity-dependent growth condition not inhabited within that package, and the formalized endpoint is a family of Wightman distributions rather than a full GNS/operator reconstruction. The case shows that machine checking can establish strong conditional mathematical results while transfer to a concrete model and an empirical target depends on separately justified interfaces. The paper develops a claim-sensitive account of these interfaces and argues that mathematical reconstruction, physical interpretation, and empirical adequacy are distinct forms of warrant.
+## Working abstract (revised)
+
+Machine-checked proofs are increasingly used to formalize results in mathematical physics. Their epistemic significance is often described in terms of proof validity, but scientific reasoning also depends on the physically interpreted mathematical formalisms within which models are constructed and manipulated, and on the inferences that connect model results to target systems. Drawing on the DDI account of scientific representation, theories of surrogate reasoning, and work on mature mathematical formalisms, this paper examines what machine checking adds to the epistemic role of demonstration in theoretical physics. The analysis distinguishes correspondence between a source physical formalism and its formal encoding, kernel-checked derivability, instantiation of theorem hypotheses in a concrete model, and target-directed inference assessed relative to a scientific purpose. The case study uses public Lean formalizations of the Osterwalder–Schrader axioms and reconstruction theorem. It shows how a machine-checked reconstruction result can establish a strong conditional mathematical relation while leaving distinct obligations concerning growth assumptions, concrete model instantiation, physical interpretation, and empirical application. The paper does not propose a new general theory of scientific representation or cross-model warrant transfer; it develops a formalization-aware account of how proof assistants strengthen the demonstration component while leaving the other epistemic interfaces in place.
