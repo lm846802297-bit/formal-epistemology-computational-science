@@ -11,6 +11,7 @@
 - [ ] Insert the approved AI statement into a suitable part of the anonymous manuscript.
 - [ ] Fill all placeholders in `title-page-template.tex`: name, affiliation, email, ORCID if available, acknowledgements, funding, competing interests, and approved AI statement.
 - [ ] Approve the final title, abstract, keywords, and full text.
+- [ ] Confirm with the EJPS editorial office whether public GitHub software repositories may appear as software references under the journal's rule that references should be published or accepted; if not, move exact commit pins to a footnote or suitable code-availability statement without losing version traceability.
 - [ ] Confirm no simultaneous submission.
 - [ ] Select subscription publication after acceptance; do not select Open Choice/APC under the no-author-fee requirement.
 
