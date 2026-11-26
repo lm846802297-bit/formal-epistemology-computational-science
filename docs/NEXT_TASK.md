@@ -33,3 +33,12 @@ Complete the author-led source and claim audit, then proceed to EJPS submission 
 ## Non-goals
 
 No new Lean implementation, fork, numerical computation, broad literature sweep, or expansion of the research question.
+
+
+## EJPS submission preparation status (2026-11-27)
+
+Prepared under `submission/`: a 23-item author-led source checklist; an AI-use declaration draft; an anonymous Springer Nature `sn-apa` LaTeX source with no author block and empty PDF-author metadata; a separate Title Page template with placeholders; and submission/build-status checklists.
+
+Still pending: author completion of all 23 source checks; author approval of the AI declaration; author completion of Title Page fields; insertion of the approved disclosure into the anonymous manuscript; acquisition of the official Springer template class; local PDFLaTeX compilation and visual/PDF metadata inspection.
+
+Do not mark the manuscript submission-ready until these items are complete.

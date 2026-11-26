@@ -88,3 +88,23 @@ The journal is Diamond Open Access and has no author fees. It was founded in 202
 ## 5. Decision
 
 EJPS is the recommended first target. It offers the strongest combination of subject fit, established indexing, a suitable article-length range, and a clear subscription route with no APC. Philosophy of Science remains an ambitious alternative; Studies in History and Philosophy of Science is a second alternative if the article's emphasis is adjusted toward scientific practice and the history of mathematical formalisms.
+
+
+## 6. Current EJPS double-blind and LaTeX requirements (checked 2026-11-27)
+
+The official EJPS instructions were re-opened on 2026-11-27:
+https://link.springer.com/journal/13194/submission-guidelines
+
+- Double-blind review: remove author names, affiliations, and other identifying information from the manuscript and associated files; submit a separate Title Page.
+- Title Page: title, author names, affiliations, corresponding-author name and active email, ORCID if available, acknowledgements, disclosures, and funding information.
+- Original research article: approximately 5,000–15,000 words.
+- Abstract: 150–250 words; keywords: 4–6.
+- Author–date citations; APA 7 reference conventions; full DOI links where available.
+- References: works cited in the text and published or accepted for publication.
+- LaTeX is accepted for mathematical content; Springer Nature's journal-article template is recommended.
+- Do not use subfolders in the uploaded LaTeX source package.
+- LLM use must be documented in Methods or a suitable alternative part of the manuscript.
+
+The current manuscript has 206 abstract words, six keywords, and approximately 7,061 main-text words excluding abstract and references. The 23-item author source checklist, AI declaration draft, blind LaTeX source, and separate Title Page template are prepared under `submission/`. All 23 source checks and AI disclosure approval remain pending author action.
+
+The official Springer Nature template archive was identified but could not be downloaded into the current container because outbound DNS/network access is unavailable. PDFLaTeX and latexmk are installed, but `sn-jnl.cls` is not installed locally. The source is therefore prepared but not compiled; no PDF build or visual inspection is claimed.

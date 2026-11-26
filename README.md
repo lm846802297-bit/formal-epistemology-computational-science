@@ -46,3 +46,8 @@ Reuse OSforGFF, OSreconstruction, and Comparator as prior results at exact pinne
 - [BibTeX](bibliography/references.bib)
 - [Source register](provenance/SOURCE_REGISTER.csv)
 - [Exact Lean environment pins](provenance/OS_RECONSTRUCTION_ENVIRONMENT.yaml)
+
+
+## EJPS submission preparation
+
+Submission materials are in [`submission/`](submission/README.md). The 23-item original-source checklist and AI-use declaration are awaiting author action. The anonymous LaTeX source and separate Title Page template are prepared. Official Springer-template compilation remains blocked because `sn-jnl.cls` is not installed locally and the current container cannot retrieve the official template archive. The manuscript is not yet ready to submit.
