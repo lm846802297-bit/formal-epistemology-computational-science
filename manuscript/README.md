@@ -34,3 +34,8 @@ The revised paper asks when a machine-checked theorem in one formalization can s
 ## Editorial status
 
 The major revision, abstract, conclusion, and integrated manuscript are complete. One critical review of the originality argument remains before journal formatting. The manuscript is not yet submission-ready.
+
+
+## Major revision
+
+The current manuscript's central question concerns when a theorem proved in one formalization can warrant an inference in another. The term **inter-formalization warrant** is a bounded analytical label, not a new universal theory or technical proof-transfer mechanism. The Comparator case must be described precisely: its challenge definitions reproduce the production package's own audit definitions, while the bridges and theorem equivalences are checked across the import boundary. See **docs/MAJOR_REVISION_REVIEW.md**.
