@@ -2,26 +2,32 @@
 
 ## Task
 
-Convert the completed OS reconstruction epistemological audit into the paper's central argument and a claim-to-evidence map. Reuse upstream results; no fork, rebuild, or reimplementation.
+Review and consolidate the first integrated manuscript draft. Do not broaden the research scope.
+
+## Current draft files
+
+- `manuscript/01_introduction.md`
+- `manuscript/02_epistemological_analysis_os_reconstruction.md`
+- `manuscript/03_discussion.md`
 
 ## Outputs
 
-1. A concise claim-to-evidence matrix linking each scientific claim to its exact Lean theorem, assumptions, source commit, and physical interpretation.
-2. A polished introduction section that distinguishes the local warrant of machine checking from model interpretation and target-directed warrant.
-3. A section on the 1973 OS reconstruction programme and the 1975 correction introducing E0' growth, grounded in the original papers.
-4. A section explaining the precise OSforGFF / OSreconstruction / Comparator relationship and its public composition boundary.
-5. A revised abstract and conclusion that state the philosophical contribution without claiming mathematical novelty.
+1. A citation-to-bibliography check for every author-year citation.
+2. A terminology and argument consistency pass across the three sections.
+3. A concise abstract and conclusion that add no new claims.
+4. A final claim audit against the exact OSforGFF, OSreconstruction, and Comparator source pins.
+5. A journal-ready manuscript format after the argument and references are stable.
 
 ## Acceptance criteria
 
-- All theorem claims refer to exact source commits and exact theorem declarations.
-- 1973 and 1975 OS papers are distinguished correctly; the 1975 correction is not omitted.
-- OSforGFF OS1 is not conflated with OSreconstruction's arity-dependent growth input.
-- The private companion examples are attributed as author-reported, not independently inspected.
-- Comparator is characterized as an independent specification/checking interface, not a second independent proof development.
-- The output stops at Wightman-function distributions, not full GNS/operator reconstruction.
-- No new Lean computation, numerical calculation, fork, or reimplementation.
+- The central question and thesis are consistent across all three sections.
+- No novelty claim for DDI, scientific representation, surrogate reasoning, mature mathematical formalisms, or cross-model empirical-warrant transfer.
+- All OS theorem statements, dimensions, growth assumptions, and endpoints match the pinned sources.
+- The private companion project is attributed as author-reported, not independently inspected.
+- No statement implies that this project independently rebuilt or replayed the Lean proofs.
+- All cited works have matching entries in the root BibTeX file.
+- The conclusion answers the stated research question without opening a new research direction.
 
 ## Non-goals
 
-No broad literature expansion; no new physical model; no full QFT formalization; no submission until the central argument and novelty comparison are stable.
+No new literature sweep, no Fork, no new Lean implementation, no numerical computation, and no expansion into general AI ethics or broad computational epistemology.
