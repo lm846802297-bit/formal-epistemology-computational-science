@@ -21,3 +21,8 @@ European Journal for Philosophy of Science (EJPS), subscription route (no APC). 
 ## Editorial status
 
 The major revision is integrated. Before LaTeX conversion, conduct one critical review of the originality and coherence of the inter-formalization warrant argument. No additional broad literature expansion is planned.
+
+
+## Major-revision assessment
+
+The central question has been refocused on inter-formalization warrant. The Comparator provides a positive case of formally checked record/theorem correspondence; the public OSforGFF-to-OSreconstruction instantiation remains an unexposed interface. The reviewer-style assessment is in **docs/MAJOR_REVISION_REVIEW.md**. The paper is ready for final author-led source verification and journal formatting, not yet for submission.
