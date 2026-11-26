@@ -1,10 +1,11 @@
-# Final Reference and Source Audit (revised manuscript)
+# Final Reference and Source Audit (major revision)
 
 **Audit date:** 2026-11-26  
-**Scope:** The 20 works cited in the revised integrated manuscript. Metadata and source locations were checked against publisher, repository, and preprint records. This does not replace the submitting author's substantive reading and verification.
+**Scope:** The 23 works cited in the current integrated manuscript. Metadata and source locations were checked against publisher, repository, and preprint records. This does not replace the submitting author's substantive reading and verification.
 
 | Reference | Verification source | Result |
 |---|---|---|
+| Al Wardani et al. (2023), *Formal Reasoning Using Distributed Assertions* | Springer DOI 10.1007/978-3-031-43369-6_10 | Authors, FroCoS 2023, LNCS 14279, pages 176–194, DOI matched |
 | Bobbin et al. (2024), *Formalizing Chemical Physics Using the Lean Theorem Prover* | RSC DOI 10.1039/D3DD00077J | Authors, title, Digital Discovery 3(2), pages 264–280, DOI matched |
 | Cherkis et al. (2026), OSforGFF | Pinned repository formalization.yaml and commit fef84a82937dfd2bb7f672108a72da329d3ef0fd | Five listed authors include Sergey A. Cherkis; exact commit and project metadata matched |
 | Contessa (2007), *Scientific Representation, Interpretation, and Surrogative Reasoning* | DOI 10.1086/519478 | Title, author, Philosophy of Science 74(1), pages 48–68 matched |
@@ -16,6 +17,7 @@
 | Gelfert (2011), *Mathematical Formalisms in Scientific Practice* | DOI 10.1016/j.shpsa.2010.11.035 | Title, author, Studies in History and Philosophy of Science Part A 42(2), pages 272–286 matched |
 | Gelfert (2022), *Thinking with Notations* | Springer DOI 10.1007/978-3-030-97833-4_11 | Title, author, book and page metadata matched |
 | Glimm & Jaffe (1987), *Quantum Physics* | Springer DOI 10.1007/978-1-4612-4728-9 | Second edition, authors, publisher, year, DOI matched |
+| Guilloud et al. (2025), *Interoperability of Proof Systems with SC-TPTP* | Springer DOI 10.1007/978-3-031-99984-0_18; Springer author metadata | Seven authors, CADE 30, LNCS 15943, pages 325–340, DOI matched |
 | Hughes (1997), *Models and Representation* | DOI 10.1086/392611 | Title, author, Philosophy of Science 64, pages S325–S336 matched |
 | Imbert & Ardourel (2023), *Formal Verification, Scientific Code...* | DOI 10.1017/psa.2022.78 | Title, authors, Philosophy of Science 90(2), pages 376–394 matched |
 | Knuuttila (2021), *Epistemic Artifacts and the Modal Dimension of Modeling* | DOI 10.1007/s13194-021-00374-5 | Title, author, European Journal for Philosophy of Science 11, article 65 matched |
@@ -23,21 +25,20 @@
 | Osterwalder & Schrader (1973), *Axioms for Euclidean Green's Functions* | Project Euclid / Springer DOI 10.1007/BF01645738 | Title, authors, Communications in Mathematical Physics 31(2), pages 83–112 matched |
 | Osterwalder & Schrader (1975), *Axioms for Euclidean Green's Functions II* | Project Euclid DOI 10.1007/BF01608978 | Title, authors, Communications in Mathematical Physics 42(3), pages 281–305 matched |
 | Parker (2020), *Model Evaluation: An Adequacy-for-Purpose View* | DOI 10.1086/708691 | Title, author, Philosophy of Science 87(3), pages 457–477 matched |
+| Rabe (2017), *Morphism Axioms* | DOI 10.1016/j.tcs.2017.07.006 | Author, title, Theoretical Computer Science 691, pages 55–80, DOI matched |
 | Suárez (2004), *An Inferential Conception of Scientific Representation* | DOI 10.1086/421415 | Title, author, Philosophy of Science 71(5), pages 767–779 matched |
 | Yin et al. (2026), OSreconstruction in Lean | Pinned repository commit cf0904e34a7c146a9f312f601e3707dca4a87697 | Authors, package path, exact commit and project identity matched |
 
 ## Source-critical corrections
 
-- OSforGFF's software authorship is taken from the pinned formalization.yaml: Sergey A. Cherkis, Michael R. Douglas, Sarah Hoback, Anna Mei, and Ron Nissim. This differs from the author list of the related Douglas et al. QFT preprint.
-- The Comparator challenge is described as reproducing the OSreconstruction package's own Mathlib-only audit definitions, not as an independently authored mathematical specification.
+- OSforGFF software authorship is taken from the pinned formalization.yaml: Sergey A. Cherkis, Michael R. Douglas, Sarah Hoback, Anna Mei, and Ron Nissim. This differs from the author list of the related Douglas et al. QFT preprint.
+- The Comparator challenge reproduces the OSreconstruction package's own Mathlib-only audit definitions; its independence is at the import/checking boundary, not authorship or mathematical origin.
+- The Comparator bridge files establish record conversions, preserve the Schwinger family, transfer growth records, and identify Wick-pairing/output-growth predicates.
 - The private companion's reported massive-free-field and Proca-Wick-square inhabitants are attributed to the OSreconstruction README; the private code was not independently inspected.
 - The two OSreconstruction growth records are distinguished: the arity-linear condition and the original-coordinate OS-II E0-prime condition are connected by a proved conversion.
 - The OSforGFF OS1 predicate is described as the Glimm–Jaffe generating-functional bound with the subsidiary two-point condition, not as the OSreconstruction arity-dependent growth hypothesis.
+- Rabe's theory morphisms, DAMF, and SC-TPTP are treated as prior formal mechanisms for proof-preserving translation, assertion transfer, and proof-system interoperability. The manuscript does not claim these mechanisms as new.
 
 ## Remaining author verification
 
 The submitting author must read the cited works and confirm that each source supports the precise interpretation attributed to it. Metadata verification alone does not establish that a paraphrase is faithful. Repository claims should be checked against the pinned commits before submission.
-
-| Al Wardani et al. (2023), *Formal Reasoning Using Distributed Assertions* | Springer DOI 10.1007/978-3-031-43369-6_10 | Authors, FroCoS 2023, LNCS 14279, pages 176–194, DOI matched |
-| Guilloud et al. (2025), *Interoperability of Proof Systems with SC-TPTP* | Springer DOI 10.1007/978-3-031-99984-0_18; Springer author metadata | Seven authors, CADE 30, LNCS 15943, pages 325–340, DOI matched |
-| Rabe (2017), *Morphism Axioms* | DOI 10.1016/j.tcs.2017.07.006 | Author, title, Theoretical Computer Science 691, pages 55–80, DOI matched |
