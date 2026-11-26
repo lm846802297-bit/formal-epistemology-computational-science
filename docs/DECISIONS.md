@@ -45,3 +45,8 @@ The paper concerns the epistemic role of machine-checked demonstration within ma
 - **DEC-034 (2026-11-26):** Abstract and Conclusion are complete. The three core sections have undergone a whole-manuscript academic-style edit and are harmonized into `manuscript/full_manuscript.md`.
 - **DEC-035:** The integrated manuscript is approximately 5,900 words excluding references; the abstract is approximately 204 words. The current draft is complete in structure but is not yet journal-formatted or submission-ready.
 - **DEC-036:** The next phase is limited to final source/citation verification, target-journal selection, journal formatting, and copyediting. Do not expand the research question or add new technical work without a specific issue found in the review.
+
+- **DEC-037 (2026-11-26):** Select the European Journal for Philosophy of Science as the primary target. Use its subscription publishing route to satisfy the no-author-APC requirement.
+- **DEC-038:** Align in-text citations and references with EJPS's APA 7 author–date requirements; the abstract and six keywords already fit the journal's stated ranges.
+- **DEC-039:** EJPS requires disclosure of LLM use in Methods or a suitable alternative section. Because ChatGPT was used for substantive literature discovery, argument organization, and drafting/revision, this use must be disclosed; it must not be mischaracterized as copy-editing only.
+- **DEC-040:** Before submission, the author must personally verify all cited sources and formalization claims, revise the AI-assisted prose to reflect their own scholarly judgment, and take responsibility for the final manuscript.
