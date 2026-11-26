@@ -10,6 +10,10 @@ Machine checking strengthens the reliability and auditability of formal derivati
 
 The project uses a **formalization-aware DDI framework**: Denotation, Demonstration, Interpretation, with explicit treatment of source-formalism correspondence and kernel-checked proof within Demonstration.
 
+## Research method
+
+Reuse the existing OSforGFF, OSreconstruction, and Comparator results as prior mathematical/formalization work. Do not fork or reimplement these projects merely for convenience. Our independent contribution is the source-critical and epistemological analysis of exact theorem statements, assumptions, endpoints, interpretation, and warrant interfaces. Cite original authors and pin exact commits. Distinguish source inspection from independent execution; never claim a fresh Lean build or proof replay unless performed.
+
 ## Repository map
 
 - [Research charter](docs/RESEARCH_CHARTER.md)
