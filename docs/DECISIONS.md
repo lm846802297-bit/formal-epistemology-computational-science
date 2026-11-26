@@ -71,3 +71,7 @@ The paper concerns the epistemic role of machine-checked demonstration within ma
 
 - **DEC-055 (2026-11-26):** Section 2 now states both OSreconstruction growth records and the proved parameter conversion from the original-coordinate OS-II condition to the arity-linear condition: alpha' = max(1, alpha), beta' = (d+2)^s, gamma' = gamma + 2s.
 - **DEC-056:** The integrated manuscript contains 23 cited references, a 211-word abstract, six keywords, and approximately 6,395 words of main text excluding abstract and references.
+
+- **DEC-057 (2026-11-26):** Comparator analysis now names eToR_iff, eToROSII_iff, and rToE_iff, and records the disclosed forward-tube, adjacent-locality, totalized-reflection-positivity, and growth-as-hypothesis conventions.
+- **DEC-058:** Comparator review status is self-assessed with no external reviewers listed; it must not be described as an independent external audit.
+- **DEC-059:** The integrated manuscript contains approximately 6,538 words of main text, 211 abstract words, six keywords, and 23 cited references.
