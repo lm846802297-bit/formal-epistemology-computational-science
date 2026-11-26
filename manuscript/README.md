@@ -4,31 +4,34 @@
 
 *Machine-Checked Proofs and Mature Mathematical Formalisms in Physics: The Epistemology of Formalized Osterwalder–Schrader Reconstruction*
 
-## Current draft
-
-The first core manuscript draft is organized into three files:
+## Manuscript files
 
 1. [Introduction](01_introduction.md)
 2. [Epistemological Analysis of Osterwalder–Schrader Reconstruction](02_epistemological_analysis_os_reconstruction.md)
 3. [Discussion](03_discussion.md)
 
-The three sections contain approximately 6,000 words. They are a first integrated draft, not a submission-ready manuscript.
+## Writing standard
 
-## Citation practice
+The manuscript is written in the style of a peer-reviewed research article in philosophy of science and philosophy of physics. The prose should be argumentative rather than report-like. Each paragraph should advance a claim, locate it in the relevant literature, or analyze evidence from the OS case.
 
-- In-text citations use author–year style.
-- Full bibliographic records are maintained in the root **bibliography/references.bib**.
-- Repository claims cite the exact upstream repository and commit in the text and are cross-checked against **provenance/OS_RECONSTRUCTION_ENVIRONMENT.yaml**.
-- Mathematical expressions use display LaTeX in Markdown so that equations remain readable in the rendered files.
+Use continuous academic prose, with section headings only where they clarify the argument. Avoid project-status language, conversational transitions, promotional claims, excessive bullet lists, reader-facing commentary, and repeated statements of limitations. Distinguish established results from the present paper's analysis through precise attribution and author–year citations.
+
+## Citation and source practice
+
+- Use a consistent author–year citation style.
+- Cite formalization projects as scholarly software artifacts and retain their exact commit pins in the BibTeX records and provenance files.
+- Cite the original OS papers for mathematical claims about the reconstruction programme.
+- Attribute repository-reported verification status to the maintainers; do not imply that this project independently rebuilt or replayed the proofs.
+- Maintain the root bibliography at **bibliography/references.bib**.
+
+## Mathematical presentation
+
+Use display LaTeX for central equations and define symbols at first use. Equations should be integrated into the argument rather than presented as isolated decorations. Keep formal theorem statements distinct from their physical interpretation.
 
 ## Scope and authorship discipline
 
-- The OSforGFF, OSreconstruction, and Comparator results are attributed to their original authors.
-- This project has not independently rebuilt or replayed their Lean proofs.
-- No private companion code is presented as independently inspected.
-- No new theorem, numerical calculation, or empirical result is claimed.
-- The paper's contribution is the epistemological analysis of the role and scope of machine-checked demonstration within mature mathematical formalisms.
+The OSforGFF, OSreconstruction, and Comparator results are prior work. The manuscript's contribution is their source-critical and epistemological analysis. Do not claim a new theorem, numerical result, general theory of scientific representation, or general theory of cross-model warrant transfer.
 
 ## Draft status
 
-The current text prioritizes a precise and defensible argument over length. Before submission, the remaining editorial work is to harmonize terminology, complete the abstract and conclusion, verify every bibliography record, and adapt the manuscript to the selected journal's style. These tasks do not change the research scope.
+The three core sections are an integrated first manuscript draft. The next editorial pass concerns consistency, abstract, conclusion, and journal-specific formatting; it should not expand the research scope.
