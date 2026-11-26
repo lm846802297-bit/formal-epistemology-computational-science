@@ -37,3 +37,5 @@ The paper concerns the epistemic role of machine-checked demonstration within ma
 - **DEC-029:** Do not expand the literature review or reimplement OS mathematics during the first manuscript draft. Use the existing public formalization results with exact commit attribution.
 - **DEC-030:** The manuscript's contribution is the epistemological analysis of machine-checked Demonstration within mature mathematical formalisms, not a new general theory of scientific representation or cross-model empirical warrant.
 - **DEC-031:** Distinguish explicitly between source inspection and independent Lean execution. No fresh build or proof replay is claimed in the manuscript.
+
+- **DEC-032 (2026-11-26):** Manuscript prose must follow the conventions of peer-reviewed research articles in philosophy of science and philosophy of physics. Use argumentative continuous prose, author–year citations, selective headings, and restrained claims; exclude project-report language, progress narration, promotional phrasing, and unnecessary lists from the paper.
