@@ -143,7 +143,7 @@ A receiving formalization \(\mathcal L_2\) can use this result for a target prop
 \tau(\Gamma_1)\vdash_{\mathcal L_2}\tau(\varphi_1),\\
 \Gamma_2\vdash_{\mathcal L_2}\tau(\Gamma_1),\qquad
 \Gamma_2\vdash_{\mathcal L_2}\bigl(\tau(\varphi_1)\rightarrow\varphi_2\bigr)
-\\[2pt]
+\\
 \Longrightarrow\quad
 \Gamma_2\vdash_{\mathcal L_2}\varphi_2.
 \end{gathered}
