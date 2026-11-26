@@ -3,8 +3,6 @@ Machine-Checked Proofs and Formalization Interfaces in Mathematical Physics
 ## The Epistemology of Osterwalder–Schrader Reconstruction
 
 
-
-
 # Abstract
 
 Machine-checked proofs can establish mathematical consequences with high deductive reliability, but the scientific use of such results often involves more than one formal representation of a physical theory. This paper asks under what conditions a theorem proved in one formalization can warrant an inference in another. The question is examined through three public Lean developments associated with Osterwalder–Schrader reconstruction: OSforGFF, which constructs a massive Gaussian free field in a Glimm–Jaffe probability-measure formulation; OSreconstruction, which proves conditional distributional reconstruction theorems from zero-diagonal Euclidean Schwinger data; and a Comparator project that checks the reconstruction statements through an independently elaborated specification and explicit record-equivalence bridges. The analysis distinguishes local proof warrant, correspondence between a source formalism and its encoding, inter-formalization warrant, hypothesis instantiation, and target-directed scientific inference. The case shows both a positive instance of warrant transfer, where the Comparator bridges preserve the relevant Schwinger family and growth assumptions, and a missing public interface, since the OSforGFF construction is not formally instantiated as an input to the OSreconstruction package at the examined revisions. The paper uses inter-formalization warrant as an epistemological label for this interface requirement, not as a new proof-transfer protocol; scientific representation and empirical warrant remain further, distinct questions.
@@ -203,10 +201,6 @@ The broader implication is that the epistemology of formalized mathematical phys
 
 Al Wardani, F., Chaudhuri, K., & Miller, D. (2023). Formal reasoning using distributed assertions. In U. Sattler & M. Suda (Eds.), *Frontiers of Combining Systems (FroCoS 2023)* (Lecture Notes in Computer Science, Vol. 14279, pp. 176–194). Springer. https://doi.org/10.1007/978-3-031-43369-6_10
 
-Guilloud, S., Cailler, J., Gambhir, S., Poiroux, A., Herklotz, Y., Bourgeat, T., & Kunčak, V. (2025). Interoperability of proof systems with SC-TPTP. In C. Barrett & U. Waldmann (Eds.), *Automated Deduction – CADE 30* (Lecture Notes in Computer Science, Vol. 15943, pp. 325–340). Springer. https://doi.org/10.1007/978-3-031-99984-0_18
-
-Rabe, F. (2017). Morphism axioms. *Theoretical Computer Science*, 691, 55–80. https://doi.org/10.1016/j.tcs.2017.07.006
-
 Bobbin, M. P., Sharlin, S., Feyzishendi, P., Dang, A. H., Wraback, C. M., & Josephson, T. R. (2024). Formalizing chemical physics using the Lean theorem prover. *Digital Discovery*, 3(2), 264–280. https://doi.org/10.1039/D3DD00077J
 
 Cherkis, S. A., Douglas, M. R., Hoback, S., Mei, A., & Nissim, R. (2026). *OSforGFF* [Lean 4 formalization]. GitHub. Commit fef84a82937dfd2bb7f672108a72da329d3ef0fd. https://github.com/mrdouglasny/OSforGFF/tree/fef84a82937dfd2bb7f672108a72da329d3ef0fd
@@ -229,6 +223,8 @@ Gelfert, A. (2022). Thinking with notations: Epistemic actions and epistemic act
 
 Glimm, J., & Jaffe, A. (1987). *Quantum physics: A functional integral point of view* (2nd ed.). Springer. https://doi.org/10.1007/978-1-4612-4728-9
 
+Guilloud, S., Cailler, J., Gambhir, S., Poiroux, A., Herklotz, Y., Bourgeat, T., & Kunčak, V. (2025). Interoperability of proof systems with SC-TPTP. In C. Barrett & U. Waldmann (Eds.), *Automated Deduction – CADE 30* (Lecture Notes in Computer Science, Vol. 15943, pp. 325–340). Springer. https://doi.org/10.1007/978-3-031-99984-0_18
+
 Hughes, R. I. G. (1997). Models and representation. *Philosophy of Science*, 64, S325–S336. https://doi.org/10.1086/392611
 
 Imbert, C., & Ardourel, V. (2023). Formal verification, scientific code, and the epistemological heterogeneity of computational science. *Philosophy of Science*, 90(2), 376–394. https://doi.org/10.1017/psa.2022.78
@@ -242,6 +238,8 @@ Osterwalder, K., & Schrader, R. (1973). Axioms for Euclidean Green's functions. 
 Osterwalder, K., & Schrader, R. (1975). Axioms for Euclidean Green's functions II. *Communications in Mathematical Physics*, 42(3), 281–305. https://doi.org/10.1007/BF01608978
 
 Parker, W. S. (2020). Model evaluation: An adequacy-for-purpose view. *Philosophy of Science*, 87(3), 457–477. https://doi.org/10.1086/708691
+
+Rabe, F. (2017). Morphism axioms. *Theoretical Computer Science*, 691, 55–80. https://doi.org/10.1016/j.tcs.2017.07.006
 
 Suárez, M. (2004). An inferential conception of scientific representation. *Philosophy of Science*, 71(5), 767–779. https://doi.org/10.1086/421415
 
