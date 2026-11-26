@@ -32,3 +32,8 @@ The paper concerns the epistemic role of machine-checked demonstration within ma
 - **DEC-025:** Comparator is an independent Mathlib-only challenge/checking interface with fresh-kernel/NanoDa replay, not a second independent mathematical derivation by another research team.
 - **DEC-026:** The public OSreconstruction endpoint is a Wightman-function distribution family, not full GNS/operator reconstruction.
 - **DEC-027:** The 1975 OS paper explicitly extends and corrects the 1973 reconstruction claim; any account of the sufficient forward hypothesis must include the E0' growth condition.
+
+- **DEC-028 (2026-11-26):** Enter manuscript-development stage. Draft the Introduction, OS Reconstruction epistemological analysis, and Discussion using the completed literature review and source-critical audit.
+- **DEC-029:** Do not expand the literature review or reimplement OS mathematics during the first manuscript draft. Use the existing public formalization results with exact commit attribution.
+- **DEC-030:** The manuscript's contribution is the epistemological analysis of machine-checked Demonstration within mature mathematical formalisms, not a new general theory of scientific representation or cross-model empirical warrant.
+- **DEC-031:** Distinguish explicitly between source inspection and independent Lean execution. No fresh build or proof replay is claimed in the manuscript.
