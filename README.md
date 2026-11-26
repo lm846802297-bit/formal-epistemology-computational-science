@@ -6,7 +6,7 @@
 
 The major-revision manuscript is available in [manuscript/full_manuscript.md](manuscript/full_manuscript.md). It includes the abstract, Introduction, OS formalization-network analysis, Discussion, Conclusion, and 23 cited references.
 
-- Main text: approximately 6,333 words, excluding abstract and references.
+- Main text: approximately 6,395 words, excluding abstract and references.
 - Abstract: 211 words, with six keywords.
 - The central argument now concerns **inter-formalization warrant**: the conditions under which a machine-checked result in one formal representation can be reused in another.
 - The manuscript is not yet ready for submission; the revised originality argument and source analysis require one further critical review before journal formatting.
