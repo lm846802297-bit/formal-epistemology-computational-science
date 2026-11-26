@@ -2,7 +2,11 @@
 
 ## Task
 
-Perform the final source, citation, and journal-fit review of the integrated manuscript. Do not expand the research question.
+Complete the EJPS pre-submission review and prepare an anonymized journal-format manuscript. Do not expand the research question.
+
+## Primary target
+
+European Journal for Philosophy of Science (EJPS), using the subscription publishing route (no APC). The detailed scope, fee, indexing, word-count, abstract, reference, and AI-disclosure requirements are in `docs/JOURNAL_SELECTION_AND_SUBMISSION_PLAN.md`.
 
 ## Current manuscript
 
@@ -11,21 +15,23 @@ Perform the final source, citation, and journal-fit review of the integrated man
 
 ## Outputs
 
-1. Final bibliography and DOI/metadata verification for every cited work.
-2. A claim-by-claim check of all statements about OSforGFF, OSreconstruction, and Comparator against the pinned source artifacts.
-3. Selection of a suitable target journal based on scope and current publication requirements.
-4. Journal-specific formatting and reference-style adaptation.
-5. Final language and copyediting pass.
+1. Final verification of every cited source and DOI, including formalization-project authorship and exact commit references.
+2. Author-led verification and approval of all mathematical, repository, and philosophical claims.
+3. Final AI-use disclosure consistent with EJPS policy.
+4. EJPS-format LaTeX/Word source, anonymized manuscript, and separate title page.
+5. Final word-count, abstract, keyword, APA 7, and reference-list checks.
+6. Submission checklist confirming the subscription route and no APC.
 
 ## Acceptance criteria
 
-- Abstract, introduction, case analysis, discussion, and conclusion present one consistent argument.
-- Every in-text citation has a matching bibliography entry.
-- Formalization artifacts are cited with authors and exact commits.
-- OS theorem assumptions, dimensional conventions, growth conditions, and endpoints match the pinned source records.
-- The paper does not claim a fresh Lean build, independent proof replay, or empirical validation.
-- Novelty is stated as a bounded, source-grounded contribution.
-- No additional research direction is introduced during copyediting.
+- Main text remains within EJPS's approximate 5,000–15,000 word range.
+- Abstract is 150–250 words and includes 4–6 keywords.
+- Citations and reference list follow APA 7 author–date conventions.
+- Manuscript is anonymized for double-blind review.
+- AI use is disclosed accurately; the author verifies and takes responsibility for the final text.
+- All formalization claims match the pinned public artifacts; no independent Lean build or proof replay is claimed.
+- Subscription publishing is selected; no Open Choice APC is incurred.
+- No simultaneous submission to another journal.
 
 ## Non-goals
 
