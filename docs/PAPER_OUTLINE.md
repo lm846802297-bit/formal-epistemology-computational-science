@@ -4,7 +4,7 @@
 
 ## Manuscript structure
 
-1. **Abstract:** states the question, case, method, central distinction, and bounded contribution.
+1. **Abstract:** 216 words; within EJPS's 150–250 word requirement.
 2. **Introduction:** formulates the epistemological problem, situates it in the literature on scientific representation and mature mathematical formalisms, and introduces the OS case.
 3. **Epistemological Analysis of Osterwalder–Schrader Reconstruction:** analyzes the mathematical claims of OSforGFF, OSreconstruction, and Comparator, including the growth hypothesis, formal interfaces, and physical interpretation.
 4. **Discussion:** assesses the local deductive warrant supplied by machine checking and the additional conditions required for model-internal and target-directed claims.
@@ -12,8 +12,12 @@
 
 ## Integrated manuscript
 
-The complete article, including the abstract and human-readable references, is maintained in **manuscript/full_manuscript.md**. Separate section files remain the editable sources.
+The complete article, including abstract, keywords, conclusion, and human-readable references, is maintained in **manuscript/full_manuscript.md**.
+
+## Journal target
+
+European Journal for Philosophy of Science (EJPS), subscription route (no APC). See **docs/JOURNAL_SELECTION_AND_SUBMISSION_PLAN.md** for current author requirements and the AI-use disclosure obligation.
 
 ## Editorial status
 
-The abstract, conclusion, and three core sections are drafted and harmonized. The remaining work is final source and bibliography verification, journal-specific formatting, and copyediting. No new literature sweep or expansion of the research question is planned.
+The first complete manuscript has been assembled and its citations are being aligned with APA 7. The remaining work is author verification, final bibliography/source audit, AI-use disclosure, anonymization, and EJPS template formatting. No new research direction is planned.
