@@ -5,13 +5,13 @@
 \usepackage[T1]{fontenc}
 \usepackage{amsmath,amssymb,amsfonts,mathrsfs}
 \usepackage{url}
-\hypersetup{pdftitle={Machine-Checked Proofs and Formalization Interfaces in Mathematical Physics: The Epistemology of Osterwalder--Schrader Reconstruction},pdfauthor={},pdfsubject={Anonymous manuscript for double-blind review},pdfkeywords={machine-checked proof, mathematical physics, formalization, scientific representation, Osterwalder–Schrader reconstruction, epistemology.}}
+\hypersetup{pdftitle={Machine-Checked Proofs and Formalization Interfaces in Mathematical Physics: The Epistemology of Osterwalder--Schrader Reconstruction},pdfauthor={},pdfsubject={Anonymous manuscript for double-blind review},pdfkeywords={machine-checked proof, mathematical physics, formalization, scientific representation, Osterwalder--Schrader reconstruction, epistemology}}
 \setcounter{secnumdepth}{3}
 \raggedbottom
 \begin{document}
 \title{Machine-Checked Proofs and Formalization Interfaces in Mathematical Physics: The Epistemology of Osterwalder--Schrader Reconstruction}
 \abstract{Machine-checked proofs establish consequences relative to the definitions and assumptions of a formal system, but scientific reasoning may require results to pass between different formal representations of a physical theory. This paper asks when such a transfer is warranted, using three Lean developments in the Osterwalder--Schrader (OS) programme. OSforGFF constructs a massive Gaussian free field in a Glimm--Jaffe probability-measure formulation; OSreconstruction proves conditional distributional reconstruction theorems from zero-diagonal Schwinger data; and the OSreconstruction Comparator checks an audit challenge against production results through explicit record bridges. The challenge reproduces the production package's own Mathlib-only audit definitions, so the Comparator is a separately elaborated checking interface, not an independently authored physical specification or a second mathematical derivation. It provides a limited positive case of record-level interface warrant: the bridges preserve the Schwinger family, growth assumptions, and theorem conclusions. By contrast, the inspected public artifacts do not expose an end-to-end instantiation of the OSreconstruction input from the particular OSforGFF construction. The analysis distinguishes local proof warrant, source-formalism correspondence, record-level interface warrant, model instantiation, and target-directed inference. It uses \emph{inter-formalization warrant} as a bounded analytical label for the conditions under which a result may be reused across formal representations, not as a new universal theory or proof-transfer protocol.}
-\keywords{machine-checked proof, mathematical physics, formalization, scientific representation, Osterwalder–Schrader reconstruction, epistemology.}
+\keywords{machine-checked proof, mathematical physics, formalization, scientific representation, Osterwalder--Schrader reconstruction, epistemology}
 \maketitle
 
 \section{Introduction}
