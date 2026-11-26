@@ -2,28 +2,30 @@
 
 ## Task
 
-Complete the focused major revision around inter-formalization warrant, then reassess journal readiness. Do not return to LaTeX formatting until the revised originality argument and source analysis pass.
+Conduct one critical review of the revised manuscript's central concept and argument before resuming EJPS formatting.
 
-## Current manuscript files
+## Current manuscript
 
-- `manuscript/00_abstract.md`
-- `manuscript/01_introduction.md`
-- `manuscript/02_epistemological_analysis_os_reconstruction.md`
-- `manuscript/03_discussion.md`
-- `manuscript/04_conclusion.md`
-- `manuscript/full_manuscript.md` (integrated file to be rebuilt after section edits)
+- `manuscript/full_manuscript.md` — integrated article with abstract, main text, conclusion, and 20 cited references.
+- Separate section files remain the editable sources in `manuscript/`.
 
 ## Fixed acceptance criteria
 
-1. The paper distinguishes local proof warrant from inter-formalization warrant.
-2. It accurately situates Bobbin et al. (2024), Douglas et al. (2026), FormalScience, DeDeo and Duede, and Gelfert without claiming their established contributions as new.
-3. It explains the OSforGFF Glimm–Jaffe formulation, including the precise OS1 and OS4 choices and the authors' correspondence argument.
-4. It accurately states both OSreconstruction growth records and the proved conversion between them.
-5. It analyzes Comparator's exact role: verbatim Mathlib-only challenge definitions, explicit record bridges, theorem equivalences, and proof replay—not a second independent derivation.
-6. It distinguishes the reported private companion inhabitants from an end-to-end public instantiation of the pinned OSforGFF object.
-7. It states a bounded contribution supported by the case and does not claim a universal theory or priority.
-8. Every new citation has a matching APA-style reference and BibTeX entry.
+1. The distinction between local proof warrant and inter-formalization warrant is clear and not merely terminological.
+2. The proposed interface conditions (object, predicate, hypothesis, conclusion/witness, and proof transport) are supported by the OS source analysis.
+3. Bobbin et al. (2024), Douglas et al. (2026), FormalScience, DeDeo and Duede, and Gelfert are accurately differentiated from the paper's bounded contribution.
+4. The Comparator is described precisely: verbatim Mathlib-only challenge definitions, explicit bidirectional record bridges, theorem equivalences, and proof replay; no claim of a second independent derivation.
+5. The private companion examples are not identified with the pinned OSforGFF object without an inspectable bridge.
+6. The OSforGFF and OSreconstruction growth predicates, dimensional conventions, test spaces, and theorem endpoints match the pinned sources.
+7. All 20 cited works have matching APA-style references and BibTeX records.
+8. The revised paper makes no universal or priority claim.
+
+## Outputs
+
+- A reviewer-style report identifying only substantive remaining problems.
+- Targeted revisions to the manuscript if a concrete issue is found.
+- A final decision on whether the argument is sufficiently original and coherent to proceed to EJPS formatting.
 
 ## Non-goals
 
-No new Lean implementation, no fork, no numerical computation, no broad literature sweep, and no journal-format conversion in this revision stage.
+No new Lean implementation, fork, numerical computation, broad literature sweep, or journal-format conversion during this review.
