@@ -82,7 +82,24 @@ The formal record OsterwalderSchraderAxioms includes temperedness, linearity and
 
 where alpha and beta are positive, gamma is real, and the Schwartz seminorm orders grow linearly with the arity n. The exact Lean definition uses a supremum over the relevant weight and derivative indices and includes a normalization condition at arity zero. The theorem concludes the existence of a Wightman-function family whose distributions are Wick-paired with the input Schwinger family.
 
-The package also formalizes the original-coordinate version of the OS-II growth condition. Its OSIIOriginalLinearGrowthCondition uses the factorial-only estimate with a positive Sobolev index and the coordinate seminorm appearing in OS II. The theorem os_to_wightman_osii_original converts this condition to the arity-linear growth record and concludes three results: existence of a Wick-paired Wightman family, the output growth estimate R0-prime, and uniqueness among Wightman families satisfying the same Wick-pairing relation. The conversion from the original-coordinate condition to the arity-linear record is itself proved in the development; the two conditions are not simply identified by terminology.
+The package also formalizes the original-coordinate version of the OS-II growth condition. Its OSIIOriginalLinearGrowthCondition requires a positive Sobolev index s and the estimate
+
+\[
+\|S_n(f)\|
+\leq
+\alpha (n!)^\gamma
+\|f\|_{\mathrm{OSII},ns},
+\]
+
+where the final seminorm is the original-coordinate seminorm on the zero-diagonal test space. The public arity-linear condition instead uses the maximum of the relevant Schwartz seminorms with weight and derivative orders bounded by ns, and allows the coefficient \(\alpha\beta^n(n!)^\gamma\). The theorem os_to_wightman_osii_original converts the original-coordinate record into the arity-linear record with the explicit parameter choice
+
+\[
+\alpha' = \max\{1,\alpha\},\qquad
+\beta'=(d+2)^s,\qquad
+\gamma'=\gamma+2s.
+\]
+
+It then concludes three results: existence of a Wick-paired Wightman family, the output growth estimate R0-prime, and uniqueness among Wightman families satisfying the same Wick-pairing relation. The conversion is a proved quantitative interface, not an identification by terminology. The package explicitly distinguishes this corrected arity-dependent condition from an earlier fixed-order growth predicate that it does not treat as an equivalent reconstruction input.
 
 The reverse theorem constructs Euclidean Schwinger data from a Wightman-function family and proves the corresponding OS properties for that constructor. It does not assume the forward growth condition. The two directions therefore do not form an unconditional biconditional between arbitrary OS data and arbitrary Wightman data. The public endpoint is a family of Wightman distributions satisfying the formalized Wightman-function axioms, including covariance, spectral support, locality, positivity, Hermiticity, and clustering. The package explicitly places the subsequent GNS construction of a Hilbert space and operator-valued fields outside its scope.
 
