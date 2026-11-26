@@ -24,3 +24,11 @@
 ## Scope lock
 
 The paper concerns the epistemic role of machine-checked demonstration within mature mathematical formalisms in theoretical physics. It is not a general AI ethics paper, broad simulation-epistemology survey, or new QFT formalization project.
+
+- **DEC-021 (2026-11-26):** The OS case is analyzed from exact public theorem declarations and source records; no OS proofs are reimplemented.
+- **DEC-022:** OSforGFF uses D as spacetime dimension (D>=2); OSreconstruction uses d as spatial dimension with spacetime d+1 (d>=1). Four-dimensional spacetime corresponds to D=4 and d=3.
+- **DEC-023:** OSforGFF's OS1 generating-functional exponential bound is not definitionally the OSreconstruction arity-dependent OS-II growth condition.
+- **DEC-024:** The OSreconstruction public package does not expose inhabitants of its OS/growth input records; its README reports a private companion with massive GFF and Proca Wick-square inhabitants. Treat this as author-reported, not independently inspected.
+- **DEC-025:** Comparator is an independent Mathlib-only challenge/checking interface with fresh-kernel/NanoDa replay, not a second independent mathematical derivation by another research team.
+- **DEC-026:** The public OSreconstruction endpoint is a Wightman-function distribution family, not full GNS/operator reconstruction.
+- **DEC-027:** The 1975 OS paper explicitly extends and corrects the 1973 reconstruction claim; any account of the sufficient forward hypothesis must include the E0' growth condition.
