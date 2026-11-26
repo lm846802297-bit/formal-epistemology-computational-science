@@ -39,3 +39,5 @@ The paper concerns the epistemic role of machine-checked demonstration within ma
 - **DEC-031:** Distinguish explicitly between source inspection and independent Lean execution. No fresh build or proof replay is claimed in the manuscript.
 
 - **DEC-032 (2026-11-26):** Manuscript prose must follow the conventions of peer-reviewed research articles in philosophy of science and philosophy of physics. Use argumentative continuous prose, author–year citations, selective headings, and restrained claims; exclude project-report language, progress narration, promotional phrasing, and unnecessary lists from the paper.
+
+- **DEC-033 (2026-11-26):** The manuscript may draw on the writing conventions of any closely related peer-reviewed research paper, not only papers from a predetermined set of journals. Use Hughes (1997), Gelfert (2009, 2011), Imbert and Ardourel (2023), and DeDeo and Duede (2026) as complementary exemplars for conceptual precision, case-based argument, analysis of mathematical practice, and careful epistemic distinctions. Do not imitate distinctive wording or reproduce another paper's structure mechanically.
