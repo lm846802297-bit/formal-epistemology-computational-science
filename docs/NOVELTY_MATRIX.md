@@ -1,38 +1,27 @@
-# Novelty Matrix (updated 2026-11-26)
+# Novelty Matrix (major revision, 2026-11-26)
 
-| Work | Already established | Must not claim as new | Candidate relation to our project |
+| Work | Already established | Must not claim as new | Role in revised paper |
 |---|---|---|---|
-| Hughes (1997) | DDI: Denotation, Demonstration, Interpretation | Machine proof strengthens Demonstration as a wholly new discovery | Use DDI as the organizing skeleton |
-| Giere (2004) | Purpose-sensitive model representation via designated similarity | Model-target representation is a new issue | Clarify what proof checking does not establish about selected similarities |
-| Suárez (2004) | Inferential conception and surrogate reasoning | Model-based inference is new | Distinguish deductive proof checking from wider scientific inference |
-| Contessa (2007) | Interpretation grounds valid but not necessarily sound surrogate inference | Validity vs soundness of model-to-target inference is new | Locate kernel validity on the model side, not target soundness |
-| Frigg & Nguyen (2018) | DEKI: denotation, exemplification, keying, imputation | Property mapping from model to target is new | Use keying/imputation to identify what proof does not certify |
-| Morgan & Morrison (1999) | Models are autonomous mediators and investigative instruments | Model autonomy/exploration is new | Explain why formalization is not a mere transcription of theory |
-| Gelfert (2009) | Rigorous mathematical relations can transmit empirical warrant across models | Rigorous mathematical results can transfer empirical warrant | Ask what machine checking adds to certification of such relations |
-| Gelfert (2011) | Mature mathematical formalisms carry physical interpretations, local rules, and theoretical/methodological commitments | Mature formalism as inferential/interpretative resource is new | Analyze Lean formalization as selective re-articulation of such a formalism |
-| Gelfert (2022) | Notations/formalisms shape mathematical practice and act as epistemic resources | Formalization can shape practice is new | Study proof-assistant formalization as an epistemic action |
-| Knuuttila (2021) | Models as epistemic artifacts can support modal/exploratory knowledge | All model knowledge must target actual systems | Do not make target-world transfer mandatory |
-| Parker (2020) | Model adequacy is purpose-sensitive and involves target, user, method, circumstances, goal | A checked theorem is not enough to establish fitness for every purpose | Make the warrant account purpose-sensitive |
-| Duede & Davey (2025) | Proof-checker can support a priori mathematical knowledge from opaque generation | Proof-checking and mathematical knowledge are new | Extend analysis to mathematical physics and mature formalisms |
-| DeDeo & Duede (2026) | Adequate representation and tracking are conditions of proof correspondence | Proof correspondence or tracking is new | Treat correspondence as a prerequisite, not our contribution |
-| Meadows et al. (2026) | Physics autoformalization and semantic-drift taxonomy | Semantic drift in physics autoformalization is new | Use as constraint on formalization fidelity |
-| Imbert & Ardourel (2023) | Epistemological heterogeneity of computational science and formal verification | Context dependence of computational verification is new | Position kernel checking within broader scientific validation |
-| OSforGFF / OSreconstruction / Comparator | Existing machine-checked OS results and explicit theorem interfaces | Re-proving or discovering OS reconstruction is new | Analyze the epistemic interfaces and exact hypotheses |
+| Hughes (1997) | DDI: Denotation, Demonstration, Interpretation | DDI or the distinction between model reasoning and target inference | Organizing vocabulary; machine proof is one component of Demonstration |
+| Gelfert (2009) | Rigorous mathematical relations can transfer empirical warrant across physical models | Cross-model warrant transfer | Distinguish empirical warrant transfer from inter-formalization warrant |
+| Gelfert (2011, 2022) | Mature mathematical formalisms are heterogeneous inferential and interpretative resources | Formalisms as more than notation | Ground the analysis of formalization choices |
+| Bobbin et al. (2024) | Lean formalization of chemical theories; explicit assumptions; shared structures enabling interoperable proofs | Scientific proof reuse/interoperability | Differentiate technical interoperability from the epistemic warrant of bridges between independent formal records |
+| Douglas et al. (2026), Formalization of QFT | Glimm–Jaffe probability-measure formulation; explicit formalization choices; Schwartz vs compact-support discussion; OS reconstruction identified as a subsequent milestone | The claim that formalization choices shape scientific representation | Primary source for OSforGFF's mathematical and interpretative choices |
+| Cherkis et al. (2026), OSforGFF | Machine-checked massive GFF construction and Glimm–Jaffe OS predicates | Construction or proof of OS axioms | Concrete source formalization |
+| Yin et al. (2026), OSreconstruction | Conditional OS E0–E4 plus growth reconstruction; zero-diagonal Euclidean tests; Wightman distributions | OS reconstruction theorem itself | Conditional theorem and exact growth assumptions |
+| Douglas, Yin, & Mei (2026), Comparator | Mathlib-only challenge, record bridges, theorem equivalences, Comparator/NanoDa checking | Independent mathematical derivation by another team | Positive case of formally established inter-formalization warrant |
+| DeDeo & Duede (2026) | Adequate representation and tracking for informal-to-formal proof correspondence | Proof correspondence as a new issue | Distinguish source-proof correspondence from formalization-to-formalization correspondence |
+| Meadows et al. (2026) | Semantic-drift analysis for physics autoformalization | Semantic drift in scientific formalization | Constraint on source-formalism correspondence |
+| Imbert & Ardourel (2023) | Epistemological heterogeneity of computational verification | Verification has context-dependent epistemic roles | Situate local proof warrant within broader scientific assessment |
+| Suárez (2004); Contessa (2007); Frigg & Nguyen (2018) | Inferential and surrogate reasoning; DEKI mappings | Model-to-target inference and property attribution | Keep target-directed warrant distinct from formal proof transfer |
+| Parker (2020); Knuuttila (2021) | Purpose-relative model adequacy; modal and exploratory model knowledge | All knowledge must concern an actual target | Make target-directed warrant claim-sensitive |
 
-## Provisional novelty claim
+## Provisional contribution
 
-The defensible candidate contribution is:
+The revised paper's contribution is a **source-critical, case-based analysis of inter-formalization warrant**: the warrant required to reuse a machine-checked result across distinct formal representations of a physical theory. The OS case identifies both a positive bridge (Comparator's record and theorem equivalences) and a public composition boundary (the missing direct OSforGFF-to-OSreconstruction instantiation).
 
-**A formalization-aware analysis of the epistemic role of machine-checked Demonstration within mature mathematical formalisms in theoretical physics, clarifying what kernel checking strengthens and which correspondence, instantiation, interpretation, and target-warrant obligations remain.**
+This is not presented as a new universal theory. The paper does not claim to originate proof interoperability, semantic fidelity, DDI, mature-formalism analysis, or cross-model empirical warrant transfer.
 
-This is an integration and case-based extension of existing accounts, not a new general theory of scientific representation or cross-model warrant transfer.
+## Novelty stress test
 
-## Falsification test
-
-The candidate novelty fails if prior work already analyzes, in mathematical physics, the combination of:
-1. mature physical formalisms and their embedded inferential commitments;
-2. proof-assistant formalization as a transformation of those formalisms;
-3. machine-checked proof as a local warrant for demonstration;
-4. separate model-to-target and purpose-relative warrant obligations.
-
-A targeted search for this exact combination remains necessary before claiming originality.
+The contribution would be substantially weakened if prior work already analyzes the epistemic status of proof-preserving bridges between independently formalized representations of a physical theory, including the transfer of theorem hypotheses and reconstructed witnesses. Bobbin et al. (2024) establish technical interoperability, but the current literature review has not identified a comparable philosophical analysis of the warrant carried by those interfaces. The claim remains bounded and should not be expressed as a priority claim.
