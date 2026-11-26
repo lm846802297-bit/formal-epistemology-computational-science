@@ -26,7 +26,7 @@ The principal stylistic and argumentative exemplars are Hughes (1997), Gelfert (
 - Formalization projects are cited as scholarly software artifacts with exact commit pins.
 - Original OS papers are cited for mathematical claims about the reconstruction programme.
 - Repository-reported verification status is attributed to maintainers; this project does not claim an independent Lean rebuild or proof replay.
-- The root BibTeX database is **bibliography/references.bib**; a human-readable reference list is included in the integrated manuscript.
+- The root BibTeX database is **bibliography/references.bib**; a human-readable reference list is included in the integrated manuscript. EJPS-specific AI-use disclosure is documented in **docs/EJPS_AI_DISCLOSURE_FOR_AUTHOR_REVIEW.md** and requires author confirmation.
 
 ## Mathematical presentation
 
