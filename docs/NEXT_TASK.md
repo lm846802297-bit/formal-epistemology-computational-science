@@ -14,7 +14,7 @@ Conduct one critical review of the revised manuscript's central concept and argu
 1. The distinction between local proof warrant and inter-formalization warrant is clear and not merely terminological.
 2. The proposed interface conditions (object, predicate, hypothesis, conclusion/witness, and proof transport) are supported by the OS source analysis.
 3. Bobbin et al. (2024), Douglas et al. (2026), FormalScience, DeDeo and Duede, Gelfert, Rabe (2017), DAMF, and SC-TPTP are accurately differentiated from the paper's bounded contribution.
-4. The Comparator is described precisely: verbatim Mathlib-only challenge definitions, explicit bidirectional record bridges, theorem equivalences, and proof replay; no claim of a second independent derivation.
+4. The Comparator is described precisely: verbatim Mathlib-only challenge definitions, explicit bidirectional record bridges, theorem equivalences (eToR_iff, eToROSII_iff, rToE_iff), proof replay, disclosed fidelity conventions, and self-assessed review status; no claim of an independent external audit or second mathematical derivation.
 5. The private companion examples are not identified with the pinned OSforGFF object without an inspectable bridge.
 6. The OSforGFF and OSreconstruction growth predicates, dimensional conventions, test spaces, and theorem endpoints match the pinned sources.
 7. All 23 cited works have matching APA-style references and BibTeX records.
