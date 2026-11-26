@@ -41,3 +41,8 @@ For each item, read the original source or inspect the exact pinned repository r
 - Final author approval: [ ] Approved [ ] Not yet approved
 
 **Acceptance rule:** the source audit is complete only when all 23 entries have been personally checked by the submitting author and resulting corrections have been incorporated. Metadata matching alone is not sufficient.
+
+
+## Reference-list policy point for author decision
+
+The manuscript cites three public GitHub software artifacts (OSforGFF, OSreconstruction, and OSreconstruction-comparator) as version-pinned research materials. EJPS instructions say the reference list should include works cited in the text and published or accepted for publication. The author should confirm with the editorial office that software repositories are acceptable as software references. If the journal requires a narrower interpretation, preserve exact commit hashes and repository URLs in a footnote or suitable data/code-availability statement, while retaining the associated scholarly papers in the reference list where applicable. Do not remove the version information needed to reproduce the source analysis.
