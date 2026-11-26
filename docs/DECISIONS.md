@@ -58,3 +58,7 @@ The paper concerns the epistemic role of machine-checked demonstration within ma
 - **DEC-045:** OSreconstruction distinguishes the arity-linear growth record from the original-coordinate OS-II E0-prime record; a proved conversion connects them. Preserve this distinction in the manuscript.
 - **DEC-046:** Do not identify the private companion's massive-free-field inhabitant with the exact pinned OSforGFF object unless a public or independently inspectable bridge establishes that identity.
 - **DEC-047:** Revise the working title to emphasize formalization interfaces; add Bobbin et al. (2024), Douglas et al. (2026) Formalization of QFT, and Glimm & Jaffe (1987) as primary sources.
+
+- **DEC-048 (2026-11-26):** The manuscript title is revised to *Machine-Checked Proofs and Formalization Interfaces in Mathematical Physics: The Epistemology of Osterwalder–Schrader Reconstruction*.
+- **DEC-049:** The complete manuscript now contains 20 cited references, a 213-word abstract, six keywords, and approximately 5,840 words of main text excluding abstract and references.
+- **DEC-050:** One critical review of the new inter-formalization warrant argument is required before returning to EJPS LaTeX conversion.
