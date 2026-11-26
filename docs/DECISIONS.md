@@ -62,3 +62,6 @@ The paper concerns the epistemic role of machine-checked demonstration within ma
 - **DEC-048 (2026-11-26):** The manuscript title is revised to *Machine-Checked Proofs and Formalization Interfaces in Mathematical Physics: The Epistemology of Osterwalder–Schrader Reconstruction*.
 - **DEC-049:** The complete manuscript now contains 20 cited references, a 213-word abstract, six keywords, and approximately 5,840 words of main text excluding abstract and references.
 - **DEC-050:** One critical review of the new inter-formalization warrant argument is required before returning to EJPS LaTeX conversion.
+
+- **DEC-051 (2026-11-26):** The major revision explicitly situates the argument against Rabe (2017) on theory morphisms, Al Wardani et al. (2023) on DAMF, and Guilloud et al. (2025) on SC-TPTP. These establish formal proof-preservation, assertion transfer, and proof-system interoperability; the paper must not claim those mechanisms as new.
+- **DEC-052:** The paper's contribution is limited to the epistemological analysis of how formal interfaces between representations of physical mathematical formalisms interact with source-formalism correspondence, theorem-hypothesis instantiation, and scientific interpretation.
