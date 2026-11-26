@@ -2,16 +2,20 @@
 
 **Working paper:** *Machine-Checked Proofs and Mature Mathematical Formalisms in Physics: The Epistemology of Formalized Osterwalder–Schrader Reconstruction*
 
-**Research question:** What epistemic role does machine-checked formalization play within mature mathematical formalisms in theoretical physics, and what does it add to the demonstration of model-internal results?
-
 ## Manuscript status
 
-The complete first manuscript draft is available in [manuscript/full_manuscript.md](manuscript/full_manuscript.md). It includes the abstract, Introduction, OS Reconstruction epistemological analysis, Discussion, Conclusion, and a human-readable reference list.
+The complete first manuscript draft is available in [manuscript/full_manuscript.md](manuscript/full_manuscript.md). It includes the abstract, Introduction, OS Reconstruction epistemological analysis, Discussion, Conclusion, and human-readable references.
 
-- Main text: approximately 5,900 words, excluding references.
-- Abstract: 204 words, plus keywords.
-- The manuscript has been harmonized for academic prose, author–year citations, mathematical notation, and exact source attribution.
-- It remains a research draft, not a journal-formatted submission.
+- Main text: approximately 5,700 words, excluding references.
+- Abstract: 216 words, with six keywords.
+- APA 7 author–date citations are being applied for the primary target journal.
+- The manuscript is not yet submission-ready; author verification, AI-use disclosure, final source audit, and journal formatting remain.
+
+## Recommended target journal
+
+**European Journal for Philosophy of Science (EJPS)** is the recommended first target. Its scope fits the paper's analysis of mathematical physics, formalized models, and scientific warrant. It is indexed in AHCI, SCIE, Scopus, Mathematical Reviews, and INSPIRE. The journal accepts original research articles of approximately 5,000–15,000 words and abstracts of 150–250 words.
+
+EJPS is hybrid. To meet the no-author-fee requirement, the intended route is **subscription publishing**, which has no APC. Do not select Gold Open Access / Open Choice. See [journal selection and submission plan](docs/JOURNAL_SELECTION_AND_SUBMISSION_PLAN.md).
 
 ## Working thesis
 
@@ -27,6 +31,7 @@ Reuse OSforGFF, OSreconstruction, and Comparator as prior mathematical/formaliza
 
 - [Complete manuscript](manuscript/full_manuscript.md)
 - [Separate manuscript sections](manuscript/README.md)
+- [Journal selection and submission plan](docs/JOURNAL_SELECTION_AND_SUBMISSION_PLAN.md)
 - [Research charter](docs/RESEARCH_CHARTER.md)
 - [Model representation review](docs/MODEL_REPRESENTATION_REVIEW.md)
 - [Working warrant framework](docs/FRAMEWORK.md)
@@ -39,7 +44,3 @@ Reuse OSforGFF, OSreconstruction, and Comparator as prior mathematical/formaliza
 - [BibTeX](bibliography/references.bib)
 - [Source register](provenance/SOURCE_REGISTER.csv)
 - [Exact Lean environment pins](provenance/OS_RECONSTRUCTION_ENVIRONMENT.yaml)
-
-## Research status
-
-The targeted literature comparison, OS source-critical audit, abstract, conclusion, and first integrated manuscript have been completed. Remaining work is final citation/source verification and adaptation to a selected journal's requirements. No new numerical computation or Lean implementation is planned for this manuscript.
