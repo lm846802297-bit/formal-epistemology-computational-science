@@ -75,6 +75,9 @@ The public pinned artifacts do not expose an end-to-end theorem that takes the s
 - **Hughes (1997):** DDI remains a useful organizing distinction, but machine-checked proof is only one formalized component of Demonstration.
 - **Gelfert (2011, 2022):** mature mathematical formalisms are heterogeneous inferential and interpretative resources; the framework should not reduce them to a single representational mapping.
 - **DeDeo and Duede (2026):** adequate representation and tracking constrain correspondence between informal proofs and formal derivations. The present case adds the distinct issue of correspondence between formal representations.
+- **Rabe (2017):** theory morphisms are compositional translations that preserve judgments and induce model reduction. The paper does not claim this formal mechanism as new; it asks about its epistemic adequacy when applied to physical formalisms.
+- **Al Wardani et al. (2023):** DAMF addresses provenance, trust, and exchange of formal assertions across heterogeneous proof systems.
+- **Guilloud et al. (2025):** SC-TPTP addresses proof-certificate exchange and reconstruction across ATPs and ITPs, including Lean.
 - **Bobbin et al. (2024):** interoperable scientific structures and proof reuse are established; the present paper analyzes the epistemic conditions for warrant transfer across formal records.
 - **Gelfert (2009):** empirical warrant can transfer between physical models through rigorous mathematical relations. Inter-formalization warrant concerns a prior formal interface and does not itself supply empirical warrant.
 - **Meadows et al. (2026):** semantic drift in autoformalization is an established problem; it motivates attention to source-formalism correspondence but is not the paper's novelty.
