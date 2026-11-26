@@ -78,3 +78,9 @@ The paper concerns the epistemic role of machine-checked demonstration within ma
 
 - **DEC-060 (2026-11-26):** The Comparator's positive result is described as relative interface warrant: record and theorem correspondence is proved, but the copied challenge definitions do not independently validate the source specification's physical adequacy.
 - **DEC-061:** The integrated manuscript contains 23 cited references, a 219-word abstract, six keywords, and approximately 6,693 words of main text excluding abstract and references.
+
+- **DEC-041 (2026-11-26):** Reframe the paper around inter-formalization warrant: when a machine-checked theorem in one formalization can support an inference in another formalization of the same physical theory.
+- **DEC-042:** Treat inter-formalization warrant as a bounded analytical label for the warrant supplied by an adequately established formal-record correspondence; do not claim a new universal theory or proof-transfer mechanism.
+- **DEC-043:** Comparator is positive evidence of relative interface warrant: the challenge definitions reproduce the production package's own audit definitions, while explicit bridges and theorem equivalences are checked across a separate import/elaboration boundary. This does not independently validate source-formalism adequacy.
+- **DEC-044:** The absence of a public OSforGFF-to-OSreconstruction instantiation is a public-interface boundary, not evidence that the mathematical connection is impossible or absent from private companion work.
+- **DEC-045:** The major-revision review passed the predetermined conceptual and source-structure criteria. Proceed to author-led source verification and EJPS formatting; do not expand research scope without a concrete error.
