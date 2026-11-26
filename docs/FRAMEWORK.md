@@ -1,120 +1,84 @@
-# Formalization-Aware DDI Framework (v0.2)
+# Formalization Interfaces and Inter-Formalization Warrant
 
-**Status:** Working framework selected after the phase-two literature comparison. Not yet frozen for the manuscript.
+**Status:** Working analytical framework for the major manuscript revision. This is a case-based distinction, not a universal theory of scientific knowledge.
 
-## 1. Organizing idea
+## 1. Central question
 
-Use Hughes's Denotation–Demonstration–Interpretation (DDI) structure as the organizing skeleton, but make explicit the role of machine formalization within Demonstration and the interfaces that remain outside kernel checking.
+Under what conditions can a machine-checked theorem in one formalization support an inference in another formalization of the same physical theory?
 
-This is not a new general theory of scientific representation. It is an analysis of how machine-checked proof changes the epistemic status of demonstration within mature mathematical formalisms in theoretical physics.
+The paper distinguishes the local deductive warrant of a checked theorem from the warrant required to transfer that result across formal representations. The latter is called **inter-formalization warrant**.
 
-## 2. Mature physical mathematical formalism
+## 2. Five epistemic relations
 
-Let F_phys denote a mature mathematical formalism used in physics: a physically interpreted notation system with locally applicable rules, conventions, and theoretical/methodological commitments.
+1. **Local proof warrant.** A kernel checks that a proposition follows from definitions and assumptions in a specified formal system.
+2. **Source-formalism correspondence.** The formal encoding adequately represents the mathematical objects, predicates, domains, and assumptions relevant to the source physical formalism.
+3. **Inter-formalization warrant.** A verified interface relates the records and propositions of two formalizations, preserving the mathematical content needed for the inference.
+4. **Model instantiation.** A concrete model is shown to satisfy every hypothesis of the theorem in the receiving formalization.
+5. **Target-directed warrant.** Where a claim about a physical target is intended, the model-to-target inference is justified relative to the scientific purpose and relevant evidence.
 
-Examples include operator formalism, Feynman diagrams, and Euclidean field-theory structures. Following Gelfert (2011, 2022), such formalisms are not neutral containers: they provide inferential and interpretative resources and shape scientific practice.
+These relations are distinguishable, not a mandatory linear sequence for every scientific claim. In particular, model-internal or modal knowledge need not culminate in a claim about an actual target.
 
-A Lean formalization is a selective re-articulation of some part of F_phys. It need not encode the entire formalism or all of its tacit conventions.
+## 3. Interface conditions
 
-## 3. Formalization correspondence
+For a source formalization with theorem `Γ₁ ⊢ φ₁` and a receiving formalization with target theorem `Γ₂ ⊢ φ₂`, an interface adequate for theorem reuse must make explicit:
 
-Let L be the proof-assistant language and let tau denote the formalization map from the relevant part of F_phys into L.
+- **Object correspondence:** which source and receiving structures represent the same mathematical objects or related objects.
+- **Predicate correspondence:** how the relevant definitions, assumptions, and properties are translated; whether the relation is equality, equivalence, implication, or a weaker map.
+- **Hypothesis transport:** why the receiving assumptions suffice to establish the translated source hypotheses.
+- **Conclusion and witness preservation:** why the source conclusion, including any reconstructed family or other witness, corresponds to the receiving conclusion.
+- **Proof transport and checking:** how the source derivation is made available in the receiving system and what checking procedure validates the bridge and transported result.
 
-The formalization must preserve, for the claim at issue:
-- mathematical objects and their types;
-- operations and locally applicable rules;
-- domains, boundary conditions, and side assumptions;
-- the exact theorem statement and its quantifiers;
-- the physical interpretation intended for the encoded objects.
+The exact obligations depend on the intended inference. An isomorphism is not always required; a one-way implication or structure-preserving map may suffice. What matters is that the direction and strength of the correspondence are explicit and proved at the level required by the claim.
 
-This is a correspondence question. DeDeo and Duede's adequate-representation and tracking criteria, and FormalScience's semantic-drift analysis, are important prior constraints. They are not claimed as new contributions here.
+A schematic proof obligation is:
 
-## 4. Machine-checked Demonstration
+[
+Gamma_1 dash_{mathcal L_1} arphi_1,
+qquad
+Gamma_2 dash_{mathcal L_2} 	au(Gamma_1),
+qquad
+Gamma_2 dash_{mathcal L_2} igl(	au(arphi_1)ightarrowarphi_2igr),
+]
 
-For assumptions Gamma and proposition phi, a proof assistant checks:
+together with a proof-preserving interpretation (	au) between the relevant formal languages. This is an audit schema, not a universal sufficient-condition theorem for scientific knowledge.
 
-$$
-\Gamma \vdash_{\mathcal L} \varphi.
-$$
+## 4. Application to the OS formalization network
 
-This establishes formal derivability relative to the declared language, assumptions, definitions, imports, kernel, and trust base. It does not alone establish that the formalization faithfully captures the source physical formalism or that the formal symbols have the intended physical interpretation.
+### OSforGFF
 
-The machine-checking contribution is therefore local but significant: it strengthens the reliability and auditability of the formal derivation.
+- Formalizes a massive Gaussian free field as a probability measure on (S'(mathbb R^D)).
+- Uses the Glimm–Jaffe probability-measure and generating-functional formulation.
+- Its OS1 is an exponential bound on the generating functional, with a subsidiary two-point condition; for the GFF the proof uses (p=2) and (c=1/(2m^2)).
+- OS4 includes clustering and an ergodicity condition on a specified class of finite exponential functionals.
+- The accompanying QFT paper explains the relationship of the Schwartz-space predicates to the Glimm–Jaffe compact-support formulation and explains the ergodicity argument. These are source-to-formalism correspondence claims; they should not be confused with a formal bridge into OSreconstruction.
 
-## 5. Model interpretation and instantiation
+### OSreconstruction
 
-Let M be a specified mathematical/physical model. To obtain a model-internal claim from the formal theorem, one must establish:
-1. correspondence between the formal statement and the intended model statement;
-2. correct interpretation of formal objects and predicates in M;
-3. satisfaction by M of every theorem hypothesis, including regularity, growth, domain, and boundary assumptions.
+- Takes Schwinger distributions on the zero-diagonal Schwartz test-function space.
+- Its forward theorem requires E0–E4 and an arity-dependent growth condition.
+- The OS-II original-coordinate growth condition is converted by a proved theorem into the arity-linear record used by the public forward theorem.
+- The output is a Wightman-function distribution family; GNS/operator reconstruction is outside the package endpoint.
 
-The resulting claim is model-internal:
+### Comparator
 
-$$
-\mathcal M \models \varphi^*.
-$$
+- The Mathlib-only challenge reproduces verbatim the package's own audit definitions and adds three theorem obligations; it is independent at the import/checking boundary, not in authorship or mathematical origin.
+- The bridge code converts the challenge OS record to and from the production record, preserves the Schwinger family, transfers the growth records, and identifies the Wick-pairing and output-growth predicates.
+- The solution proves equivalences between the challenge propositions and production specifications; Comparator and NanoDa provide additional structural and proof replay checks.
+- This is a positive, formally checked instance of inter-formalization warrant, not a second independent derivation.
 
-This step is not automatic from kernel acceptance.
+### OSforGFF to OSreconstruction
 
-## 6. Target-directed inference and model evaluation
+The public pinned artifacts do not expose an end-to-end theorem that takes the specific OSforGFF probability-measure construction and instantiates the exact zero-diagonal OS record and arity-dependent growth condition required by OSreconstruction. The projects use different formal records and test-function domains. OSreconstruction reports relevant inhabitants in a private companion development, but that does not establish identity with the pinned OSforGFF object or provide a publicly inspectable bridge.
 
-Let T be an intended physical target and P a scientific purpose. A claim about T requires an appropriate model-to-target relation and a justified inference from the model result to the target.
+## 5. Relation to existing philosophy
 
-Relevant prior frameworks include:
-- Suárez and Contessa on surrogate reasoning;
-- Frigg and Nguyen's DEKI account, especially keying and imputation;
-- Gelfert's account of cross-model warrant transfer;
-- Parker's adequacy-for-purpose view.
+- **Hughes (1997):** DDI remains a useful organizing distinction, but machine-checked proof is only one formalized component of Demonstration.
+- **Gelfert (2011, 2022):** mature mathematical formalisms are heterogeneous inferential and interpretative resources; the framework should not reduce them to a single representational mapping.
+- **DeDeo and Duede (2026):** adequate representation and tracking constrain correspondence between informal proofs and formal derivations. The present case adds the distinct issue of correspondence between formal representations.
+- **Bobbin et al. (2024):** interoperable scientific structures and proof reuse are established; the present paper analyzes the epistemic conditions for warrant transfer across formal records.
+- **Gelfert (2009):** empirical warrant can transfer between physical models through rigorous mathematical relations. Inter-formalization warrant concerns a prior formal interface and does not itself supply empirical warrant.
+- **Meadows et al. (2026):** semantic drift in autoformalization is an established problem; it motivates attention to source-formalism correspondence but is not the paper's novelty.
 
-A formal proof may certify a mathematical mapping between models. It does not by itself establish that the mapping preserves the physically relevant properties, that the source model is empirically supported, or that the target model is adequate for P.
+## 6. Bounded contribution
 
-Gelfert (2009) is decisive here: rigorous mathematical relations may transmit empirical warrant between models, but they do not create empirical warrant from scratch.
-
-Model evaluation is purpose-sensitive. Parker's problem space includes target, user, methodology, circumstances, and goal. A theorem may be adequate for a mathematical or structural purpose without being sufficient for prediction or empirical application.
-
-## 7. Modal and exploratory knowledge
-
-Not every model use aims at a claim about an actual target. Following Knuuttila (2021), models can be epistemic artifacts used to explore possible mechanisms and modal structures.
-
-Thus target-directed warrant is one possible endpoint, not a mandatory final stage for every formalized model.
-
-## 8. Claim taxonomy
-
-- **C_F — formal derivability:** Gamma entails phi in the declared formal system.
-- **C_M — model-internal claim:** the interpreted proposition holds in a specified model, with all hypotheses instantiated.
-- **C_T — target-directed claim:** a claim about an intended physical system is warranted through appropriate model-based inference and evidence.
-- **C_E — explanatory understanding:** an orthogonal epistemic aim; a proof may establish a theorem without supplying the relevant physical explanation.
-
-Modal/exploratory model knowledge may be epistemically valuable even when no C_T claim is intended.
-
-## 9. Conditional audit schema
-
-For a target-directed claim, the following components should be audited:
-
-$$
-V_F \land C_{form} \land A_M \land I_M \land R_{MT}(P) \land E_P
-$$
-
-where:
-- V_F: formal proof validity under the declared trust base;
-- C_form: adequate correspondence between the source physical formalism and the formalized statement;
-- A_M: satisfaction of all theorem hypotheses by model M;
-- I_M: correct physical interpretation of the formal objects and predicates;
-- R_MT(P): an appropriate model-to-target relation for purpose P;
-- E_P: evidence appropriate to the target and purpose.
-
-This is a diagnostic schema, not a universal sufficient-condition theorem. Which components are required depends on the kind of claim being made.
-
-## 10. Application to the OS case
-
-The OS case distinguishes:
-1. proof of OS properties for a concrete Euclidean free-field model;
-2. a separate conditional OS-to-Wightman reconstruction theorem requiring an arity-dependent growth condition;
-3. the instantiation of that exact growth condition by the concrete model;
-4. physical interpretation and target-directed use of the reconstructed objects.
-
-The public repositories inspected do not expose a single end-to-end theorem instantiating the exact reconstruction growth hypothesis from OSforGFF. OS1 regularity must not be identified with that condition without a proved bridge.
-
-## 11. Scope discipline
-
-The paper does not propose a universal theory of all AI-generated scientific knowledge, a new general representation theory, or a new theory of cross-model empirical warrant. Its contribution is a formalization-aware analysis of the Demonstration component and its interfaces in theoretical physics.
+The paper offers a source-critical, case-based analysis of inter-formalization warrant in mathematical physics. It does not claim a new general theory of scientific representation, a new theorem about OS reconstruction, a new account of proof interoperability, or a new theory of cross-model empirical warrant.
