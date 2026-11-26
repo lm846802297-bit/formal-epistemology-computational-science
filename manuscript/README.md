@@ -16,7 +16,7 @@
 
 ## Writing standard
 
-The manuscript follows the conventions of peer-reviewed research articles in philosophy of science and philosophy of physics. It draws selectively on related work rather than imitating one journal or author. The prose is argumentative and continuous, with section headings used to clarify the structure. Conceptual claims are situated in the relevant literature; mathematical and repository claims are attributed to their sources; the paper's contribution is stated narrowly.
+The manuscript follows the conventions of peer-reviewed research articles in philosophy of science and philosophy of physics. The current primary target is the European Journal for Philosophy of Science (EJPS); formatting is being aligned with its author instructions and APA 7. It draws selectively on related work rather than imitating one journal or author. The prose is argumentative and continuous, with section headings used to clarify the structure. Conceptual claims are situated in the relevant literature; mathematical and repository claims are attributed to their sources; the paper's contribution is stated narrowly.
 
 The principal stylistic and argumentative exemplars are Hughes (1997), Gelfert (2009, 2011), Imbert and Ardourel (2023), and DeDeo and Duede (2026). These works inform the level of conceptual precision, case-based analysis, and restraint in novelty claims; their wording and structures are not copied.
 
