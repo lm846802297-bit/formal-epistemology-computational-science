@@ -85,3 +85,7 @@ The public pinned artifacts do not expose an end-to-end theorem that takes the s
 ## 6. Bounded contribution
 
 The paper offers a source-critical, case-based analysis of inter-formalization warrant in mathematical physics. It does not claim a new general theory of scientific representation, a new theorem about OS reconstruction, a new account of proof interoperability, or a new theory of cross-model empirical warrant.
+
+## 7. Relative interface warrant versus source-formalism adequacy
+
+The Comparator provides a positive example of **relative interface warrant**: it proves that the challenge records and production records correspond in the stated ways. Because the challenge definitions reproduce the package's own audit definitions, this does not independently validate the physical adequacy of the shared specification. A proof-preserving bridge can establish equivalence between formal records while leaving the source-formalism correspondence to be justified separately. This is the central distinction between inter-formalization warrant and scientific warrant for the represented physical theory.
