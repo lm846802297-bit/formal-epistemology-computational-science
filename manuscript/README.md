@@ -28,7 +28,7 @@ The revised paper asks when a machine-checked theorem in one formalization can s
 - Formalization projects cited as scholarly software artifacts with exact commit pins.
 - Original OS papers and Glimm–Jaffe cited for the mathematical formulations.
 - Repository-reported verification status is attributed to maintainers; this project does not claim an independent Lean rebuild or proof replay.
-- Root BibTeX: **bibliography/references.bib**. The integrated manuscript contains 20 cited works.
+- Root BibTeX: **bibliography/references.bib**. The integrated manuscript contains 23 cited works.
 - EJPS AI-use disclosure is in **docs/EJPS_AI_DISCLOSURE_FOR_AUTHOR_REVIEW.md** and requires author confirmation.
 
 ## Editorial status
