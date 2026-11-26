@@ -6,9 +6,10 @@
 
 The complete first manuscript draft is available in [manuscript/full_manuscript.md](manuscript/full_manuscript.md). It includes the abstract, Introduction, OS Reconstruction epistemological analysis, Discussion, Conclusion, and human-readable references.
 
-- Main text: approximately 5,700 words, excluding references.
+- Main text: approximately 5,900 words, excluding references.
 - Abstract: 216 words, with six keywords.
 - APA 7 author–date citations are being applied for the primary target journal.
+- The EJPS generative-AI disclosure has been drafted for author review; it must be confirmed before submission.
 - The manuscript is not yet submission-ready; author verification, AI-use disclosure, final source audit, and journal formatting remain.
 
 ## Recommended target journal
