@@ -12,9 +12,19 @@
 
 ## Writing standard
 
-The manuscript is written in the style of a peer-reviewed research article in philosophy of science and philosophy of physics. The prose should be argumentative rather than report-like. Each paragraph should advance a claim, locate it in the relevant literature, or analyze evidence from the OS case.
+The manuscript should follow the conventions of a peer-reviewed research article in philosophy of science and philosophy of physics. It is not restricted to the house style of one journal. The appropriate style is to be selected from relevant published papers according to the argumentative task and disciplinary genre.
 
-Use continuous academic prose, with section headings only where they clarify the argument. Avoid project-status language, conversational transitions, promotional claims, excessive bullet lists, reader-facing commentary, and repeated statements of limitations. Distinguish established results from the present paper's analysis through precise attribution and author–year citations.
+Use the following works as complementary stylistic and argumentative exemplars:
+
+- **Hughes (1997), “Models and Representation”**: concise conceptual distinctions and a clearly articulated analytical framework.
+- **Gelfert (2009), “Rigorous Results, Cross-Model Justification, and the Transfer of Empirical Warrant”**: a focused philosophical problem developed through a concrete case from theoretical physics.
+- **Gelfert (2011), “Mathematical Formalisms in Scientific Practice”**: close attention to mathematical practice and the interpretative commitments of physical formalisms.
+- **Imbert and Ardourel (2023), “Formal Verification, Scientific Code, and the Epistemological Heterogeneity of Computational Science”**: careful differentiation of epistemic roles and restrained claims about verification.
+- **DeDeo and Duede (2026), “A Correspondence Problem for Mathematical Proof”**: precise formulation of a conceptual problem and explicit separation of related conditions.
+
+These papers are models of scholarly practice, not templates to be copied. Their styles should be combined selectively: conceptual precision, case-based analysis, close engagement with primary sources, and a clearly bounded philosophical contribution. Do not imitate distinctive wording, paragraph sequences, or an author's voice.
+
+Each paragraph should advance a claim, establish a relevant distinction, engage prior literature, or analyze evidence from the OS case. Use continuous academic prose, with section headings only where they clarify the argument. Avoid project-status language, conversational transitions, promotional claims, excessive bullet lists, reader-facing commentary, and repeated statements of limitations. Distinguish established results from the present paper's analysis through precise attribution and author–year citations.
 
 ## Citation and source practice
 
