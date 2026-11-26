@@ -37,3 +37,7 @@
 ## Remaining author verification
 
 The submitting author must read the cited works and confirm that each source supports the precise interpretation attributed to it. Metadata verification alone does not establish that a paraphrase is faithful. Repository claims should be checked against the pinned commits before submission.
+
+| Al Wardani et al. (2023), *Formal Reasoning Using Distributed Assertions* | Springer DOI 10.1007/978-3-031-43369-6_10 | Authors, FroCoS 2023, LNCS 14279, pages 176–194, DOI matched |
+| Guilloud et al. (2025), *Interoperability of Proof Systems with SC-TPTP* | Springer DOI 10.1007/978-3-031-99984-0_18; Springer author metadata | Seven authors, CADE 30, LNCS 15943, pages 325–340, DOI matched |
+| Rabe (2017), *Morphism Axioms* | DOI 10.1016/j.tcs.2017.07.006 | Author, title, Theoretical Computer Science 691, pages 55–80, DOI matched |
