@@ -16,7 +16,7 @@ The complete article, including abstract, keywords, conclusion, and 20 human-rea
 
 ## Journal target
 
-European Journal for Philosophy of Science (EJPS), subscription route (no APC). The manuscript contains approximately 6,250 words of main text, excluding abstract and references.
+European Journal for Philosophy of Science (EJPS), subscription route (no APC). The manuscript contains approximately 6,333 words of main text, excluding abstract and references.
 
 ## Editorial status
 
