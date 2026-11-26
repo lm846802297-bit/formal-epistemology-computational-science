@@ -1,0 +1,30 @@
+Command:
+pdflatex -interaction=nonstopmode -halt-on-error sn-jnl-smoke-test.tex
+
+Environment:
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+
+Output:
+entering extended mode
+(./sn-jnl-smoke-test.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+
+! LaTeX Error: File `sn-jnl.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name:
+! Emergency stop.
+<read *>
+
+l.2 \begin
+          {document}^^M
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on sn-jnl-smoke-test.log.
+
+Exit status: 1
+
+This is a template-availability smoke test, not a manuscript compilation. No PDF was produced.
