@@ -16,6 +16,10 @@
 - **DEC-014:** Keep C_E explanatory understanding orthogonal, not a required serial stage. Permit modal/exploratory model knowledge without an actual target.
 - **DEC-015:** Make model evaluation purpose-sensitive, following Parker (2020).
 - **DEC-016:** Use Gelfert's Hubbard–Heisenberg case as the cross-model warrant comparison; keep OS reconstruction as the primary formalization case.
+- **DEC-017 (2026-11-26):** Reuse the existing OSforGFF, OSreconstruction, and Comparator research results directly as prior mathematical/formalization results. Do not fork or reimplement them merely for convenience.
+- **DEC-018:** Our independent contribution is the source-critical and epistemological analysis of the exact statements, assumptions, theorem endpoints, interpretation, and warrant interfaces. Cite original authors and pin exact commits.
+- **DEC-019:** Treat repository-reported Lean checks and Comparator results as evidence about the specified formal artifacts and environments. Do not claim we independently rebuilt or reverified them unless we actually do so.
+- **DEC-020:** A future fork or code modification is justified only if a concrete research question requires a new formal theorem, counterexample, or reproducible independent check. Any such work must be isolated from upstream and submitted through a review branch/PR.
 
 ## Scope lock
 
