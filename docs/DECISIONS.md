@@ -60,8 +60,11 @@ The paper concerns the epistemic role of machine-checked demonstration within ma
 - **DEC-047:** Revise the working title to emphasize formalization interfaces; add Bobbin et al. (2024), Douglas et al. (2026) Formalization of QFT, and Glimm & Jaffe (1987) as primary sources.
 
 - **DEC-048 (2026-11-26):** The manuscript title is revised to *Machine-Checked Proofs and Formalization Interfaces in Mathematical Physics: The Epistemology of Osterwalder–Schrader Reconstruction*.
-- **DEC-049:** The complete manuscript now contains 20 cited references, a 213-word abstract, six keywords, and approximately 5,840 words of main text excluding abstract and references.
+- **DEC-049:** The complete manuscript now contains 20 cited references, a 213-word abstract, six keywords, and approximately 6,333 words of main text excluding abstract and references.
 - **DEC-050:** One critical review of the new inter-formalization warrant argument is required before returning to EJPS LaTeX conversion.
 
 - **DEC-051 (2026-11-26):** The major revision explicitly situates the argument against Rabe (2017) on theory morphisms, Al Wardani et al. (2023) on DAMF, and Guilloud et al. (2025) on SC-TPTP. These establish formal proof-preservation, assertion transfer, and proof-system interoperability; the paper must not claim those mechanisms as new.
 - **DEC-052:** The paper's contribution is limited to the epistemological analysis of how formal interfaces between representations of physical mathematical formalisms interact with source-formalism correspondence, theorem-hypothesis instantiation, and scientific interpretation.
+
+- **DEC-053 (2026-11-26):** Rabe (2017), Al Wardani et al. (2023), and Guilloud et al. (2025) are added to the literature comparison. The manuscript explicitly distinguishes theory morphisms, distributed assertion transfer, and SC-TPTP proof interoperability from its scientific-epistemic analysis.
+- **DEC-054:** The integrated manuscript contains 23 cited references, a 211-word abstract, six keywords, and approximately 6,333 words of main text excluding abstract and references.
