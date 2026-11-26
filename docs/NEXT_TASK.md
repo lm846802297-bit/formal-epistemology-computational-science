@@ -17,7 +17,7 @@ European Journal for Philosophy of Science (EJPS), using the subscription publis
 
 1. Final verification of every cited source and DOI, including formalization-project authorship and exact commit references.
 2. Author-led verification and approval of all mathematical, repository, and philosophical claims.
-3. Final AI-use disclosure consistent with EJPS policy.
+3. Author review and approval of the proposed AI-use disclosure in `docs/EJPS_AI_DISCLOSURE_FOR_AUTHOR_REVIEW.md`.
 4. EJPS-format LaTeX/Word source, anonymized manuscript, and separate title page.
 5. Final word-count, abstract, keyword, APA 7, and reference-list checks.
 6. Submission checklist confirming the subscription route and no APC.
