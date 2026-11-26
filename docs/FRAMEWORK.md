@@ -1,34 +1,120 @@
-# A Warrant Architecture for Formalized Physics (v0.1)
+# Formalization-Aware DDI Framework (v0.2)
 
-For formal system F, assumptions A, and proposition phi, a proof assistant checks:
-$$ A \vdash_F \varphi. $$
-Subject to soundness of F and its trust base, this establishes a formal consequence of A. It does not alone establish that A captures the intended physical theory, that phi has the intended interpretation, or that a model describes an actual target:
-$$ A \vdash_F \varphi \quad\not\Rightarrow\quad W \models \varphi. $$
+**Status:** Working framework selected after the phase-two literature comparison. Not yet frozen for the manuscript.
 
-## Claim types
-- **C_F — formal:** derivability in a specified system.
-- **C_M — model-internal:** the interpreted proposition holds in a specified model. Transfer from C_F requires theorem correspondence, full hypothesis instantiation, and correct interpretation.
-- **C_W — target-world:** a claim is warranted for a physical target and domain. It requires a purpose-sensitive model-to-target relation and appropriate evidence.
-- **C_E — explanatory:** the result is explained, not merely established; this may require proof tracking and explanatory correspondence.
+## 1. Organizing idea
 
-## Two tracks
-**Deductive:** informal statement -> theorem correspondence -> formal proposition/assumptions -> kernel-checked proof -> interpreted model-internal claim.
+Use Hughes's Denotation–Demonstration–Interpretation (DDI) structure as the organizing skeleton, but make explicit the role of machine formalization within Demonstration and the interfaces that remain outside kernel checking.
 
-**Model/evidence:** target/domain -> observation, experiment, prior theory -> model construction -> validation/inferential assessment -> model-to-target warrant.
+This is not a new general theory of scientific representation. It is an analysis of how machine-checked proof changes the epistemic status of demonstration within mature mathematical formalisms in theoretical physics.
 
-The tracks may converge on a warranted physical claim. Their warrants are not interchangeable; their conjunction is not assumed universally sufficient.
+## 2. Mature physical mathematical formalism
 
-## Conditional audit schema
-$$ V_F \land C_T \land A_M \land I_M \land R_{MW}(D) \land E_D $$
-Here V_F is formal validity; C_T adequate theorem correspondence; A_M satisfaction of all hypotheses by model M; I_M correct interpretation in M; R_MW(D) a justified model-target relation for purpose/domain D; E_D domain-appropriate evidence. This is diagnostic, not a theorem or universal sufficient condition.
+Let F_phys denote a mature mathematical formalism used in physics: a physically interpreted notation system with locally applicable rules, conventions, and theoretical/methodological commitments.
 
-## Relation to prior work
-DeDeo and Duede (2026) develop correspondence and proof tracking. Meadows et al. (2026) study semantic drift in physics autoformalization. The candidate extension begins after adequate formalization: interpretation of physical structures, instantiation of theorem hypotheses, and transfer from model-internal results to target-world claims. Knuuttila's artifactual account cautions against requiring every model to literally represent a target.
+Examples include operator formalism, Feynman diagrams, and Euclidean field-theory structures. Following Gelfert (2011, 2022), such formalisms are not neutral containers: they provide inferential and interpretative resources and shape scientific practice.
 
-## Open questions
-1. Is theorem correspondence distinct from physical interpretation?
-2. Which model-target relations fit idealized theoretical physics?
-3. When can a theorem about a formal model count as scientific knowledge without direct empirical testing?
-4. Does proof tracking support truth-warrant, explanatory warrant, or both?
-5. How should imported libraries, typeclass assumptions, and foundational axioms enter the audit?
-6. Can a claim-to-evidence ledger aid judgment without mechanizing it?
+A Lean formalization is a selective re-articulation of some part of F_phys. It need not encode the entire formalism or all of its tacit conventions.
+
+## 3. Formalization correspondence
+
+Let L be the proof-assistant language and let tau denote the formalization map from the relevant part of F_phys into L.
+
+The formalization must preserve, for the claim at issue:
+- mathematical objects and their types;
+- operations and locally applicable rules;
+- domains, boundary conditions, and side assumptions;
+- the exact theorem statement and its quantifiers;
+- the physical interpretation intended for the encoded objects.
+
+This is a correspondence question. DeDeo and Duede's adequate-representation and tracking criteria, and FormalScience's semantic-drift analysis, are important prior constraints. They are not claimed as new contributions here.
+
+## 4. Machine-checked Demonstration
+
+For assumptions Gamma and proposition phi, a proof assistant checks:
+
+$$
+\Gamma \vdash_{\mathcal L} \varphi.
+$$
+
+This establishes formal derivability relative to the declared language, assumptions, definitions, imports, kernel, and trust base. It does not alone establish that the formalization faithfully captures the source physical formalism or that the formal symbols have the intended physical interpretation.
+
+The machine-checking contribution is therefore local but significant: it strengthens the reliability and auditability of the formal derivation.
+
+## 5. Model interpretation and instantiation
+
+Let M be a specified mathematical/physical model. To obtain a model-internal claim from the formal theorem, one must establish:
+1. correspondence between the formal statement and the intended model statement;
+2. correct interpretation of formal objects and predicates in M;
+3. satisfaction by M of every theorem hypothesis, including regularity, growth, domain, and boundary assumptions.
+
+The resulting claim is model-internal:
+
+$$
+\mathcal M \models \varphi^*.
+$$
+
+This step is not automatic from kernel acceptance.
+
+## 6. Target-directed inference and model evaluation
+
+Let T be an intended physical target and P a scientific purpose. A claim about T requires an appropriate model-to-target relation and a justified inference from the model result to the target.
+
+Relevant prior frameworks include:
+- Suárez and Contessa on surrogate reasoning;
+- Frigg and Nguyen's DEKI account, especially keying and imputation;
+- Gelfert's account of cross-model warrant transfer;
+- Parker's adequacy-for-purpose view.
+
+A formal proof may certify a mathematical mapping between models. It does not by itself establish that the mapping preserves the physically relevant properties, that the source model is empirically supported, or that the target model is adequate for P.
+
+Gelfert (2009) is decisive here: rigorous mathematical relations may transmit empirical warrant between models, but they do not create empirical warrant from scratch.
+
+Model evaluation is purpose-sensitive. Parker's problem space includes target, user, methodology, circumstances, and goal. A theorem may be adequate for a mathematical or structural purpose without being sufficient for prediction or empirical application.
+
+## 7. Modal and exploratory knowledge
+
+Not every model use aims at a claim about an actual target. Following Knuuttila (2021), models can be epistemic artifacts used to explore possible mechanisms and modal structures.
+
+Thus target-directed warrant is one possible endpoint, not a mandatory final stage for every formalized model.
+
+## 8. Claim taxonomy
+
+- **C_F — formal derivability:** Gamma entails phi in the declared formal system.
+- **C_M — model-internal claim:** the interpreted proposition holds in a specified model, with all hypotheses instantiated.
+- **C_T — target-directed claim:** a claim about an intended physical system is warranted through appropriate model-based inference and evidence.
+- **C_E — explanatory understanding:** an orthogonal epistemic aim; a proof may establish a theorem without supplying the relevant physical explanation.
+
+Modal/exploratory model knowledge may be epistemically valuable even when no C_T claim is intended.
+
+## 9. Conditional audit schema
+
+For a target-directed claim, the following components should be audited:
+
+$$
+V_F \land C_{form} \land A_M \land I_M \land R_{MT}(P) \land E_P
+$$
+
+where:
+- V_F: formal proof validity under the declared trust base;
+- C_form: adequate correspondence between the source physical formalism and the formalized statement;
+- A_M: satisfaction of all theorem hypotheses by model M;
+- I_M: correct physical interpretation of the formal objects and predicates;
+- R_MT(P): an appropriate model-to-target relation for purpose P;
+- E_P: evidence appropriate to the target and purpose.
+
+This is a diagnostic schema, not a universal sufficient-condition theorem. Which components are required depends on the kind of claim being made.
+
+## 10. Application to the OS case
+
+The OS case distinguishes:
+1. proof of OS properties for a concrete Euclidean free-field model;
+2. a separate conditional OS-to-Wightman reconstruction theorem requiring an arity-dependent growth condition;
+3. the instantiation of that exact growth condition by the concrete model;
+4. physical interpretation and target-directed use of the reconstructed objects.
+
+The public repositories inspected do not expose a single end-to-end theorem instantiating the exact reconstruction growth hypothesis from OSforGFF. OS1 regularity must not be identified with that condition without a proved bridge.
+
+## 11. Scope discipline
+
+The paper does not propose a universal theory of all AI-generated scientific knowledge, a new general representation theory, or a new theory of cross-model empirical warrant. Its contribution is a formalization-aware analysis of the Demonstration component and its interfaces in theoretical physics.
