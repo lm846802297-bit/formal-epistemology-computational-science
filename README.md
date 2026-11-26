@@ -1,36 +1,48 @@
 # Formal Epistemology of Computational Science
 
-**Working paper:** *What Does a Machine-Checked Proof Establish in Physics? The Epistemology of Formalized Osterwalder-Schrader Reconstruction*
+**Working paper:** *Machine-Checked Proofs and Mature Mathematical Formalisms in Physics: The Epistemology of Formalized Osterwalder–Schrader Reconstruction*
 
-**Question:** Under what conditions can a machine-checked theorem about a formalized physical theory warrant a claim about a physical system?
+**Question:** What epistemic role does machine-checked formalization play within mature mathematical formalisms in theoretical physics, and what does it add to the demonstration of model-internal results?
 
-## Provisional thesis
-A proof assistant supplies conditional deductive warrant for a proposition in a specified formal system, relative to its assumptions and trust base. It does not by itself establish that the proposition captures the intended physical statement, that a concrete model satisfies every theorem hypothesis, or that the model's conclusions apply to a physical target.
+## Working thesis
 
-We distinguish **C_F** (formal claim), **C_M** (model-internal claim), **C_W** (target-world claim), and **C_E** (explanatory claim). The primary case is public Lean formalizations of the Osterwalder-Schrader axioms and reconstruction theorem. Lean chemical-physics formalization is a secondary comparison. The axial Ward identity/anomaly is a bounded physics stress test, not a claim of existing Lean formalization.
+Machine checking strengthens the reliability and auditability of formal derivations. It does not by itself establish correspondence with the source physical formalism, instantiate all theorem hypotheses in a concrete model, or warrant a target-directed physical inference.
+
+The project uses a **formalization-aware DDI framework**: Denotation, Demonstration, Interpretation, with explicit treatment of source-formalism correspondence and kernel-checked proof within Demonstration.
 
 ## Repository map
+
 - [Research charter](docs/RESEARCH_CHARTER.md)
-- [Literature review](docs/LITERATURE_REVIEW.md)
-- [Warrant framework](docs/FRAMEWORK.md)
+- [Phase-two model representation review](docs/MODEL_REPRESENTATION_REVIEW.md)
+- [Phase-two synthesis and framework decision](docs/PHASE2_SYNTHESIS.md)
+- [Working warrant framework](docs/FRAMEWORK.md)
 - [OS reconstruction case study](docs/CASE_STUDY_OS_RECONSTRUCTION.md)
+- [Literature review](docs/LITERATURE_REVIEW.md)
 - [Novelty matrix](docs/NOVELTY_MATRIX.md)
 - [Paper outline](docs/PAPER_OUTLINE.md)
 - [Research decisions](docs/DECISIONS.md)
-- [Next task](docs/NEXT_TASK.md)
+- [Next bounded task](docs/NEXT_TASK.md)
 - [BibTeX](bibliography/references.bib)
 - [Source register](provenance/SOURCE_REGISTER.csv)
 - [Exact Lean environment pins](provenance/OS_RECONSTRUCTION_ENVIRONMENT.yaml)
 
-## Status
-Initial literature review and framework design. Novelty remains provisional; no priority claim is made. No new numerical computation or Lean build was performed. Existing public results are reused at exact commit pins.
+## Phase-two conclusion
 
-## Acceptance criteria
-1. Closest prior work accurately classified by publication status.
-2. No novelty claim for semantic translation, proof correspondence, proof tracking, or model validation in isolation.
-3. Four claim types precise and non-redundant.
-4. Warrant-transfer account is conditional and claim-sensitive.
-5. OS case accurately records hypotheses, endpoints, toolchains, and composition boundaries.
-6. Axial anomaly example checked against primary physics sources before final use.
+The general ideas of scientific representation, surrogate reasoning, mature mathematical formalisms, and cross-model transfer of empirical warrant are established in prior literature. In particular, Gelfert (2009, 2011) is a direct antecedent. The candidate contribution is narrower: analyze what machine-checked Demonstration adds within mature mathematical formalisms and what correspondence, instantiation, interpretation, and target-warrant obligations remain.
 
-Substantive changes are submitted by pull request. No GitHub Actions workflow is required in this phase; validation is local.
+## Current status
+
+Targeted literature comparison completed. The formalization-aware DDI framework is selected as the working framework, not yet frozen for the manuscript. Novelty remains provisional; no priority claim is made.
+
+The primary case is the public Lean formalization ecosystem for Osterwalder–Schrader axioms and reconstruction. Existing results are reused at exact commit pins. No new numerical computation or Lean build was performed in this research phase.
+
+## Research acceptance criteria
+
+1. Closest prior work is mapped accurately, with publication status distinguished.
+2. No novelty claim for general model representation, surrogate inference, cross-model empirical-warrant transfer, proof correspondence, or semantic drift.
+3. The role of machine checking is localized to formal Demonstration.
+4. Formalization correspondence, model-hypothesis instantiation, physical interpretation, and target-directed inference are kept distinct.
+5. The OS case records exact hypotheses, endpoints, toolchains, and composition boundaries.
+6. Claims about target systems are assessed relative to a scientific purpose.
+
+Substantive changes are submitted by pull request. No GitHub Actions workflow is required in this phase; validation is local/source-based.
