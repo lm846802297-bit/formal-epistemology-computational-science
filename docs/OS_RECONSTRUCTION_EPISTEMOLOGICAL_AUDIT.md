@@ -59,6 +59,6 @@ The public artifacts do not expose an end-to-end theorem that instantiates the e
 
 ## 4. Epistemological interpretation
 
-The Comparator is a positive case of inter-formalization warrant: the interface itself is proved and checked, so the production theorem can be reused under a separate, Mathlib-only audit surface. The OSforGFF-to-OSreconstruction relation is a different case: the mathematical connection is plausible and relevant, and a private companion is reported, but the public artifacts do not expose the specific bridge needed to compose the pinned results.
+The Comparator is a positive case of relative inter-formalization warrant: the interface itself is proved and checked, so the production theorem can be reused under a separate, Mathlib-only audit surface. Because the challenge definitions are copied from the same package's audit file, this does not independently validate the physical adequacy of the shared specification. The OSforGFF-to-OSreconstruction relation is a different case: the mathematical connection is plausible and relevant, and a private companion is reported, but the public artifacts do not expose the specific bridge needed to compose the pinned results.
 
 The central issue is therefore not that any local proof fails. It is that the warrant of a composed result depends on the correspondence of the formal records, the transport of the exact hypotheses, and the preservation of the theorem's conclusion and witnesses.
