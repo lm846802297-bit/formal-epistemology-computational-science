@@ -14,6 +14,9 @@
 
 ## Retrieval attempts
 
+A real PDFLaTeX template smoke test was run with the required class declaration. The command exited with status 1 because `sn-jnl.cls` was not found. The exact output is preserved in `BUILD_LOG_TEMPLATE_MISSING.txt`.
+
+
 1. Identified the official journal-article template ZIP on the Springer Nature LaTeX author-support page:
    https://www.springernature.com/gp/authors/campaigns/latex-author-support
 2. Downloading the official ZIP into the current container failed.
