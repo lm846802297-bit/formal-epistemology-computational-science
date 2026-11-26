@@ -195,9 +195,9 @@ Douglas, M. R., Yin, X., & Mei, A. (2026). *OSreconstruction-comparator* [Formal
 
 Duede, E., & Davey, K. (2025). A priori knowledge in an era of computational opacity: The role of artificial intelligence in mathematical discovery. *Philosophy of Science*, 92(5), 1394–1404. https://doi.org/10.1017/psa.2025.10160
 
-Frigg, R., & Nguyen, J. (2018). The turn of the valve: Representing with material models. *European Journal for Philosophy of Science*, 8, 205–224. https://doi.org/10.1007/s13194-017-0182-4
+Frigg, R., & Nguyen, J. (2018). The turn of the valve: Representing with material models. *European Journal for Philosophy of Science*, 8(2), 205–224. https://doi.org/10.1007/s13194-017-0182-4
 
-Gelfert, A. (2009). Rigorous results, cross-model justification, and the transfer of empirical warrant: The case of many-body models in physics. *Synthese*, 169, 497–519. https://doi.org/10.1007/s11229-008-9431-6
+Gelfert, A. (2009). Rigorous results, cross-model justification, and the transfer of empirical warrant: The case of many-body models in physics. *Synthese*, 169(3), 497–519. https://doi.org/10.1007/s11229-008-9431-6
 
 Gelfert, A. (2011). Mathematical formalisms in scientific practice: From denotation to model-based representation. *Studies in History and Philosophy of Science Part A*, 42(2), 272–286. https://doi.org/10.1016/j.shpsa.2010.11.035
 
@@ -213,9 +213,9 @@ Knuuttila, T. (2021). Epistemic artifacts and the modal dimension of modeling. *
 
 Meadows, J., Zhang, L., & Freitas, A. (2026). FormalScience: Scalable human-in-the-loop autoformalisation of science with agentic code generation in Lean. In *Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics* (pp. 23059–23077). https://doi.org/10.18653/v1/2026.acl-long.1057
 
-Osterwalder, K., & Schrader, R. (1973). Axioms for Euclidean Green's functions. *Communications in Mathematical Physics*, 31, 83–112. https://doi.org/10.1007/BF01645738
+Osterwalder, K., & Schrader, R. (1973). Axioms for Euclidean Green's functions. *Communications in Mathematical Physics*, 31(2), 83–112. https://doi.org/10.1007/BF01645738
 
-Osterwalder, K., & Schrader, R. (1975). Axioms for Euclidean Green's functions II. *Communications in Mathematical Physics*, 42, 281–305. https://doi.org/10.1007/BF01608978
+Osterwalder, K., & Schrader, R. (1975). Axioms for Euclidean Green's functions II. *Communications in Mathematical Physics*, 42(3), 281–305. https://doi.org/10.1007/BF01608978
 
 Parker, W. S. (2020). Model evaluation: An adequacy-for-purpose view. *Philosophy of Science*, 87(3), 457–477. https://doi.org/10.1086/708691
 
