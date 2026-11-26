@@ -28,7 +28,7 @@ The current author instructions state:
 - Author–date citations and APA 7 reference-list conventions; include full DOI links where available.
 - References should include only works cited in the text and published or accepted for publication.
 
-The revised manuscript has a 219-word abstract and six keywords. Its main text is approximately 6,693 words, excluding the abstract and references, within the journal's stated range. The title, abstract, and section structure are compatible in principle; the remaining formatting work is to apply the journal's LaTeX/Word template, ensure double-blind anonymization, and check the final word count after typesetting.
+The revised manuscript has a 206-word abstract and six keywords. Its main text is approximately 7,061 words, excluding the abstract and references, within the journal's stated range. The title, abstract, and section structure are compatible in principle; the remaining formatting work is to apply the journal's LaTeX/Word template, ensure double-blind anonymization, and check the final word count after typesetting.
 
 ### Publication cost
 
@@ -52,7 +52,7 @@ Before submission, the author must personally verify the sources and mathematica
 
 Official author instructions: https://www.cambridge.org/core/journals/philosophy-of-science/information/author-instructions
 
-This is a leading specialist journal and the paper's questions about formal proof, mathematical knowledge, and scientific representation are in scope. The journal's current instructions specify an abstract of no more than 100 words and an article limit of 9,000 words for articles, excluding the reference list but including the abstract, footnotes, in-text citations, figures, tables, and appendices. The journal is hybrid; the subscription route avoids the Gold Open Access APC. The present 216-word abstract would need substantial shortening. This is an ambitious target rather than the default first choice.
+This is a leading specialist journal and the paper's questions about formal proof, mathematical knowledge, and scientific representation are in scope. The journal's current instructions specify an abstract of no more than 100 words and an article limit of 9,000 words for articles, excluding the reference list but including the abstract, footnotes, in-text citations, figures, tables, and appendices. The journal is hybrid; the subscription route avoids the Gold Open Access APC. The present 206-word abstract would need substantial shortening. This is an ambitious target rather than the default first choice.
 
 ### Studies in History and Philosophy of Science — alternative
 
@@ -72,7 +72,7 @@ The journal is Diamond Open Access and has no author fees. It was founded in 202
 - Disambiguated the two 2026 Douglas-led software citations as Douglas, Hoback, et al. (2026) and Douglas, Yin, et al. (2026).
 - Added missing issue numbers to the cited records for Gelfert (2009), Frigg and Nguyen (2018), and the 1973/1975 OS papers.
 - Preserved exact commit hashes for all three formalization projects.
-- Retained the 216-word abstract and six keywords, which meet the EJPS ranges.
+- Retained the 206-word abstract and six keywords, which meet the EJPS ranges.
 
 ## 4. Remaining acceptance criteria before submission
 

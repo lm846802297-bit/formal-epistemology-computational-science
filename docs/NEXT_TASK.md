@@ -13,8 +13,8 @@ Complete the author-led source and claim audit, then proceed to EJPS submission 
 ## Fixed acceptance criteria
 
 1. The author verifies all source-level paraphrases and mathematical claims, particularly the OSforGFF explanatory paper, Rabe (2017), DAMF, SC-TPTP, and the Comparator bridges.
-2. Inter-formalization warrant remains a bounded analytical label for warrant relative to formal records, not a new universal theory or technical proof-transfer mechanism.
-3. Comparator independence is described as an import/elaboration/checking boundary; the challenge definitions are copied from the production package's own audit definitions.
+2. Inter-formalization warrant remains a bounded analytical label for warrant relative to formal records, not a new universal theory or technical proof-transfer mechanism. DeDeo and Duede's (2026) library-lock-in and shared-model analysis is acknowledged; no novelty is claimed for correspondence or library dependence generally.
+3. Comparator is described as a record-level audit-to-production interface. Its independence is limited to the import/elaboration/checking boundary; the challenge definitions are copied from the production package's own audit definitions.
 4. The positive Comparator bridge and the absent public OSforGFF-to-OSreconstruction instantiation remain clearly distinguished.
 5. Cherkis et al. are cited for the OSforGFF repository artifact; Douglas et al. for the accompanying Formalization of QFT paper.
 6. The private companion examples are not identified with the pinned OSforGFF object without an inspectable bridge.

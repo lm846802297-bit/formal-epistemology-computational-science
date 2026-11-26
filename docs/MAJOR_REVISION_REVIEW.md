@@ -91,3 +91,13 @@ This is a modest, case-based philosophical contribution, not a new general theor
 - Do not claim Comparator independently validates the physical adequacy of its copied audit specification.
 - Do not expand into a general theory of all formalized science.
 - Do not add references merely to increase the bibliography.
+
+## 7. Follow-up review: originality and interface scope (2026-11-27)
+
+The follow-up review examined the full text of DeDeo and Duede (2026), with particular attention to Section 3, “Libraries, Lock-In, and Shared Models,” and Section 4, “Routes to Correspondence.” The paper already explains how inherited formal-library dependencies can hybridize mathematical traditions and identifies structural, causal, and explanatory routes for assessing informal/formal proof correspondence. The revised manuscript now acknowledges this overlap explicitly and does not claim novelty for library lock-in, representational drift, or correspondence in general. Its narrower question concerns the relation between source and receiving formal records and the proof obligations needed for object/predicate mapping, hypothesis transport, and conclusion/witness preservation.
+
+The Comparator case is now described consistently as a **record-level audit-to-production interface**. Its challenge definitions reproduce the OSreconstruction package’s own Mathlib-only audit definitions. The separate import/elaboration and proof-checking boundary supports a limited positive result about the correspondence of those records; it does not amount to a bridge between independently authored physical formalisms, a second derivation, or an independent validation of the shared physical specification. The OSforGFF-to-OSreconstruction relation remains a separate cross-project instantiation problem not established by the inspected public artifacts.
+
+The manuscript and its section sources use the same revised passages. The root BibTeX file is restricted to the 23 works in the manuscript reference list; duplicate and unused entries are removed. Douglas-led 2026 citations are disambiguated as Douglas, Hoback, et al. (2026) for *Formalization of QFT* and Douglas, Yin, et al. (2026) for the Comparator software artifact. The public-package terminology is corrected in Section 2. No OS mathematics, Lean proofs, or numerical calculations were changed or added.
+
+**Follow-up verdict:** the two substantive issues identified in the previous review are resolved at the level of manuscript argument and source description. The paper remains subject to author-led verification of all cited sources and claims, author approval of the AI-use disclosure, and EJPS anonymization and formatting. These are submission-preparation tasks, not reasons to reopen the research question.

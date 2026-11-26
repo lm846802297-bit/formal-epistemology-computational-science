@@ -1,7 +1,7 @@
 # Final Reference and Source Audit (major revision)
 
-**Audit date:** 2026-11-26  
-**Scope:** The 23 works cited in the current integrated manuscript. Metadata and source locations were checked against publisher, repository, and preprint records. This does not replace the submitting author's substantive reading and verification.
+**Audit date:** 2026-11-27  
+**Scope:** The 23 works cited in the current integrated manuscript and retained in the root BibTeX file. Metadata and source locations were checked against publisher, repository, and preprint records. This does not replace the submitting author's substantive reading and verification.
 
 | Reference | Verification source | Result |
 |---|---|---|
@@ -9,7 +9,7 @@
 | Bobbin et al. (2024), *Formalizing Chemical Physics Using the Lean Theorem Prover* | RSC DOI 10.1039/D3DD00077J | Authors, title, Digital Discovery 3(2), pages 264–280, DOI matched |
 | Cherkis et al. (2026), OSforGFF | Pinned repository formalization.yaml and commit fef84a82937dfd2bb7f672108a72da329d3ef0fd | Five listed authors include Sergey A. Cherkis; exact commit and project metadata matched |
 | Contessa (2007), *Scientific Representation, Interpretation, and Surrogative Reasoning* | DOI 10.1086/519478 | Title, author, Philosophy of Science 74(1), pages 48–68 matched |
-| DeDeo & Duede (2026), *A Correspondence Problem for Mathematical Proof* | arXiv:2603.13680v2; PhilArchive | Title and authors matched; Philosophy of Science status listed as forthcoming in records inspected |
+| DeDeo & Duede (2026), *A Correspondence Problem for Mathematical Proof* | arXiv:2603.13680v2; PhilArchive full text | Title, authors, and forthcoming status matched; Sections 3–4 substantively reviewed for library lock-in, shared models, and structural/causal/explanatory routes to correspondence |
 | Douglas et al. (2026), *Formalization of QFT* | arXiv:2603.15770v1 | Authors, title, arXiv identifier and preprint status matched |
 | Douglas, Yin, & Mei (2026), OSreconstruction-comparator | Pinned repository and formalization.yaml, commit 93cdb40e728ba27b7b1b55efc30d57f7b43de9aa | Authors, project identity, exact commit matched |
 | Frigg & Nguyen (2018), *The Turn of the Valve* | Springer DOI 10.1007/s13194-017-0182-4 | Title, authors, European Journal for Philosophy of Science 8(2), pages 205–224 matched |
@@ -38,6 +38,7 @@
 - The two OSreconstruction growth records are distinguished: the arity-linear condition and the original-coordinate OS-II E0-prime condition are connected by a proved conversion.
 - The OSforGFF OS1 predicate is described as the Glimm–Jaffe generating-functional bound with the subsidiary two-point condition, not as the OSreconstruction arity-dependent growth hypothesis.
 - Rabe's theory morphisms, DAMF, and SC-TPTP are treated as prior formal mechanisms for proof-preserving translation, assertion transfer, and proof-system interoperability. The manuscript does not claim these mechanisms as new.
+- DeDeo and Duede (2026) already analyze library lock-in, shared-model hybridization across modelling traditions, and structural, causal, and explanatory routes to correspondence. The manuscript therefore makes no novelty claim for library dependence or correspondence in general; it narrows its contribution to the interface conditions for transferring results between source and receiving formal records in mathematical physics.
 
 ## Remaining author verification
 

@@ -6,10 +6,10 @@
 
 The major-revision manuscript is available in [manuscript/full_manuscript.md](manuscript/full_manuscript.md). It includes the abstract, Introduction, OS formalization-network analysis, Discussion, Conclusion, and 23 cited references.
 
-- Main text: approximately 6,693 words, excluding abstract and references.
-- Abstract: 219 words, with six keywords.
+- Main text: 7,061 words, excluding abstract and references.
+- Abstract: 206 words, with six keywords.
 - The central argument now concerns **inter-formalization warrant**: the conditions under which a machine-checked result in one formal representation can be reused in another.
-- The manuscript is not yet ready for submission; the revised originality argument and source analysis require one further critical review before journal formatting.
+- The follow-up originality review is complete. The manuscript explicitly acknowledges DeDeo and Duede's analysis of library lock-in and limits the Comparator claim to a record-level audit-to-production interface. Author-led source verification, AI-disclosure approval, anonymization, and EJPS formatting remain before submission.
 
 ## Revised contribution
 
@@ -20,7 +20,7 @@ The paper distinguishes:
 4. instantiation of theorem hypotheses by a concrete model;
 5. target-directed scientific inference.
 
-The OS case provides both a positive example (Comparator's proved record and theorem bridges) and a public composition boundary (no end-to-end public instantiation from the pinned OSforGFF object to the OSreconstruction input record).
+The OS case distinguishes a limited positive result (Comparator's proved record-level audit-to-production interface) from a cross-project composition boundary (no public end-to-end instantiation of the pinned OSforGFF object as the exact OSreconstruction input).
 
 This is a bounded, case-based analytical contribution. It does not claim a new general theory of scientific representation, proof interoperability, or cross-model empirical warrant.
 

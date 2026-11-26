@@ -28,12 +28,12 @@ The revised paper asks when a machine-checked theorem in one formalization can s
 - Formalization projects cited as scholarly software artifacts with exact commit pins.
 - Original OS papers and Glimm–Jaffe cited for the mathematical formulations.
 - Repository-reported verification status is attributed to maintainers; this project does not claim an independent Lean rebuild or proof replay.
-- Root BibTeX: **bibliography/references.bib**. The integrated manuscript contains 23 cited works.
+- Root BibTeX: **bibliography/references.bib**. The integrated manuscript and root BibTeX file contain the same 23 cited works.
 - EJPS AI-use disclosure is in **docs/EJPS_AI_DISCLOSURE_FOR_AUTHOR_REVIEW.md** and requires author confirmation.
 
 ## Editorial status
 
-The major revision, abstract, conclusion, and integrated manuscript are complete. One critical review of the originality argument remains before journal formatting. The manuscript is not yet submission-ready.
+The follow-up critical review of originality and interface scope is complete. DeDeo and Duede's library-lock-in analysis is acknowledged, and the Comparator is described as a record-level audit-to-production interface rather than a cross-project physical bridge. The next phase is author-led source verification and EJPS submission preparation; the manuscript is not yet submission-ready.
 
 
 ## Major revision
