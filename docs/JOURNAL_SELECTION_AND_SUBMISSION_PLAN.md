@@ -28,7 +28,7 @@ The current author instructions state:
 - Author–date citations and APA 7 reference-list conventions; include full DOI links where available.
 - References should include only works cited in the text and published or accepted for publication.
 
-The revised manuscript has a 213-word abstract and six keywords. Its main text is approximately 5,840 words, excluding the abstract and references, within the journal's stated range. The title, abstract, and section structure are compatible in principle; the remaining formatting work is to apply the journal's LaTeX/Word template, ensure double-blind anonymization, and check the final word count after typesetting.
+The revised manuscript has a 213-word abstract and six keywords. Its main text is approximately 6,250 words, excluding the abstract and references, within the journal's stated range. The title, abstract, and section structure are compatible in principle; the remaining formatting work is to apply the journal's LaTeX/Word template, ensure double-blind anonymization, and check the final word count after typesetting.
 
 ### Publication cost
 
