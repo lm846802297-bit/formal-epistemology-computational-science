@@ -28,9 +28,25 @@ This can be expressed schematically. Suppose a source formalization establishes
 \Gamma_1\vdash_{\mathcal L_1}\varphi_1.
 \]
 
-A receiving formalization \(\mathcal L_2\) can use this result for a target proposition \(\varphi_2\) only if an appropriate translation or interpretation tau preserves the derivation and the interface establishes the required relation between the receiving assumptions and the translated source assumptions, as well as between the translated source conclusion and phi_2. The point is not that every such relation must be an isomorphism or definitional equality. Depending on the application, it may be an equivalence of records, a structure-preserving map, or a proved implication. What matters is that the direction and strength of the correspondence are explicit and proved at the level required by the intended inference.
+A receiving formalization \(\mathcal L_2\) can use this result for a target proposition \(\varphi_2\) only if a translation or interpretation \(\tau\) preserves derivability and the interface establishes the required relations between assumptions and conclusions. One schematic audit condition is
+
+\[
+\begin{gathered}
+\Gamma_1\vdash_{\mathcal L_1}\varphi_1,\qquad
+\tau(\Gamma_1)\vdash_{\mathcal L_2}\tau(\varphi_1),\\
+\Gamma_2\vdash_{\mathcal L_2}\tau(\Gamma_1),\qquad
+\Gamma_2\vdash_{\mathcal L_2}\bigl(\tau(\varphi_1)\rightarrow\varphi_2\bigr)
+\\[2pt]
+\Longrightarrow\quad
+\Gamma_2\vdash_{\mathcal L_2}\varphi_2.
+\end{gathered}
+\]
+
+The display is an audit schema, not a universal sufficient-condition theorem for scientific knowledge. The first line represents proof preservation under the translation; the second records hypothesis transport and conclusion preservation in the receiving formalization. The point is not that every interface must be an isomorphism or definitional equality. Depending on the application, it may be an equivalence of records, a structure-preserving map, or a proved implication. What matters is that the direction and strength of the correspondence are explicit and proved at the level required by the intended inference.
 
 The Comparator bridge provides a concrete example. The challenge and production OS records are not simply assumed to be interchangeable. The bridge constructs conversions in both directions, proves that the Schwinger family is preserved, relates the growth-condition records, and identifies the Wick-pairing and output-growth predicates. The theorem equivalences then transport the forward, OS-II, and reverse reconstruction statements between the two specifications. This is an instance in which the interface itself carries a formal proof. The Comparator's fresh-kernel and NanoDa checks strengthen the auditability of that correspondence and of the transported proof. They do not constitute a second independent derivation of the OS reconstruction mathematics, because the challenge definitions reproduce the package's own audit definitions and the solution uses the production proofs through the bridge equivalences.
+
+This use of the term should be distinguished from technical proof-system interoperability. Distributed assertion frameworks address the provenance and trust of assertions imported from other reasoning systems (Al Wardani et al., 2023), while SC-TPTP addresses the translation and reconstruction of proof derivations across automated and interactive provers (Guilloud et al., 2025). Such work concerns the preservation and checking of formal derivations across systems. The present analysis concerns the scientific-epistemic status of interfaces between mathematical records that may encode different formulations of a physical theory. The two problems can overlap, but they are not identical: proof transfer can succeed at the level of formal derivations while the correspondence between the encoded mathematical objects and the intended physical formalism remains to be assessed.
 
 The distinction is also visible in the work of Bobbin et al. (2024). Their common structures for thermodynamics and kinematics are designed to facilitate reuse and interoperability among proofs. The present analysis does not claim that proof reuse or interoperable scientific structures are new. Rather, the OS case shows why the existence of an interface is an epistemic matter: when a result is reused across representations, the assumptions, predicates, and objects that make the transfer legitimate must be identified and preserved. The issue is especially consequential when the source and receiving formalizations are developed in different projects, use different test-function spaces, or formalize different versions of a familiar axiom system.
 
