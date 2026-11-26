@@ -2,37 +2,28 @@
 
 ## Task
 
-Complete the EJPS pre-submission review and prepare an anonymized journal-format manuscript. Do not expand the research question.
+Complete the focused major revision around inter-formalization warrant, then reassess journal readiness. Do not return to LaTeX formatting until the revised originality argument and source analysis pass.
 
-## Primary target
+## Current manuscript files
 
-European Journal for Philosophy of Science (EJPS), using the subscription publishing route (no APC). The detailed scope, fee, indexing, word-count, abstract, reference, and AI-disclosure requirements are in `docs/JOURNAL_SELECTION_AND_SUBMISSION_PLAN.md`.
+- `manuscript/00_abstract.md`
+- `manuscript/01_introduction.md`
+- `manuscript/02_epistemological_analysis_os_reconstruction.md`
+- `manuscript/03_discussion.md`
+- `manuscript/04_conclusion.md`
+- `manuscript/full_manuscript.md` (integrated file to be rebuilt after section edits)
 
-## Current manuscript
+## Fixed acceptance criteria
 
-- `manuscript/full_manuscript.md` — integrated article with abstract, main text, conclusion, and references.
-- Separate section files remain the editable sources in `manuscript/`.
-
-## Outputs
-
-1. Final verification of every cited source and DOI, including formalization-project authorship and exact commit references.
-2. Author-led verification and approval of all mathematical, repository, and philosophical claims.
-3. Author review and approval of the proposed AI-use disclosure in `docs/EJPS_AI_DISCLOSURE_FOR_AUTHOR_REVIEW.md`.
-4. EJPS-format LaTeX/Word source, anonymized manuscript, and separate title page.
-5. Final word-count, abstract, keyword, APA 7, and reference-list checks.
-6. Submission checklist confirming the subscription route and no APC.
-
-## Acceptance criteria
-
-- Main text remains within EJPS's approximate 5,000–15,000 word range.
-- Abstract is 150–250 words and includes 4–6 keywords.
-- Citations and reference list follow APA 7 author–date conventions.
-- Manuscript is anonymized for double-blind review.
-- AI use is disclosed accurately; the author verifies and takes responsibility for the final text.
-- All formalization claims match the pinned public artifacts; no independent Lean build or proof replay is claimed.
-- Subscription publishing is selected; no Open Choice APC is incurred.
-- No simultaneous submission to another journal.
+1. The paper distinguishes local proof warrant from inter-formalization warrant.
+2. It accurately situates Bobbin et al. (2024), Douglas et al. (2026), FormalScience, DeDeo and Duede, and Gelfert without claiming their established contributions as new.
+3. It explains the OSforGFF Glimm–Jaffe formulation, including the precise OS1 and OS4 choices and the authors' correspondence argument.
+4. It accurately states both OSreconstruction growth records and the proved conversion between them.
+5. It analyzes Comparator's exact role: verbatim Mathlib-only challenge definitions, explicit record bridges, theorem equivalences, and proof replay—not a second independent derivation.
+6. It distinguishes the reported private companion inhabitants from an end-to-end public instantiation of the pinned OSforGFF object.
+7. It states a bounded contribution supported by the case and does not claim a universal theory or priority.
+8. Every new citation has a matching APA-style reference and BibTeX entry.
 
 ## Non-goals
 
-No new literature sweep, no fork, no new Lean implementation, no numerical computation, and no expansion into general AI ethics or broad computational epistemology.
+No new Lean implementation, no fork, no numerical computation, no broad literature sweep, and no journal-format conversion in this revision stage.
