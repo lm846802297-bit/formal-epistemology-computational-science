@@ -1,37 +1,47 @@
-# Research Charter
+# Research Charter (updated 2026-11-26)
 
-## Question
-Under what conditions can a machine-checked theorem about a formalized physical theory warrant a claim about a physical system?
+## Research question
+
+What epistemic role does machine-checked formalization play within mature mathematical formalisms in theoretical physics, and what does it add to the demonstration of model-internal results?
 
 ## Provisional thesis
-Machine checking supplies conditional deductive warrant for a formal proposition, relative to a specified formal system, kernel, axioms, definitions, imports, and trust base. Transfer to a scientific claim requires distinct relations:
 
-1. **Formal validity:** acceptance of the proof object by the declared system.
-2. **Theorem correspondence:** adequate representation of the intended mathematical/scientific statement. If the claim concerns the original proof's reasoning, tracking its inferential steps is an additional requirement.
-3. **Assumption instantiation:** the concrete model satisfies every theorem hypothesis, including growth, regularity, boundary, and domain conditions.
-4. **Physical interpretation:** formal objects are correctly interpreted as fields, states, operators, observables, symmetries, and constraints.
-5. **Model-to-target warrant:** the model is appropriate for target, purpose, and domain. This may be representational, inferential, idealized, or modal; literal isomorphism is not assumed.
-6. **Empirical/domain evidence:** claims about actual physical systems require evidence appropriate to the system and regime.
+Machine checking strengthens the reliability and auditability of formal derivations. Its epistemic contribution is local to the declared formal system, assumptions, definitions, imports, kernel, and trust base. Scientific warrant also depends on correspondence between the source physical formalism and its formal encoding, concrete instantiation of theorem hypotheses, physical interpretation, and (when a target-directed claim is intended) a purpose-appropriate model-to-target inference.
 
-These are diagnostic conditions, not a theorem that their conjunction is universally sufficient.
+## Framework
+
+Use a **formalization-aware DDI framework**:
+- Denotation: the model's representational relation to its intended target.
+- Demonstration: derivation within the model; formalization fidelity and machine checking specify this component.
+- Interpretation: use of model results to draw claims about the target.
+
+The DDI structure is supplemented by mature mathematical formalism (Gelfert), surrogate reasoning and DEKI, cross-model warrant transfer (Gelfert 2009), and adequacy-for-purpose (Parker).
+
+This is not a new general theory of representation. It is a formalization-aware analysis of the role of machine-checked demonstration in mathematical physics.
 
 ## Claim types
-Let F be a formal system, A its assumptions, phi a formal proposition, M a mathematical/physical model, and W an intended physical target:
-- C_F: A |-F phi.
-- C_M: the interpreted proposition holds in M.
-- C_W: the property is warranted for W in domain D.
-- C_E: the derivation explains why the result holds.
 
-C_E is not reducible to C_F: a proof may establish a theorem without preserving explanatory structure.
+- C_F: formal derivability in the declared system.
+- C_M: interpreted model-internal claim with all hypotheses instantiated.
+- C_T: target-directed claim warranted through model-based inference and evidence.
+- C_E: explanatory understanding, orthogonal to the serial warrant path.
+- Modal/exploratory model knowledge is permitted without an actual target.
 
-## Candidate contribution
-A typed, physics-specific account of warrant transfer integrating proof correspondence, theorem-hypothesis instantiation, physical interpretation, and purpose-sensitive model-to-target relations. This is an integration and extension, not an invention of these individual distinctions.
+## Primary case
 
-## Case strategy
-Primary: public OSforGFF, OSreconstruction, and OSreconstruction-comparator repositories at exact commits. Secondary: Bobbin et al. (2024). Bounded stress test: classical versus quantum axial Ward identities and anomaly, after primary-source checking. No claim that cited Lean projects formalize the anomaly.
+Public Lean formalizations of OSforGFF, OSreconstruction, and the Comparator audit surface, at exact commits recorded in provenance/OS_RECONSTRUCTION_ENVIRONMENT.yaml.
+
+## Comparison cases
+
+- Gelfert's Hubbard–Heisenberg relation and Mott transition for cross-model empirical-warrant transfer.
+- Operator formalism/Feynman diagrams as mature physical formalisms.
+- Bobbin et al. (2024) as a secondary formalization of scientific derivations.
+- Axial Ward identity/anomaly as a bounded physics stress test only after primary-source convention checking.
 
 ## Out of scope
-Universal epistemology of all AI science; comprehensive numerical-simulation epistemology; full Lean formalization of QFT/anomaly; re-deriving OS formalizations; duplicating DeDeo and Duede's proof-correspondence account.
 
-## Phase-one acceptance
-Closest prior work accurately classified; novelty distinguished from prior correspondence and semantic-drift work; claim types precise; OS case technically accurate; anomaly example physically checked. No numerical convergence analysis is applicable because no numerical computation is in scope.
+A universal theory of AI-generated science; a new general account of scientific representation; a new general theory of cross-model empirical warrant; a full Lean implementation of QFT or the anomaly; a broad survey of all model-based reasoning.
+
+## Phase-two result
+
+The broad initial novelty claim has been narrowed. Gelfert (2009, 2011) are direct antecedents. The candidate contribution concerns the epistemic role of machine-checked Demonstration within mature mathematical formalisms and its interfaces with formalization correspondence, model instantiation, interpretation, and target-directed inference.
