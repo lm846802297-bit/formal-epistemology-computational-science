@@ -1,0 +1,29 @@
+inspection_date: 2026-11-26
+execution_status: source_inspection_only
+lake_build_executed_in_this_project: false
+projects:
+  OSforGFF:
+    repository: https://github.com/mrdouglasny/OSforGFF
+    commit: fef84a82937dfd2bb7f672108a72da329d3ef0fd
+    lean_toolchain: leanprover/lean4:v4.33.0-rc1
+    mathlib_commit: 79d0395a1825a6264ad5d269e35e60537518955e
+    GaussianField_commit: ddb7102eb0515e420944b731ac66f8b4c29a9341
+    BochnerMinlos_commit: 58405ecd328cf8383a1c0b53d37605fe61a0b3f6
+    repository_reported_sorry_count: 0
+    repository_reported_custom_axiom_count: 0
+  OSreconstruction:
+    repository: https://github.com/xiyin137/OSreconstruction
+    commit: cf0904e34a7c146a9f312f601e3707dca4a87697
+    package_subdirectory: os-reconstruction
+    lean_toolchain: leanprover/lean4:v4.35.0-rc4
+    mathlib_commit: 1f414401f69059aa7eead47b53ee40bd38455eeb
+    GaussianField_commit: e28a381288f0c6cdd275f9fd84cfb1b20feea957
+    package_reported_sorry_count: 0
+    package_reported_project_axiom_count: 0
+  OSreconstruction_comparator:
+    repository: https://github.com/mrdouglasny/OSreconstruction-comparator
+    commit: 93cdb40e728ba27b7b1b55efc30d57f7b43de9aa
+    substantive_source_commit: cf0904e34a7c146a9f312f601e3707dca4a87697
+    mirror_repository: https://github.com/mrdouglasny/os-reconstruction
+    mirror_tree_hash: 2c83922661864bf965ebceb774f3f8b2d8bed819
+important_note: OSforGFF and OSreconstruction use different Lean and Mathlib revisions. Their results are not a single directly composable build without an explicit compatibility and instantiation step.
