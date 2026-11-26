@@ -1,23 +1,23 @@
 # Paper Outline and Manuscript Status
 
-**Working title:** Machine-Checked Proofs and Mature Mathematical Formalisms in Physics: The Epistemology of Formalized Osterwalder–Schrader Reconstruction
+**Working title:** Machine-Checked Proofs and Formalization Interfaces in Mathematical Physics: The Epistemology of Osterwalder–Schrader Reconstruction
 
 ## Manuscript structure
 
-1. **Abstract:** 216 words; within EJPS's 150–250 word requirement.
-2. **Introduction:** formulates the epistemological problem, situates it in the literature on scientific representation and mature mathematical formalisms, and introduces the OS case.
-3. **Epistemological Analysis of Osterwalder–Schrader Reconstruction:** analyzes the mathematical claims of OSforGFF, OSreconstruction, and Comparator, including the growth hypothesis, formal interfaces, and physical interpretation.
-4. **Discussion:** assesses the local deductive warrant supplied by machine checking and the additional conditions required for model-internal and target-directed claims.
-5. **Conclusion:** answers what machine checking establishes and identifies the scope of its contribution to scientific reasoning.
+1. **Abstract:** 213 words; within EJPS's 150–250 word requirement.
+2. **Introduction:** establishes the problem of theorem reuse across formal representations and situates it in formalized science, proof correspondence, mature mathematical formalisms, and cross-model warrant.
+3. **The Osterwalder–Schrader Formalization Network:** analyzes OSforGFF, OSreconstruction, and Comparator, including exact test spaces, growth predicates, record bridges, and public composition boundaries.
+4. **Inter-Formalization Warrant and Scientific Knowledge:** distinguishes local proof warrant, source-formalism correspondence, inter-formalization warrant, model instantiation, and target-directed inference.
+5. **Conclusion:** states the bounded contribution and its implications for formalized mathematical physics.
 
 ## Integrated manuscript
 
-The complete article, including abstract, keywords, conclusion, and human-readable references, is maintained in **manuscript/full_manuscript.md**.
+The complete article, including abstract, keywords, conclusion, and 20 human-readable references, is maintained in **manuscript/full_manuscript.md**.
 
 ## Journal target
 
-European Journal for Philosophy of Science (EJPS), subscription route (no APC). See **docs/JOURNAL_SELECTION_AND_SUBMISSION_PLAN.md** for current author requirements and the AI-use disclosure obligation.
+European Journal for Philosophy of Science (EJPS), subscription route (no APC). The manuscript contains approximately 5,840 words of main text, excluding abstract and references.
 
 ## Editorial status
 
-The first complete manuscript has been assembled and its citations are being aligned with APA 7. The remaining work is author verification, final bibliography/source audit, AI-use disclosure, anonymization, and EJPS template formatting. No new research direction is planned.
+The major revision is integrated. Before LaTeX conversion, conduct one critical review of the originality and coherence of the inter-formalization warrant argument. No additional broad literature expansion is planned.
