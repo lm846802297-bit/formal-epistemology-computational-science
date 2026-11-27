@@ -23,6 +23,9 @@
 
 - [Manuscript outline](manuscript/outline.md)
 - [Three theoretical chapters](manuscript/THEORETICAL_CHAPTERS.md)
+  - [3.1 Ideological Fantasy](manuscript/theory/3_1_IDEOLOGICAL_FANTASY.md)
+  - [3.2 Epistemic Fetishism](manuscript/theory/3_2_EPISTEMIC_FETISHISM.md)
+  - [3.3 Big Other and Missing Guarantee](manuscript/theory/3_3_BIG_OTHER_AND_MISSING_GUARANTEE.md)
 - [Literature map and formal cases](research/LITERATURE_AND_CASES.md)
 - [Public trust and social reception](research/PUBLIC_TRUST_AND_RECEPTION.md)
 - [Research question architecture](research/RESEARCH_QUESTIONS.md)
