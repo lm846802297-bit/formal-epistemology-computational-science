@@ -1,53 +1,91 @@
-# Coding guide for the Lean-focused study
+# Coding guide for the Žižekian study of Lean verification
 
-Every record must preserve exact public wording, source artifact, locator, date/version, Lean theorem/definition/hypotheses, review status, and reason for classification.
+Every record preserves the exact public wording or institutional practice, source and locator, date/version, Lean theorem and proof artifact, definitions/assumptions, review status, semantic bridge, and reason for classification.
 
 ## 1. Claim-scope code
-- **Accurate:** explicit claim is supported by the cited Lean artifact and does not imply a broader target.
-- **Reasonable compression:** details omitted but surrounding context preserves intended scope or sufficient qualification.
+
+- **Accurate:** the claim is supported by the cited Lean artifact and does not imply a broader target.
+- **Reasonable compression:** details are omitted, but surrounding context preserves the intended scope or supplies sufficient qualification.
 - **Ambiguous:** materially different readings remain possible or relevant evidence is missing.
-- **Substantive scope expansion:** claim attributes a stronger conclusion to Lean verification than the formal artifact and documented semantic bridge establish. Identify the exact missing inferential link.
+- **Substantive scope expansion:** the claim attributes a stronger conclusion to Lean verification than the formal artifact and documented semantic bridge establish. Identify the exact missing inferential link.
 
-## 2. AI and human contribution code
-Record whether AI:
-1. proposed a conjecture;
-2. found a proof strategy or key lemma;
-3. generated a natural-language proof;
-4. generated a Lean proof;
-5. translated a natural-language proof into Lean;
-6. searched or verified an existing Lean proof;
-7. worked in a human-AI collaborative workflow.
+## 2. Technical-warrant code
 
-Separately record human tasks: problem selection, theorem formulation, formalization design, proof repair, semantic validation, mathematical interpretation, review, and communication.
-
-## 3. Lean verification dimensions
-Code separately:
+Record separately:
 - formal theorem statement and namespace;
-- definitions, imported libraries, axioms, and assumptions;
+- definitions, assumptions, axioms, imported libraries, and dependencies;
 - kernel/build acceptance;
-- use of admitted placeholders or additional axioms;
+- admitted placeholders or additional axioms;
 - reproducibility and pinned commit;
 - independent proof-term checker or comparator results;
-- semantic correspondence to the intended mathematical claim;
-- human mathematical understanding and exposition;
-- peer review and institutional recognition.
+- correspondence to the intended mathematical claim;
+- mathematical exposition and human understanding;
+- expert review, publication, and institutional recognition.
 
 Never collapse these into one “Lean verified” binary.
 
-## 4. Public framing and reception
-For each media or public-discussion text, code:
-- authority source emphasized: Lean/kernel, AI model, named mathematician, research team, university, company, journal, mathematical community;
-- certainty frame: claim, breakthrough, proof, solved, certified, accepted, still under review;
-- human-labour visibility: foregrounded, backgrounded, omitted, explicitly acknowledged;
-- public interpretation: awe/excitement, trust, scepticism, anxiety, institutional distrust, confusion about formal checking, distinction between checking and understanding, or other;
-- source type: representative survey, expert interview, institutional announcement, professional media, general media, self-selected online discussion.
+## 3. Collective-mediation code
 
-## 5. Rival explanations
-Record ordinary shorthand, genre conventions, legitimate reliance on expert testimony, explicit qualifications elsewhere, institutional reputation, audience literacy, and ambiguity. Strong wording is not automatically distortion.
+Record the visibility and role of:
+- problem selection and theorem formulation;
+- mathematical definitions and formalization design;
+- AI contribution (conjecture, strategy, natural-language proof, Lean proof, translation, proof search);
+- Lean/kernel/library/toolchain development and maintenance;
+- semantic comparison and definition sanity checks;
+- expert validation and institutional review;
+- responsibility for public communication.
 
-## 6. Inference limits
-- Public texts establish representations and invitations to trust, not actual belief.
+For each component, code **foregrounded**, **partly visible**, **backgrounded**, **omitted**, or **not applicable / unknown**.
+
+Do not imply that collective labour creates mathematical truth. It supplies and maintains the artifact, infrastructure, semantic interpretation, and social warrant through which the result is verified and recognized.
+
+## 4. Three empirical planes
+
+- **Discursive plane:** explicit claims in papers, announcements, press releases, institutional pages, and media.
+- **Material-institutional plane:** formal repositories, checking workflows, expert review, certification, publication, and institutional use.
+- **Spontaneous-practical plane:** repeated routine reliance on the Lean credential as a broader warrant. Code only when repeated practices are documented; do not infer it from one statement.
+
+## 5. Žižekian mechanism codes
+
+### 5.1 Ideological fantasy
+- **Absent:** no representation of the local check as broader closure.
+- **Weak / possible:** isolated or ambiguous closure language, with insufficient evidence of practical role.
+- **Moderate:** repeated representations link formal checking to broader certainty, but scope-preserving context remains significant.
+- **Strong candidate:** recurrent or institutionally consequential representation of the local check as closure beyond its formal scope, with the exact inferential gap identified.
+
+### 5.2 Fetishistic displacement
+- **Absent:** machine is accurately represented as one component in a visible human, semantic, technical, and institutional network.
+- **Weak / possible:** some compression or backgrounding of mediation, but no clear attribution of autonomous authority.
+- **Moderate:** collective mediation is repeatedly backgrounded while machine authority is foregrounded.
+- **Strong candidate:** the broader authority generated through the network is represented or used as an autonomous property of Lean, and the pattern is repeated or institutionally consequential.
+
+### 5.3 Disavowal
+- **None established:** no evidence of acknowledged limits plus continued broader investment.
+- **Possible fetishistic disavowal:** a limitation is acknowledged and the credential continues to carry broader symbolic weight, but actor-level continuity or practical effect is incomplete.
+- **Supported fetishistic disavowal:** the same actor/institutional practice acknowledges the limitation while continuing to invest in the credential as a broader guarantee.
+- **Possible cynical disavowal:** evidence suggests a manipulative distance between acknowledged knowledge and practice.
+- **Supported cynical disavowal:** actor-level evidence establishes the acknowledged limit, continued overextended practice, and the relevant strategic/manipulative relation.
+
+Do not infer unconscious motive. The more demanding disavowal codes require a traceable actor/institutional chain.
+
+## 6. Rival explanations
+
+Record whether the apparent pattern is better explained by:
+- ordinary shorthand or headline compression;
+- genre conventions;
+- explicit qualifications elsewhere in the same source;
+- legitimate reliance on expert testimony and a trusted kernel;
+- institutional reputation;
+- transparent human review;
+- later correction or clarification;
+- insufficient evidence.
+
+Strong wording is not automatically distortion.
+
+## 7. Inference limits
+
+- Public texts establish representations and invitations to trust, not actual audience belief.
 - Self-selected online posts establish that an interpretation exists, not its prevalence.
-- General trust surveys establish background attitudes, not causal effects of a Lean announcement.
-- No unconscious motive, transference, or ideological attachment may be attributed to an individual from wording alone.
-- Ideological analysis requires repeated relations among public claims, practices, and institutions, not isolated rhetoric.
+- No unconscious motive, transference, or individual ideological attachment may be attributed from wording alone.
+- A technical mismatch is not automatically a kernel failure or a refutation of the underlying theorem.
+- A case may be coded as warranted reliance, transparent mediation, ambiguity, or insufficient evidence rather than ideological fetishism.
