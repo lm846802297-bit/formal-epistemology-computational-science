@@ -1,132 +1,246 @@
-# A social-epistemic model of Lean verification and public trust
+# The Žižekian model of the ideological fetishism of formal verification
 
 **Project:** *In Lean We Trust? The Ideology of Machine-Checked Proofs in Science*  
-**Cut-off:** 27 November 2026  
-**Status:** proposed original model; to be tested against the Lean cases.
+**Date:** 27 November 2026  
+**Status:** controlling theoretical and operational model. This document supersedes the earlier social-epistemic/public-trust model. The primary empirical scope remains the four Lean cases.
 
-## 1. Purpose
+## 1. Exact object and central question
 
-The model explains how a technically bounded Lean verification result can become a socially recognized credential of scientific reliability. It integrates social epistemology, science communication, institutional trust, and Žižekian ideology critique without treating them as interchangeable.
+The object is not Lean's internal correctness, nor trust in AI in general. It is the social-symbolic operation of the **Lean-verification credential** as it circulates through mathematical research, institutional recognition, and scientific communication.
 
-## 2. Five-stage chain
+**Central question:**
 
-### Stage 1 — Knowledge production
-AI systems and human researchers generate conjectures, arguments, proofs, and mathematical results.
+> Under what conditions does the genuine but bounded technical warrant of Lean verification acquire an ideological function as a symbolic guarantee of broader mathematical or scientific certainty?
 
-### Stage 2 — Lean verification
-Lean checks a proof term against a formal proposition under specified definitions, axioms, libraries, and trusted computing assumptions.
+**Central hypothesis — The Ideological Fetishism of Formal Verification:**
 
-### Stage 3 — Semantic and expert mediation
-Experts assess whether the formal proposition represents the intended mathematical or scientific claim, whether the theorem's hypotheses are instantiated, and what the result means in the discipline.
+The epistemic authority of formal verification may be ideologically sustained when the genuine reliability of a bounded machine check is made to function as an autonomous guarantee of broader scientific certainty, while the human, conceptual, semantic, and institutional relations that make the verification meaningful recede from view.
 
-### Stage 4 — Institutional and communicative certification
-Universities, companies, journals, scientific societies, and media select which features of the process to foreground. They assign labels such as “AI-discovered,” “Lean-verified,” “breakthrough,” “solved,” or “accepted.”
+This is a Žižekian hypothesis to be tested, not a diagnosis presumed true of every Lean project.
 
-### Stage 5 — Public interpretation and trust
-Audiences interpret the claim using prior beliefs, trust in science, trust in institutions, experience with AI, perceived transparency, and media framing.
+## 2. The non-negotiable technical baseline
 
-No stage entails the next automatically.
+Lean's kernel checks whether a proof term has the required type for a specified formal proposition under a specified formal environment. This is a real and valuable technical achievement.
 
-## 3. Four objects of trust
+The analysis keeps distinct:
 
-1. **AI discovery trust:** confidence that an AI system can find conjectures, arguments, or proof strategies.
-2. **Lean checker trust:** confidence that Lean correctly checks a proof of a specified formal proposition.
-3. **Semantic correspondence trust:** confidence that the formal proposition and proof faithfully represent the intended mathematical or scientific claim.
-4. **Institutional/communicative trust:** confidence that experts, universities, companies, journals, and media accurately assess and communicate what has been established.
+1. **Derivational validity:** whether the proof term is accepted for the formal proposition.
+2. **Statement identity and semantic correspondence:** whether the formal proposition is the intended mathematical theorem and faithfully represents the source claim.
+3. **Mathematical understanding:** whether mathematicians can interpret, reconstruct, explain, and assess the proof.
+4. **Epistemic significance:** whether the result is novel, important, and relevant to the discipline.
+5. **Institutional and public recognition:** how experts, journals, institutions, and communicators authorize and represent the result.
 
-A public audience may trust Lean's kernel but distrust an AI-generated claim; trust a mathematician but remain unsure about a formal artifact; or trust science institutions while disapproving of extensive AI involvement.
+Kallel and El Louadi (2026) already distinguish derivational validity, representational fidelity, and epistemic significance. This paper does not claim those distinctions as original.
 
-## 4. Three transformations
+**Core distinction:** a formally correct Lean proof can coexist with an ideological representation of its authority. The ideological critique does not imply that the proof is false, that Lean is unreliable, or that justified reliance on the checker is irrational.
 
-### A. Technical credentialing
-A Lean check becomes evidence that a specified proposition has been proved within a formal system under stated definitions and axioms.
+## 3. Deriving the model from Žižek's primary texts
 
-### B. Social authorization
-Experts and institutions make the formal result legible and authorize its relevance to a wider mathematical or scientific claim. This is warranted only where semantic correspondence and assumptions are supported.
+### 3.1 Ideology is not reducible to false consciousness
 
-### C. Symbolic generalization
-Public discourse may treat Lean verification as a more general sign that “science has certainty,” even when the check covers only one link in the chain. This is where a Žižekian ideological analysis may become relevant.
+In “The Spectre of Ideology” (1994), Žižek argues that the ideological function of a position cannot be identified simply by asking whether its explicit content is factually true or false. What matters is also the position from which it is enunciated and the social relation it helps reproduce. A true proposition can function ideologically.
 
-## 5. Hardwig and Žižek
+In *The Sublime Object of Ideology* (1989), the critique moves beyond the idea that ideology is merely a mistaken picture of an otherwise complete reality. Ideological efficacy can reside in the practices and relations through which social reality is sustained.
 
-### Hardwig / social epistemology
-Hardwig explains why a non-expert can rationally depend on experts and collective cognitive labour. The individual cannot reproduce every proof or experiment, so justified knowledge depends on testimony, competence, honesty, division of labour, and reliable institutions.
+**Application:** “Lean verified the theorem” may be factually correct. The philosophical question is what that statement is made to authorize, how it is embedded in practice, and whether the authority of the local check is enlarged into a guarantee of claims that the kernel did not check.
 
-### Žižek
-Žižek asks how a social order organizes its relation to uncertainty:
-- **Fantasy:** what image of a final guarantee makes the social practice appear coherent?
-- **Fetishism:** how does collective labour or a social relation appear as a property of an object?
-- **Cynical disavowal:** how can a limitation be known and yet remain practically ineffective in the reproduction of authority?
+This is why the project is not a fact-checking exercise about exaggerated headlines. It is an analysis of the social function of a real technical credential.
 
-Žižek does not replace Hardwig's normative account. His contribution is a critical account of the symbolic function of the authority that a society invests in.
+### 3.2 Ideological fantasy: the scene of closure
 
-## 6. Proposed concept: mediated verification authority
+**Primary anchor:** Žižek, *The Sublime Object of Ideology*, pp. 28–31, especially the discussion of ideological fantasy around p. 30.
 
-**Mediated verification authority** is the socially recognized authority that accrues to a scientific or mathematical claim when a bounded Lean check is interpreted through expert testimony, institutional endorsement, and public communication.
+Fantasy is not simply a false picture that conceals reality. It supplies coordinates through which reality is experienced and a social practice becomes intelligible. It can organize the appearance of coherence while covering over an antagonism, gap, or lack that cannot be finally eliminated.
 
-It has four components:
-1. **Checker reliability:** Lean correctly checks the encoded proof.
-2. **Semantic warrant:** the formalized proposition faithfully represents the intended claim.
-3. **Institutional warrant:** qualified experts and institutions assess the result and its significance.
-4. **Public warrant:** audiences receive sufficient information to understand what is and is not established.
+**Application to Lean:** formal verification can stage a scene in which a complex process appears to culminate in a simple and reproducible verdict: “verified.” The hypothesis is that this local closure may come to symbolize closure at other levels—semantic correspondence, mathematical understanding, empirical adequacy, institutional acceptance, or scientific significance.
 
-This is a descriptive concept, not automatically a critical judgment. It can identify legitimate as well as distorted authority.
+The fantasy is not the claim that Lean literally checks empirical reality. It is the possible symbolic conversion of a bounded formal verdict into an image of more comprehensive certainty.
 
-## 7. Proposed concept: epistemic fetishism of Lean verification
+**Evidence required:**
+- recurring representations of the formal check as final settlement or closure;
+- a demonstrable movement from the exact formal proposition to a broader mathematical/scientific claim;
+- evidence that this representation has a practical or institutional role, rather than appearing only as a one-off rhetorical flourish.
 
-**Epistemic fetishism of Lean verification occurs when the socially produced reliability of a Lean-checked result is represented as an autonomous property of the machine, while the human, semantic, and institutional relations that make the check relevant recede from view.**
+A single word such as “proved,” “verified,” or “solved” is insufficient without its context and exact referent.
 
-Necessary evidence:
-- a traceable collective process behind the result;
-- public representations that foreground Lean as autonomous guarantor;
-- a demonstrable omission or displacement of conditions necessary to interpret the check;
-- comparison with alternative representations that preserve those conditions.
+### 3.3 Fetishism: the displacement of relations into the machine-object
 
-A headline that says “Lean verified X” is not enough on its own. If the body explains the exact theorem, assumptions, human role, and review status, the headline may be reasonable compression.
+**Primary anchors:** Marx, *Capital*, vol. I, ch. 1, §4; Žižek, *The Sublime Object of Ideology*, pp. 19–20.
 
-## 8. Testable implications
+Marx's commodity-fetishism analysis concerns the way a social relation among people assumes the appearance of a relation among things. Žižek emphasizes the form through which an effect generated by a network of relations can appear as an immediate property of one element.
 
-The Chen–Jia (2026) experiment shows that public evaluations respond to disclosure of AI's role and to statements about retained human intellectual contribution. It does not test Lean. The following are hypotheses for a later, proof-assistant-specific study:
+**Application to Lean:** the authority of a machine-checked result depends on a network that includes:
+- selection of the problem and formulation of the intended theorem;
+- mathematical definitions and formalization choices;
+- Lean, its kernel, libraries, dependencies, compiler/toolchain, and computing infrastructure;
+- construction and maintenance of the proof artifact;
+- comparison between the formal proposition and the intended mathematical claim;
+- expert scrutiny, institutional recognition, and public explanation.
 
-- **H1 — Human-accountability visibility:** named human review and responsibility increase trust relative to an otherwise identical AI-only disclosure.
-- **H2 — Lean credential:** adding a credible Lean-verification statement increases perceived reliability of the formal proposition, but may not increase trust in the broader scientific conclusion unless semantic correspondence is also disclosed.
-- **H3 — Scope comprehension:** explaining the difference between Lean proof checking and source-claim correspondence improves participants' ability to identify what has been established.
-- **H4 — Institutional mediation:** endorsement by a reputable university or mathematical society may affect trust independently of AI role and Lean status.
-- **H5 — AI experience:** prior AI use may moderate responses; direction and functional form should be tested rather than assumed.
+The fetishistic hypothesis is that the epistemic authority produced and mediated through this network can appear as an autonomous property of “Lean itself.”
 
-A future factorial experiment could vary AI contribution, Lean verification, human review, and institutional endorsement. It is not part of the current phase.
+This is a **structural analogy**, not an identity with Marx's commodity form. Lean is not being described as a commodity in Marx's technical economic sense. Nor does collective labour create mathematical truth. The relevant social relations produce, maintain, interpret, and authorize the formal artifact and the warrant for applying it to a scientific claim.
 
-## 9. Fit to the four Lean cases
+**Evidence required:**
+- a traceable network of human, technical, semantic, and institutional relations;
+- public or institutional representations that attribute the wider authority to the machine as if it were self-grounding;
+- omission or displacement of relations necessary to understand what the check establishes;
+- comparison with technical and institutional records that make those relations visible.
 
-- **Riemann:** high checker reliability; Mathlib statement correspondence reported; human understanding and conventional review remain distinct.
-- **Navier–Stokes:** Lean checks formal declarations; an independent critique reports mismatch with some natural-language estimates. Tests semantic warrant directly.
-- **Erdős:** Lean proof search and checking are accompanied by human validation of formal statements. Tests transparent mediated authority.
-- **Liquid Tensor:** Lean formalization and human mathematical interaction jointly shaped expert confidence. Tests hybrid human-machine authority.
+Merely praising Lean, relying on it for its exact task, or accurately saying “Lean checked this proof” does not establish fetishism.
 
-## 10. Provisional contribution
+### 3.4 Disavowal: the persistence of investment despite acknowledged limits
 
-Hardwig explains the rational possibility and conditions of epistemic dependence. The proposed model adds an account of how a technical credential travels through institutions and communication to become public authority. Žižek adds a critical account of the symbolic function of this authority: how a society may invest in an image of final certainty, how collective labour can appear as an autonomous machine property, and how known limits may or may not be displaced in practice.
+**Primary anchors:** Žižek, *The Sublime Object of Ideology*, pp. 24–31; Žižek, “The Spectre of Ideology,” especially the discussion of cynical ideology; Black (2025) and Kuldova (2019) for a more explicit distinction between forms of disavowal.
 
-The contribution is not that all trust is ideological. It distinguishes warranted mediated reliance on Lean from cases where a bounded verification result is made to carry an unwarranted symbolic guarantee.
+Žižek's discussion of cynical ideology draws on Sloterdijk's critique of cynical reason. The formula “they know very well what they are doing, yet they are doing it” should not be presented as a phrase originally coined by Žižek.
 
-## 11. Why society values a symbolic guarantee: uncertainty relocation
+For this project, disavowal is a **conditional persistence mechanism**, not a required stage in every instance of fetishism.
 
-The model must not assume that society simply desires absolute certainty. A more defensible starting point is the structural asymmetry between the social reach of scientific claims and the unequal distribution of the capacity to assess them. Lay audiences often lack first-hand access to data, methods, proofs, and institutional deliberation. Public trust therefore depends on a network of testimony, source credibility, communication, and research practices.
+Two forms must be kept distinct:
 
-Lean offers a visible, reproducible credential: a proof term is checked against a specified formal proposition. This can make one part of a complex epistemic chain legible to non-specialists through a simple public sign such as “formally verified.” The sign can be useful and warranted within its scope.
+- **Fetishistic disavowal:** the relevant limitation is acknowledged, yet the technical object continues to sustain the symbolic investment in a broader guarantee. The actor need not conceal the limitation; knowledge and attachment coexist.
+- **Cynical disavowal:** the gap between acknowledged knowledge and practice is maintained through a manipulative distance or strategic obscuring of that gap. This requires stronger evidence than a mismatch between two public statements.
 
-Yet verification does not abolish uncertainty; it relocates it. The kernel can settle a derivational question about a formal object. It does not by itself settle whether the object represents the intended problem, whether the assumptions are appropriate, what the result contributes, or whether the public description is accurate. As technical uncertainty at the kernel level falls, the importance of semantic, interpretive, institutional, and communicative judgments can rise.
+Black (2025) explicitly distinguishes cynical and fetishistic disavowal. We use this distinction to refine the empirical test; we do not claim that this two-part taxonomy is an original formulation by Žižek.
 
-Thus the central hypothesis is not that Lean removes uncertainty, but that **Lean makes one form of uncertainty highly controllable and thereby gives a visible form to the wider social desire for reliable knowledge**. Whether that visible credential is understood as limited or generalized beyond its warrant is the key empirical question.
+**Minimum evidence for a disavowal hypothesis:**
+1. an explicit acknowledgement of the precise limitation;
+2. continued practical or symbolic investment in a broader guarantee;
+3. a traceable connection between the acknowledgement and the continued practice within the same actor or institutional communication chain;
+4. evidence that the discrepancy is not resolved by surrounding context, ordinary shorthand, or a correction.
 
-## 12. Close prior literature and novelty boundary
+Public texts can establish documented representations and practices. They do not, by themselves, establish unconscious motives. No case is coded as cynical merely because an announcement contains a caveat and a strong claim.
 
-Kallel and El Louadi (2026), “Verification Abundance, Adjudication Scarcity” (arXiv:2608.28997), already distinguish derivational validity, representational fidelity, and epistemic significance, and argue that machine checking transfers rather than eliminates the human adjudication burden. This project does not claim those distinctions as original.
+### 3.5 The missing guarantee: the Big Other as structural background
 
-De Millo, Lipton, and Perlis (1979), “Social Processes and Proofs of Theorems and Programs,” DOI 10.1145/359104.359106, argue that mathematical confidence is shaped by social processes of reading, criticism, simplification, and acceptance. Their account is a historical precursor for the social dimension of proof.
+The Lacanian/Žižekian point that there is no complete Big Other and no “Other of the Other” supplies a structural horizon: no final symbolic authority can guarantee the consistency of the entire order from outside.
 
-Fetzer (1988), “Program Verification: The Very Idea,” DOI 10.1145/48529.48530, distinguishes the formal algorithmic structure from the program as a causal object. The present paper should engage the analogy carefully: a mathematical theorem in Lean is not identical to a program's empirical behaviour, but both cases expose the need to distinguish formal relations from what the formal object is taken to represent.
+Lean is **not** the Big Other. It may be positioned as a technical credential within a symbolic order involving experts, journals, institutions, and mathematical communities. The point is that a local technical guarantee cannot become an ultimate guarantor of every level of scientific knowledge.
 
-Iordanou, Antoniou, and De Vos (2026), “Public Trust in Science: A Systematic Literature Review,” DOI 10.1007/s10805-026-09732-5, synthesize 124 empirical studies and organize public trust factors around receiver, message, and source. Their review identifies integrity, transparency, epistemic inclusion, and communication channels as important. This supports the society-wide framing and warns against a single-factor account in which a technical credential alone creates trust.
+This is a supporting premise, not a fourth co-equal ideological mechanism. The paper does not need to code “Lean as Big Other.” It asks whether Lean is made to function as if it supplied a final guarantee.
 
-**Proposed originality:** the paper investigates the symbolic and ideological function of a highly visible formal-verification credential in the public mediation of scientific knowledge. It connects the bounded epistemic warrant of Lean to the wider social organization of trust and to Žižek's account of fantasy and fetishism. The original claim is about the social life of the guarantee, not the technical distinction between proof checking and semantic interpretation.
+### 3.6 Three empirical planes from “The Spectre of Ideology”
+
+In “The Spectre of Ideology,” Žižek discusses ideology through three connected planes: doctrine or explicit ideas; ideology in its material externality and apparatuses; and the more elusive “spontaneous” ideology operating at the heart of social reality (roughly pp. 9–10 in the first English edition).
+
+This supplies an empirical design, not three additional theoretical mechanisms:
+
+1. **Discursive plane:** papers, technical reports, press releases, institutional statements, media headlines, and public descriptions.
+2. **Material-institutional plane:** repositories, proof-checking workflows, review procedures, institutional endorsements, publication processes, and the distribution of responsibility.
+3. **Spontaneous-practical plane:** repeated practices in which a Lean credential is treated as a default warrant for a broader claim. This requires evidence of routine practice; it cannot be inferred from a single public statement.
+
+The three Žižekian mechanisms—fantasy, fetishism, and disavowal—can operate across these planes.
+
+## 4. The model: conditions, operations, and possible outcome
+
+### 4.1 Conditions of possibility
+
+- **Epistemic division of labour:** no single participant personally performs or audits every mathematical, formal, technical, and institutional task.
+- **No final guarantor:** the chain of symbolic authorization has no ultimate external guarantee.
+- **A genuine technical anchor:** Lean supplies a real and visible form of local formal assurance.
+- **Mediation:** experts and institutions connect the formal artifact to the intended mathematical claim and its significance.
+
+These conditions do not automatically produce ideology.
+
+### 4.2 Three ideological operations
+
+| Operation | Theoretical question | Function in this project |
+|---|---|---|
+| Ideological fantasy | What scene makes the practice appear coherent and complete? | The local check stages the apparent closure of wider scientific uncertainty. |
+| Fetishism | How do social relations appear as properties of an object? | The network that makes verification meaningful is condensed into the apparent autonomous authority of Lean. |
+| Disavowal | How can investment persist when limits are known? | The symbolic guarantee can continue to operate despite acknowledged boundaries. |
+
+Fantasy and fetishism are mutually reinforcing analytical dimensions, not consecutive mechanical stages. Disavowal is conditional: it becomes relevant when there is evidence that limitations are known and the broader investment nevertheless persists.
+
+### 4.3 Schematic representation
+
+\[
+\begin{aligned}
+&\text{Genuine, bounded technical warrant}\\
+&\quad+\text{collective epistemic mediation}\\
+&\quad+\text{institutional and symbolic circulation}\\
+&\Downarrow\\
+&\text{Fantasy: a scene of broader certainty}\\
+&\quad+\text{Fetishism: authority condensed into the machine-object}\\
+&\Downarrow\\
+&\text{Possible ideological enlargement of the verification credential}\\
+&\Downarrow\\
+&\text{Disavowal, if acknowledged limits coexist with continued investment}
+\end{aligned}
+\]
+
+This diagram is a heuristic, not a deterministic causal sequence. The operations can overlap, reinforce one another, or fail to appear.
+
+## 5. Operational definition and evidence threshold
+
+**The ideological fetishism of formal verification** is a defensible diagnosis only when the evidence supports all four core conditions:
+
+- **T — Real technical warrant:** the exact formal proposition and the actual Lean check are identified.
+- **E — Scope enlargement:** an identifiable representation or practice makes the formal credential warrant a broader claim than the checked proposition and documented semantic bridge establish.
+- **F — Fetishistic displacement:** the authority generated through collective epistemic and institutional relations appears as an autonomous property of the machine.
+- **R — Reproduction:** the enlargement and displacement recur or have a documented institutional/practical role; they are not merely an isolated phrase.
+
+The analysis must also test ordinary shorthand, genre conventions, surrounding qualifications, legitimate reliance on experts, and institutional reputation.
+
+**Disavowal is not necessary for the core diagnosis.** If the limits are explicitly known and the broader investment persists, the analysis can make the stronger, separately evidenced claim of fetishistic or cynical disavowal.
+
+## 6. Case design: four Lean cases as tests, not illustrations
+
+| Case | Main theoretical test | Provisional role |
+|---|---|---|
+| Riemann hypothesis | Formal certainty, expert authorization, AI-mediated exposition, and the symbolic scene of closure | Ambivalent case |
+| Navier–Stokes | Whether kernel validity is made to stand for disputed correspondence with a separate natural-language proof | Strongest candidate for scope enlargement and fetishistic displacement |
+| Erdős / AlphaProof Nexus | Whether explicit human statement validation and artifact provenance constrain machine-autonomy narratives | Mixed case and counter-test |
+| Liquid Tensor Experiment | Whether visible collective mathematical labour and definition checks resist autonomous-machine authority | Strong counter-case |
+
+Detailed evidence and current case judgments are maintained in THEORY_CASE_TESTS.md and LEAN_CASE_STUDY_AUDIT.md.
+
+## 7. What would count against the model?
+
+The model is weakened or falsified in a case when:
+- official and public descriptions consistently confine Lean's role to the exact formal proposition;
+- semantic correspondence and assumptions are made explicit;
+- human, technical, and institutional contributions remain visible;
+- experts and institutions treat Lean as one component of a wider assessment rather than as a final arbiter;
+- apparent overstatement is ordinary shorthand whose context preserves the correct scope;
+- no repeated practice or institutional consequence supports the alleged enlargement.
+
+The Liquid Tensor case is especially important because it tests whether visible collective work and semantic scrutiny can prevent the machine from appearing as an autonomous guarantor.
+
+## 8. What the model contributes—and what it does not claim
+
+The model does not claim:
+- that Lean is unreliable or that formal verification is merely ideological;
+- that all reliance on proof assistants is irrational;
+- that every “Lean-verified” statement is fetishistic;
+- that the distinction between derivational validity and semantic correspondence is new;
+- that this is the first Žižekian critique of technology;
+- that public texts reveal unconscious motives or population-level belief.
+
+The proposed contribution is narrower: a Žižekian account of how the genuine but bounded warrant of Lean verification can acquire a broader symbolic function; how collective epistemic relations can be displaced into the apparent autonomy of the machine; and how that investment may persist despite acknowledged limits.
+
+## 9. Predetermined acceptance criteria
+
+The model is ready for manuscript use when:
+1. the primary-text derivation of fantasy, fetishism, and disavowal is documented;
+2. the distinction between the three ideological operations and the three empirical planes is maintained;
+3. the exact formal object and public claim are paired in all four cases;
+4. each case includes supporting evidence, counter-evidence, and rival explanations;
+5. no disavowal or unconscious motive is inferred without the required evidence;
+6. the central diagnosis is made only when T, E, F, and R are supported.
+
+Once these criteria are met, the next task is manuscript drafting, not further expansion of the theory or case sample.
+
+## 10. Core references
+
+### Primary theoretical texts
+- Žižek, Slavoj. *The Sublime Object of Ideology*. London: Verso, 1989, especially pp. 19–20, 24–31, 78–80, 102–110, 136–138. Page references are to the 1989 English edition; verify against the exact reprint used in the manuscript.
+- Žižek, Slavoj. “The Spectre of Ideology.” In *Mapping Ideology*, edited by Slavoj Žižek, pp. 1–33. London: Verso, 1994. Relevant discussions include the truth/ideology distinction, cynicism, and the three planes of ideology.
+- Marx, Karl. *Capital*, vol. I, ch. 1, §4, “The Fetishism of Commodities and the Secret Thereof.”
+- Lacan, Jacques. *Desire and Its Interpretation: The Seminar of Jacques Lacan, Book VI*, trans. Bruce Fink. Cambridge: Polity, 2019, ch. XVI, pp. 291–305. Supporting source for “There is no Other of the Other.”
+
+### Close conceptual interlocutors
+- Black, Jack. “Examining the Mechanism of Disavowal and its Two Forms: Cynical Disavowal and Fetishistic Disavowal.” *Theory & Psychology* 35(1) (2025): 117–135. DOI: 10.1177/09593543241308199.
+- Kuldova, Tereza Østbø. “Fetishism and the Problem of Disavowal.” *Qualitative Market Research* (2019). DOI: 10.1108/QMR-12-2016-0125.
+- Flisfeder, Matthew. “There is no metalanguage; or, Truth has the structure of a fiction: The Žižekian system, between post-ideology and post-truth.” *Enrahonar* 70 (2023): 171–185. DOI: 10.5565/rev/enrahonar.1420.
