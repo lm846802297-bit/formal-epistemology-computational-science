@@ -253,6 +253,11 @@ The paper reports 9 solutions among 353 open Erdős problems represented as Lean
 
 This is a useful scope-preserving case: the authors report denominators, formal statement selection, Lean verification, and human review rather than implying that AI has solved mathematics generally. The public-facing AAAS release is at https://www.eurekalert.org/news-releases/1146436.
 
+
+The Science Media Centre Spain collected contrasting expert reactions on 8 October 2026. Josep Curto argued that the simple generate-and-verify agent solved the same nine Erdős problems as the more elaborate system, questioned the cost accounting, and emphasized that Lean checks the written formal statement rather than its fidelity to the intended mathematical problem. Javier Aramayona raised the concern that a growing body of certified but not fully understood results could weaken mathematical understanding and researcher training. Other respondents emphasized the genuine research potential. Source: https://sciencemediacentre.es/en/alphaproof-nexus-new-ai-tool-designed-tackle-mathematical-proofs.
+
+A separate audit by Carlos Toledo reports that the published Lean proofs replay under two kernels, but that three of the 38 published OEIS conjectures already had proofs before the preprint, two formal statements are degenerate relative to the intended conjectures, and the nine Erdős statements correspond to seven problem numbers with parts and variants. The auditor explicitly does not settle whether all Formal Conjectures statements match the original Erdős problems; its readings of the OEIS records are AI-generated and not specialist-confirmed. It therefore supplies a valuable secondary audit, not a final mathematical verdict. Source: https://carlostoledo.co/reports/alphaproof-nexus.html.
+
 ### 8.5 Population-level context
 
 Three sources provide distinct, non-interchangeable measures:
