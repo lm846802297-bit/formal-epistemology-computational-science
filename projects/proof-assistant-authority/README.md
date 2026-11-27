@@ -39,6 +39,8 @@
 - [Revised controlling theoretical framework](research/REVISED_THEORETICAL_FRAMEWORK.md)
 - [Primary-text reading and theoretical chapter plan](research/PRIMARY_TEXT_READING_AND_ARGUMENT.md)
 - [Formal literature review and originality boundary](research/LITERATURE_REVIEW_AND_NOVELTY.md)
+- [Revised theoretical framework](research/REVISED_THEORETICAL_FRAMEWORK.md)
+- [Cynical and fetishistic disavowal test](research/DISAVOWAL_ANALYTICAL_TEST.md)
 - [Lean-centered four-case source audit](research/LEAN_CASE_STUDY_AUDIT.md)
 - [Updated source-level case audit (27 Nov 2026)](research/CASE_AUDIT_UPDATE_2026-11-27.md)
 - [Public-text study protocol](research/protocol.md)
