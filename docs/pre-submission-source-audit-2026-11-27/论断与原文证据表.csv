@@ -1,0 +1,403 @@
+证据号,正文主题,正文行号,固定正文链接（依次对应）,正文论断（中文转述）,所引作品或工件,本项取证方式,支持程度,核得内容与适用范围,原文页码、章节或源码行,原始材料链接（依次对应）,英文修改建议,作者复核结论,作者备注
+01,技术先例与 QFT 论文,"19,175","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L19
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L175",理论态射逐项翻译声明，保持可导判断与定理。,Rabe (2017),文献原文,直接支持,在 Rabe 所用逻辑中，源声明的像须在目标中适型。定理 2.10 把一个可导判断送到译后的可导判断；保定理是其特例。该处援引较早工作给出涵盖此情形的一般证明。L19 的 proves 容易被读作 2017 文本在此另给证明。,作者稿 §2.1.2，Def. 2.9、Thm. 2.10；PDF p. 9,https://kwarc.info/people/frabe/Research/rabe_maxioms_16.pdf#page=9,Rabe (2017) states judgment preservation for theory morphisms in his framework. The translation takes a derivable source judgment to a derivable target judgment.,,
+02,技术先例与 QFT 论文,"19,175","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L19
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L175",态射引出相应的模型约化。,Rabe (2017),文献原文,直接支持,语法从 Θ 到 Θ′，目标理论的模型沿态射约化为源理论的模型，方向相反。对模型对象的约化与对模型态射也具有函子性的较强结果分开陈述；后者在扩充的 PFOL 框架中证明。,"§2.2.2，Def. 2.21、Thm. 2.22，PDF p. 14
+§4.3.3，Thms. 4.27–4.28，PDF pp. 32–33","https://kwarc.info/people/frabe/Research/rabe_maxioms_16.pdf#page=14
+https://kwarc.info/people/frabe/Research/rabe_maxioms_16.pdf#page=32",A morphism from Θ to Θ′ also induces a reduct taking models of Θ′ to models of Θ.,,
+03,技术先例与 QFT 论文,"149,151-171,175","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L149
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L151-L171
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L175",§3.2 给出接收端使用推导的条件，并称可导性保持是必要条件。,Rabe (2017),作者论证,限定后支持,图式在接收端再用前提蕴涵和结论蕴涵，是本文对这次复用的充分条件。Rabe 的态射作用于整个理论；本例可用特定记录或命题的桥。L157 的 only if 容易把一种检验方法升为通用必要条件。Rabe 也没有论证目标物理意义的保存。,"Rabe §2.1.2，Thm. 2.10
+Comparator 中三个特定命题的桥","https://kwarc.info/people/frabe/Research/rabe_maxioms_16.pdf#page=9
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/verification/comparator/Solution.lean#L19-L70",One sufficient way to reuse the source derivation is to transport the required inference and show that the receiving assumptions entail its translated hypotheses and that its translated conclusion entails the desired claim.,,
+04,技术先例与 QFT 论文,"21,177","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L21
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L177",DAMF 保留断言的来源，并允许参与者选择信任谁及哪些工具。,"Al Wardani, Chaudhuri & Miller (2023) · DAMF",文献原文,直接支持,断言把发布者与命题联系起来。签名、内容标识和依赖可查；Compose 组合断言，Trust 使用接受者的允许名单。适配器本身也要有可接受的依据，原文的 Coq 至 Abella 示例含人工翻译。可核验的来源与断言的逻辑正确性是两个问题。,"§§2.2–2.6，尤其 §2.4 的 Compose 与 Trust，PDF pp. 5–9
+§§3.1–3.3，存储、Dispatch 与 Abella，PDF pp. 9–13","https://www.lix.polytechnique.fr/Labo/Dale.Miller/papers/FroCos23.pdf#page=7
+https://www.lix.polytechnique.fr/Labo/Dale.Miller/papers/FroCos23.pdf#page=9",可保留现有表述。,,
+05,技术先例与 QFT 论文,"21,177","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L21
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L177",两项工作都被概括为保持、检查跨系统的形式推导。,"Al Wardani, Chaudhuri & Miller (2023) · DAMF
+Guilloud et al. (2025) · SC-TPTP",文献原文,建议修正,这个概括适用于 SC-TPTP 展示的重构路径，但 DAMF 可以依据信任导入断言。DAMF §2.6 明说框架不保证异构断言逻辑相容，§4.1 将证明对象作为可选注释。L21 的两句分述基本准确；主要修改 L177 的合并总结。,"DAMF §§2.6、4.1，PDF pp. 8–9、14
+SC-TPTP §§4.1–4.2","https://www.lix.polytechnique.fr/Labo/Dale.Miller/papers/FroCos23.pdf#page=14
+https://jcailler.github.io/assets/pdf/cade30.pdf#page=8",DAMF records the provenance and dependencies of assertions and lets recipients decide which agents and tools to trust. SC-TPTP supports reconstruction and checking of supported first-order derivations in a receiving prover.,,
+06,技术先例与 QFT 论文,"21,177","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L21
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L177",SC-TPTP 在自动和交互证明器之间传递并重构证明，包括 Lean。,Guilloud et al. (2025) · SC-TPTP,文献原文,限定后支持,格式面向带等号的一阶推理。§4.1 讲生成端，§4.2 单列验证端；Lean 4 战术输出目标、调用 ATP、解析返回推导并在 Lean 内重构。另列 HOL Light 及有片段限制的 Rocq。没有展示任意两个 ITP 的全语言双向翻译。,"CADE 正文 §§2、4.1–4.2、6
+作者稿 §4.2 的 Lean 小节，PDF pp. 9–10","https://doi.org/10.1007/978-3-031-99984-0_18
+https://jcailler.github.io/assets/pdf/cade30.pdf#page=9",Guilloud et al. (2025) use SC-TPTP to exchange first-order derivations with equality and demonstrate reconstruction of supported prover outputs in Lean 4.,,
+07,技术先例与 QFT 论文,"23,46,139,205","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L23
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L46
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L139
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L205",库中的已有数学影响了物理形式化的选择。,"Douglas, Hoback, Mei & Nissim (2026) · QFT 论文",文献原文,直接支持,作者先讨论同一物理思想有多种数学表达，随后明确给出选择依据：把构造化为泛函测度问题，且当时 Mathlib 对测度和概率的支持较好。论文把这作为该项目的理由，不能据此断言所有物理形式化都如此选择。,"v1 §1 开头与 §2 末，PDF pp. 3、9–10
+§4.2，Schwartz 测试函数","https://arxiv.org/pdf/2603.15770v1#page=9
+https://arxiv.org/pdf/2603.15770v1#page=13",可保留现有表述。,,
+08,技术先例与 QFT 论文,"8,23,31,46,50,122,141,205,214","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L8
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L23
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L31
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L46
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L50
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L122
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L141
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L205
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L214",Douglas 的自由场构造、重构里程碑及后续维数推广各有来源。,"Douglas, Hoback, Mei & Nissim (2026) · QFT 论文
+Cherkis et al. (2026) · OSforGFF",文献原文＋源码声明,限定后支持,v1 给出四维自由玻色标量场，§2 末把 OS 重构列为后续目标之一。固定版 OSforGFF 代码另有全维数推论。此处的时间顺序不构成从该测度到另一包的证明。论文署名 Douglas 等，软件署名 Cherkis 等。,"v1 摘要及 §2 末，PDF pp. 1、10
+OSforGFF 的全维数推论","https://arxiv.org/pdf/2603.15770v1#page=10
+https://github.com/mrdouglasny/OSforGFF/blob/fef84a82937dfd2bb7f672108a72da329d3ef0fd/OSforGFF/OS/Master.lean#L74-L85","Douglas et al. (2026) treat the four-dimensional free field and list reconstruction among their next goals. The pinned OSforGFF library subsequently supplies a construction in every spacetime dimension D ≥ 2 (Cherkis et al., 2026).",,
+09,技术先例与 QFT 论文,"23,46,66,120,141","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L23
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L46
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L66
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L120
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L141",Schwartz 空间与紧支撑测试函数的关系使两种刻画可以比较。,"Douglas, Hoback, Mei & Nissim (2026) · QFT 论文
+Glimm & Jaffe (1987) · 第二版",文献原文＋原书选页,限定后支持,Remark 3.1 给出 D⊂S、S′⊂D′ 及作者主张的限制方向。原书第二版 §6.1(i) p. 91 脚注 1 自己已讨论生成泛函向 Schwartz 空间延拓及自由场可直接定义在 S′ 上。宜避免暗示此选择首次超出了教材；涉及测度时应说限制测试函数及相应推前。,"Douglas，Remark 3.1，PDF p. 12
+教材 pp. 90–91，特别是 p. 91 脚注 1","https://arxiv.org/pdf/2603.15770v1#page=12
+https://page-one.springer.com/pdf/preview/10.1007/978-1-4612-4728-9_6#page=2","Douglas et al. (2026, Remark 3.1) explain how their Schwartz-space formulation restricts to the compactly supported tests used in the axioms. Glimm and Jaffe (1987, p. 91, n. 1) also discuss the Schwartz-space extension and the free-field measure on tempered distributions.",,
+10,技术先例与 QFT 论文,"64,66,120,141","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L64
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L66
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L120
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L141",有限指数泛函的 L² 遍历结论与教材全 L¹ 版本的关系。,"Douglas, Hoback, Mei & Nissim (2026) · QFT 论文
+Cherkis et al. (2026) · OSforGFF
+Glimm & Jaffe (1987) · 第二版",文献原文＋源码声明＋原书选页,限定后支持,代码给出有限指数和上的均方收敛，Remark 3.2 用稠密性和 L² 到 L¹ 的范数控制解释推广；原句把稠密的环境写作 S′，按对象类型应读作配置空间上可积泛函的 L¹(μ)。推广到所有观测量还使用时间平移保持 μ，使时间平均在 L¹ 上一致有界。该推广按作者的分析说明归属；教材预览没有给出 OS4 正文，尚待按原书续页独立复核。,"v1 §3，式 (3.12)–(3.13)、Remark 3.2，附录 B.5
+OS4_Ergodicity 的量词与积分
+教材 §6.1 原章节入口","https://arxiv.org/pdf/2603.15770v1#page=12
+https://github.com/mrdouglasny/OSforGFF/blob/fef84a82937dfd2bb7f672108a72da329d3ef0fd/OSforGFF/OS/Axioms.lean#L182-L200
+https://doi.org/10.1007/978-1-4612-4728-9_6","The Lean predicate gives mean-square convergence for finite exponential functionals. Douglas et al. (2026, Remark 3.2) invoke density in L¹(μ) to extend the argument to general integrable observables.",,
+11,Comparator 记录对应,"8,31,33,110,114,173,179,214","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L8
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L31
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L33
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L110
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L114
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L173
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L179
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L214",Challenge 仅导入 Mathlib，从原包的审计定义产生，正文称原文件逐字复制。,"Douglas, Yin & Mei (2026) · Comparator
+Yin, Douglas & Mei (2026) · OSreconstruction",源码声明,建议修正,实际逐行比对，Definitions 第 38–497 行与 Challenge 第 37–496 行的 460 行数学部分一致。原文件的五条 Mathlib 导入合为一条，文件头说明也改写，末尾追加三个带占位符的义务。数学声明的来源和隔离编译的论点均成立；逐字复制整份文件的说法应改。,"包中原件，含五条导入及数学部分开头
+Challenge 的导入与说明
+生成器的替换及三个义务","https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/verification/comparator/Definitions.lean#L8-L45
+https://github.com/mrdouglasny/OSreconstruction-comparator/blob/93cdb40e728ba27b7b1b55efc30d57f7b43de9aa/RegistryChallenge.lean#L6-L42
+https://github.com/mrdouglasny/OSreconstruction-comparator/blob/93cdb40e728ba27b7b1b55efc30d57f7b43de9aa/scripts/gen_challenge.py#L5-L37","RegistryChallenge.lean reuses the package’s mathematical declarations. Its generator consolidates the Mathlib imports, revises the header comment, and appends three theorem obligations.",,
+12,Comparator 记录对应,"8,31,33,112,120,137,173,179,185,207,214","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L8
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L31
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L33
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L112
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L120
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L137
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L173
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L179
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L185
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L207
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L214",OS 记录在两个方向都能转换，Schwinger 族得以保留。,"Douglas, Yin & Mei (2026) · Comparator
+Yin, Douglas & Mei (2026) · OSreconstruction",源码声明,直接支持,OS.toProduction 与 OS.ofProduction 逐字段构造。两条投影引理以 rfl 证明 S 未变；两条往返恒等引理通过对记录分情况后 rfl。这里比“有两个类似模型”更强，确实给出了同一分布族的保存。,"OSBridge，双向构造
+两个 S 投影和两个往返恒等
+固定 Comparator 内的同一组声明","https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/verification/comparator/OSBridge.lean#L31-L62
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/verification/comparator/OSBridge.lean#L64-L73
+https://github.com/mrdouglasny/OSreconstruction-comparator/blob/93cdb40e728ba27b7b1b55efc30d57f7b43de9aa/RegistrySolution.lean#L669-L711",可保留现有表述。,,
+13,Comparator 记录对应,"8,33,112,120,173,185,214","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L8
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L33
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L112
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L120
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L173
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L185
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L214",挑战与生产端的增长记录、Wick 配对、输出增长及半范数相对应。,"Douglas, Yin & Mei (2026) · Comparator
+Yin, Douglas & Mei (2026) · OSreconstruction",源码声明,限定后支持,两种输入增长记录各自跨审计边界双向适配并保留参数。wickPair_iff、outputGrowth_iff 的声明类型是 ↔，证明用 Iff.rfl；originalSeminorm_eq 的类型是 =，证明用 rfl。L112 的 equality 在数学上可理解，但与所引声明的类型宜逐项对齐。这与不同增长约定之间要更换常数的转换是两件事。,"两种输入增长记录的四个适配器
+两条 ↔ 与一条 = 的原始类型","https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/verification/comparator/OSBridge.lean#L75-L118
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/verification/comparator/OSBridge.lean#L120-L127","The adapters transport each growth record in both directions. The Wick-pairing and output-growth predicates are definitionally equivalent, and the original-coordinate seminorms agree definitionally.",,
+14,Comparator 记录对应,"8,31,33,112,114,173,185,214","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L8
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L31
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L33
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L112
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L114
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L173
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L185
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L214",三个定理陈述在两个规范中对应，并保留构造出的见证。,"Douglas, Yin & Mei (2026) · Comparator
+Yin, Douglas & Mei (2026) · OSreconstruction",源码声明,直接支持,eToR_iff、eToROSII_iff、rToE_iff 分别对定性正向、带输出界及唯一性的正向、指定构造子的逆向给出命题等价。逆向证明使用 constructSchwinger_eq，保证返回的 S 是那个构造子的输出。e_to_r 等三项公开义务用这些等价与生产规范证明。,"Solution，前两项等价和实例化
+第三项等价和构造子等式
+ReverseBridge 的 constructSchwinger_eq
+Wightman 族的投影与往返","https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/verification/comparator/Solution.lean#L19-L53
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/verification/comparator/Solution.lean#L55-L70
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/verification/comparator/ReverseBridge.lean#L72-L81
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/verification/comparator/WightmanBridge.lean#L116-L131",可保留现有表述。,,
+15,Comparator 记录对应,"33,37,110,114,137,173,179,214","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L33
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L37
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L110
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L114
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L137
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L173
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L179
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L214",比较器核查结构与公理依赖，并用新内核和 NanoDa 检查解答。,"Douglas, Yin & Mei (2026) · Comparator",源码声明＋历史运行记录,直接支持,配置列出三个接受核验的公开义务 e_to_r、e_to_r_osii、r_to_e。eToR_iff 等是其解答的桥引理。白名单是 propext、Quot.sound、Classical.choice。固定提交的 2026-11-03 push 作业中，核对到 NanoDa 与默认 Lean 内核分别接受 solution 的日志行。在本次审查中读取历史记录。,"比较目标与白名单
+README 的检查语义
+固定提交的历史作业，展开 Verify with pinned Comparator, NanoDa and Landrun","https://github.com/mrdouglasny/OSreconstruction-comparator/blob/93cdb40e728ba27b7b1b55efc30d57f7b43de9aa/comparator.json#L2-L14
+https://github.com/mrdouglasny/OSreconstruction-comparator/blob/93cdb40e728ba27b7b1b55efc30d57f7b43de9aa/README.md#L30-L39
+https://github.com/mrdouglasny/OSreconstruction-comparator/actions/runs/41695477127/job/126124732038","The configured targets are e_to_r, e_to_r_osii, and r_to_e. Their solutions use the three equivalence lemmas. The archived run for this commit records acceptance of the solution by both NanoDa and the Lean kernel.",,
+16,Comparator 记录对应,"110,114,116,173,179,207,214","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L110
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L114
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L116
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L173
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L179
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L207
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L214",独立性限于导入、分别编译、检查；外部审查和独立物理验证另需依据。,"Douglas, Yin & Mei (2026) · Comparator",源码声明＋项目自述,直接支持,Challenge 独立导入 Mathlib，Solution 导入生产模块并使用其证明；元数据写明 self-assessed，reviewers 为空，注释说明作者之间做过 PR 评审。这支持有限意义的独立性，也解释为什么一次成功重放不能充当对共同源规范的外部物理评价。,"Challenge 的导入
+Solution 实际导入的生产模块
+项目自评及审稿人字段","https://github.com/mrdouglasny/OSreconstruction-comparator/blob/93cdb40e728ba27b7b1b55efc30d57f7b43de9aa/RegistryChallenge.lean#L6-L11
+https://github.com/mrdouglasny/OSreconstruction-comparator/blob/93cdb40e728ba27b7b1b55efc30d57f7b43de9aa/RegistrySolution.lean#L6-L13
+https://github.com/mrdouglasny/OSreconstruction-comparator/blob/93cdb40e728ba27b7b1b55efc30d57f7b43de9aa/formalization.yaml#L185-L192",可保留现有表述。,,
+17,Comparator 记录对应,"104,116","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L104
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L116",正向管、局域性、反射正性及逆向增长各有限定。,"Douglas, Yin & Mei (2026) · Comparator
+Yin, Douglas & Mei (2026) · OSreconstruction",源码声明,直接支持,forwardTube 在首个虚坐标施加前向锥条件；局域性用相邻换位；OS 内积经 ZeroTest.ofClassical，把不满足零对角条件的测试函数送到零。RToE 的结论只含指定 S、OS 记录与配对。可陈述这些量词；不宜据此断言相邻换位形式在所有其他假设下数学上严格较弱。,"管与局域性
+总化转换与反射正性
+三项命题的具体类型","https://github.com/mrdouglasny/OSreconstruction-comparator/blob/93cdb40e728ba27b7b1b55efc30d57f7b43de9aa/RegistryChallenge.lean#L75-L100
+https://github.com/mrdouglasny/OSreconstruction-comparator/blob/93cdb40e728ba27b7b1b55efc30d57f7b43de9aa/RegistryChallenge.lean#L259-L319
+https://github.com/mrdouglasny/OSreconstruction-comparator/blob/93cdb40e728ba27b7b1b55efc30d57f7b43de9aa/RegistryChallenge.lean#L474-L496",可保留现有表述。,,
+18,Comparator 记录对应,"8,33,106,120,122,124,147,185,189,207,214","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L8
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L33
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L106
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L120
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L122
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L124
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L147
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L185
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L189
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L207
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L214",三个固定公开工件中，没有找到从特定 OSforGFF 测度到重构输入的端到端定理。,"Douglas, Yin & Mei (2026) · Comparator
+Cherkis et al. (2026) · OSforGFF
+Yin, Douglas & Mei (2026) · OSreconstruction",限定范围检索,有界的否定证据,对 GFF 库、可分发重构包及 Comparator 的全部 60／855／2 个 Lean 文件做名称与导入检索，另核公开端点、Lake 依赖和正向输入类型。重构包未引用 OSforGFF、gaussianFreeField_free 或 μ_GFF；GFF 库未引用生产 OS 记录或正向定理。两包同用 GaussianField，但锁定的版本不同；共享依赖本身未提供这条连接。异名定义及三仓之外的实现不在否定结论中。,"GFF 测度端点
+正向接收端
+GFF 的 GaussianField 依赖
+重构包的 GaussianField 依赖","https://github.com/mrdouglasny/OSforGFF/blob/fef84a82937dfd2bb7f672108a72da329d3ef0fd/OSforGFF/OS/Master.lean#L61-L85
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/OSReconstruction/Wightman/Reconstruction/Main.lean#L28-L35
+https://github.com/mrdouglasny/OSforGFF/blob/fef84a82937dfd2bb7f672108a72da329d3ef0fd/lake-manifest.json#L14-L20
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/lake-manifest.json#L14-L20","Across the three public revisions examined, we found no declaration deriving the required zero-diagonal Schwinger record and growth witness from this particular OSforGFF measure.",,
+19,原始数学文献与 Lean 接口,"44,46,72","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L44
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L46
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L72",1973 年的对象、测试空间和原论文所宣称的正反重构。,Osterwalder & Schrader (1973) · OS I,文献原文,直接支持,OS I §2 的测试函数在任意两点重合时连同所有阶偏导一起消失。§3 列出 Euclidean 及 relativistic 条件并陈述 E→R、R→E；§§4–5 分别论证两方向。1973 年原文可证其当时的主张；正向结果的效力必须读入 OS II 的修正。,"OS I §§2–3，pp. 85–90
+原书开头两页的出版社预览
+OS II §I，p. 282","https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-31/issue-2/Axioms-for-Euclidean-Greens-functions/cmp/1103858969.pdf#page=3
+https://page-one.springer.com/pdf/preview/10.1007/BF01645738
+https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-42/issue-3/Axioms-for-Euclidean-Greens-functions-II-with-an-Appendix-by/cmp/1103899050.pdf#page=2",可保留现有表述。,,
+20,原始数学文献与 Lean 接口,"33,44,68,74-83,85-104,116,187,214","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L33
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L44
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L68
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L74-L83
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L85-L104
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L116
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L187
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L214",1975 年修正的含义，以及 E0′ 对正向重构的地位。,"Osterwalder & Schrader (1975) · OS II
+Osterwalder & Schrader (1973) · OS I",文献原文,建议修正,OS II 指出 OS I 的 Lemma 8.8 有误；在 1975 年，原 E0–E4 对存在性是否充分仍是开放问题。§III 给出另一组加强条件；§IV.1 的实用定理在 E0′ 与 E1–E4 下导出带 R0′ 的结果。原文支持“本定理使用该假设”；不能由此推出一切重构在逻辑上都必须满足 E0′。这里只报告原作者当时的判断。,"OS II §I，pp. 281–282；可直接读的出版社预览
+§III 及 §IV.1，pp. 285–288，式 (4.1)、(4.3)","https://page-one.springer.com/pdf/preview/10.1007/BF01608978#page=2
+https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-42/issue-3/Axioms-for-Euclidean-Greens-functions-II-with-an-Appendix-by/cmp/1103899050.pdf#page=7","Osterwalder and Schrader (1975, pp. 282, 287–288) identified a gap in the 1973 forward proof and left open there whether E0–E4 alone suffice. Their Section IV reconstruction theorem assumes E0′ together with E1–E4 and yields the output bound R0′.",,
+21,原始数学文献与 Lean 接口,"23,46,50,52-64,66,68","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L23
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L46
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L50
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L52-L64
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L66
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L68",教材的测度、生成泛函、OS1 及边界情形的附加条件。,"Glimm & Jaffe (1987) · 第二版
+Douglas, Hoback, Mei & Nissim (2026) · QFT 论文",原书选页,直接支持,第二版 §6.1(i) p. 90 引入 D′ 上的概率测度，p. 91 式 (6.1.3)–(6.1.5) 给出配对、生成泛函与指数界，并在 p=2 时要求两点函数局部可积。p. 91 还明说该组公理对比原 OS 略强。此项是直接查到的原书页；后续 OS3、OS4 的详细公式不在预览范围。,"Glimm & Jaffe 印刷 pp. 90–91，式 (6.1.3)–(6.1.5)
+Douglas §3 按其所用表述重述公理","https://page-one.springer.com/pdf/preview/10.1007/978-1-4612-4728-9_6#page=2
+https://arxiv.org/pdf/2603.15770v1#page=11",可保留现有表述。,,
+22,原始数学文献与 Lean 接口,"8,23,31,50,137,214","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L8
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L23
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L31
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L50
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L137
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L214",固定代码中的维数、质量、传播子和自由场测度。,"Cherkis et al. (2026) · OSforGFF
+Douglas, Hoback, Mei & Nissim (2026) · QFT 论文",源码声明,限定后支持,FieldConfiguration 是实 Schwartz 空间的弱对偶；gaussianFreeField_free 的值类型是其上的 ProbabilityMeasure。generic 同时要求 D≥2、m>0、GFFPropagator；of_dim 自带标准固有时传播子，真正给出每个 D≥2。另有 2、3、4、5 维的闭式实例。L50 只列 generic 容易让读者误判维数结果的覆盖。,"配置空间
+测度构造
+generic、of_dim 与四个闭式实例","https://github.com/mrdouglasny/OSforGFF/blob/fef84a82937dfd2bb7f672108a72da329d3ef0fd/OSforGFF/Spacetime/Basic.lean#L96-L104
+https://github.com/mrdouglasny/OSforGFF/blob/fef84a82937dfd2bb7f672108a72da329d3ef0fd/OSforGFF/Measure/Construct.lean#L133-L144
+https://github.com/mrdouglasny/OSforGFF/blob/fef84a82937dfd2bb7f672108a72da329d3ef0fd/OSforGFF/OS/Master.lean#L61-L115","For m > 0, the generic theorem takes a propagator instance. The corollary gaussianFreeField_satisfies_all_OS_axioms_of_dim supplies the canonical proper-time propagator for every D ≥ 2. Separate results exhibit closed-form covariances in D = 2, 3, 4, and 5.",,
+23,原始数学文献与 Lean 接口,"37,50,137","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L37
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L50
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L137",OSforGFF 的零 sorry 和无项目自设公理。,Cherkis et al. (2026) · OSforGFF,源码声明＋项目自述,直接支持,README 报告范围是主库及其主定理。Guardrails 中的 #guard_msgs 保存了 #print axioms 的预期三项基础公理，固定类型也可见。可保留报告式措辞；不要把静态读取表述成这次独立运行过 Lean，或把“零自设公理”写成“没有基础公理”。,"README 的范围及报告
+Guardrails 检查 generic 的预期类型及公理","https://github.com/mrdouglasny/OSforGFF/blob/fef84a82937dfd2bb7f672108a72da329d3ef0fd/README.md#L48-L56
+https://github.com/mrdouglasny/OSforGFF/blob/fef84a82937dfd2bb7f672108a72da329d3ef0fd/OSforGFF/Guardrails.lean#L29-L40",可保留现有表述。,,
+24,原始数学文献与 Lean 接口,52-64,https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L52-L64,GFF 的 OS0、OS2 和 OS3 是哪些实际谓词。,Cherkis et al. (2026) · OSforGFF,源码声明,直接支持,OS0 对任意有限个复测试函数给出多变量解析性。OS2 对欧氏群作用规定生成泛函不变。OS3 对正时间复测试函数族和复系数要求二次型实部非负，并同时用时间反射和共轭。这里的 OS0–OS4 编号属于 Glimm–Jaffe 的测度表述。,"OS0
+OS2 与 OS3","https://github.com/mrdouglasny/OSforGFF/blob/fef84a82937dfd2bb7f672108a72da329d3ef0fd/OSforGFF/OS/Axioms.lean#L75-L81
+https://github.com/mrdouglasny/OSforGFF/blob/fef84a82937dfd2bb7f672108a72da329d3ef0fd/OSforGFF/OS/Axioms.lean#L118-L145",可保留现有表述。,,
+25,原始数学文献与 Lean 接口,"52-64,68,187","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L52-L64
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L68
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L187",OS1 指数界的精确形式，GFF 的 p、c 与两点函数条件。,"Cherkis et al. (2026) · OSforGFF
+Glimm & Jaffe (1987) · 第二版
+Douglas, Hoback, Mei & Nissim (2026) · QFT 论文",源码声明＋原书选页,直接支持,指数中是 c(∫|f|+∫|f|ᵖ)，即 c(‖f‖₁+‖f‖ₚᵖ)。Lean 的 TwoPointIntegrable 还显式要求标准磨光两点函数在 x≠0 处收敛到一个局部可积 K；证明选择自由协方差核 K，p=2，c=1/(2m²)。Douglas 附录 B.2 仅用四维闭式核说明这个取值；一般维数的依据是固定代码。此条件与 OS-II 的 n 点界输入不同。,"两点条件与一般 OS1
+核的识别及取常数的证明
+Douglas 附录 B.2，四维情形
+教材式 (6.1.5)","https://github.com/mrdouglasny/OSforGFF/blob/fef84a82937dfd2bb7f672108a72da329d3ef0fd/OSforGFF/OS/Axioms.lean#L88-L116
+https://github.com/mrdouglasny/OSforGFF/blob/fef84a82937dfd2bb7f672108a72da329d3ef0fd/OSforGFF/OS/OS1_Regularity.lean#L408-L453
+https://arxiv.org/pdf/2603.15770v1#page=29
+https://page-one.springer.com/pdf/preview/10.1007/978-1-4612-4728-9_6#page=2",可保留现有表述。,,
+26,原始数学文献与 Lean 接口,"64,66,120","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L64
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L66
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L120",固定维数推广中，OS4 包含聚类和遍历；证明使用多项式衰减。,"Cherkis et al. (2026) · OSforGFF
+Douglas, Hoback, Mei & Nissim (2026) · QFT 论文",源码声明＋文献原文,直接支持,SatisfiesAllOS 对聚类与遍历分别设字段。Master 以幂次 6 的聚类界调用遍历定理。把此级别的代码结果写出来，并将全 L¹ 的对应论证归给 Remark 3.2，即可保持两个证据层级。,"两种 OS4 与记录字段
+主定理所用 α=6
+Douglas，Remarks 3.2–3.3","https://github.com/mrdouglasny/OSforGFF/blob/fef84a82937dfd2bb7f672108a72da329d3ef0fd/OSforGFF/OS/Axioms.lean#L175-L232
+https://github.com/mrdouglasny/OSforGFF/blob/fef84a82937dfd2bb7f672108a72da329d3ef0fd/OSforGFF/OS/Master.lean#L64-L72
+https://arxiv.org/pdf/2603.15770v1#page=12",可保留现有表述。,,
+27,原始数学文献与 Lean 接口,"8,31,46,72,74,122,185,214","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L8
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L31
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L46
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L72
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L74
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L122
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L185
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L214",正空间维数、零对角输入与全 Schwartz 空间的输出。,"Yin, Douglas & Mei (2026) · OSreconstruction
+Osterwalder & Schrader (1973) · OS I",源码声明＋文献原文,直接支持,d 是正空间维数，对应时空维数 d+1。ZeroDiagonalSchwartz 是在所有重合点消失到无限阶的 Schwartz 函数子空间；WightmanFunctions.W 接受全 Schwartz 测试。作用在该子空间上避开了先假定 n 点分布已延拓到全空间。与 GFF 所用的单个测试函数也有本质区别。,"无穷阶消失的定义
+子空间
+输出的定义域、连续性及线性
+OS I §2，pp. 85–87","https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/OSReconstruction/Wightman/Reconstruction/Core.lean#L739-L750
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/OSReconstruction/Wightman/Reconstruction/Core.lean#L1394-L1425
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/OSReconstruction/Specification/Wightman.lean#L192-L200
+https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-31/issue-2/Axioms-for-Euclidean-Greens-functions/cmp/1103858969.pdf#page=3",可保留现有表述。,,
+28,原始数学文献与 Lean 接口,"72-74,104,116","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L72-L74
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L104
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L116",Euclidean 输入记录与 Wightman 输出的公理内容以及终点。,"Yin, Douglas & Mei (2026) · OSreconstruction",源码声明,直接支持,输入字段含零对角上的连续性、线性、现实性、平移、行列式 +1 的正交旋转、有序正时间上的反射正性、排列对称和聚类。输出分别有弱协变性、管解析性及单独的正谱支撑字段、相邻局域交换性、正性、Hermiticity 和聚类。公开输出是分布族；README 界定算符/GNS 重构不在此端点。,"Euclidean 记录
+Wightman 的两个谱字段及其余公理
+README 对 GNS 的范围说明","https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/OSReconstruction/Specification.lean#L56-L140
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/OSReconstruction/Specification/Wightman.lean#L192-L241
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/README.md#L52-L56",可保留现有表述。,,
+29,原始数学文献与 Lean 接口,"33,68,74-83,122,185,187,214","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L33
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L68
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L74-L83
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L122
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L185
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L187
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L214",正向定理的附加输入及 αβⁿ(n!)ᵞ 界。,"Yin, Douglas & Mei (2026) · OSreconstruction",源码声明,直接支持,"输入包括 S₀(f)=f(0)。阶数 s∈ℕ，本记录允许 s=0；α、β>0，γ∈ℝ，对每个 n 及零对角测试取所有权重/导数指标 ≤(ns,ns) 的有限上确界。图示的 ‖f‖ₙₛ,ₙₛ 应按正文的 supremum 阅读。os_to_wightman 产出 Wightman 记录及同一输入的 Wick 配对。","半范数和记录，含零阶归一化
+正向定理原型","https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/OSReconstruction/Specification.lean#L142-L172
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/OSReconstruction/Wightman/Reconstruction/Main.lean#L28-L35",可保留现有表述。,,
+30,原始数学文献与 Lean 接口,"85-102,187","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L85-L102
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L187",原坐标 E0′、正阶与向 arity-linear 记录转换的常数。,"Yin, Douglas & Mei (2026) · OSreconstruction
+Osterwalder & Schrader (1975) · OS II",源码声明＋文献原文,限定后支持,"原坐标记录要求 s>0，估计量词为 n>0，另列 S₀ 归一化。转换位置在 toArityLinearGrowthCondition，α′=max(1,α)、β′=(d+2)ˢ、γ′=γ+2s；os_to_wightman_osii_original 调用该转换。反向存在性也已证明，精确的 iff 是两边记录的 Nonempty 等价，并非增长字段逐项相同。","原坐标记录及 n>0
+转换的显式常数
+反向存在性及 Nonempty 等价
+OS II §IV.1，式 (4.1)","https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/OSReconstruction/Specification.lean#L246-L258
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/OSReconstruction/Wightman/Reconstruction/WickRotation/OSIIOriginalGrowth.lean#L61-L76
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/OSReconstruction/Wightman/Reconstruction/WickRotation/OSIIOriginalGrowth.lean#L105-L146
+https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-42/issue-3/Axioms-for-Euclidean-Greens-functions-II-with-an-Appendix-by/cmp/1103899050.pdf#page=7","The original-coordinate estimate is imposed for n > 0, with a separate normalization at n = 0. The endpoint uses toArityLinearGrowthCondition to obtain the arity-linear input with the stated constants.",,
+31,原始数学文献与 Lean 接口,"94-104,112,114,214","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L94-L104
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L112
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L114
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L214",OS-II 正向的输出界和唯一性指什么。,"Yin, Douglas & Mei (2026) · OSreconstruction
+Osterwalder & Schrader (1975) · OS II",源码声明＋文献原文,直接支持,精确结论 ∃W，配对与 R0′ 同时成立；任何满足同一 Wick 配对的分布族 V 都等于 W.W。唯一性落在函数族上，代码并未声称一切物理实现唯一。定性正向入口仅显式返回存在与配对，输出界见较强入口。,"两个较强端点及 family uniqueness
+OS II §IV.1，式 (4.3)","https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/OSReconstruction/Wightman/Reconstruction/WickRotation/OSIIQuantitativeEndpoint.lean#L52-L76
+https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-42/issue-3/Axioms-for-Euclidean-Greens-functions-II-with-an-Appendix-by/cmp/1103899050.pdf#page=8",可保留现有表述。,,
+32,原始数学文献与 Lean 接口,"102,104,106,116,189","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L102
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L104
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L106
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L116
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L189",旧固定阶谓词、逆向构造及有条件的 OS 记录存在。,"Yin, Douglas & Mei (2026) · OSreconstruction",源码声明＋项目自述,限定后支持,旧固定阶条件保留在 deprecated；README 解释归一化把老阶数迫为零。wightman_to_os 只在较弱签名中列连续、线性和配对；wightman_to_os_axioms 明确返回有指定 S 的 OS 记录，未返回增长见证。因此 L106 的“无居民”应限定为未发布具体模型的输入对，避免与这个条件构造混淆。,"旧条件的适用边界
+较弱反向入口
+完整条件构造及返回类型","https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/README.md#L30-L47
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/OSReconstruction/Wightman/Reconstruction/Main.lean#L21-L28
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/OSReconstruction/Wightman/Reconstruction/WickRotation/RToEReconstruction.lean#L53-L61",The public package constructs an OS record from any supplied Wightman family. Its README reports no standalone concrete model in the package that supplies both the forward OS record and the corrected growth witness.,,
+33,原始数学文献与 Lean 接口,"33,106,122,189","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L33
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L106
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L122
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L189",私有配套项目中据称有 massive free field 和 Proca Wick square 两个实例。,"Yin, Douglas & Mei (2026) · OSreconstruction",项目自述；私有原件未取得,仅有项目报告,已核实公开 README 确实如此报告，列出配套版本 03bb758、目录及 Proca 声明名。公开 GitHub 端点对该仓库和短提交均返回 404；私有实现原件未取得，故这只能证实‘作者作了此报告’。L189 宜尤其避免把二手陈述改写成独立确认的不空性，更不能据此辨认 OSforGFF 的测度。,README · Inhabitants，含版本和声明名,https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/README.md#L30-L52,The OSreconstruction authors report witnesses for the massive free field and the Proca Wick square in a private companion revision. Our evidence for these examples is their public report.,,
+34,原始数学文献与 Lean 接口,"33,68,122,147,185-189,199,207,214","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L33
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L68
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L122
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L147
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L185-L189
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L199
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L207
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L214",要复用该具体自由场，须连接测试对象、传递公理，并提供所需增长见证。,"Cherkis et al. (2026) · OSforGFF
+Yin, Douglas & Mei (2026) · OSreconstruction",作者论证＋源码声明,本文的推论,这是本文针对两种已核输入类型作出的条件分析。GFF 的 OS1 对一个复测试函数的生成泛函作界；重构接受零对角上的一族 n 点分布及随 n 控阶的记录。两式中的“增长”不足以提供所需映射。源码审查允许断言仍缺一项已展示的实例化，不支持断言数学上不可能推出。,"单测试函数上的 OS1
+随 arity 变化的输入估计
+正向定理实际要求","https://github.com/mrdouglasny/OSforGFF/blob/fef84a82937dfd2bb7f672108a72da329d3ef0fd/OSforGFF/OS/Axioms.lean#L110-L116
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/OSReconstruction/Specification.lean#L142-L172
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/OSReconstruction/Wightman/Reconstruction/Main.lean#L28-L35",可保留现有表述。,,
+35,其余引文与哲学归属,"19,181,205","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L19
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L181
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L205",通用结构使气体定律和运动方程的证明可复用。,Bobbin et al. (2024),文献原文,直接支持,§3.4 用热力学系统及其子类型处理理想气体与等温条件等，§3.5 用微积分刻画运动学。证据支持这两个领域各自的结构复用；措辞可避免使读者误以为气体定律的证明迁移成了运动学证明。,Bobbin，§§3.4–3.5，PDF pp. 7–10（期刊 pp. 270–273）,https://atomslab.github.io/static/pdf/publications/bobbin_2023.pdf#page=7,Bobbin et al. (2024) develop reusable structures for gas-law proofs and formalize kinematic equations using calculus.,,
+36,其余引文与哲学归属,"19,29,181","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L19
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L29
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L181",形式化可显露隐含前提；逻辑验证不确立理论的经验充分性。,Bobbin et al. (2024),文献原文,直接支持,作者举出非零分母与可微性等被迫明示的条件。BET 吸附模型例子明确区分推导在给定假设下有效与其适用实验情形。对 OS 科学推断的延伸由本文承担。,原刊 p. 275，BET 实验异议及适用域,https://atomslab.github.io/static/pdf/publications/bobbin_2023.pdf#page=12,可保留现有表述。,,
+37,其余引文与哲学归属,"25,205","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L25
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L205",物理题自动形式化中可见符号坍缩和抽象层级上移。,"Meadows, Zhang & Freitas (2026)",文献原文,直接支持,§2 说明人参与的工作流；§5 用案例举出物理记号被较简单数学对象取代，以及力学运算被抽象论证取代。Fig. 2 还列出其他类别。本文说 including 是准确的；这些数据来自基准题，不能据此断言 OS 源码发生同样的漂移。,"ACL 正文 §5、Fig. 2，pp. 23065–23066
+原文与补充材料入口","https://aclanthology.org/2026.acl-long.1057.pdf#page=7
+https://aclanthology.org/2026.acl-long.1057/",可保留现有表述。,,
+38,其余引文与哲学归属,"25,141,205","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L25
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L141
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L205",非形式定理的充分表示与对原证明步骤的追踪是两个标准。,DeDeo & Duede (2026),文献原文,限定后支持,§2 把终点所表示的定理内容与推导所追踪的推理结构分开，允许不同粒度和实现。tracking 不要求逐行复制。本文把这一区分延伸到两份正式记录之间，属于作者的进一步应用。,v2 §2，尤其 PDF pp. 4–6,https://arxiv.org/pdf/2603.13680v2#page=5,DeDeo and Duede (2026) distinguish adequate representation of the theorem from preservation of the inferential structure of the informal proof.,,
+39,其余引文与哲学归属,"27,143,195","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L27
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L143
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L195",DDI 的指称、演示与解释，可用来区别模型内部操作与其物理解释。,Hughes (1997),文献原文,直接支持,原刊 S328–S330 的伽利略斜面例和 Fig. 3 说明图形如何指称、怎样在图内推导、如何读回物理结果。S329 明确保留其分析的非定义性。L195 提到 DDI 时可就地补引 Hughes；把核验放在演示中的说法是本论文的解释。,"原刊原文转录，S328–S330，Fig. 3 和 §3 开头
+出版社原刊与摘要","https://www.scribd.com/document/277520213/Hughes-Models
+https://doi.org/10.1086/392611",可保留现有表述。,,
+40,其余引文与哲学归属,"27,143,205,216","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L27
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L143
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L205
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L216",Gelfert 对 DDI 与 matching-model 的批评，以及成熟形式体系的解释作用。,"Gelfert (2011)
+Gelfert (2022)",文献原文,建议修正,2011 文的 §§2–4 直接讨论两种理论及其不足，并提出可局部运用、具有物理解释的符号规则。2022 章具体发展记号、形式体系和认识活动的关系；其中对成熟形式体系的讨论支持后半句。L27 的合并署年使两篇都像是对 DDI 的直接批评。,"2011 期刊文，摘要及 §§2–4
+2011 原刊正文转录，§§2–4
+2011 作者稿，§4
+2022 章，Notations, Formalisms, Models","https://doi.org/10.1016/j.shpsa.2010.11.035
+https://www.scribd.com/document/472779035/gelfert2011
+https://citeseerx.ist.psu.edu/document?doi=7f0f18c8e63eb844bdf623f41b134f8f9146faa5&repid=rep1&type=pdf
+https://link.springer.com/chapter/10.1007/978-3-030-97833-4_11#Sec3",Gelfert (2011) identifies limitations of both DDI and the matching-model account and argues that mature mathematical formalisms supply inferential and interpretative resources. Gelfert (2022) develops the role of notation and its rules in mathematical practice.,,
+41,其余引文与哲学归属,"27,149,191,207,216","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L27
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L149
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L191
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L207
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L216",严格的模型间关系让经验依据跨模型传递，以 Hubbard 与 Heisenberg 为例。,Gelfert (2009),文献原文,限定后支持,§6 给定半填充和强耦合极限，Hubbard 模型映到自旋 ½ 反铁磁 Heisenberg 模型。映射支持经验依据从已获支持的 Heisenberg 模型流向对 Hubbard 模型适用性的判断；不是从纯数学产生经验依据，也不是任意参数区间的整模型等价。L191 的方向和条件值得写出。,Gelfert 作者稿 §6，PDF pp. 19–22，尤其 pp. 20–21,https://philsci-archive.pitt.edu/id/eprint/2159/1/AxelGelfert_RigorCrossModelConfirm-penultimateV.pdf#page=20,"In Gelfert’s (2009) example, the limiting relation at half-filling and strong coupling allows evidence for the antiferromagnetic Heisenberg model to support the Hubbard model in the relevant regime.",,
+42,其余引文与哲学归属,"29,35,199","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L29
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L35
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L199",科学代码验证随实践目标和情境而承担不同认识作用。,Imbert & Ardourel (2023),文献原文,直接支持,§2 讨论验证与确认的关系，§§4–6 讨论验证的可行性、成本、效用及各类科学程序的差异。作者未把本文的五种关系作为自己的分类。L29 的 consistent with 已经正确标识为借鉴。,期刊文 §§2、4–6，特别 §6，印刷 pp. 388 起,https://www.cambridge.org/core/services/aop-cambridge-core/content/view/60D6DDBEB759DC87EB49AB521BA1F222/S0031824822000782a.pdf/formal-verification-scientific-code-and-the-epistemological-heterogeneity-of-computational-science.pdf#page=13,可保留现有表述。,,
+43,其余引文与哲学归属,195,https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L195,哪些原始作者支持替代推理，以及有效性和可靠性之分。,"Suárez (2004)
+Contessa (2007)
+Hughes (1997)",文献原文,建议修正,Hughes 提供 DDI。Suárez 的 [inf] 提出两个必要条件：表征力指向目标，且有能力的使用者可据此对目标作特定推断。Contessa §2 才明确界定有效的替代推断可能对目标给出假结论，可靠（sound）还要求结论对目标为真。这里的有效性已涉及目标解释，不宜简化为‘模型内部演算有效’。,"Suárez，作者稿 §3，式 [inf]
+Contessa，作者稿 §2，PDF p. 6
+Hughes，S328–S330","https://philsci-archive.pitt.edu/id/eprint/991/1/Suarez_PSA_paper.doc
+https://philsci-archive.pitt.edu/id/eprint/3291/1/Paper_-_Representation,_Interpretation,_and_Surrogative_Reasoning_(PhilSci).pdf#page=6
+https://doi.org/10.1086/392611","Hughes (1997) distinguishes demonstration in the model from interpretation. Suárez (2004) emphasizes a representation’s capacity to license inferences about a target. On Contessa’s (2007) account, a valid surrogative inference is sound only if its conclusion is true of that target.",,
+44,其余引文与哲学归属,195,https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L195,DEKI 说明模型性质如何按 key 对应并归予目标。,Frigg & Nguyen (2018),文献原文,直接支持,§§4–5 区分 exemplification 与一般具有某性质，讨论把模型所示范的性质映到适宜的目标性质；§7 综合为 DEKI。归予仍可出错，示范并不保证目标实际具有该性质。L195 中 exhibited 可以更精确地写作 exemplified。,原刊 §5 Imputation and keys，§7 The DEKI account,https://d-nb.info/1142693937/34#page=12,Frigg and Nguyen (2018) explain how a key maps properties exemplified by a model to properties that a user imputes to its target.,,
+45,其余引文与哲学归属,"195,197,199","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L195
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L197
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L199",模型充分性相对于目的；结构用途与定量预测可要求不同证据。,Parker (2020),文献原文,直接支持,§2.2 区分某一次使用是否成功和某一类使用的可靠性，§§3–4 解释如何按特定目的评价模型。L195 的结构研究／定量预测对照是本文举例，不能把它写成 Parker 对 OS 的具体评价。,"Parker，§§2.1–2.2，印刷 pp. 460–463
+§3，目的与充分性","https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CA91669E7CAC8BE4332A2B6D99BC9DB0/S0031824800015956a.pdf/model_evaluation_an_adequacyforpurpose_view.pdf#page=5
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CA91669E7CAC8BE4332A2B6D99BC9DB0/S0031824800015956a.pdf/model_evaluation_an_adequacyforpurpose_view.pdf#page=9",可保留现有表述。,,
+46,其余引文与哲学归属,"197,199,218","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L197
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L199
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L218",模型可作为认识人工物探究可能性，不必指向某个现实个体。,Knuuttila (2021),文献原文,直接支持,§3.4 区别关于现实对象的知识可能性与关于尚未实现对象的客观可能性。§4 的 Tobin 模型用于展示一种经济可能性。该例支持 L197 的 may；从 OS 模型导出何种知识仍由本文论证。,"Knuuttila，§3.4
+§4 Imaginary economies","https://link.springer.com/article/10.1007/s13194-021-00374-5#Sec7
+https://link.springer.com/article/10.1007/s13194-021-00374-5#Sec8",可保留现有表述。,,
+47,其余引文与哲学归属,"8,15,17,35,37,124,131-149,171-179,199,203-218","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L8
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L15
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L17
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L35
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L37
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L124
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L131-L149
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L171-L179
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L199
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L203-L218",跨形式化证成是论文的分析性概念；内核、源形式对应、记录桥、实例化与目标推断各有作用。,"Rabe (2017)
+Douglas, Yin & Mei (2026) · Comparator
+Cherkis et al. (2026) · OSforGFF
+Yin, Douglas & Mei (2026) · OSreconstruction",作者论证,本文的推论,局部可导性相对于定义、假设和信任基础。给定同一 S 的桥能传递已述命题，不能凭自身证明某种物理解释；OS1 与重构输入的区别给出第二个案例。把这组织为五种关系是作者自己的论证。摘要、§1 与结论均已作范围限定，建议保留，不宜让这些引用承担一条新的普遍认识论定理。,"Rabe §2.1.2
+正例的命题和见证
+接收端的增长记录","https://kwarc.info/people/frabe/Research/rabe_maxioms_16.pdf#page=9
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/verification/comparator/Solution.lean#L19-L70
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/OSReconstruction/Specification.lean#L142-L172",可保留现有表述。,,
+48,原始数学文献与 Lean 接口,"64,66,120","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L64
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L66
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L120",直接用 1987 教材确认全体 L¹ 观测量上的 OS4 原文，以及与 Lean 谓词的表述差异。,"Glimm & Jaffe (1987) · 第二版
+Douglas, Hoback, Mei & Nissim (2026) · QFT 论文",原书选页；相关续页未取得,原件待核,出版社公开的 pp. 90–91 能确认 OS4 的名称。其量词、范数和时间平均公式的原书续页未取得。Douglas §3 式 (3.12)–(3.13)、Remark 3.2 可核其重述，不能充作对原书续页的直接阅读。作者可查第二版 §6.1(i) 的 OS4 条目，并复核稠密类与推广一步。,"第二版 §6.1(i) 的可见页
+完整第 6 章入口
+Douglas 对 OS4 的重述","https://page-one.springer.com/pdf/preview/10.1007/978-1-4612-4728-9_6#page=2
+https://doi.org/10.1007/978-1-4612-4728-9_6
+https://arxiv.org/pdf/2603.15770v1#page=12","Following Douglas et al. (2026, Remark 3.2), we read the finite-exponential condition as a route to the L¹ ergodicity statement.",,
+49,Comparator 记录对应,"19,31,35,110,179,181,205,207","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L19
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L31
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L35
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L110
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L179
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L181
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L205
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L207",引言与 §3.5 将案例推广为独立开发的记录之间的证明迁移。,"Douglas, Yin & Mei (2026) · Comparator
+Yin, Douglas & Mei (2026) · OSreconstruction
+Cherkis et al. (2026) · OSforGFF",源码声明＋作者论证,建议修正,L19 的 independently developed 和 L205 对“独立形式化”的总括，容易把本文的一般问题读为已经实现的正例。Comparator 的正例是同源声明的分别编译与记录桥；真正不同项目中的两种物理表述，恰是尚未找到具体实例化的一侧。建议在 §3.5 直接把正例与该一般问题接上。,"Challenge 的生成来源
+生产规范证明被用于解答
+来自另一项目的测度","https://github.com/mrdouglasny/OSreconstruction-comparator/blob/93cdb40e728ba27b7b1b55efc30d57f7b43de9aa/scripts/gen_challenge.py#L5-L26
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/verification/comparator/Solution.lean#L48-L53
+https://github.com/mrdouglasny/OSforGFF/blob/fef84a82937dfd2bb7f672108a72da329d3ef0fd/OSforGFF/OS/Master.lean#L61-L85",The case identifies what a correspondence between distinct formalizations would need to preserve. Its positive example uses separately elaborated audit and production records of common provenance.,,
+50,Comparator 记录对应,"66,110-120,173,179","https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L66
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L110-L120
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L173
+https://github.com/lm846802297-bit/formal-epistemology-computational-science/blob/61d565a204b3ff0f76e0c9522651263617abb2a0/manuscript/full_manuscript.md#L179",§2.5 并列了维护者对教材对应的解释与 Comparator 的定理桥。,"Douglas, Hoback, Mei & Nissim (2026) · QFT 论文
+Douglas, Yin & Mei (2026) · Comparator",文献原文＋源码声明,限定后支持,第一例中的测试空间、稠密性和收敛论证来自原作者解释；第二例有直接作用于记录、谓词和见证的 Lean 桥。L120 最后一句可指明是哪一例把对应本身写成了机器检查的数学命题。,"Douglas，Remarks 3.1–3.2
+Comparator 的三项命题等价","https://arxiv.org/pdf/2603.15770v1#page=12
+https://github.com/xiyin137/OSreconstruction/blob/cf0904e34a7c146a9f312f601e3707dca4a87697/os-reconstruction/verification/comparator/Solution.lean#L19-L70","For OSforGFF, the authors explain the correspondence with the textbook axioms. For the Comparator, the correspondence between the audit and production records is itself expressed by Lean declarations.",,
