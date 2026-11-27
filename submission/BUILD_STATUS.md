@@ -1,41 +1,18 @@
 # EJPS LaTeX build status
 
 **Date:** 2026-11-27  
-**Status:** Source prepared; official-template compilation blocked. No PDF is claimed as generated or inspected.
+**Status:** Anonymous manuscript compiled and inspected locally using Springer Nature's official `sn-jnl.cls` and PDFLaTeX (`sn-apa`); subsequently submitted to EJPS.
 
-## Local environment actually checked
+**Journal:** *European Journal for Philosophy of Science*  
+**Manuscript ID:** EPSA-D-26-00900  
+**Submission date:** 2026-11-27  
+**Submitted source snapshot:** `research/ejps-claim-relative-warrant` at `7101c7685b147d7b6e9e067fae851b41d35bd94c`.
 
-- OS: Debian GNU/Linux 13 (trixie), x86_64.
-- `pdflatex`: `/usr/bin/pdflatex`.
-- `latexmk`: `/usr/bin/latexmk`.
-- `xelatex`, `lualatex`, `pandoc`, `pdfinfo`, and `pdftotext`: available.
-- `apacite.sty` and `apacite.bst`: available.
-- `kpsewhich sn-jnl.cls`: no path returned; the Springer Nature class is not installed locally.
+- The build produced a 21-page PDF. There were no LaTeX or package warnings or overfull boxes in the final run.
+- The PDF Author field is blank. No known author name, affiliation, email, ORCID, or account name appeared in the extracted manuscript text. The separate title page was not included.
+- The anonymous source bundle is flat, with `anonymous-manuscript.tex` and the official `sn-jnl.cls`. The historical missing-template log records an earlier attempt only.
+- The three software revisions and the public preprint are linked as case-study materials in the manuscript, not listed as published scholarly works in the bibliography.
+- The exact anonymous LaTeX source identified above was used to compile the PDF uploaded to EJPS; the submitted manuscript body is not modified by this status update.
+- The author-completed Title Page PDF was uploaded separately through the journal portal. It is intentionally not stored in this repository; `title-page-template.tex` remains a placeholder template.
 
-## Retrieval attempts
-
-A real PDFLaTeX template smoke test was run with the required class declaration. The command exited with status 1 because `sn-jnl.cls` was not found. The exact output is preserved in `BUILD_LOG_TEMPLATE_MISSING.txt`.
-
-
-1. Identified the official journal-article template ZIP on the Springer Nature LaTeX author-support page:
-   https://www.springernature.com/gp/authors/campaigns/latex-author-support
-2. Downloading the official ZIP into the current container failed.
-3. A GitHub clone attempt failed with DNS resolution error: `Could not resolve host: github.com`.
-4. No substitute or fabricated Springer class was used.
-
-## Consequence
-
-The anonymous source uses `\documentclass[pdflatex,sn-apa]{sn-jnl}`. The source is ready for the official template files, but the required class is unavailable in this environment. Therefore no successful Springer-template build, PDF generation, or visual inspection is claimed.
-
-## Required build after the official template is obtained
-
-Place `sn-jnl.cls` and any required template support files alongside `anonymous-manuscript.tex`, then run:
-
-```sh
-pdflatex -interaction=nonstopmode -halt-on-error anonymous-manuscript.tex
-pdflatex -interaction=nonstopmode -halt-on-error anonymous-manuscript.tex
-pdfinfo anonymous-manuscript.pdf
-pdftotext anonymous-manuscript.pdf anonymous-manuscript.txt
-```
-
-Preserve the complete terminal output as the build log and inspect the PDF visually before submission.
+Official template: https://www.springernature.com/gp/authors/campaigns/latex-author-support
