@@ -333,3 +333,16 @@ The review synthesizes 124 empirical studies and organizes trust factors into re
 ### 9.5 Consequence for the originality claim
 
 The paper's originality must be located in the connection among (i) Lean as a visible technical credential, (ii) public and institutional mediation of scientific knowledge, and (iii) Žižek's account of ideological fantasy and fetishism. It should not claim to have discovered that formal proof checking does not establish semantic correspondence, that mathematical proof has a social dimension, or that public trust depends on source/message/receiver factors.
+## 10. Primary-text and literature-review completion update (27 November 2026)
+
+The exact primary-text locators and the formal comparative review are now recorded in:
+- `PRIMARY_TEXT_READING_AND_ARGUMENT.md` — verified edition/page locators for Žižek's *The Sublime Object of Ideology* (1989), “The Spectre of Ideology” (1994), Marx's *Capital* I, §4, Lacan's Seminar XI, Chapter XVIII, and Seminar VI, Chapter XVI.
+- `LITERATURE_REVIEW_AND_NOVELTY.md` — detailed comparison of Žižek, Marx, Lacan, Hardwig, De Millo–Lipton–Perlis, Fetzer, Kallel–El Louadi, and public-trust research.
+
+Important source corrections:
+- Žižek's *Sublime Object* printed pages: commodity fetishism pp. 19–20; cynical reason/Sloterdijk pp. 24–27; ideological fantasy pp. 28–31 (especially p. 30); Big Other pp. 78–80 and 102–105; ideological guarantee pp. 109–110; barred Other/fantasy pp. 136–138.
+- Lacan's “There is no Other of the Other” is in Seminar VI, session 8 April 1959, Chapter XVI. In Bruce Fink's published English translation (Polity 2019), Chapter XVI begins p. 291 and the key passage is p. 353; in the 2013 French edition it is p. 108. It must not be assigned to Seminar XVI or XX.
+- Lacan's subject-supposed-to-know is treated in Seminar XI, Chapter XVIII, pp. 230–235; the key formula is on p. 232. This is a transference concept and is not synonymous with the Big Other.
+- Marx's commodity-fetishism section is cited by the stable locator Capital I, Chapter 1, §4; page numbers are not supplied until the exact translation/edition is fixed.
+
+The literature comparison confirms that Hardwig already explains rational expert dependence; De Millo et al. already explain social processes of proof acceptance; and Kallel & El Louadi already distinguish derivational validity, representational fidelity, and epistemic significance. These are not claimed as original. The proposed contribution remains the specifically Žižekian analysis of the social and symbolic function of Lean verification as a credential of scientific certainty.
