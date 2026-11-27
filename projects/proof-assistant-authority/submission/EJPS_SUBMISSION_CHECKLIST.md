@@ -9,7 +9,7 @@
 - [x] Six keywords.
 - [x] APA 7 author–date citations and reference list.
 - [x] Alphabetized reference list; 31 cited works.
-- [x] Generative AI use disclosed in a suitable section.
+- [x] Proposed generative-AI disclosure inserted in the anonymous manuscript; author confirmation for this article remains pending.
 
 ## Double-blind files
 
@@ -19,6 +19,7 @@
 - [ ] Confirm acknowledgements and move identifying material to the title page.
 - [ ] Confirm funding declaration.
 - [ ] Confirm competing-interests declaration.
+- [ ] Confirm the proposed AI-use disclosure for this article (do not transfer approval from the separate OS-reconstruction manuscript).
 - [ ] Confirm data availability and ethics statements.
 
 ## File-format and final checks
