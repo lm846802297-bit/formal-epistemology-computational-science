@@ -32,7 +32,7 @@
 - [Analytical synthesis](research/ANALYTICAL_SYNTHESIS.md)
 - [Chen–Jia public-trust experiment analysis](research/CHEN_JIA_EXPERIMENT_ANALYSIS.md)
 - [Lean-focused ideology matrix](research/CASE_IDEOLOGY_MATRIX.md)
-- [Lean-centered four-case source audit](research/LEAN_CASE_STUDY_AUDIT.md)
+- [Žižekian theory tests against four Lean cases](research/THEORY_CASE_TESTS.md)
 - [Theoretical model: mediated verification authority](research/THEORETICAL_MODEL.md)
 - [Theory of certainty and symbolic guarantee](research/THEORY_OF_CERTAINTY_AND_SYMBOLIC_GUARANTEE.md)
 - [Žižekian core argument](research/ZIZEKIAN_CORE_ARGUMENT.md)
