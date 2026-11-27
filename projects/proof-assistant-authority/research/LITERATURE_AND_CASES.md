@@ -277,6 +277,20 @@ The cases do not support a single, undifferentiated claim that the public “bel
 
 A Žižekian interpretation must be earned by the evidence. Fetishism is a plausible reading when collective labour, formal statement selection, semantic translation, and expert review recede behind an apparently autonomous machine authority. Transparent accounts of human review and scope may instead resist that presentation. The current public-text evidence does not establish unconscious motives or population-wide belief.
 
+
+### 8.6A Primary Žižek text: ideological fantasy as a structure of practice
+
+The key passage for this project is in Slavoj Žižek, *The Sublime Object of Ideology* (Verso, 1989), especially pp. 28–30, where he revises the Marxian formula “they do not know it, but they are doing it.” The argument is not simply that people hold false beliefs. Ideological fantasy can structure social activity even where participants consciously know relevant facts or limitations. The illusion may operate in the practice and its social organization, rather than as a mistaken proposition in an individual's head.
+
+- Bibliographic/publisher record: https://www.versobooks.com/products/1284-the-sublime-object-of-ideology
+- Textual access for checking page references: https://www.thetedkarchive.com/library/slavoj-zizek-the-sublime-object-of-ideology
+- Žižek's introduction, “The Spectre of Ideology,” in *Mapping Ideology* (Verso, 1994), distinguishes explicit doctrine, material institutional practices, and the implicit presuppositions reproduced within apparently non-ideological everyday practices: https://perpus.fauzy.eu.org/Politik/Slavoj%20Zizek%20%281994%29%20Mapping_Ideology.pdf
+- Secondary conceptual map: Matthew Flisfeder (2023), https://doi.org/10.5565/rev/enrahonar.1420.
+
+**Application to the present study:** A member of the public may know that they cannot personally inspect a Lean proof, and may even know that a formal proof establishes only a proposition under stated definitions and axioms. Yet their practical reliance on a public chain of certification may still treat machine verification as a guarantee of scientific certainty. This is not automatically irrational or ideological: reliance on experts and institutions can be justified. A Žižekian interpretation becomes plausible only if the practice or public representation turns a bounded technical check into an apparently self-sufficient guarantee while concealing the collective and semantic conditions that make the check relevant.
+
+**Important restraint:** Do not label ordinary public trust as “cynical ideology.” Cynical ideology requires evidence that known limitations coexist with a practice that continues to reproduce the relevant illusion. The current surveys show public ambivalence about AI in science, not the specific disavowal mechanism Žižek describes. The Riemann and Navier–Stokes public discussions contain some explicit awareness of the gap between machine checking and human understanding; whether this awareness is nevertheless displaced in practical trust is an open question.
+
 ### 8.7 Updated bounded tasks
 
 1. Pair one independent public report and one public discussion sample with Waring, Navier–Stokes, and AlphaProof Nexus.
