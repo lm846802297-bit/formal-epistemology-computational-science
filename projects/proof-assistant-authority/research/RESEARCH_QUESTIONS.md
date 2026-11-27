@@ -1,79 +1,84 @@
 # Research-question architecture
 
 **Project:** *In Lean We Trust? The Ideology of Machine-Checked Proofs in Science*  
-**Scope:** Society-wide social epistemology of AI-assisted knowledge production  
-**Status:** Core question architecture, 27 November 2026
+**Date:** 27 November 2026  
+**Status:** controlling research-question document. This version supersedes the earlier society-wide framing of AI-assisted knowledge production.
 
-## Central question
+## Central research question
 
-**In an era in which AI participates deeply in knowledge production, how does contemporary society establish, maintain, and recognize the authority of scientific knowledge?**
+**Under what conditions does the bounded technical warrant of Lean verification acquire an ideological function as a symbolic guarantee of broader mathematical or scientific certainty within contemporary knowledge production and communication?**
 
-The project studies machine verification as one increasingly visible component in a larger social process. It does not assume that public trust is transferred to AI, that all trust is ideological, or that machine checking is equivalent to scientific truth.
+The paper studies the specific transition from a genuine, local machine check to a possible wider symbolic and institutional guarantee. It does not assume that this transition always occurs.
 
-## Three connected levels
+## Core hypothesis
 
-### Level I — Production and epistemic status of knowledge
+**The Ideological Fetishism of Formal Verification:** the epistemic authority of Lean verification may be ideologically sustained when the genuine reliability of a bounded machine check is represented as an autonomous guarantee of broader scientific certainty, while the human, conceptual, semantic, and institutional relations that make the verification meaningful recede from view.
 
-1. Can AI independently produce new mathematical knowledge, and what does “independently” mean in human-AI workflows?
-2. What epistemic differences distinguish AI-generated proofs from proofs produced by human mathematicians?
-3. What exactly does machine verification warrant: proof-term validity, a theorem under formal definitions and axioms, semantic correspondence to a source text, or a claim about the world?
-4. What kind of knowledge do we possess when a machine-checked proof exists but no human has reconstructed or understood the complete argument?
-5. How are mathematical correctness, human understanding, expert review, publication, and institutional recognition related?
+This is a Žižekian hypothesis to be tested against primary artifacts, institutional descriptions, public representations, and counter-evidence.
 
-### Level II — Social trust and public authority
+## Four focused subquestions
 
-1. Why do ordinary members of society rationally trust scientific claims they cannot personally verify?
-2. Do people trust scientists, universities, scientific institutions, scientific methods, or science as an abstract category—and how do these objects of trust differ?
-3. Can machine verification become a publicly legible symbol of scientific reliability?
-4. Does AI participation increase or decrease public trust in scientific findings, and under what conditions?
-5. Why might people trust science while remaining sceptical of AI-assisted science?
-6. How do scientific institutions, media, technology companies, educators, and experts jointly shape public understanding of scientific knowledge?
-
-### Level III — Ideology and the symbolic structure of authority
-
-1. Does machine verification become an object of ideological fantasy through which society imagines scientific uncertainty can be finally controlled?
-2. Can collective epistemic labour appear as an autonomous property of the machine (epistemic fetishism)?
-3. Under what conditions can people know the limitations of machine checking while continuing to treat it as a broader guarantee in practice (cynical ideology/disavowal)?
-4. Does contemporary science require a symbolic guarantor of knowledge, and what role can proof assistants or AI systems play in that position?
-5. How might traditional structures of epistemic authority change when AI participates in conjecture generation, proof discovery, formal checking, and even the evaluation of its own outputs?
-
-## Relations among the levels
-
-The working analytical sequence is:
-
-**Knowledge production → Social trust → Ideological authority**
-
-This is a research heuristic, not a deterministic causal model. Each arrow requires evidence. A technically valid result does not automatically generate public trust; public trust does not automatically indicate ideological capture; ideological interpretation must explain something not already explained by legitimate epistemic dependence, institutional reputation, or ordinary communication practices.
+1. **Technical warrant:** What exact proposition, proof artifact, definitions, axioms, libraries, and trusted environment does Lean check? What follows from that check, and what does not?
+2. **Epistemic mediation:** What human mathematical work, formalization choices, semantic comparisons, expert scrutiny, and institutional assessments connect the checked proposition to the intended scientific claim?
+3. **Ideological operation:** Under what conditions is the bounded formal check represented or used as a broader guarantee of certainty? How do ideological fantasy and fetishistic displacement explain this transition?
+4. **Persistence and resistance:** When do acknowledged limitations coexist with continued symbolic investment in the verification credential? When do visible collective labour, scope statements, and semantic audits prevent or contest that investment?
 
 ## Theoretical division of labour
 
-- **Hardwig and social epistemology:** explain legitimate epistemic dependence and the division of cognitive labour.
-- **Science communication and public-trust research:** provide empirical accounts of how claims, experts, and institutions are represented and trusted.
-- **Žižek:** supplies hypotheses about ideological fantasy, fetishism, and cynical disavowal in the social organization of certainty.
-- **Lacan:** supplies a supporting account of the attribution of a knowing position; do not equate a proof assistant with a subject or diagnose unconscious motives from public texts.
+- **Žižek — core framework:** ideological fantasy, fetishism, and disavowal.
+- **Marx and Lacan — theoretical sources within Žižek's framework:** commodity fetishism, fantasy, the Big Other, and disavowal.
+- **Hardwig — normative baseline:** when is reliance on experts and distributed epistemic labour warranted?
+- **Philosophy of science / social and political epistemology:** disciplinary location and the broader problem of scientific knowledge production and authority.
 
-## Evidence design
+Do not turn these into four parallel theories. The paper's explanatory framework is Žižekian.
 
-- Four contemporary cases: Riemann hypothesis; Waring's problem; Navier–Stokes; Erdős problems.
-- For each: AI contribution, formal statement, verification, semantic correspondence, human review, institutional recognition, public framing, and public reception.
-- Population surveys provide contextual evidence about trust in science and AI; they are not direct measures of trust in Lean.
-- Public online discussions are qualitative and self-selected; they cannot estimate population prevalence.
-- A claim about actual audience belief or causal effects requires survey, interview, or experimental evidence.
+## Primary empirical scope
 
-## Scope and stopping rule
+| Case | Analytical function |
+|---|---|
+| Riemann hypothesis | Formal certification, expert-community authorization, and AI-mediated exposition |
+| Navier–Stokes | Formal validity versus semantic correspondence with the natural-language proof |
+| Erdős / AlphaProof Nexus | Statement identity, proof provenance, human validation, and institutional mediation |
+| Liquid Tensor Experiment | Counter-case emphasizing collective mathematical labour and semantic checks |
 
-All questions are retained as a connected research agenda, but the first paper will not attempt to answer every question equally. Its primary empirical task is to explain how machine verification is represented as a guarantee of scientific reliability across the four cases and how this representation relates to broader public trust. Questions about causal effects on public belief, unconscious motives, and long-term institutional transformation remain separate research questions unless the collected evidence directly supports them.
+Waring/GPT is a contrast case only and is not part of the four primary Lean cases.
 
-The project must preserve counterexamples: legitimate reliance, scope-preserving communication, public scepticism, and transparent accounts of human contribution. Do not force every case into an ideological-fetishism diagnosis.
+## Evidence protocol
 
-## 4. Priority question for the first paper: why the symbolic guarantee?
+For each case, examine:
 
-The first paper gives priority to this question:
+1. The exact formal proposition and proof artifact.
+2. The relevant Lean environment, assumptions, and dependencies.
+3. The relation between the formal proposition and the intended informal claim.
+4. The human and institutional labour that makes the result meaningful.
+5. The official description and the third-party/public representation.
+6. Counter-evidence that preserves the scope or makes mediation visible.
 
-**Why does contemporary society place such value on technologies that transform complex knowledge claims into formally checkable objects, and how do these technologies reshape the social understanding of scientific truth?**
+Public texts establish representations and documented practices. They do not, by themselves, establish population-level belief or unconscious motives.
 
-This is not to assume that the public seeks absolute certainty or that Lean functions as a final guarantor. The hypothesis is that formal checking supplies a visible credential that can make one part of a complex epistemic chain publicly legible. It may reduce uncertainty about derivational validity while relocating dependence to semantic interpretation, expert judgment, institutional recognition, and public communication.
+## Conceptual safeguards
 
-## 5. Novelty boundary
+- A correct Lean proof is not thereby ideological or suspect.
+- Rational reliance on Lean for its exact formal task is not fetishism.
+- Formal derivational validity, semantic correspondence, mathematical understanding, institutional recognition, and public representation are distinct.
+- A headline or compressed description is not sufficient evidence of fetishism.
+- Cynical disavowal requires evidence of a manipulative distance between acknowledged knowledge and practice.
+- Fetishistic disavowal requires evidence that the limitation is acknowledged while the technical object continues to sustain a broader symbolic investment.
+- The three Žižekian concepts are related analytical dimensions, not a deterministic causal sequence.
 
-Kallel and El Louadi (2026), arXiv:2608.28997, already distinguish derivational validity, representational fidelity, and epistemic significance, and analyze the scarcity of human adjudication. The present project must not claim these distinctions as original. Its proposed contribution is the society-wide and Žižekian analysis of how the formal-verification credential becomes a symbolic guarantee in public trust and science communication.
+## Defensible contribution
+
+The paper develops a Žižekian account of how the bounded technical warrant of Lean verification can be invested with broader scientific authority, how collective epistemic labour can appear as an autonomous property of the machine, and how this symbolic investment can persist despite acknowledged limits.
+
+The paper does not claim a new general theory of AI trust, a new distinction between formal validity and semantic fidelity, or the first Žižekian critique of technology.
+
+## Stopping rule
+
+The research question is sufficiently answered when:
+- the technical scope is established for all four cases;
+- the semantic and institutional mediation is traced;
+- each ideological mechanism is tested against both supporting and counter-evidence;
+- the normative distinction between warranted reliance and ideological enlargement is clear;
+- the originality claim is bounded by the identified prior literature.
+
+After these criteria are met, proceed to manuscript writing rather than expanding into general AI trust, additional proof-assistant systems, or population-level surveys.
