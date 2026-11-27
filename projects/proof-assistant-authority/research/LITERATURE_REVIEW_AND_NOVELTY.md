@@ -98,8 +98,8 @@ Key arguments and page locations:
 Richard A. De Millo, Richard J. Lipton, and Alan J. Perlis, “Social Processes and Proofs of Theorems and Programs,” *Communications of the ACM* 22(5) (1979), 271–280.
 
 Key arguments in the original paper (the accessible scan has internal pagination 202–211):
-- pp. 206–209: mathematical theorems become believed through reading, refereeing, discussion, internalization, paraphrase, generalization, use, and connections to other results.
-- pp. 209–211: the authors argue that proofs of real software specifications are often too long and specialized to undergo the social processes that make mathematical proofs believable.
+- journal pp. 275–278 (scan's internal pp. 206–209): mathematical theorems become believed through reading, refereeing, discussion, internalization, paraphrase, generalization, use, and connections to other results.
+- journal pp. 278–280 (scan's internal pp. 209–211): the authors argue that proofs of real software specifications are often too long and specialized to undergo the social processes that make mathematical proofs believable.
 - The paper distinguishes formal derivational correctness from the social assimilation of a proof by a community.
 
 **What it already explains:** mathematical acceptance is not reducible to a formal derivation; communal scrutiny and assimilation play an epistemic role.
@@ -121,11 +121,12 @@ Fetzer distinguishes formal relations among symbols from the relation between a 
 Maher Kallel and Mohamed El Louadi, “Verification Abundance, Adjudication Scarcity: What Happens to Mathematical Knowledge When Proof Checking Becomes Free,” arXiv:2608.28997v1 (29 August 2026).
 
 Key arguments:
-- pp. 1–2: the authors distinguish L1 derivational validity, L2 representational fidelity, and L3 epistemic significance.
-- pp. 2–4: they argue that kernel checking can be mechanized, while determining whether the formal statement means the intended informal question requires expert judgement; they develop a grounding regress argument and connect it to the 1979–1988 De Millo/Fetzer debate.
-- pp. 4–6: they propose a six-category taxonomy of representational mismatch and measure the formal proof corpus against the statement-audit surface.
-- pp. 6–8: they argue that reducing the cost of L1 checking transfers the burden to scarce human adjudication and may decouple certification from community belief.
-- pp. 8–12: they discuss engineering responses, disclosure, and transfer to other domains.
+- Section 2: the three-layer distinction (L1 derivational validity, L2 representational fidelity, L3 epistemic significance).
+- Section 3: the argument about why L2 depends on expert judgement, including a grounding-regress argument and a reconstruction of the 1979–1988 De Millo/Fetzer debate.
+- Section 4: a six-category taxonomy of representational mismatch.
+- Section 5: measurements of the OpenAI ten-proofs corpus and the statement-audit surface.
+- Section 6: the inversion from verification abundance to adjudication scarcity.
+- Section 7: engineering responses and what they do not reach; Sections 8–9 discuss transfer and remedies.
 
 **What it already explains:** the distinction between derivational validity, representational fidelity, and epistemic significance; the scarcity of qualified human adjudication; the fact that formal checking does not settle the intended meaning of the theorem.
 
