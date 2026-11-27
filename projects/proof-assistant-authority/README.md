@@ -30,6 +30,8 @@
 - [Lean-focused ideology matrix](research/CASE_IDEOLOGY_MATRIX.md)
 - [Lean-centered four-case source audit](research/LEAN_CASE_STUDY_AUDIT.md)
 - [Theoretical model: mediated verification authority](research/THEORETICAL_MODEL.md)
+- [Theory of certainty and symbolic guarantee](research/THEORY_OF_CERTAINTY_AND_SYMBOLIC_GUARANTEE.md)
+- [Lean-centered four-case source audit](research/LEAN_CASE_STUDY_AUDIT.md)
 - [Public-text study protocol](research/protocol.md)
 - [Coding guide](research/codebook.md)
 - [Evidence register](evidence/register.tsv)
