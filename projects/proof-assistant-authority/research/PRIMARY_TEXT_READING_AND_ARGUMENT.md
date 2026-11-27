@@ -143,3 +143,53 @@ Argument sequence:
 4. The paper's proposed term “epistemic fetishism” is explicitly marked as an original extension.
 5. The close prior contributions of Hardwig, De Millo et al., and Kallel & El Louadi are incorporated into a novelty-boundary table.
 6. The three theory chapters form a connected argument and identify what empirical evidence would support or falsify each mechanism.
+## 10. Verified edition and page locators (source audit, 27 November 2026)
+
+### 10.1 Žižek, *The Sublime Object of Ideology*
+
+The consulted English text is the Verso edition first published in 1989; the online PDF has the book's printed pagination and chapter headings. The following page references refer to that printed pagination, not PDF viewer pages:
+- Chapter 1, “How Did Marx Invent the Symptom?”: pp. 1–56.
+- Commodity fetishism and the network/effect misrecognized as a natural property of one element: pp. 19–20. The precise point is not merely that social relations appear as relations between things; it is that a structural effect of the network appears as an immediate property of one element (pp. 19–20).
+- “Cynicism as a form of ideology”: pp. 24–27. Žižek explicitly attributes the formula “they know very well what they are doing, but still, they are doing it” to Sloterdijk's account of cynical reason (p. 26 in this edition); do not claim Žižek coined it.
+- “Ideological fantasy”: pp. 28–31. The key distinction is that the illusion can operate in social activity itself, not merely in what subjects consciously think. The formulation “they know very well how things really are, but still they are doing it as if they did not know” and the definition of ideological fantasy occur on p. 30.
+- Big Other as symbolic order, and the difference between a complete Other and a barred/inconsistent Other: pp. 78–80; the fantasy as filling a void in the Other is discussed at p. 80.
+- The Big Other as symbolic network beyond empirical others: pp. 102–105.
+- The ideological “Guarantee of Meaning” as an element that embodies a lack but is perceived as transcendent plenitude: pp. 109–110.
+- The Big Other as barred/inconsistent and fantasy as screen concealing its lack: pp. 136–138.
+
+**Important correction:** the commodity-fetishism discussion on pp. 19–20 and the ideological-fantasy discussion on pp. 28–31 are not interchangeable. The former analyzes the appearance of a structural effect as an intrinsic property; the latter explains how an illusion can structure practice even when actors know the relevant facts.
+
+### 10.2 Žižek, “The Spectre of Ideology”
+
+Slavoj Žižek, “The Spectre of Ideology,” introduction to *Mapping Ideology*, ed. Slavoj Žižek (London: Verso, 1994), pp. 1–33. The checked first-edition PDF places the discussion of the ideology concept at pp. 8–9. Žižek argues that a proposition can be factually accurate and still function ideologically depending on its relation to the subjective position and the social relation it legitimizes (pp. 8–9).
+
+Do not attribute Althusser's specific thesis about ideological state apparatuses and material practices directly to Žižek. Žižek's introduction surveys and reframes such approaches; Althusser's “Ideology and Ideological State Apparatuses” is a separate chapter in the same volume (beginning p. 100).
+
+### 10.3 Lacan, *Seminar XI*
+
+Jacques Lacan, *The Seminar, Book XI: The Four Fundamental Concepts of Psychoanalysis*, ed. Jacques-Alain Miller, trans. Alan Sheridan (New York: W. W. Norton, 1977; reissued 1998). Chapter XVIII, “Of the Subject Who Is Supposed to Know, of the First Dyad, and of the Good,” begins at p. 230. The key statement “As soon as the subject who is supposed to know exists somewhere ... there is transference” is on p. 232 in the Sheridan pagination. The surrounding pages 230–235 discuss the trust placed in the analyst, the analyst's non-claim to absolute knowledge, and the transferential attribution of a knowing position.
+
+**Conceptual restriction:** this is a clinical and transferential concept. It does not license calling Lean itself a subject, nor treating all public reliance on experts as transference. At most, it can support a carefully limited analogy about the attribution of a knowing position.
+
+### 10.4 Lacan, *Seminar VI* and “There is no Other of the Other”
+
+Jacques Lacan, *Le Séminaire, Livre VI: Le désir et son interprétation* (Paris: La Martinière / Le Champ freudien, 2013), session of 8 April 1959, Chapter XVI, “There is no Other of the Other.” The French edition's corresponding passage is cited at p. 108. In Cormac Gallagher's English working translation from unedited typescripts, the session is dated “8.4.59”; the relevant passage is on typescript page 8 (the page marker is part of the session transcript, not the pagination of a published English book). The published English translation by Bruce Fink, *Desire and Its Interpretation* (Polity, 2019), includes the corresponding Chapter XVI; a printed page number for this exact passage has not been independently verified and should not be invented.
+
+The surrounding passage explicitly says that no signifier in the Other can guarantee the truth or authenticate the signifying chain. This is the primary Lacanian basis for the “no final guarantor” point in the present paper.
+
+### 10.5 Marx, *Capital*, Volume I
+
+Karl Marx, *Capital*, vol. I, Chapter 1, Section 4, “The Fetishism of Commodities and the Secret Thereof.” The chapter/section locator is stable across editions; page numbering varies by translation and edition. In the Penguin/Fowkes English edition (1976), the section is in the first chapter; cite the section title rather than importing page numbers from a different translation. The Marxists Internet Archive transcription preserves the section text and the key claim that a social relation between people assumes the fantastic form of a relation between things.
+
+### 10.6 Page-citation policy for the manuscript
+
+Use page references only after fixing the edition in the bibliography. For Lacan Seminar VI, cite the 8 April 1959 session and Chapter XVI until the published English page is checked against a physical/official edition. Do not use the page number of an unedited typescript as if it were a published-book page. For Seminar XI, use Sheridan pp. 230–235. For Žižek's *Sublime Object*, use the printed page numbers listed above.
+
+## 11. Conceptual corrections resulting from the source audit
+
+1. The Big Other and the subject-supposed-to-know are distinct. Seminar XI's S.s.S. is a position in transference; the Big Other is the symbolic locus/order. Do not merge them.
+2. The “no Other of the Other” formula is explicitly located in Lacan's Seminar VI session of 8 April 1959 (Chapter XVI), not Seminar XVI or Seminar XX. Earlier drafts that assigned it to Seminar XVI/XX must be corrected.
+3. Žižek's account of ideological fantasy on pp. 28–31 is a theory of practice and the illusion structuring activity. It is not equivalent to Sloterdijk's cynical formula, which Žižek discusses separately on pp. 24–27 and attributes to Sloterdijk.
+4. Commodity fetishism is not merely “people forget workers.” Žižek's pp. 19–20 formulation stresses a structural effect of a network appearing as a natural property of one element. Our extension must preserve this relational form.
+5. The phrase “epistemic fetishism of Lean verification” is our analytic extension. It must be argued through a structural homology and not presented as a direct application already made by Žižek.
+6. Lean is neither the Big Other nor a subject-supposed-to-know. The hypothesis is that Lean may be positioned as a credential within a symbolic order that seeks a guarantee; the lack of a final guarantee remains constitutive.
