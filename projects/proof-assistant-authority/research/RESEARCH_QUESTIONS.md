@@ -65,3 +65,15 @@ This is a research heuristic, not a deterministic causal model. Each arrow requi
 All questions are retained as a connected research agenda, but the first paper will not attempt to answer every question equally. Its primary empirical task is to explain how machine verification is represented as a guarantee of scientific reliability across the four cases and how this representation relates to broader public trust. Questions about causal effects on public belief, unconscious motives, and long-term institutional transformation remain separate research questions unless the collected evidence directly supports them.
 
 The project must preserve counterexamples: legitimate reliance, scope-preserving communication, public scepticism, and transparent accounts of human contribution. Do not force every case into an ideological-fetishism diagnosis.
+
+## 4. Priority question for the first paper: why the symbolic guarantee?
+
+The first paper gives priority to this question:
+
+**Why does contemporary society place such value on technologies that transform complex knowledge claims into formally checkable objects, and how do these technologies reshape the social understanding of scientific truth?**
+
+This is not to assume that the public seeks absolute certainty or that Lean functions as a final guarantor. The hypothesis is that formal checking supplies a visible credential that can make one part of a complex epistemic chain publicly legible. It may reduce uncertainty about derivational validity while relocating dependence to semantic interpretation, expert judgment, institutional recognition, and public communication.
+
+## 5. Novelty boundary
+
+Kallel and El Louadi (2026), arXiv:2608.28997, already distinguish derivational validity, representational fidelity, and epistemic significance, and analyze the scarcity of human adjudication. The present project must not claim these distinctions as original. Its proposed contribution is the society-wide and Žižekian analysis of how the formal-verification credential becomes a symbolic guarantee in public trust and science communication.
