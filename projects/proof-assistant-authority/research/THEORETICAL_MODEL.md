@@ -75,7 +75,7 @@ The formation and reproduction of the epistemic fetish can be reconstructed thro
 4. **Objectal displacement and symbolic authority.** As the credential circulates, the exact proposition, environment, assumptions, dependencies, and specification relation may become less visible while the credential remains. Authority generated through the network appears to reside autonomously in the machine-certified object. The local warrant acquires a symbolic surplus: the credential can signify that the wider mathematical claim is secure or settled.
 5. **Fetishistic disavowal and reproduction.** This is a conditional feedback mechanism, not a necessary stage in every case. It occurs when an actor or institution explicitly acknowledges the human, semantic, or technical conditions that limit the credential’s warrant, yet continues to mobilize an autonomous or broader public representation of the credential. The actor need not confess that its own wording overreaches. The disavowal is located in the public practice that holds acknowledged mediation together with continued investment in the credential as the apparent bearer of the whole achievement.
 
-The first two moments are enabling conditions; the third gives the achievement a portable form; the fourth is the specifically fetishistic conversion; and the fifth explains how that authority may be sustained after awareness. Condensation alone is not fetishism, and distributed labour does not automatically become invisible. Nor does awareness of the kernel’s scope by itself establish disavowal. The relevant knowledge must concern the mismatch between the credential’s actual warrant and the broader authority it is made to carry.
+The first two moments are enabling conditions; the third gives the achievement a portable form; the fourth is the specifically fetishistic conversion; and the fifth explains how that authority may be sustained after awareness. Condensation alone is not fetishism, and distributed labour does not automatically become invisible. Nor does awareness of the kernel’s scope by itself establish disavowal. The relevant knowledge is the publicly acknowledged human or semantic mediation that qualifies the machine’s contribution. Fetishistic disavowal appears when this acknowledgement coexists in the same communication chain with a continued autonomous-machine representation of the whole achievement. The actor need not explicitly acknowledge that its own wording overreaches.
 
 The sequence can be represented as a formation process with a conditional feedback loop:
 
@@ -90,7 +90,7 @@ The sequence can be represented as a formation process with a conditional feedba
 \]
 
 \[
-\text{Acknowledged boundary}+\text{continued investment beyond it}
+\text{Acknowledged human/semantic mediation}+\text{continued autonomous-machine framing}
 \longrightarrow
 \text{Fetishistic disavowal}
 \circlearrowleft
