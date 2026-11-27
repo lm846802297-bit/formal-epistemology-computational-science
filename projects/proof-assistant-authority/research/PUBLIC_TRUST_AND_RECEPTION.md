@@ -150,6 +150,14 @@ The reactions are not uniform. One commentator emphasizes the research potential
 
 A separate audit by Carlos Toledo (https://carlostoledo.co/reports/alphaproof-nexus.html) claims the published proofs replay under two independent kernels but identifies possible problems with the novelty and intended meaning of some OEIS/Erdős claims. The audit explicitly limits its own conclusions: its OEIS readings are AI-generated and not specialist-confirmed, and it does not settle whether all formal Erdős statements match the original problems. Treat it as a secondary audit requiring further specialist review, not a definitive correction of the Science paper.
 
+### 3.4A Independent editorial status record for the Waring preprint
+
+math.observer published a case record on 24 November and corrected its description on 25 November: https://math.observer/breakthroughs/chow-dietmann-waring-linear-bound-claim-2026/
+
+The record confirms the arXiv date (22 November), the AI statement, the claimed asymptotic (G(k)\asymp k), the fact that the work is unreviewed and independently unchecked at the time of the record, and that the same AI model is named as referee. The correction clarifies that the prior best bound applies “for large k” and dates the Brüdern–Wooley result by both preprint (2022) and journal publication (2023). The record says no claim retraction is documented.
+
+This is useful because it shows an intermediary editorial source correcting its own framing while keeping the mathematical status explicitly “claimed, not yet reviewed.” It is a small but concrete instance of public knowledge infrastructure performing scope correction.
+
 ### 3.5 Waring's problem: early and limited public reception
 
 The Waring preprint was posted on 22 November 2026. The bounded search conducted for this module located the authors' arXiv paper and a dated case record at math.observer, but did not locate a substantial, independently documented public discussion or expert response by 27 November. Record this as “no substantial public-discussion sample located in this search,” not as proof that no discussion exists. The absence of an established public reception is itself relevant to the case's early status.
