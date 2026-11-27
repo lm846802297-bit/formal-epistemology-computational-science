@@ -10,7 +10,7 @@
 4. **The ideological fantasy of verification.** Analyze how a bounded, reproducible check may be represented as closure of scientific uncertainty.
 5. **Epistemic fetishism of Lean verification.** Analyze how collective mathematical, formalization, software, expert, and institutional labour may appear as an autonomous property of the machine.
 6. **Lean and the Big Other of scientific certainty.** Analyze how Lean can function as a symbolic credential within a social order that seeks a guarantee, while no final guarantor exists.
-7. **Four Lean case studies.** Riemann hypothesis; Navier–Stokes; Erdős/AlphaProof Nexus; Liquid Tensor Experiment. Use each to test and potentially falsify the three ideological mechanisms.
+7. **Four Lean case studies.** Riemann hypothesis; Navier–Stokes; Erdős/AlphaProof Nexus; Liquid Tensor Experiment. Use each to test and potentially falsify the three ideological mechanisms. The first comparative test is in [THEORY_CASE_TESTS.md](../research/THEORY_CASE_TESTS.md).
 8. **Society-wide reception.** Analyze the Chen–Jia experiment, public-trust research, institutional announcements, media narratives, and bounded public discussions. Distinguish actual audience evidence from invitations to trust.
 9. **Discussion — Verification relocates uncertainty.** Explain how technical checking reduces one kind of uncertainty while relocating dependence to semantic, interpretive, institutional, and communicative judgments. Compare Žižek's contribution with Hardwig without shifting the theoretical centre away from Žižek.
 10. **Conclusion.** Explain why modern society invests in technologies that make knowledge formally checkable and how such technologies reshape the symbolic understanding of scientific truth.
