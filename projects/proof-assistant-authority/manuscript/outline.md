@@ -2,19 +2,40 @@
 
 **Subtitle:** The Ideology of Machine-Checked Proofs in Science
 
-**Central thesis:** Lean can acquire a social and ideological function beyond its technical role as a proof assistant. Its genuine but bounded formal assurance may become a public symbol of scientific certainty. Žižek's ideology critique explains how this credential can be invested with the function of a guarantee, how collective epistemic labour may appear as an autonomous machine property, and how Lean may be positioned within a symbolic order that seeks a guarantor despite the absence of any final guarantor.
+## Central research question
 
-1. **Introduction — Why does society trust what it cannot verify?** Introduce AI-assisted mathematical discovery, Lean certification, and the broader social problem of relying on specialized knowledge.
-2. **The technical object — What does Lean guarantee?** Explain only the necessary technical background: formal proposition, proof term, kernel checking, assumptions, and semantic correspondence. Avoid turning the paper into a Lean manual.
-3. **Žižek's critique of ideology — Fantasy, fetishism, and the Big Other.** Establish the primary theoretical framework from *The Sublime Object of Ideology* and relevant Lacanian texts. Current chapter drafts: [3.1 Fantasy](theory/3_1_IDEOLOGICAL_FANTASY.md); [3.2 Epistemic Fetishism](theory/3_2_EPISTEMIC_FETISHISM.md); [3.3 Big Other](theory/3_3_BIG_OTHER_AND_MISSING_GUARANTEE.md).
-4. **The ideological fantasy of verification.** Analyze how a bounded, reproducible check may be represented as closure of scientific uncertainty.
-5. **Epistemic fetishism of Lean verification.** Analyze how collective mathematical, formalization, software, expert, and institutional labour may appear as an autonomous property of the machine.
-6. **Lean and the Big Other of scientific certainty.** Analyze how Lean can function as a symbolic credential within a social order that seeks a guarantee, while no final guarantor exists.
-7. **Four Lean case studies.** Riemann hypothesis; Navier–Stokes; Erdős/AlphaProof Nexus; Liquid Tensor Experiment. Use each to test and potentially falsify the three ideological mechanisms. The first comparative test is in [THEORY_CASE_TESTS.md](../research/THEORY_CASE_TESTS.md).
-8. **Society-wide reception.** Analyze the Chen–Jia experiment, public-trust research, institutional announcements, media narratives, and bounded public discussions. Distinguish actual audience evidence from invitations to trust.
-9. **Discussion — Verification relocates uncertainty.** Explain how technical checking reduces one kind of uncertainty while relocating dependence to semantic, interpretive, institutional, and communicative judgments. Compare Žižek's contribution with Hardwig without shifting the theoretical centre away from Žižek.
-10. **Conclusion.** Explain why modern society invests in technologies that make knowledge formally checkable and how such technologies reshape the symbolic understanding of scientific truth.
+How does a technical procedure of formal verification, whose epistemic scope is determinate, acquire and exercise an ideological function within scientific knowledge production and public communication?
 
-**Contrast case:** Waring/GPT-6.2 Astra is used only to distinguish AI-generated mathematical claims from Lean-certified results.
+## Central hypothesis
 
-Coq, Isabelle/HOL, and HOL Light appear only as brief historical context. The empirical focus remains Lean.
+**The Ideological Fetishism of Formal Verification:** the epistemic authority of formal verification may be ideologically sustained when the genuine reliability of local machine checking is represented as an autonomous guarantee of broader scientific certainty, while the human, conceptual, semantic, and institutional conditions that make verification meaningful recede from view.
+
+The core framework is Žižek's critique of ideology. Hardwig is a normative baseline for justified epistemic dependence; Lacan's subject-supposed-to-know and the missing Big Other are supporting concepts only.
+
+## Proposed structure
+
+1. **Introduction — From a technical check to a scientific guarantee.** Introduce the gap between what Lean checks and what machine verification may be made to signify in scientific communication. Define the research question and the four Lean cases.
+2. **What Lean verifies — the bounded technical warrant.** Explain proof terms, formal propositions, kernel checking, assumptions, and semantic correspondence. Keep technical exposition concise and exact.
+3. **Žižek's critique of ideology.** Reconstruct ideological fantasy, fetishism, and disavowal from primary texts. Distinguish cynical disavowal from fetishistic disavowal. Establish the Marxian structure of fetishism and the supporting Lacanian concepts without making them co-equal frameworks.
+4. **The ideological fantasy of formal verification.** Explain how a reproducible local check can stage the appearance of closure of scientific uncertainty.
+5. **The epistemic fetishism of formal verification.** Explain how collective epistemic labour and institutional relations may appear as an autonomous property of the machine.
+6. **Disavowal and the persistence of the verification guarantee.** Test when acknowledged limits coexist with continued symbolic investment. Use cynical and fetishistic disavowal distinctly; do not infer motives from a headline.
+7. **Four Lean case studies.** Riemann hypothesis; Navier–Stokes; Erdős/AlphaProof Nexus; Liquid Tensor Experiment. Test and potentially falsify each ideological mechanism using exact theorem artifacts, human labour, institutional statements, and public communication.
+8. **Public and institutional mediation.** Analyze public-trust research, the Chen–Jia experiment, official announcements, media narratives, and available audience evidence. Do not infer population beliefs from self-selected texts.
+9. **Discussion — the ideological function of bounded verification.** Explain how a genuine local guarantee can acquire wider symbolic authority; distinguish ideological enlargement from justified epistemic dependence. Discuss the supporting role of Hardwig and Lacan.
+10. **Conclusion.** State what the cases establish about the ideological role of formal verification in contemporary scientific knowledge production.
+
+## Case scope
+
+- Primary cases: Riemann, Navier–Stokes, Erdős/AlphaProof Nexus, Liquid Tensor.
+- Waring/GPT: contrast only; no Lean certificate documented.
+- Coq, Isabelle, and HOL Light: brief historical context only.
+
+## Acceptance criteria
+
+- The three Žižekian mechanisms are reconstructed from primary sources and kept conceptually distinct.
+- The proposed term “epistemic fetishism of formal verification” is identified as this paper's extension.
+- Cynical disavowal and fetishistic disavowal are distinguished and used only when the evidence supports them.
+- Each case is checked against the exact formal artifact and the exact public claim.
+- Counter-cases and rival explanations are retained.
+- The final contribution concerns the ideological function of formal verification, not a generic theory of trust in AI.
