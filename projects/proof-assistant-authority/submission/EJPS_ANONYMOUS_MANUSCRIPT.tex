@@ -1,34 +1,25 @@
-\documentclass[12pt]{article}
-\usepackage[margin=1in]{geometry}
+\documentclass[sn-apa]{sn-jnl}
 \usepackage{fontspec}
-\usepackage{amsmath,amssymb}
+\usepackage{amsmath,amssymb,amsfonts,mathrsfs}
 \usepackage{setspace}
 \usepackage{hyperref}
-\usepackage{hanging}
+\usepackage{url}
 \usepackage{enumitem}
 \usepackage{microtype}
 \setmainfont{Latin Modern Roman}
 \doublespacing
 \setlength{\parindent}{0.5in}
 \setlength{\parskip}{0pt}
-\hypersetup{colorlinks=false,pdfauthor={},pdftitle={In Lean We Trust? The Ideology of Machine-Checked Proofs in Science}}
-\title{In Lean We Trust? The Ideology of Machine-Checked Proofs in Science}
-\author{}
-\date{}
+\setcounter{secnumdepth}{3}
+\raggedbottom
+\hypersetup{pdftitle={In Lean We Trust? The Ideology of Machine-Checked Proofs in Science},pdfauthor={},pdfsubject={Anonymous manuscript for double-blind review}}
 \begin{document}
+\title{In Lean We Trust? The Ideology of Machine-Checked Proofs in Science}
+\abstract{What could be ideological about a correct proof? Lean’s kernel provides genuine, bounded warrant for a formal proposition under a specified environment. This article asks how such a local achievement can become a source of wider mathematical authority. Drawing on Slavoj Žižek’s critique of ideology, it develops the concept of the \textbf{ideological fetishism of formal verification} through five moments: real technical reliability; distributed epistemic labour; condensation into the credential “Lean-verified”; objectal displacement, through which network-generated authority appears to reside in the credential itself; and, conditionally, fetishistic disavowal, through which symbolic investment persists alongside acknowledged human and semantic mediation. Four cases—the Riemann hypothesis, Navier–Stokes, AlphaProof Nexus’s work on Erdős problems, and the Liquid Tensor Experiment—show contrasting configurations. AlphaProof Nexus provides a positive existence case: the research paper and an associated university account identify human problem selection, validation of formal statements against original conjectures, and mathematical exposition, while continuing to describe the agent as having “autonomously resolved” the problems. The analysis identifies a shift from operational autonomy in proof search to public attribution of the mathematical achievement to the machine. It argues that formal verification’s genuine reliability is not what ideology must explain away, but what it must explain: how a bounded technical guarantee becomes the material support for symbolic authority beyond the operation that produced it.}
+\keywords{philosophy of science, mathematical practice, ideology critique, formal verification, Lean, epistemic authority}
 \maketitle
 
-\begin{abstract}
-
-What could be ideological about a correct proof? Lean’s kernel provides genuine, bounded warrant for a formal proposition under a specified environment. This article asks how such a local achievement can become a source of wider mathematical authority. Drawing on Slavoj Žižek’s critique of ideology, it develops the concept of the \textbf{ideological fetishism of formal verification} through five moments: real technical reliability; distributed epistemic labour; condensation into the credential “Lean-verified”; objectal displacement, through which network-generated authority appears to reside in the credential itself; and, conditionally, fetishistic disavowal, through which symbolic investment persists alongside acknowledged human and semantic mediation. Four cases—the Riemann hypothesis, Navier–Stokes, AlphaProof Nexus’s work on Erdős problems, and the Liquid Tensor Experiment—show contrasting configurations. AlphaProof Nexus provides a positive existence case: the research paper and an associated university account identify human problem selection, validation of formal statements against original conjectures, and mathematical exposition, while continuing to describe the agent as having “autonomously resolved” the problems. The analysis identifies a shift from operational autonomy in proof search to public attribution of the mathematical achievement to the machine. It argues that formal verification’s genuine reliability is not what ideology must explain away, but what it must explain: how a bounded technical guarantee becomes the material support for symbolic authority beyond the operation that produced it.
-
-
-\textbf{Keywords:} philosophy of science; mathematical practice; ideology critique; formal verification; Lean; epistemic authority
-
-
-\end{abstract}
-
-\section{1. The Paradox of a Verified Proof}
+\section{The Paradox of a Verified Proof}
 
 What is ideological about a correct proof?
 
@@ -80,7 +71,7 @@ Four encounters with Lean formalization will help clarify the argument. They are
 The guiding question throughout is simple, although its answer is not: when a proof is verified, what exactly has been verified—and what, beyond that, is the credential being asked to guarantee?
 
 
-\section{2. The Limits of Formal Certainty}
+\section{The Limits of Formal Certainty}
 
 The first task is to resist two opposite mistakes. The first is to treat formal verification as if it were merely a ceremonial endorsement of work already completed elsewhere. The second is to treat kernel acceptance as if it settled every question that can be asked about a mathematical result. Both mistakes obscure the distinctive epistemic value of formal verification.
 
@@ -126,9 +117,9 @@ There is nothing ideological merely in relying on Lean, trusting a competent for
 This is where the problem becomes more precise. Social mediation is not ideology; distributed labour is not fetishism; institutional recognition is not automatically a distortion. The ideological question arises when the credential associated with one component of the warrant architecture comes to appear as if it contains the authority of the whole. The kernel’s reliability gives the credential its genuine technical warrant. The symbolic problem begins when that local warrant becomes the visible bearer of a certainty sustained by relations extending beyond the check itself. \textbf{The reality of the technical achievement is therefore the starting point of the ideology critique, not an objection that the critique must overcome.}
 
 
-\section{3. Žižek and the Ideological Structure of Verification}
+\section{Žižek and the Ideological Structure of Verification}
 
-\subsection{3.1 Ideology beyond false consciousness}
+\subsection{1 Ideology beyond false consciousness}
 
 In “The Spectre of Ideology,” Žižek shifts the question of ideology away from the simple opposition between true and false beliefs (Žižek, 1994). The ideological function of a proposition cannot be read directly from its truth value. A statement may be factually correct and nevertheless participate in an ideological relation through the position it occupies and the practice it helps sustain. What matters is not only whether a statement is true, but how its truth is mobilized within a social order.
 
@@ -139,7 +130,7 @@ In “The Spectre of Ideology,” Žižek shifts the question of ideology away f
 Žižek’s account directs attention beyond explicit discourse. In “The Spectre of Ideology,” he distinguishes ideology as doctrine, its material externality in practices and institutions, and its more elusive spontaneous operation within social reality (Žižek, 1994, pp. 9–10). Applied to formal verification, this means that the credential must be studied across the settings in which it acquires force: the repository in which a proof is checked, the paper that reports it, the institution that recognizes it, and the practices through which mathematical credibility is distributed. Ideology is not simply a mistaken sentence about a machine. It concerns the relation between what is said, what is materially done, and what becomes authoritative.
 
 
-\subsection{3.2 Ideological fantasy: the scene in which uncertainty appears to end}
+\subsection{2 Ideological fantasy: the scene in which uncertainty appears to end}
 
 In \emph{The Sublime Object of Ideology}, fantasy is not merely a false image concealing an otherwise complete reality. It supplies the coordinates through which reality is experienced and sustains the appearance of coherence where a constitutive gap remains (Žižek, 1989, pp. 28–31). Fantasy organizes the scene in which a practice becomes intelligible and an incomplete relation can appear whole.
 
@@ -175,7 +166,7 @@ is not a consequence of kernel acceptance alone.
 Why is this scene compelling? Formal verification makes one part of mathematical warrant unusually visible. A proof may depend on extensive libraries, complex formalization, and years of technical work, while the result of checking can be communicated in a compact and reproducible form. The word “verified” gives a heterogeneous process a single point of presentation. Fantasy names the way this local completion can appear as the completion of the whole.
 
 
-\subsection{3.3 Fetishism: when the relation appears as a property of the object}
+\subsection{3 Fetishism: when the relation appears as a property of the object}
 
 The more decisive theoretical move comes from Marx’s account of commodity fetishism. In \emph{Capital}, Volume I, Chapter 1, Section 4, Marx analyzes how relations among producers assume the appearance of relations among things. Žižek’s discussion emphasizes how an effect generated by a network of relations can appear as an immediate property of an object (Žižek, 1989, pp. 19–20).
 
@@ -192,7 +183,7 @@ The fetishistic possibility appears when the authority generated through this ne
 Fantasy and fetishism therefore do different work. Fantasy supplies the scene in which the local check appears to close the wider question. Fetishism gives this appearance an objectal form: the closure seems to reside in the credential itself. The first concerns the staging of completeness; the second concerns the apparent location of the authority that completeness promises. They reinforce one another, but they are not interchangeable.
 
 
-\subsection{3.4 Fetishistic disavowal and the persistence of symbolic investment}
+\subsection{4 Fetishistic disavowal and the persistence of symbolic investment}
 
 The primary theoretical basis for fetishistic disavowal is already present in \emph{The Sublime Object of Ideology}. Žižek invokes the formula “I know very well, but still” in his discussion of money as a fetish object (Žižek, 1989, pp. 12–13). He returns to the same problem in the analysis of commodity fetishism: individuals know that money is an expression of social relations, yet in their actual social activity they act as if money were the immediate embodiment of wealth (Žižek, 1989, pp. 28–30). They are, in Žižek’s phrase, “fetishists in practice, not in theory.” The decisive point is that the illusion is not simply a false proposition held in consciousness. It is embodied in the form of social activity itself. Žižek further describes belief as externalized in effective procedures: the social object can appear to “believe” in place of the subjects who use it (Žižek, 1989, pp. 31–32).
 
@@ -212,7 +203,7 @@ The AlphaProof Nexus case makes this structure visible. The research paper repor
 Disavowal is not necessary for the initial emergence of objectal displacement. It explains how the symbolic authority of the credential may be reproduced despite the visibility of the relations that sustain it. The public record can establish this structure of representation and practice; it does not establish private or unconscious motives. The analysis concerns the public organization of knowledge and authority, not a speculative diagnosis of individual psychology.
 
 
-\section{4. The Machine as a Fetish Object}
+\section{The Machine as a Fetish Object}
 
 How does the credential “Lean-verified” acquire authority beyond the technical operation it records? The answer is not that a machine suddenly becomes an object of irrational admiration, nor that a community simply mistakes a technical procedure for something it is not. The process is more interesting: a real technical achievement is produced through distributed labour, condensed into a portable sign, and then made to carry a symbolic authority that appears to belong to the sign itself.
 
@@ -291,12 +282,12 @@ The fetish, then, is not simply the machine, and it is not a false belief about 
 The central philosophical finding follows: \textbf{the ideological fetishism of formal verification does not require the concealment of human mediation. It can operate through the very public acknowledgement of that mediation, while the machine continues to function as the apparent autonomous bearer of mathematical authority.}
 
 
-\section{5. Four Encounters with Formal Verification}
+\section{Four Encounters with Formal Verification}
 
 The four encounters bring different relations between a formal artifact and its associated mathematical claim into view. Read together, they trace the five moments: the checker’s actual achievement; the distributed labour that makes the result meaningful; the condensation of this work into a public credential; the location of the authority attributed to that credential; and the persistence of symbolic investment alongside acknowledged human and semantic mediation.
 
 
-\subsection{5.1 The Riemann Hypothesis: a credential whose warrant remains visible}
+\subsection{1 The Riemann Hypothesis: a credential whose warrant remains visible}
 
 On 20 November 2026, Levent Alpöge released a note and a large Lean development concerning the Riemann hypothesis (Alpöge, 2026). The Lean FRO and Mathlib Initiative issued a joint statement on 21 November expressing “full confidence” in the proof and stating that the community certified both the statement and the proof (Lean FRO \& Mathlib Initiative, 2026).
 
@@ -316,7 +307,7 @@ Parker Emmerson’s non-peer-reviewed preprint of 24 November challenges the fou
 Riemann therefore displays powerful institutional authorization through a visibly composite warrant. The credential condenses the work of the kernel, independent checkers, expert vetting, and theorem comparison, while the certifying statement keeps these relations in view. Its significance for the comparison is to show that institutional authority can be strong without being represented as the autonomous property of the machine.
 
 
-\subsection{5.2 Navier–Stokes: the association of a formal certificate with a public solution claim}
+\subsection{2 Navier–Stokes: the association of a formal certificate with a public solution claim}
 
 On 8 September 2026, OpenAI announced a result concerning the Navier–Stokes existence and smoothness problem, presenting an analytical write-up together with a Lean formalization (OpenAI, 2026a). The announcement states that the system produced a proof of finite-time singularity formation for a three-dimensional incompressible fluid with smooth external forcing and finite energy, and says that the result establishes alternatives C and D of the official Millennium Prize formulation. It also reports that Lean formalization and verification took an additional seventeen hours after the agents had arrived at their resolution. The public repository describes itself as containing Lean formalizations of the results presented in the two OpenAI papers (OpenAI, 2026b).
 
@@ -330,7 +321,7 @@ The relation between the fourth moment and the public claim is more delicate. Ba
 OpenAI’s announcement presents both a write-up and a formalization, while the independent critique makes the relation between these artifacts publicly salient. The case therefore locates a crucial point in the formation mechanism: a formal credential can travel alongside a high-profile mathematical claim, while the relation between the checked declaration and the written proof remains a distinct object of scrutiny. It clarifies the difference between the association of a credential with a solution claim and the stronger public representation of the machine as the autonomous bearer of the entire achievement.
 
 
-\subsection{5.3 Erdős problems and AlphaProof Nexus: the public attribution of autonomous mathematical achievement}
+\subsection{3 Erdős problems and AlphaProof Nexus: the public attribution of autonomous mathematical achievement}
 
 Tsoukalas and colleagues report that their full-featured AlphaProof Nexus agent “autonomously resolved 9 of 353 open Erdős problems” (Tsoukalas et al., 2026, Abstract). Table 1 repeats the formulation, describing the entries as “open problems ... autonomously resolved by our full-featured agent.” The denominator is important: the evaluation ran over 353 formalized statements in the Formal Conjectures repository, not over an independently assembled list of 353 informal problems. The nine results are therefore nine solved formal statements associated with Erdős problems; the paper itself notes variants among the entries and identifies one variant that was not posed by Erdős himself.
 
@@ -356,7 +347,7 @@ A narrower reading remains possible: “autonomously resolved” may be intended
 AlphaProof Nexus therefore supplies the article’s positive existence case. It shows how a genuine machine-checked result, produced through distributed human and computational labour, can be publicly attributed to the autonomous machine as the principal subject of mathematical achievement—even while the human and semantic mediation that qualifies this attribution is explicitly acknowledged.
 
 
-\subsection{5.4 The Liquid Tensor Experiment: acknowledged limits answered by semantic work}
+\subsection{4 The Liquid Tensor Experiment: acknowledged limits answered by semantic work}
 
 The Liquid Tensor Experiment was completed in July 2022. Its public announcement states that the main theorem of liquid vector spaces had been formally verified in Lean and lists the mathematical, formalization, technical, library, and institutional contributions on which the project relied (Mathlib Community, 2022).
 
@@ -370,7 +361,7 @@ Adam Topaz’s subsequent discussion explicitly raises the semantic question: ho
 Liquid Tensor organizes confidence differently. The credential remains important, but its authority is presented together with the semantic work that gives it meaning. The acknowledged possibility of pathological definitions is answered through examples that mathematicians can inspect. The project thus provides a counter-practice in which semantic relations remain visible and are incorporated into the basis of confidence, rather than being condensed into an apparently self-sufficient machine guarantee.
 
 
-\section{6. The Ideological Function of Mathematical Certainty}
+\section{The Ideological Function of Mathematical Certainty}
 
 The cases reveal that the authority of formal verification is neither located in the kernel alone nor detached from it. The kernel supplies a real technical warrant. The mathematical and institutional practices surrounding it make that warrant meaningful and allow it to travel. The ideological question concerns the transformation through which the authority of this wider network comes to appear as a property of the machine-certified object.
 
@@ -405,7 +396,7 @@ Erfani (2026) examines ideological functions of AI systems, while Hourigan (2009
 The ideological function of mathematical certainty is not that certainty is false. Formal verification can provide a real and powerful form of certainty. The issue is how this certainty travels and what it is made to authorize. The machine’s reliability is not what ideology must explain away. It is precisely what ideology must explain: how a genuine, bounded technical guarantee becomes the material support for a symbolic authority that appears to exceed the operation which produced it.
 
 
-\section{7. Conclusion}
+\section{Conclusion}
 
 How does the epistemic fetishism of formal verification arise? It begins with a real technical achievement. Lean’s kernel checks proof terms against formal propositions under specified environments. This genuine reliability gives the credential “Lean-verified” its initial force; without it, the credential would have no epistemic substance.
 
@@ -430,7 +421,7 @@ The machine verifies a proposition. The philosophical question is what, beyond t
 
 \section*{Statements and Declarations}
 
-\textbf{Generative AI use.} ChatGPT (OpenAI; GPT-6.2) was used during preparation of this manuscript to assist with literature discovery, argument development, drafting, and revision. The author is responsible for the final manuscript and for verifying the accuracy of its claims, interpretations, and references.
+\textbf{Generative AI use.} ChatGPT (OpenAI; GPT-6.2; November 2026) assisted with preliminary literature discovery; comparison and summarization of cited sources and publicly available Lean-related materials; organization and critical assessment of the argument; and drafting and revision of manuscript prose. ChatGPT was not used to generate new numerical results or Lean proofs for this article. The author retains responsibility for source verification, scholarly judgments, and the final manuscript.
 
 
 \textbf{Funding.} [Author confirmation required before submission.]
@@ -441,128 +432,66 @@ The machine verifies a proposition. The philosophical question is what, beyond t
 
 \section*{References}
 
-\begin{hangparas}{0.5in}{1}
-Ahlstrom-Vij, K. (2021). Esoteric reliabilism. \emph{Episteme, 18}(4), 603–623. https://doi.org/10.1017/epi.2019.39
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Ahlstrom-Vij, K. (2021). Esoteric reliabilism. \emph{Episteme, 18}(4), 603–623. https://doi.org/10.1017/epi.2019.39\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Alpöge, L. (2026, November 20). \emph{The Riemann hypothesis} [Research note and Lean archive]. https://alpo.ge/
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Alpöge, L. (2026, November 20). \emph{The Riemann hypothesis} [Research note and Lean archive]. https://alpo.ge/\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Bastounis, A., Circelli, F., \& Hansen, A. C. (2026). \emph{Navier–Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs} [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2610.08144
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Bastounis, A., Circelli, F., \& Hansen, A. C. (2026). \emph{Navier–Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs} [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2610.08144\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Behrend, M. (2026, October 23). \emph{Aarhus mathematician co-authors Google DeepMind breakthrough on machine-verified proofs of open problems}. Aarhus University. https://math.au.dk/en/currently/news/news-item/artikel/gergely-deepmind
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Behrend, M. (2026, October 23). \emph{Aarhus mathematician co-authors Google DeepMind breakthrough on machine-verified proofs of open problems}. Aarhus University. https://math.au.dk/en/currently/news/news-item/artikel/gergely-deepmind\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Black, J. (2025). Examining the mechanism of disavowal and its two forms: Cynical disavowal and fetishistic disavowal. \emph{Theory \& Psychology, 35}(1), 117–135. https://doi.org/10.1177/09593543241308199
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Black, J. (2025). Examining the mechanism of disavowal and its two forms: Cynical disavowal and fetishistic disavowal. \emph{Theory \& Psychology, 35}(1), 117–135. https://doi.org/10.1177/09593543241308199\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Cotton, P. (2026, September 24). \emph{The formal statement}. Navier–Stokes Guide. https://navier.microprediction.org/formal.html
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Cotton, P. (2026, September 24). \emph{The formal statement}. Navier–Stokes Guide. https://navier.microprediction.org/formal.html\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-De Millo, R. A., Lipton, R. J., \& Perlis, A. J. (1979). Social processes and proofs of theorems and programs. \emph{Communications of the ACM, 22}(5), 271–280. https://doi.org/10.1145/359104.359106
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 De Millo, R. A., Lipton, R. J., \& Perlis, A. J. (1979). Social processes and proofs of theorems and programs. \emph{Communications of the ACM, 22}(5), 271–280. https://doi.org/10.1145/359104.359106\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Duede, E., \& Davey, K. (2025). A priori knowledge in an era of computational opacity: The role of artificial intelligence in mathematical discovery. \emph{Philosophy of Science, 92}(5), 1394–1404. https://doi.org/10.1017/psa.2025.10160
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Duede, E., \& Davey, K. (2025). A priori knowledge in an era of computational opacity: The role of artificial intelligence in mathematical discovery. \emph{Philosophy of Science, 92}(5), 1394–1404. https://doi.org/10.1017/psa.2025.10160\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Emmerson, P. (2026, November 24). \emph{Alpöge’s certified Lean derivation does not prove the Riemann hypothesis: Granting every check, the hypothesis follows from a premise stronger than itself} [Preprint]. Preprints.org. https://doi.org/10.20944/preprints202611.2463.v1
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Emmerson, P. (2026, November 24). \emph{Alpöge’s certified Lean derivation does not prove the Riemann hypothesis: Granting every check, the hypothesis follows from a premise stronger than itself} [Preprint]. Preprints.org. https://doi.org/10.20944/preprints202611.2463.v1\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Erfani, F. (2026). Not “just a language model”: AI’s ideological functions. \emph{AI \& Society, 41}, 869–881. https://doi.org/10.1007/s00146-025-02623-0
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Erfani, F. (2026). Not “just a language model”: AI’s ideological functions. \emph{AI \& Society, 41}, 869–881. https://doi.org/10.1007/s00146-025-02623-0\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Hardwig, J. (1985). Epistemic dependence. \emph{The Journal of Philosophy, 82}(7), 335–349. https://doi.org/10.2307/2026523
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Hardwig, J. (1985). Epistemic dependence. \emph{The Journal of Philosophy, 82}(7), 335–349. https://doi.org/10.2307/2026523\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Hourigan, D. (2009). \emph{The phantasmatic subject of technology: Slavoj Žižek, techne, and the abyss} [Doctoral dissertation, Griffith University]. https://doi.org/10.25904/1912/3124
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Hourigan, D. (2009). \emph{The phantasmatic subject of technology: Slavoj Žižek, techne, and the abyss} [Doctoral dissertation, Griffith University]. https://doi.org/10.25904/1912/3124\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Kallel, M., \& El Louadi, M. (2026). \emph{Verification abundance, adjudication scarcity: What happens to mathematical knowledge when proof checking becomes free} [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2608.28997
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Kallel, M., \& El Louadi, M. (2026). \emph{Verification abundance, adjudication scarcity: What happens to mathematical knowledge when proof checking becomes free} [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2608.28997\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Kuldova, T. (2019). Fetishism and the problem of disavowal. \emph{Qualitative Market Research: An International Journal, 22}(5), 766–780. https://doi.org/10.1108/QMR-12-2016-0125
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Kuldova, T. (2019). Fetishism and the problem of disavowal. \emph{Qualitative Market Research: An International Journal, 22}(5), 766–780. https://doi.org/10.1108/QMR-12-2016-0125\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Lean FRO \& Mathlib Initiative. (2026, November 21). \emph{Lean verification of the Riemann hypothesis} [Joint statement]. https://leanprover-community.github.io/blog/posts/riemann-hypothesis/
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Lean FRO \& Mathlib Initiative. (2026, November 21). \emph{Lean verification of the Riemann hypothesis} [Joint statement]. https://leanprover-community.github.io/blog/posts/riemann-hypothesis/\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-López-Corona, O. (2026). \emph{From authorial mathematics to studio mathematics: Ecobiontic forms of proof after large language models} [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2608.22194
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 López-Corona, O. (2026). \emph{From authorial mathematics to studio mathematics: Ecobiontic forms of proof after large language models} [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2608.22194\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Marx, K. (1976). \emph{Capital: A critique of political economy} (Vol. 1; B. Fowkes, Trans.). Penguin Books. (Original work published 1867)
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Marx, K. (1976). \emph{Capital: A critique of political economy} (Vol. 1; B. Fowkes, Trans.). Penguin Books. (Original work published 1867)\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Mathlib Community. (2022, July 15). \emph{Completion of the Liquid Tensor Experiment}. Lean Community Blog. https://leanprover-community.github.io/blog/posts/lte-final/
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Mathlib Community. (2022, July 15). \emph{Completion of the Liquid Tensor Experiment}. Lean Community Blog. https://leanprover-community.github.io/blog/posts/lte-final/\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Mathlib Documentation. (2026). \emph{Mathlib.NumberTheory.LSeries.RiemannZeta: Definition of RiemannHypothesis}. Mathlib4 documentation. https://leanprover-community.github.io/mathlib4\_docs/Mathlib/NumberTheory/LSeries/RiemannZeta.html
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Mathlib Documentation. (2026). \emph{Mathlib.NumberTheory.LSeries.RiemannZeta: Definition of RiemannHypothesis}. Mathlib4 documentation. https://leanprover-community.github.io/mathlib4\_docs/Mathlib/NumberTheory/LSeries/RiemannZeta.html\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Omodeo, P. D. (2019). \emph{Political epistemology: The problem of ideology in science studies}. Springer. https://doi.org/10.1007/978-3-030-23120-0
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Omodeo, P. D. (2019). \emph{Political epistemology: The problem of ideology in science studies}. Springer. https://doi.org/10.1007/978-3-030-23120-0\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-OpenAI. (2026a, September 8). \emph{On the Navier–Stokes Millennium Prize problem}. https://openai.com/index/navier-stokes-solution/
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 OpenAI. (2026a, September 8). \emph{On the Navier–Stokes Millennium Prize problem}. https://openai.com/index/navier-stokes-solution/\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-OpenAI. (2026b). \emph{NavierStokesAndEuler: Lean certificates accompanying Navier–Stokes and Euler results} [GitHub repository]. GitHub. https://github.com/openai/NavierStokesAndEuler
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 OpenAI. (2026b). \emph{NavierStokesAndEuler: Lean certificates accompanying Navier–Stokes and Euler results} [GitHub repository]. GitHub. https://github.com/openai/NavierStokesAndEuler\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-rh-lean-roadmap. (2026, November 26). \emph{The Riemann hypothesis and GRH for Dirichlet L-functions: A readable account of the Lean proof in Alpöge’s archive} (Version 44) [Zenodo record]. https://doi.org/10.5281/zenodo.24562451
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 rh-lean-roadmap. (2026, November 26). \emph{The Riemann hypothesis and GRH for Dirichlet L-functions: A readable account of the Lean proof in Alpöge’s archive} (Version 44) [Zenodo record]. https://doi.org/10.5281/zenodo.24562451\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Scholze, P. (2021, June 5). \emph{Half a year of the Liquid Tensor Experiment: Amazing developments}. Xena Project. https://xenaproject.wordpress.com/2021/06/05/half-a-year-of-the-liquid-tensor-experiment-amazing-developments/
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Scholze, P. (2021, June 5). \emph{Half a year of the Liquid Tensor Experiment: Amazing developments}. Xena Project. https://xenaproject.wordpress.com/2021/06/05/half-a-year-of-the-liquid-tensor-experiment-amazing-developments/\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Sloterdijk, P. (1987). \emph{Critique of cynical reason} (M. Eldred, Trans.). University of Minnesota Press. (Original work published 1983)
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Sloterdijk, P. (1987). \emph{Critique of cynical reason} (M. Eldred, Trans.). University of Minnesota Press. (Original work published 1983)\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Sutherland, A. (2026a, November 25). \emph{Verification files for the Lean proof of the Riemann hypothesis}. Massachusetts Institute of Technology. https://math.mit.edu/\textasciitilde{}drew/grh/
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Sutherland, A. (2026a, November 25). \emph{Verification files for the Lean proof of the Riemann hypothesis}. Massachusetts Institute of Technology. https://math.mit.edu/\textasciitilde{}drew/grh/\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Topaz, A. (2022, October 14). \emph{Definitions in the Liquid Tensor Experiment}. Lean Community Blog. https://leanprover-community.github.io/blog/posts/lte-examples/
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Topaz, A. (2022, October 14). \emph{Definitions in the Liquid Tensor Experiment}. Lean Community Blog. https://leanprover-community.github.io/blog/posts/lte-examples/\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Tsoukalas, G., Kovsharov, A., Shirobokov, S., Surina, A., Firsching, M., Bérczi, G., Ruiz, F. J. R., Suggala, A., Wagner, A. Z., Wieser, E., Yu, L., Huang, A., Horváth, M. Z., Ferraiuolo, A., Michalewski, H., Grosu, C., Lockhart, E., Hubert, T., Balog, M., . . . Chaudhuri, S. (2026). Advancing mathematics research with AI-driven formal proof search. \emph{Science, 394}(6820), 234–239. https://doi.org/10.1126/science.aej2213
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Tsoukalas, G., Kovsharov, A., Shirobokov, S., Surina, A., Firsching, M., Bérczi, G., Ruiz, F. J. R., Suggala, A., Wagner, A. Z., Wieser, E., Yu, L., Huang, A., Horváth, M. Z., Ferraiuolo, A., Michalewski, H., Grosu, C., Lockhart, E., Hubert, T., Balog, M., . . . Chaudhuri, S. (2026). Advancing mathematics research with AI-driven formal proof search. \emph{Science, 394}(6820), 234–239. https://doi.org/10.1126/science.aej2213\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Vallverdú, J. (2026). Where does mathematical warrant live? From the Four-Color Theorem to mass-released AI “results”. \emph{Philosophies, 11}(6), Article 224. https://doi.org/10.3390/philosophies11060224
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Vallverdú, J. (2026). Where does mathematical warrant live? From the Four-Color Theorem to mass-released AI “results”. \emph{Philosophies, 11}(6), Article 224. https://doi.org/10.3390/philosophies11060224\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Žižek, S. (1989). \emph{The sublime object of ideology}. Verso.
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Žižek, S. (1989). \emph{The sublime object of ideology}. Verso.\par\medskip
 
-\begin{hangparas}{0.5in}{1}
-Žižek, S. (1994). The spectre of ideology. In S. Žižek (Ed.), \emph{Mapping ideology} (pp. 1–33). Verso.
-\end{hangparas}
+\noindent\hangindent=0.5in\hangafter=1 Žižek, S. (1994). The spectre of ideology. In S. Žižek (Ed.), \emph{Mapping ideology} (pp. 1–33). Verso.\par\medskip
 
 \end{document}
