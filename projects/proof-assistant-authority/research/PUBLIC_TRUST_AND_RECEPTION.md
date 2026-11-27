@@ -189,6 +189,13 @@ These cases allow the study to distinguish at least four different public object
 
 A Žižekian reading should be tested against these distinctions. Ideological fetishism is not established merely because a newspaper says “AI proved it.” It becomes a plausible interpretation where collective labour, statement selection, semantic translation, and expert review disappear behind the apparently autonomous authority of the machine. Conversely, transparent accounts of human review and scope may resist that fetishistic presentation.
 
+
+### 5.1 What the public-trust baseline does — and does not — show
+
+The available survey evidence does **not** support a simple thesis that ordinary people automatically trust AI as a guarantor of scientific truth. General trust in science remains substantial but has declined since 2020; trust in scientists varies by social and institutional context. The UK survey on AI-assisted research finds a penalty in public funding support and stated trust when generative AI is used, while support rises markedly when substantial human input is retained. Pew's U.S. survey also finds a large gap between AI experts and the public in enthusiasm and concern.
+
+This is a theoretically important counterweight. The paper should not assume that the public transfers trust from science to AI. A more precise question is whether machine verification is presented as one credential within the already trusted (or contested) institutional order of science, and whether the visibility of human judgment changes how the public evaluates that credential. The public may trust science while distrusting AI use in science; it may trust the experts who use the system without trusting the system itself; or it may distinguish formal certification from human understanding. These are empirical alternatives, not interchangeable descriptions of “public trust.”
+
 ## 6. Research limitations and next evidence needed
 
 - The public-reception corpus is currently strongest for the Riemann announcement. Add matched media and public-discussion materials for Waring, Navier–Stokes, and AlphaProof Nexus.
