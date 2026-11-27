@@ -108,3 +108,25 @@ A future factorial experiment could vary AI contribution, Lean verification, hum
 Hardwig explains the rational possibility and conditions of epistemic dependence. The proposed model adds an account of how a technical credential travels through institutions and communication to become public authority. Žižek adds a critical account of the symbolic function of this authority: how a society may invest in an image of final certainty, how collective labour can appear as an autonomous machine property, and how known limits may or may not be displaced in practice.
 
 The contribution is not that all trust is ideological. It distinguishes warranted mediated reliance on Lean from cases where a bounded verification result is made to carry an unwarranted symbolic guarantee.
+
+## 11. Why society values a symbolic guarantee: uncertainty relocation
+
+The model must not assume that society simply desires absolute certainty. A more defensible starting point is the structural asymmetry between the social reach of scientific claims and the unequal distribution of the capacity to assess them. Lay audiences often lack first-hand access to data, methods, proofs, and institutional deliberation. Public trust therefore depends on a network of testimony, source credibility, communication, and research practices.
+
+Lean offers a visible, reproducible credential: a proof term is checked against a specified formal proposition. This can make one part of a complex epistemic chain legible to non-specialists through a simple public sign such as “formally verified.” The sign can be useful and warranted within its scope.
+
+Yet verification does not abolish uncertainty; it relocates it. The kernel can settle a derivational question about a formal object. It does not by itself settle whether the object represents the intended problem, whether the assumptions are appropriate, what the result contributes, or whether the public description is accurate. As technical uncertainty at the kernel level falls, the importance of semantic, interpretive, institutional, and communicative judgments can rise.
+
+Thus the central hypothesis is not that Lean removes uncertainty, but that **Lean makes one form of uncertainty highly controllable and thereby gives a visible form to the wider social desire for reliable knowledge**. Whether that visible credential is understood as limited or generalized beyond its warrant is the key empirical question.
+
+## 12. Close prior literature and novelty boundary
+
+Kallel and El Louadi (2026), “Verification Abundance, Adjudication Scarcity” (arXiv:2608.28997), already distinguish derivational validity, representational fidelity, and epistemic significance, and argue that machine checking transfers rather than eliminates the human adjudication burden. This project does not claim those distinctions as original.
+
+De Millo, Lipton, and Perlis (1979), “Social Processes and Proofs of Theorems and Programs,” DOI 10.1145/359104.359106, argue that mathematical confidence is shaped by social processes of reading, criticism, simplification, and acceptance. Their account is a historical precursor for the social dimension of proof.
+
+Fetzer (1988), “Program Verification: The Very Idea,” DOI 10.1145/48529.48530, distinguishes the formal algorithmic structure from the program as a causal object. The present paper should engage the analogy carefully: a mathematical theorem in Lean is not identical to a program's empirical behaviour, but both cases expose the need to distinguish formal relations from what the formal object is taken to represent.
+
+Iordanou, Antoniou, and De Vos (2026), “Public Trust in Science: A Systematic Literature Review,” DOI 10.1007/s10805-026-09732-5, synthesize 124 empirical studies and organize public trust factors around receiver, message, and source. Their review identifies integrity, transparency, epistemic inclusion, and communication channels as important. This supports the society-wide framing and warns against a single-factor account in which a technical credential alone creates trust.
+
+**Proposed originality:** the paper investigates the symbolic and ideological function of a highly visible formal-verification credential in the public mediation of scientific knowledge. It connects the bounded epistemic warrant of Lean to the wider social organization of trust and to Žižek's account of fantasy and fetishism. The original claim is about the social life of the guarantee, not the technical distinction between proof checking and semantic interpretation.
