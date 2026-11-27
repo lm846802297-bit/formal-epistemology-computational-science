@@ -210,3 +210,65 @@ The additional literature makes the originality claim more precise:
 **Our proposed contribution is the intersection:** a Žižekian analysis of formal proof verification as a specific epistemic and institutional practice in contemporary science. The paper explains how the kernel's genuine but bounded reliability may be transformed into a symbolic guarantee of broader scientific certainty; how the collective epistemic labour behind that reliability may be displaced into the apparent autonomy of the checker; and how fetishistic or cynical forms of disavowal may sustain this symbolic investment.
 
 The four Lean cases are not merely examples of AI authority. They allow us to inspect the precise relation among (i) the proposition actually formalized, (ii) the proof artifact checked, (iii) the human and institutional work that connects it to an intended scientific claim, and (iv) the public authority attributed to “Lean-verified.” This artifact-level specificity is the empirical distinction of the project.
+
+## 14. Disciplinary positioning and additional literature audit (27 November 2026)
+
+### 14.1 Disciplinary location
+
+The most accurate location is **philosophy of science**, specifically a critical social- and political-epistemological analysis of scientific knowledge production, using Žižek's critique of ideology.
+
+The Stanford Encyclopedia of Philosophy's 2024 revision of “Social Epistemology” defines the field through the epistemic effects of social interactions, practices, norms, systems, and collective agents. This supports the social-epistemological location of our analysis of distributed epistemic labour, expert dependence, institutional recognition, and the social life of machine-checked results.
+
+Pietro Daniel Omodeo's *Political Epistemology: The Problem of Ideology in Science Studies* (Springer, 2019; DOI: 10.1007/978-3-030-23120-0) is a closer precedent for the ideological dimension. It studies the ideological dimensions of disciplinary discourses on science and the cultural-political conditions of scientific knowledge. Our project is narrower: it examines the symbolic and ideological function of a specific technical credential, Lean verification, in contemporary mathematical and scientific knowledge production.
+
+The project is therefore not best described as generic philosophy of AI. Philosophy of Technology and STS are adjacent fields; the primary disciplinary home remains Philosophy of Science.
+
+### 14.2 Žižek and the critique of technology
+
+Daniel Hourigan, *The Phantasmatic Subject of Technology: Slavoj Žižek, Techne, and the Abyss* (PhD thesis, Griffith University, submitted 2008; repository record 2009; DOI: 10.25904/1912/3124), directly applies Žižek to technological fetishization, fantasy, and knowledge production.
+
+**Novelty consequence:** we cannot claim to be the first to apply Žižek's ideology critique to technology, technological fetishism, or knowledge production. Our contribution is more specific: the formal proof assistant as an epistemic object; the exact boundary of its kernel-level warrant; the semantic and institutional relations that connect its formal proposition to a scientific claim; and the symbolic authority that can accrue to the credential “Lean-verified.”
+
+Matthew Flisfeder, “There is no metalanguage; or, Truth has the structure of a fiction: The Žižekian system, between post-ideology and post-truth,” *Enrahonar* 70 (2023), 171–185, DOI: 10.5565/rev/enrahonar.1420, provides a contemporary systematic account of Žižek's Hegelian-Lacanian ideology critique, including the Big Other, cynical ideology, commodity fetishism, and truth's relation to fiction. It is a theoretical guide, not an application to proof assistants.
+
+### 14.3 Disavowal: a necessary conceptual distinction
+
+Jack Black, “Examining the Mechanism of Disavowal and its Two Forms: Cynical Disavowal and Fetishistic Disavowal,” *Theory & Psychology* 35(1) (2025), 117–135, DOI: 10.1177/09593543241308199, distinguishes:
+- cynical disavowal, which maintains a manipulative distance by obscuring the gap between belief and action;
+- fetishistic disavowal, which acknowledges objective reality and subjective appearance without the same manipulative distance.
+
+For this project, a statement that “Lean has limits” followed by continued reliance on Lean is not enough to establish either form. Reliance may remain entirely warranted if it stays within the formal proposition's scope. Fetishistic disavowal becomes a plausible hypothesis only where the acknowledged limitation coexists with continued investment in Lean as a broader guarantee. Cynical disavowal requires stronger evidence of a manipulative relation between what the same actor knows and what that actor or institution continues to do.
+
+### 14.4 A terminology collision: “epistemic fetishism”
+
+Kristoffer Ahlstrom-Vij, “Esoteric Reliabilism,” *Episteme* 18(4) (2021), 603–623, DOI: 10.1017/epi.2019.39, uses the phrase **“epistemic fetishism”** for a different position: treating certain heuristics as fundamental epistemic norms for ordinary agents within a two-level epistemic consequentialist account.
+
+This is not the Marxian-Žižekian sense used in our project. Nevertheless, the phrase is already present in analytic epistemology. Therefore:
+- use the full project-specific expression **“the ideological fetishism of formal verification”**;
+- define it explicitly as the apparent displacement of collective epistemic relations into the autonomous authority of a technical object;
+- do not claim to have coined the bare phrase “epistemic fetishism”;
+- cite Ahlstrom-Vij to prevent terminological ambiguity.
+
+### 14.5 Formal checking and genuine epistemic warrant
+
+Eamon Duede and Kevin Davey, “A Priori Knowledge in an Era of Computational Opacity: The Role of Artificial Intelligence in Mathematical Discovery,” *Philosophy of Science* 92(5) (2025), 1394–1404, DOI: 10.1017/psa.2025.10160, argue that a transparent proof-checker can provide genuine a priori mathematical knowledge from a proof generated by an opaque AI system.
+
+This is a crucial counterweight to any suggestion that machine verification is merely ideological. Their argument concerns the epistemic warrant supplied by transparent checking. Our question is different: how that genuine and bounded warrant may acquire a wider symbolic and institutional function. The paper should treat the technical reliability of Lean as a real achievement, not as an illusion to be debunked.
+
+### 14.6 Formal/semantic distinction and proof-assistant cultures
+
+Maher Kallel and Mohamed El Louadi, “Verification Abundance, Adjudication Scarcity: What Happens to Mathematical Knowledge When Proof Checking Becomes Free,” arXiv:2608.28997 (2026), DOI: 10.48550/arXiv.2608.28997, distinguish derivational validity, representational fidelity, and epistemic significance, and analyze the scarcity of qualified human adjudication. This is a close preprint and must be credited. The distinctions themselves are not our original contribution. Our contribution concerns the ideological function of the formal-verification credential.
+
+Carola Manolino and Cécile Ouvrier-Buffet, “Proof Assistants at the Interplay of Mathematical Cultures: A Semiotic-Cultural Analysis of Proof in Higher Education,” Research Square preprint (21 October 2026), DOI: 10.21203/rs.3.rs-11206575/v1, analyze proof assistants as cultural artifacts that reconfigure proof practices in undergraduate mathematics education. This work demonstrates that proof assistants are already being studied as cultural and epistemological practices. Its setting is education and classroom proof activity, whereas our paper examines research-level mathematical results, institutional certification, and public authority.
+
+### 14.7 Revised field and originality statement
+
+**Field:** Philosophy of Science, with a critical social- and political-epistemological orientation.
+
+**Core theory:** Žižek's critique of ideology. Marx and Lacan are theoretical sources within this framework; Hardwig is a normative comparator.
+
+**Object:** the ideological function of Lean's bounded formal-verification warrant in contemporary mathematical and scientific knowledge production and communication.
+
+**Defensible contribution:** a Žižekian analysis of how genuine local machine-checking reliability can be invested with broader scientific authority; how collective epistemic labour may be displaced into the apparent autonomy of the checker; and how the symbolic investment may persist despite acknowledged limitations.
+
+The project does not claim to be the first Žižekian critique of technology, the first social epistemology of proof assistants, the first account of formal/semantic mismatch, or the first use of the phrase “epistemic fetishism.”
