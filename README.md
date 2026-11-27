@@ -4,8 +4,6 @@
 
 ## Manuscript status
 
-<badge-placeholder>
-
 **Submitted to:** European Journal for Philosophy of Science (EJPS)  
 **Submission date:** 2026-11-27  
 **Manuscript ID:** EPSA-D-26-00900  
