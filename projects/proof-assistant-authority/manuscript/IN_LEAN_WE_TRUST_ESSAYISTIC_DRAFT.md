@@ -219,7 +219,7 @@ More importantly, Adam Topaz’s subsequent discussion explicitly raises the sem
 
 This is not merely a project that happens to acknowledge human contributors. It makes the semantic validity of its definitions an explicit object of public scrutiny. The formal certificate remains embedded in a visible network of mathematical interpretation and technical work.
 
-Liquid Tensor is therefore a genuine counter-case to any claim that formal verification is inherently fetishistic. It does not prove that every participant understood every definition, nor does it establish a controlled causal relation between transparency and trust. It does show that the authority of a proof assistant can be presented as one component of a broader, inspectable epistemic practice. The machine check does not need to appear as an autonomous guarantee.
+Liquid Tensor is therefore a genuine counter-case to any claim that formal verification is inherently fetishistic. It shows how the authority of a proof assistant can remain embedded in a broader, inspectable epistemic practice in which semantic scrutiny and collective mathematical labour are visible.
 
 ## 6. The Ideological Function of Mathematical Certainty
 
