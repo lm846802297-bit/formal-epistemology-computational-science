@@ -317,3 +317,16 @@ The defensible contribution is:
 > A Žižekian diagnostic account of how the genuine but bounded warrant of Lean verification may acquire a wider symbolic function, by examining when the credential “Lean-verified” is made to stand for a broader mathematical claim, when its authority appears autonomous from the relations that make it meaningful, and when this representation has a documented legitimating effect.
 
 This claim is narrower than a general theory of machine trust or social epistemology. It concerns the objectal and legitimating function of a specific technical credential.
+
+
+## 16. Fetishistic disavowal as the reproduction of epistemic authority
+
+Jack Black’s “Examining the Mechanism of Disavowal and Its Two Forms: Cynical Disavowal and Fetishistic Disavowal,” *Theory & Psychology* 35(1) (2025): 117–135, DOI: 10.1177/09593543241308199, is directly relevant to the fifth moment of the present argument. Black distinguishes cynical disavowal, which maintains a manipulative distance between belief and action, from fetishistic disavowal, in which the subject acknowledges both the objective state of affairs and the subjective appearance through which the fetish continues to function (especially pp. 118–119).
+
+**Consequence for this paper:** the persistence of the Lean credential’s symbolic authority should not be explained as simple ignorance of the kernel’s scope. The relevant possibility is that actors know what the checker does and nevertheless continue to invest in “Lean-verified” as a wider sign of mathematical closure. This is not automatically cynical or irrational. It is a practical coexistence of acknowledged limits and continued symbolic investment. Empirically, the claim requires evidence that the same actor or institutional communication chain acknowledges the precise boundary and nevertheless mobilizes the credential beyond it.
+
+Kuldova’s “Fetishism and the Problem of Disavowal” (2019) similarly questions the reduction of fetishism to misrecognition or false belief and treats fetishism through the structure of disavowal. The present article uses this literature to clarify the reproduction mechanism; it does not claim to originate the distinction between cynical and fetishistic disavowal.
+
+Hourigan’s *The Phantasmatic Subject of Technology* (2009) already applies Žižek to technological fetishization and the phantasia of knowledge production. The present article’s contribution remains narrower and object-specific: it reconstructs how the credential “Lean-verified” acquires symbolic authority through genuine technical reliability, distributed epistemic labour, credential condensation, objectal displacement, and fetishistic disavowal.
+
+The five-moment sequence is the article’s own synthesis for the formal-verification case. It is not presented as a ready-made model stated by Žižek, Black, or Kuldova. Its originality lies in connecting the technical warrant of a proof assistant to the circulation and reproduction of a specific epistemic credential.
