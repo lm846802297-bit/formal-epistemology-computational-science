@@ -144,3 +144,16 @@ The four cases do not support the claim that Lean is inherently ideological or t
 **Lean can function as a symbolic credential of scientific reliability. Its ideological function depends on how the bounded formal check is connected to semantic interpretation, collective labour, institutional recognition, and public communication.**
 
 The Navier–Stokes case is the strongest candidate for epistemic fetishism; Riemann is the strongest case for the coexistence of high technical certification and incomplete human understanding; Erdős and Liquid Tensor provide important counter-cases in which mediation is more visible.
+## 9. Source-level update (27 November 2026) — supersedes earlier case judgments where inconsistent
+
+### Riemann
+The Lean FRO/Mathlib joint statement of 21 November explicitly certifies the statement and proof after expert vetting of the Mathlib statement, compilation, independent statement comparison, and multiple proof checkers. A 1,582-page exposition (rh-lean-roadmap v44, 26 November) now exists; several AI models wrote it from the Lean source and cross-checked it. It is inaccurate to describe the case as lacking a readable mathematical account. The more precise issue is how formal verification, institutional certification, and AI-mediated exposition combine, and how these differ from independent human mathematical understanding.
+
+### Navier–Stokes
+Source-level inspection confirms the exact m+4/m+5 derivative discrepancy in the pinned Lean declaration norm_derivativeWord_inverse_le. It also confirms that the cited pressure-flux declaration contains an A_R/R + 1/R^2 term and uses a different proof route from the natural-language Eq. (10.19). The critique says the pressure-flux bounds are difficult to compare directly and does not establish the theorem false. The strongest ideological issue is the possibility that a valid Lean proof of formal declarations is represented as validating the whole written paper.
+
+### Erdős
+Static source comparison of the pinned AlphaProof result files with the paper's prose shows specific mismatches: #26's prose uses an upper-density bound below 3/4, while the linked Lean file formalizes a lower-density Tenenbaum variant; #741(i)'s prose states an upper-density theorem, while the linked Lean file proves a negative answer for an exact-density variant. A separate upper-density Lean proof exists in a later Formal Conjectures commit. #125's linked file matches the positive-lower-density formal variant but is not the same file as the original forum proof. These are artifact/prose correspondence issues, not kernel failures. The independent Erdős Problems audit is static; this project fetched the files but did not rebuild them.
+
+### Liquid Tensor
+Topaz's 14 October 2022 post explicitly addresses whether the formal definitions are correct and documents readable sanity-check examples for mathematicians with minimal Lean experience. This strengthens the case as a counter-example to autonomous machine authority.
