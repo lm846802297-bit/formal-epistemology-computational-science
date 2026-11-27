@@ -2,11 +2,20 @@
 
 **Subtitle:** The Ideology of Machine-Checked Proofs in Science
 
-1. **Introduction:** the contemporary rise of AI-assisted mathematical discovery and machine-checked proofs; why their authority matters beyond scientific communities, for society's trust in scientific knowledge.
-2. **Epistemic dependence and public trust:** Hardwig, expert testimony, collective epistemic labour, institutional trust, and the ordinary public's rational dependence on science.
-3. **Žižek's critique of ideology:** ideological fantasy, fetishism, cynical ideology, and the Big Other. Clarify the distinct role of Lacan's subject-supposed-to-know.
-4. **From formal correctness to public authority:** distinguish technical verification, semantic correspondence, mathematical understanding, institutional recognition, and public trust.
-5. **Four contemporary case studies:** Riemann hypothesis (Claude + Lean); Waring's problem (GPT-6.2 Astra); Navier–Stokes (OpenAI multi-agent discovery + Lean); Erdős problems (AlphaProof Nexus). For each, compare the formal artifact, AI contribution, human review, institutional status, media framing, and public reception.
-6. **Society-wide reception:** analyze population surveys, news coverage, and a bounded qualitative sample of public discussion. Distinguish representative survey evidence from self-selected online discourse.
-7. **Discussion:** determine whether the evidence supports ideological fantasy, epistemic fetishism, cynical ideology, legitimate epistemic dependence, ordinary compression, institutional authority, or hybrid explanations. Do not infer unconscious motives or population-wide beliefs from isolated texts.
-8. **Conclusion:** explain how machine verification can become a symbol of scientific reliability while preserving the distinction between what is technically checked and what society is invited to believe.
+**Empirical focus:** Lean and its role in AI-assisted mathematical discovery, formal verification, and public legitimation.
+
+1. **Introduction:** the rise of Lean-based AI-assisted mathematical discovery; why its authority matters beyond mathematics, for society's trust in scientific knowledge.
+2. **Epistemic dependence and public trust:** Hardwig, expert testimony, collective epistemic labour, institutional trust, and the public's rational dependence on science.
+3. **Žižek's critique of ideology:** ideological fantasy, fetishism, cynical ideology, and the Big Other; distinguish the supporting role of Lacan's subject-supposed-to-know.
+4. **From Lean kernel to public authority:** distinguish formal statement, proof-term checking, semantic correspondence, mathematical understanding, institutional recognition, and public trust.
+5. **Primary Lean case studies:**
+   - Riemann hypothesis: Claude-assisted discovery and extensive Lean verification;
+   - Navier–Stokes: OpenAI multi-agent discovery, Lean formalization, and the natural-language/Lean correspondence dispute;
+   - Erdős problems: AlphaProof Nexus, Lean proof search, formalized conjecture selection, and human statement validation;
+   - Liquid Tensor Experiment: historical case on Lean checking, human scrutiny, and expert confidence.
+6. **Contrast case:** Waring's problem and GPT-6.2 Astra, used to distinguish AI-generated mathematical claims from Lean-certified results.
+7. **Society-wide reception:** population surveys, the Chen–Jia experiment, media coverage, and bounded public-discussion samples. Separate representative survey evidence from self-selected online discourse.
+8. **Discussion:** assess whether the Lean cases support ideological fantasy, epistemic fetishism, cynical disavowal, legitimate epistemic dependence, or hybrid explanations.
+9. **Conclusion:** explain how Lean verification can become a public credential of scientific reliability while preserving the exact limits of what the kernel checks.
+
+Coq, Isabelle/HOL, and HOL Light may appear in brief historical comparison, but they are not parallel empirical case families. The paper's main object remains Lean.
