@@ -340,7 +340,11 @@ Marx, Karl. 1976 [1867]. *Capital: A Critique of Political Economy*, vol. 1. Tra
 
 Omodeo, Pietro Daniel. 2019. *Political Epistemology: The Problem of Ideology in Science Studies*. Cham: Springer. https://doi.org/10.1007/978-3-030-23120-0.
 
-OpenAI. 2026. “On the Navier–Stokes Millennium Prize Problem.” 8 September. https://openai.com/index/navier-stokes-solution/.
+OpenAI. 2026a. “On the Navier–Stokes Millennium Prize Problem.” 8 September. https://openai.com/index/navier-stokes-solution/.
+
+OpenAI. 2026b. “NavierStokesAndEuler: Lean Certificates Accompanying Navier–Stokes and Euler Results.” GitHub repository. https://github.com/openai/NavierStokesAndEuler.
+
+Cotton, Peter. 2026. “The Formal Statement.” *Navier–Stokes Guide*. Updated 24 September 2026. https://navier.microprediction.org/formal.html.
 
 rh-lean-roadmap. 2026. *The Riemann Hypothesis and GRH for Dirichlet L-Functions: A Readable Account of the Lean Proof in Alpöge’s Archive*. Version 44. Zenodo, 26 November. https://doi.org/10.5281/zenodo.24562451.
 
