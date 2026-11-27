@@ -115,6 +115,49 @@ This is a current case in which an LLM-based agentic workflow uses Lean to forma
 
 **Provisional code:** candidate for studying the attribution of epistemic authority across LLM, domain expert, and Lean kernel. It is not a clean “machine alone” case. The distinctions between generation, proof checking, and domain-expert guidance must be preserved. Independent public retellings remain to be collected.
 
+### 3.7 Lean: Riemann hypothesis and Dirichlet L-functions, Alpöge–Claude (November 2026)
+
+Levent Alpöge announced on 20 November 2026 that he had found a proof of the Riemann hypothesis working with Claude, with a Lean 4 archive. The original archive contains 175,187 files and approximately 17.4 million lines. The five headline theorems state two formulations of RH and three results for Dirichlet L-functions.
+
+Primary sources:
+- Alpöge's announcement and note: https://alpo.ge/
+- Joint Lean FRO / Mathlib Initiative statement (21 November): https://leanprover-community.github.io/blog/posts/riemann-hypothesis/
+- Andrew Sutherland's MIT verification record: https://math.mit.edu/~asutherland/ (RH proof verification files)
+- Michael Rubinstein's Waterloo verification record: https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/
+- Current dated verification summary: https://riemannhypothesissolved.com/status/
+- Nature, “Mathematicians astounded by AI and human-written proofs of iconic Riemann hypothesis” (20 November; updated 23 November): https://www.nature.com/articles/d41586-026-03812-7
+- AP, “Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI”: https://apnews.com/article/4fe8b69a891f160f9e7f0c85af8c55c8
+
+**Verification status as of 27 November 2026:** the Lean FRO and Mathlib Initiative jointly certified the formal statement and proof of RH on 21 November. Independent checking reports include full compilation and kernel replay of all 175,187 modules, independent proof checkers, theorem-statement comparisons, and use of only Lean's three standard axioms (`propext`, `Classical.choice`, `Quot.sound`). On 26 November, MIT and Waterloo reports record successful paranoid Comparator checks of Luke Sernau's shortened rewrite; the Waterloo report records a successful compact-edition run. These are substantial and specific formal verification results.
+
+**What remains distinct:** a readable mathematical reconstruction and broad human understanding of why the argument works are still developing. Rubinstein's 265-page working guide (22 November, version 2) explicitly reduces the RH proof to a central inequality and thirteen hypotheses, and says the central inequality is not yet proved in that guide. The formal proof is therefore strongly machine-checked, while mathematical exposition, independent expert digestion, conventional peer review, and Clay Prize recognition remain separate milestones. The Clay Prize rules require publication in a qualifying outlet, a two-year period, and general acceptance.
+
+**Provisional code:** high-confidence formal proof checking; human mathematical understanding and publication status remain distinct. This is not a simple example of overclaim. It is the strongest contemporary case for analyzing how formal certification, expert testimony, readable explanation, and public declarations of a solved Millennium problem interact.
+
+### 3.8 GPT-6.2 Astra: Waring's problem (November 2026)
+
+Sam Chow and Rainer Dietmann, “A linear bound in Waring's problem,” arXiv:2611.29821, submitted 22 November 2026: https://arxiv.org/abs/2611.29821.
+
+The preprint claims (G(k) \asymp k), equivalently a linear upper bound (G(k) \ll k) for the least number of (k)-th powers needed to represent every sufficiently large integer. Its AI-use statement says the work was carried out by GPT-6.2 Astra, rewritten by the authors, and “refereed” by GPT-6.2 Astra. The claim is not peer reviewed or independently checked; no Lean formalization or independent proof certificate is documented in the sources inspected. The paper also mentions a stronger numerical constant (8.4k) without proving it in the preprint.
+
+**Provisional code:** AI-generated mathematical claim with human authorship/revision, but without independent verification. This case is analytically distinct from Alpöge–Claude: it concerns the authority of a model-generated conventional mathematical argument and the unusual claim of AI self-refereeing, rather than a Lean-certified proof. It should not be presented as a GPT theorem already established.
+
+### 3.9 OpenAI internal system: Navier–Stokes existence and smoothness (September 2026)
+
+OpenAI, “On the Navier–Stokes Millennium Prize Problem,” 8 September 2026: https://openai.com/index/navier-stokes-solution/
+
+OpenAI reports that an internal multi-agent system found an analytical proof of finite-time singularity for a three-dimensional incompressible Navier–Stokes flow with a smooth external force, and that it released both a written proof and a Lean formalization. The company says the internal model used was significantly more capable than GPT-6 Astra; it should therefore not be labelled simply as a GPT-generated proof. The public write-up describes roughly 10,000 concurrent agents and subsequent Lean formalization/verification.
+
+**Provisional code:** institutionally presented AI-assisted proof claim with a written argument and formalization. The scope of the exact Clay problem variant, formal statement, Lean build, and independent mathematical review must be audited separately. OpenAI explicitly says it does not intend to claim the Millennium Prize for the result. This is a useful comparison with the Riemann case because the AI contribution, proof exposition, and formal verification are presented through a corporate research announcement.
+
+### 3.10 Google DeepMind: AI-driven formal proof search on open problems (2026)
+
+George Tsoukalas et al., “Advancing Mathematics Research with AI-Driven Formal Proof Search,” *Science* 394 (6820) (8 October 2026), 234–239. DOI: https://doi.org/10.1126/science.aej2213; preprint: https://arxiv.org/abs/2605.22763.
+
+The AlphaProof Nexus system reports solving 9 of 353 formalized open Erdős problems and proving 44 of 492 OEIS conjectures, with the Lean proofs released. The paper describes an agentic workflow alternating LLM-generated proof attempts with Lean compiler feedback. It also reports human mathematical checking of whether formal statements correspond to intended problems.
+
+**Provisional code:** published, formal-proof-search case and a useful contrast to individual headline-grabbing Millennium claims. The denominator matters: the 353 Erdős problems were those already formalized in the Formal Conjectures repository, not all open Erdős problems. The case permits analysis of how a carefully quantified research result is communicated without implying that AI has solved mathematics generally.
+
 ## 4. First public-text comparison
 
 Two useful comparisons have emerged:
