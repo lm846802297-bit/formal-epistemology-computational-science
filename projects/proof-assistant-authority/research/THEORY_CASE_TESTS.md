@@ -27,7 +27,7 @@ Technical warrant is the baseline, not an indicator of ideology. A strong diagno
 - **O — Objectal displacement:** the credential appears to contain autonomous authority while the relations that make it meaningful are displaced.
 - **E — Social efficacy:** the representation plays a documented role in legitimation, recognition, credibility allocation, institutional action, or repeated practice.
 
-Fantasy explains the scene of closure that may organize S, O, and E. Disavowal is secondary and requires explicit acknowledgement of the relevant limitation plus continued broader investment within a traceable actor/institutional chain.
+The formation mechanism has five analytical moments: real technical reliability; distributed epistemic labour; credential condensation; objectal displacement and symbolic authority; and fetishistic disavowal as a mechanism of reproduction. The first four explain how the credential acquires authority; the fifth explains how that authority can persist after its limits are known. The case tests distinguish these moments and assess S, O, and E separately.
 
 ## 3. Riemann hypothesis — formal certification, institutional authorization, contested meaning
 
@@ -52,7 +52,7 @@ Compressed accounts may attribute the achievement to “AI + Lean,” but the pr
 **Assessment:** objectal displacement is not established. This case is more useful for studying how machine checking and institutional authorization combine, and how that authorization remains open to dispute.
 
 ### Disavowal test
-No disavowal is established. The non-peer-reviewed Emmerson preprint is a public challenge, not evidence that the same institution acknowledged a limitation and continued a broader claim.
+The public record documents technical qualifications and the independent-checking basis, but does not show the same institutional communication chain acknowledging the precise scope and continuing to mobilize the credential as a broader guarantee. The Emmerson preprint is a public foundational challenge, not evidence of fetishistic disavowal by the certifying institutions.
 
 **Role:** layered institutional authorization and contested meaning of a formal certificate.
 
@@ -77,7 +77,7 @@ The mismatch shows that a valid proof of a formal declaration cannot by itself c
 **Assessment:** objectal displacement remains a candidate, not an established finding.
 
 ### Social efficacy and disavowal
-The announcement has public significance, but the current record does not show that the Lean credential itself caused institutional acceptance or continued to function as a broader guarantee after the mismatch was raised. No cynical or fetishistic disavowal is established.
+The announcement has public significance. The current source record identifies the public credential and the subsequent specification critique, but does not establish that the same actor or institutional chain acknowledged the precise mismatch and continued to mobilize Lean verification as a broader guarantee. The fifth moment is therefore a question for the communication history, not an inference from the mismatch alone.
 
 **Role:** principal case for testing the gap between formal validity and specification fidelity.
 
@@ -106,7 +106,7 @@ The source audit demonstrates that a published credential still requires traceab
 **Assessment:** mixed case; objectal displacement and social efficacy are not established.
 
 ### Disavowal test
-No evidence establishes that the same actor or institution acknowledged a specific artifact mismatch and continued to use the credential as a broader guarantee.
+The paper reports human statement validation, while the artifact audit identifies link and provenance issues. The available record does not establish that the same authors or institution acknowledged those specific issues and nevertheless continued to use the Lean credential as a broader guarantee.
 
 **Role:** statement identity, provenance, and human validation.
 
@@ -118,7 +118,7 @@ The 15 July 2022 completion announcement states the main theorem and lists mathe
 
 **Fetishism test:** this is strong counter-evidence. The validity of definitions is made an explicit object of public scrutiny rather than being attributed to the machine alone.
 
-**Social efficacy:** the public record documents collective review and semantic sanity checks. It does not establish a causal effect of transparency on audience trust.
+**Social efficacy and reproduction:** the public record documents collective review and semantic sanity checks. This visible mediation interrupts the move from credential condensation to autonomous objectal authority; the project presents the formal result through the practices that sustain its meaning.
 
 **Role:** counter-case showing how a formal verification credential can remain embedded in visible collective and semantic practice.
 
