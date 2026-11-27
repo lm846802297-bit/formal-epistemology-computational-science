@@ -22,7 +22,7 @@ The prose should remain academically precise, but the order of presentation is g
    Establish the theoretical grammar: ideology beyond false consciousness; fantasy as the staging of closure around a non-totalizable warrant relation; fetishism as the appearance of relation-dependent authority in object form; disavowal as a secondary mechanism. Fantasy explains the scene of closure; fetishism explains the apparent location of its authority.
 
 4. **The Machine as a Fetish Object**  
-   Develop the article’s own account of how epistemic fetishism forms through real technical reliability, distributed epistemic labour, credential condensation, and objectal displacement. Treat fetishistic disavowal as a conditional feedback mechanism that may reproduce symbolic authority after an actor acknowledges that the credential is being used beyond its warrant. Keep S, O, and E as separate diagnostic conditions.
+   Develop the article’s own account of how epistemic fetishism forms through real technical reliability, distributed epistemic labour, credential condensation, and objectal displacement. Establish the fifth-stage finding: fetishistic disavowal does not require concealment of human mediation; it can operate through the public acknowledgement of that mediation while the machine remains the apparent autonomous bearer of mathematical authority. Use AlphaProof Nexus as the positive existence case.
 
 5. **Four Encounters with Formal Verification**  
    - Riemann: composite institutional certification, with the warrant network explicitly visible.
@@ -31,7 +31,7 @@ The prose should remain academically precise, but the order of presentation is g
    - Liquid Tensor: semantic risks are explicitly acknowledged and answered through public sanity checks, providing a counter-practice.
 
 6. **The Ideological Function of Mathematical Certainty**  
-   Compare how the five moments appear across the cases. Use AlphaProof Nexus to establish the existential case for fetishistic disavowal in public institutional representation; distinguish operational proof-search autonomy from the symbolic attribution of the whole mathematical achievement. Then locate the contribution against Vallverdú, Kallel–El Louadi, López-Corona, Erfani, Hourigan, and Omodeo.
+   Compare how the five moments appear across the cases. Use AlphaProof Nexus to establish the existential case for fetishistic disavowal in public institutional representation; distinguish operational proof-search autonomy from the symbolic attribution of the whole mathematical achievement. The central finding is that public acknowledgement of human mediation does not necessarily dissolve symbolic investment in machine autonomy. Then locate the contribution against Vallverdú, Kallel–El Louadi, López-Corona, Erfani, Hourigan, and Omodeo.
 
 7. **Conclusion**  
    Return to the opening paradox and state the final philosophical judgement.
