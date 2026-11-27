@@ -6,7 +6,7 @@
 
 1. **Introduction — Why does society trust what it cannot verify?** Introduce AI-assisted mathematical discovery, Lean certification, and the broader social problem of relying on specialized knowledge.
 2. **The technical object — What does Lean guarantee?** Explain only the necessary technical background: formal proposition, proof term, kernel checking, assumptions, and semantic correspondence. Avoid turning the paper into a Lean manual.
-3. **Žižek's critique of ideology — Fantasy, fetishism, and the Big Other.** Establish the primary theoretical framework from *The Sublime Object of Ideology* and relevant Lacanian texts. Distinguish ideological fantasy from wishful thinking, fetishism from mere admiration, and the Big Other from an actual institution or machine.
+3. **Žižek's critique of ideology — Fantasy, fetishism, and the Big Other.** Establish the primary theoretical framework from *The Sublime Object of Ideology* and relevant Lacanian texts. Current chapter drafts: [3.1 Fantasy](theory/3_1_IDEOLOGICAL_FANTASY.md); [3.2 Epistemic Fetishism](theory/3_2_EPISTEMIC_FETISHISM.md); [3.3 Big Other](theory/3_3_BIG_OTHER_AND_MISSING_GUARANTEE.md).
 4. **The ideological fantasy of verification.** Analyze how a bounded, reproducible check may be represented as closure of scientific uncertainty.
 5. **Epistemic fetishism of Lean verification.** Analyze how collective mathematical, formalization, software, expert, and institutional labour may appear as an autonomous property of the machine.
 6. **Lean and the Big Other of scientific certainty.** Analyze how Lean can function as a symbolic credential within a social order that seeks a guarantee, while no final guarantor exists.
