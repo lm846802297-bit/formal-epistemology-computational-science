@@ -28,6 +28,7 @@
 - [Analytical synthesis](research/ANALYTICAL_SYNTHESIS.md)
 - [Chen–Jia public-trust experiment analysis](research/CHEN_JIA_EXPERIMENT_ANALYSIS.md)
 - [Lean-focused ideology matrix](research/CASE_IDEOLOGY_MATRIX.md)
+- [Lean-centered four-case source audit](research/LEAN_CASE_STUDY_AUDIT.md)
 - [Theoretical model: mediated verification authority](research/THEORETICAL_MODEL.md)
 - [Public-text study protocol](research/protocol.md)
 - [Coding guide](research/codebook.md)
