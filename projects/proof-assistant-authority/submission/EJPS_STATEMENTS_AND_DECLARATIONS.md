@@ -4,11 +4,11 @@ This file records the declarations to be transferred into the anonymous manuscri
 
 ## Generative AI use
 
-The manuscript currently contains the following disclosure:
+**Proposed wording (author confirmation pending):**
 
-> ChatGPT (OpenAI; GPT-6.2) was used during preparation of this manuscript to assist with literature discovery, argument development, drafting, and revision. The author is responsible for the final manuscript and for verifying the accuracy of its claims, interpretations, and references.
+> ChatGPT (OpenAI; GPT-6.2; November 2026) assisted with preliminary literature discovery; comparison and summarization of cited sources and publicly available Lean-related materials; organization and critical assessment of the argument; and drafting and revision of manuscript prose. ChatGPT was not used to generate new numerical results or Lean proofs for this article. The author retains responsibility for source verification, scholarly judgments, and the final manuscript.
 
-This describes substantive generative use rather than copy-editing alone. Retain the disclosure and confirm that it accurately reflects the tools and uses involved.
+This is substantive generative use, not copy-editing alone. Confirm that the description accurately covers this manuscript before submission. An author-confirmed disclosure for a different EJPS manuscript in PR #2 is not automatically transferable to this article.
 
 ## Funding
 
