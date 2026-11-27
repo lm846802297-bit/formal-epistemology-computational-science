@@ -1,8 +1,8 @@
 # Author-led source verification checklist
 
 **Manuscript:** *Machine-Checked Proofs and Formalization Interfaces in Mathematical Physics: The Epistemology of Osterwalder–Schrader Reconstruction*  
-**Branch:** `research/initial-literature-review`  
-**Status:** All 27 entries are pending the submitting author's personal verification. The 50-claim source audit is recorded in `docs/PRE_SUBMISSION_SOURCE_AUDIT_INTEGRATION.md`; prior metadata checks and assistant source inspections do not count as author completion.
+**Submitted manuscript source:** `research/ejps-claim-relative-warrant` at `7101c7685b147d7b6e9e067fae851b41d35bd94c` (the anonymous source used for the EJPS submission).  
+**Status:** All 27 entries remain pending the submitting author's personal verification. The 50-claim source audit is recorded in `docs/PRE_SUBMISSION_SOURCE_AUDIT_INTEGRATION.md`; prior metadata checks and assistant source inspections do not count as author completion.
 
 For each item, read the original source or inspect the exact pinned repository revision; verify the manuscript paraphrase; record the exact page, section, theorem, or source-file location; correct any inaccurate statement or reference; and only then mark the item complete.
 

@@ -1,7 +1,9 @@
 # EJPS submission checklist
 
 **Target:** European Journal for Philosophy of Science  
-**Stage:** Preparation only; no submission has been made.
+**Stage:** Submitted to the *European Journal for Philosophy of Science* on 2026-11-27.  
+**Manuscript ID:** EPSA-D-26-00900.  
+**Submitted anonymous source snapshot:** `research/ejps-claim-relative-warrant` at `7101c7685b147d7b6e9e067fae851b41d35bd94c`.
 
 ## Author actions
 
@@ -10,8 +12,8 @@
 - [x] Author confirmed the AI-use statement, model/version, and scope on 2026-11-27.
 - [x] Inserted the detailed AI-use disclosure after the methodological paragraph in the Introduction and added an AI Use Declaration before the references.
 - [x] Inserted the same disclosure in the separate Title Page template.
-- [ ] Fill all placeholders in `title-page-template.tex`: name, affiliation, email, ORCID if available, acknowledgements, funding, competing interests, and approved AI statement.
-- [ ] Approve the final title, abstract, keywords, and full text.
+- [x] The author-completed Title Page PDF was uploaded separately to EJPS. The repository template intentionally retains placeholders; no personal Title Page PDF is stored in this repository.
+- [x] The submitted manuscript snapshot at `research/ejps-claim-relative-warrant` (`7101c768`) is the author-approved version uploaded to EJPS; its manuscript body is preserved unchanged.
 - [x] Identify the three pinned repositories and the public preprint in the text as primary case-study materials, separately from the reference list.
 - [ ] Confirm no simultaneous submission.
 - [ ] Select subscription publication after acceptance; do not select Open Choice/APC under the no-author-fee requirement.
@@ -31,11 +33,11 @@
 - [x] Place `sn-jnl.cls` and required template support files alongside the source.
 - [x] Compile locally with PDFLaTeX and check the final build output.
 - [x] Resolve all LaTeX errors and material overfull boxes.
-- [ ] Inspect every formula, citation, reference, and hyperlink in the compiled PDF.
+- [x] Inspect every formula, citation, reference, and hyperlink in the compiled PDF used for the submission.
 - [x] Inspect PDF metadata and confirm no author identity is embedded.
 - [x] Confirm the Title Page is separate and absent from the blind manuscript PDF.
 - [x] Flatten the anonymous source files into a single upload directory; EJPS instructions prohibit subfolders in the uploaded LaTeX source package.
 
-## Fixed acceptance criteria
+## Submission record
 
-The package is ready only when the 27 source checks are author-complete, AI disclosure is approved and inserted, Title Page placeholders are filled, the anonymous PDF has no identifying information, the official Springer template compiles locally, and the final PDF has been inspected.
+The manuscript was submitted to EJPS as EPSA-D-26-00900 using the anonymous source snapshot identified above. The author-completed Title Page PDF was uploaded separately and is not stored in this repository. The 27-item source-verification checklist remains pending author-level checks; this submission record does not mark any of those items complete.
