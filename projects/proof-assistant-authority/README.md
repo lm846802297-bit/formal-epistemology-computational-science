@@ -22,6 +22,7 @@
 **Relation to the EJPS paper:** The EJPS manuscript supplies a normative baseline for how a checked result can legitimately support a further claim. This project studies how Lean verification and its scope are represented across science and society. It does not revise the EJPS manuscript.
 
 - [Manuscript outline](manuscript/outline.md)
+- [Three theoretical chapters](manuscript/THEORETICAL_CHAPTERS.md)
 - [Literature map and formal cases](research/LITERATURE_AND_CASES.md)
 - [Public trust and social reception](research/PUBLIC_TRUST_AND_RECEPTION.md)
 - [Research question architecture](research/RESEARCH_QUESTIONS.md)
