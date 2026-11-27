@@ -43,7 +43,7 @@ The prose should remain academically precise, but the order of presentation is g
 - Social mediation is not automatically equated with ideology.
 - A scope mismatch is not automatically objectal displacement.
 - Objectal displacement is not automatically social efficacy.
-- Disavowal is not inferred without actor-level evidence.
+- Disavowal is not inferred without traceable evidence within the same publication or institutional communication chain.
 - The four cases are heterogeneous encounters, not matched controls or a representative sample.
 - No case is claimed to meet the full S ∧ O ∧ E diagnosis unless all three elements are independently supported.
 
