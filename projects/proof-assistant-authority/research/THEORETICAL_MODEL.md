@@ -103,15 +103,17 @@ The relation is inverted: the network makes the credential meaningful, yet the c
 
 Žižek’s discussion of cynical ideology draws on Sloterdijk’s critique of cynical reason (Žižek 1989, 24–27). Recent work distinguishes cynical disavowal from fetishistic disavowal (Kuldova 2019; Black 2025, 118–119). Cynical disavowal maintains a manipulative distance between knowledge and action. Fetishistic disavowal has a different structure: the subject can acknowledge the objective limitation and the subjective appearance through which the object continues to function, yet remain invested in it.
 
-For this study, it is not enough that a participant knows that Lean checks a proof term for \(P^*\) under \(\Gamma\), while the relation between \(P^*\) and the intended claim \(P\) is a distinct task. That knowledge is compatible with rational reliance. The stronger structure appears when an actor or institution also recognizes that the public or institutional use of “Lean-verified” is being made to warrant more than the formal check and its documented semantic bridge establish, yet continues to mobilize the credential in that broader role.
+For this study, it is not enough that a participant knows that Lean checks a proof term for \(P^*\) under \(\Gamma\), while the relation between \(P^*\) and the intended claim \(P\) is a distinct task. That knowledge is compatible with rational reliance. The relevant structure appears when the same actor or institutional communication chain explicitly acknowledges a limitation that matters to the public claim, yet continues to circulate a credential or description that can reasonably be read as conferring wider authority.
 
-A case-level diagnosis therefore requires four linked elements:
-1. an explicit acknowledgement of the precise boundary of the check;
-2. a subsequent or continuing use of the same credential as a broader guarantee;
+The actor need not explicitly confess that its own wording overstates the technical warrant. Public evidence must, however, connect the acknowledged boundary and the wider representation within the same communication chain. The wider reading must remain genuinely available in context. A statement carefully limited to autonomous proof search, for example, is not automatically a claim of autonomous mathematical validation. Nor is a technical qualification followed by a broader claim fetishistic when expert semantic review has independently established the relation between \(P^*\) and the intended claim \(P\). In that case, the broader claim may be warranted by the whole network rather than attributed to the kernel alone.
+
+A case-level diagnosis therefore requires:
+1. explicit acknowledgement of the specific technical or semantic boundary relevant to the claim;
+2. continued circulation of the same credential or an equivalent public representation with a plausible wider reading;
 3. continuity within the same actor or institutional communication chain;
-4. a recognizable practical or legitimating role for that broader use, not merely an isolated phrase.
+4. an unresolved scope tension and a recognizable practical or legitimating role.
 
-If expert review or another independent procedure has established the semantic relation between the formal proposition and the intended theorem, a broader claim may be warranted by the combined network. That is not disavowal. Nor is a generic statement that AI systems can make mistakes sufficient to establish knowledge of the specific boundary at issue.
+If expert review or another independent procedure has established the semantic relation between the formal proposition and the intended theorem, a broader claim may be warranted by the combined network. That is not disavowal. A generic statement that AI systems can make mistakes is not enough to establish knowledge of the specific boundary at issue.
 
 Disavowal is therefore not necessary for the initial emergence of objectal displacement. It is the mechanism through which that displacement can be reproduced despite awareness. The public record can establish an actor’s acknowledged qualification and subsequent representation or practice; it does not, by itself, establish unconscious motives. The analysis concerns the public structure of knowledge and investment, not a speculative diagnosis of private psychology.
 
@@ -129,7 +131,7 @@ The exact technical warrant is the baseline, not a discriminating indicator of i
 - **O — Objectal displacement:** the credential is represented or practically treated as a self-sufficient source of wider authority, while the semantic, technical, or institutional relations that make it meaningful are backgrounded or displaced. Omission alone is insufficient.
 - **E — Social efficacy:** the representation has a documented role in legitimation, recognition, credibility allocation, institutional action, or a repeated practice. A single phrase without practical or institutional significance does not establish this condition.
 
-The core diagnosis requires S ∧ O ∧ E. These conditions are analytically distinct: a scope mismatch does not by itself establish objectal displacement, and a representation of autonomous authority does not by itself establish a legitimating effect. The five-moment mechanism explains how the credential acquires authority and how it may be reproduced. Fetishistic disavowal is a conditional feedback mechanism, not a necessary fifth step in every case. It requires explicit knowledge of the relevant overreach, continued broader use of the same credential within the same actor/institutional chain, and a documented legitimating or practical role.
+The core diagnosis requires S ∧ O ∧ E. These conditions are analytically distinct: a scope mismatch does not by itself establish objectal displacement, and a representation of autonomous authority does not by itself establish a legitimating effect. The five-moment mechanism explains how the credential acquires authority and how it may be reproduced. Fetishistic disavowal is a conditional feedback mechanism, not a necessary fifth step in every case. It requires explicit acknowledgement of the specific boundary, continued circulation of a credential or description with a plausible wider reading in the same actor/institutional chain, an unresolved scope tension, and a recognizable legitimating or practical role. The actor need not explicitly confess that the wording overreaches.
 
 ## 6. Three empirical planes
 
