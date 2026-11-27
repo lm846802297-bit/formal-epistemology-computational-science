@@ -156,7 +156,7 @@ This is a proposed Žižekian extension, not a term coined by Žižek. The analo
 
 ### 3.4 Disavowal: a secondary and conditional mechanism
 
-Žižek’s discussion of cynical ideology draws on Sloterdijk’s critique of cynical reason. The familiar formula that subjects know what they are doing and nevertheless continue to do it should not be presented as Žižek’s original coinage (Žižek 1989, 24–27). More recent scholarship distinguishes cynical disavowal from fetishistic disavowal (Kuldova 2019; Black 2025).
+Žižek’s discussion of cynical ideology draws on Sloterdijk’s critique of cynical reason (Sloterdijk 1987; Žižek 1989, ch. 1, “Cynicism as a Form of Ideology”). The familiar formula that subjects know what they are doing and nevertheless continue to do it should not be presented as Žižek’s original coinage. More recent scholarship distinguishes cynical disavowal from fetishistic disavowal (Kuldova 2019; Black 2025).
 
 For this article, disavowal is not a necessary condition of fetishism. A credential may perform an objectal and legitimating function without the available evidence showing that a particular actor explicitly acknowledged its limitations. Disavowal is a stronger and separate claim.
 
@@ -170,7 +170,7 @@ Cynical disavowal requires still stronger evidence of a strategic or manipulativ
 
 ### 3.5 The missing guarantee: the Big Other as background
 
-The Lacanian/Žižekian idea that there is no complete Big Other and no “Other of the Other” provides a structural background to the argument. No final symbolic authority can guarantee the consistency of the entire order from outside it. This does not imply that mathematical proof is impossible or that all standards are arbitrary.
+The Lacanian/Žižekian idea that there is no complete Big Other and no “Other of the Other” provides a structural background to the argument (Lacan 2019, ch. XVI; Žižek 1989, Part II). No final symbolic authority can guarantee the consistency of the entire order from outside it. This does not imply that mathematical proof is impossible or that all standards are arbitrary.
 
 Lean is not the Big Other. It may be positioned as a technical credential within a symbolic order involving experts, journals, mathematical communities, and institutions. The relevant question is whether the credential is made to function as if it supplied a final guarantee of every level of mathematical knowledge. The Big Other is therefore a supporting premise, not a separate empirical mechanism and not a fourth co-equal concept.
 
@@ -263,13 +263,13 @@ The study does not claim to have independently rebuilt every repository or adjud
 
 ### 6.1 Riemann hypothesis: certification, institutional authorization, and contested meaning
 
-On 20 November 2026, Levent Alpöge released a note and a large Lean development concerning the Riemann hypothesis. The Lean FRO and Mathlib Initiative issued a joint statement on 21 November. It expressed “full confidence” in the proof and stated that the community certified both the statement and the proof. Its rationale identified four checks: expert vetting of Mathlib’s Riemann-hypothesis statement; successful compilation of the archive; comparison of the proved theorem with the Mathlib statement using two independent tools; and acceptance of the exported proof by Lean’s kernel and several independent checkers (Lean FRO and Mathlib Initiative 2026).
+On 20 November 2026, Levent Alpöge released a note and a large Lean development concerning the Riemann hypothesis. The Lean FRO and Mathlib Initiative issued a joint statement on 21 November. It expressed “full confidence” in the proof and stated that the community certified both the statement and the proof. The formal statement is Mathlib’s universal claim that if a complex number s is a zero of the formalized Riemann zeta function, is not one of the trivial zeros −2(n+1), and is not s=1, then its real part is 1/2 (Mathlib documentation 2026). The exclusion of s=1 matters because Mathlib’s formalized zeta function assigns a value at a point where the classical zeta function has a pole. The joint statement’s rationale identified four checks: expert vetting of Mathlib’s Riemann-hypothesis statement; successful compilation of the archive; comparison of the proved theorem with the Mathlib statement using two independent tools; and acceptance of the exported proof by Lean’s kernel and several independent checkers (Lean FRO and Mathlib Initiative 2026).
 
 Andrew Sutherland’s verification report records the technical scale of the original archive: 175,187 modules, all compiling; five headline theorems using only the three standard axioms 'propext', 'Classical.choice', and 'Quot.sound'; replay through Lean’s kernel and independent checkers; and independent comparison of the theorem statements (Sutherland 2026a). A shorter rewrite was published on 25 November, and a separate report records checks of that distinct artifact (Sutherland 2026b). The original archive and the compact rewrite must not be treated as the same source object.
 
 A substantial mathematical exposition also appeared on 26 November. The rh-lean-roadmap project provides a 497-page main text, 963 pages of longer proofs, a 122-page index, and a short roadmap. Its documentation states that the exposition was generated by several AI models from the Lean source and cross-checked; it is therefore a readable, AI-mediated exposition, not a conventional independently authored paper or evidence that every mathematician has independently read and accepted the proof (rh-lean-roadmap 2026).
 
-On 24 November, Parker Emmerson posted a non-peer-reviewed preprint arguing that the certified derivation does not prove the Riemann hypothesis in several senses. The preprint grants the existence of a Lean derivation and the reported checking, but disputes what follows from that derivation, emphasizing the formal system’s axioms, consistency, and the relation between the formal theorem and ordinary mathematical proof (Emmerson 2026). This article does not adjudicate Emmerson’s mathematical or logical argument. Its status as a non-peer-reviewed preprint must be kept explicit; it is evidence of a public challenge to the meaning and scope of the certification, not proof that the Lean kernel failed or that the Riemann hypothesis is false.
+On 24 November, Parker Emmerson posted a non-peer-reviewed preprint arguing that the certified derivation does not prove the Riemann hypothesis in several senses. The preprint grants the existence of a Lean derivation and the reported checking, but disputes what follows from that derivation. In particular, it treats the consistency of the formal rules as a further “sponsor” of the theorem and argues that this condition is stronger than the Riemann hypothesis itself (Emmerson 2026). The Lean FRO/Mathlib statement, for its part, says that the independent checkers con-leche and con-ron have formal soundness proofs relative to set theory; it does not describe their soundness as an assumption-free result (Lean FRO and Mathlib Initiative 2026). This article does not adjudicate Emmerson’s mathematical or logical argument. Its status as a non-peer-reviewed preprint must be kept explicit; it is evidence of a public challenge to the foundational interpretation and scope of the certification, not proof that the Lean kernel failed or that the Riemann hypothesis is false.
 
 The case therefore contains several distinct forms of authority: kernel checking, independent checking, expert assessment of the formal statement, institutional certification, AI-mediated exposition, and subsequent foundational criticism. The official joint statement makes the human and institutional mediation visible rather than attributing the entire result to a machine alone. The Emmerson preprint, in turn, contests whether the institutional and technical certification settles the broader question of what has been proved.
 
@@ -334,11 +334,11 @@ Kallel and El Louadi (2026) similarly analyze the shift from derivational verifi
 
 López-Corona’s account of “studio mathematics” analyzes human-machine assemblages, provenance, mathematical understanding, human agency, and responsibility in AI-assisted proof production (López-Corona 2026). This work makes it impossible to claim that the distributed nature of contemporary mathematical labour has gone unnoticed. The present article takes such distribution as a condition of possibility and asks how the authority produced through it may appear to reside in a technical object.
 
-Erfani (2026) directly examines ideological functions of AI systems, including infrastructure, normalization, subjectification, opacity, and pastiche. Hourigan (2009) already applies Žižek to technological fetishization and knowledge production. The present article therefore does not claim to be the first Žižekian critique of technology or the first ideology critique of AI. Its contribution is narrower: it applies Žižek’s account of fantasy and fetishism to the specific credential “Lean-verified” and distinguishes the genuine warrant of formal checking from the possible objectal displacement and social legitimation of that credential.
+Erfani (2026) directly examines ideological functions of AI systems, including infrastructure, normalization, subjectification, opacity, and pastiche. Hourigan (2009) already applies Žižek to technological fetishization and knowledge production, while Omodeo (2019) develops a broader political epistemology of ideology in science studies. The present article therefore does not claim to be the first Žižekian critique of technology or the first ideology critique of AI. Its disciplinary location is philosophy of science, with a critical social- and political-epistemological orientation. Its contribution is narrower: it applies Žižek’s account of fantasy and fetishism to the specific credential “Lean-verified” and distinguishes the genuine warrant of formal checking from the possible objectal displacement and social legitimation of that credential.
 
 ### 7.2 The scope of the originality claim
 
-The article’s contribution is best stated as follows:
+The phrase “epistemic fetishism” has also been used in analytic epistemology for a different position (Ahlstrom-Vij 2021). The article therefore uses the full expression “the ideological fetishism of formal verification” and does not claim to have coined the bare phrase. The article’s contribution is best stated as follows:
 
 > It develops a Žižekian diagnostic account of how the genuine but bounded warrant of Lean verification may acquire a wider symbolic function, by examining when the credential “Lean-verified” is made to stand for a broader mathematical claim, when its authority appears autonomous from the relations that make it meaningful, and when this representation has a documented legitimating effect.
 
@@ -362,7 +362,7 @@ Ahlstrom-Vij, Kristoffer. 2021. “Esoteric Reliabilism.” *Episteme* 18 (4): 6
 
 Alpöge, Levent. 2026. “The Riemann Hypothesis.” Research note and Lean archive, 20 November. https://alpo.ge/.
 
-Bastounis, Alexander, Fabian Circelli, and Anders C. Hansen. 2026. “Navier–Stokes Lost in Translation: Why Lean Verification of AI Autoformalisation Does Not Guarantee Correct Natural Language Proofs.” arXiv:2610.08144. https://arxiv.org/abs/2610.08144.
+Bastounis, Alexander, Fabian Circelli, and Anders C. Hansen. 2026. “Navier–Stokes Lost in Translation: Why Lean Verification of AI Autoformalisation Does Not Guarantee Correct Natural Language Proofs.” arXiv:2610.08144. https://doi.org/10.48550/arXiv.2610.08144.
 
 Black, Jack. 2025. “Examining the Mechanism of Disavowal and Its Two Forms: Cynical Disavowal and Fetishistic Disavowal.” *Theory & Psychology* 35 (1): 117–135. https://doi.org/10.1177/09593543241308199.
 
@@ -376,13 +376,15 @@ Erfani, Farhang. 2026. “Not ‘Just a Language Model’: AI’s Ideological Fu
 
 Flisfeder, Matthew. 2023. “There Is No Metalanguage; or, Truth Has the Structure of a Fiction: The Žižekian System, between Post-Ideology and Post-Truth.” *Enrahonar* 70: 171–185. https://doi.org/10.5565/rev/enrahonar.1420.
 
+Lacan, Jacques. 2019. *Desire and Its Interpretation: The Seminar of Jacques Lacan, Book VI*. Edited by Jacques-Alain Miller. Translated by Bruce Fink. Cambridge: Polity. Chapter XVI, “There Is No Other of the Other.”
+
 Hardwig, John. 1985. “Epistemic Dependence.” *The Journal of Philosophy* 82 (7): 335–349. https://doi.org/10.2307/2026523.
 
 Hourigan, Daniel. 2009. *The Phantasmatic Subject of Technology: Slavoj Žižek, Techne, and the Abyss*. PhD thesis, Griffith University. https://doi.org/10.25904/1912/3124.
 
 Kallel, Maher, and Mohamed El Louadi. 2026. “Verification Abundance, Adjudication Scarcity: What Happens to Mathematical Knowledge When Proof Checking Becomes Free.” arXiv:2608.28997. https://doi.org/10.48550/arXiv.2608.28997.
 
-Kuldova, Tereza Østbø. 2019. “Fetishism and the Problem of Disavowal.” *Qualitative Market Research: An International Journal*. https://doi.org/10.1108/QMR-12-2016-0125.
+Kuldova, Tereza. 2019. “Fetishism and the Problem of Disavowal.” *Qualitative Market Research: An International Journal* 22 (5): 766–780. https://doi.org/10.1108/QMR-12-2016-0125.
 
 López-Corona, Oliver. 2026. “From Authorial Mathematics to Studio Mathematics: Ecobiontic Forms of Proof after Large Language Models.” arXiv:2608.22194. https://doi.org/10.48550/arXiv.2608.22194.
 
@@ -396,11 +398,13 @@ OpenAI. 2026. “On the Navier–Stokes Millennium Prize Problem.” 8 September
 
 Scholze, Peter. 2021. “Half a Year of the Liquid Tensor Experiment: Amazing Developments.” 5 June. https://xenaproject.wordpress.com/2021/06/05/half-a-year-of-the-liquid-tensor-experiment-amazing-developments/.
 
+Sloterdijk, Peter. 1987. *Critique of Cynical Reason*. Translated by Michael Eldred. Minneapolis: University of Minnesota Press.
+
 Sutherland, Andrew. 2026a. “Verification Files for the Lean Proof of the Riemann Hypothesis.” MIT. Last updated 25 November. https://math.mit.edu/~drew/grh/.
 
-Sutherland, Andrew. 2026b. “Verification Files for the Shorter Lean Proof of RH and GRH.” MIT. Last updated 26 November. https://math.mit.edu/~drew/shortgrh/.
+Sutherland, Andrew. 2026b. “Shorter Lean Proof of RH and GRH for Dirichlet L-Functions: Verification Files.” MIT. Last updated 26 November. https://math.mit.edu/~drew/shortgrh/.
 
-Topaz, Adam. 2022. “Definitions in the Liquid Tensor Experiment.” 14 October. https://leanprover-community.github.io/blog/posts/lte-examples/.
+Topaz, Adam. 2022. “Definitions in the Liquid Tensor Experiment.” Lean Community Blog, 14 October. https://leanprover-community.github.io/blog/posts/lte-examples/.
 
 Tsoukalas, George, Anton Kovsharov, Sergey Shirobokov, Anja Surina, Moritz Firsching, Gergely Bérczi, Francisco J. R. Ruiz, Arun Suggala, Adam Zsolt Wagner, Eric Wieser, Lei Yu, Aja Huang, Miklós Z. Horváth, Andrew Ferraiuolo, Henryk Michalewski, Edward Lockhart, Codrut Grosu, Thomas Hubert, Matej Balog, Pushmeet Kohli, and Swarat Chaudhuri. 2026. “Advancing Mathematics Research with AI-Driven Formal Proof Search.” *Science* 394 (6820). https://doi.org/10.1126/science.aej2213. Preprint: arXiv:2605.22763.
 
@@ -415,5 +419,7 @@ Vallverdú, Jordi. 2026. “Where Does Mathematical Warrant Live? From the Four-
 Erdős Problems Research Library. 2026. “Tsoukalas et al., Advancing Mathematics Research with AI-Driven Formal Proof Search: Artifact and Statement Audit.” Updated 13 October. https://erdosproblems.ai/wiki/library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search.
 
 Lean FRO and Mathlib Initiative. 2026. “Lean Verification of the Riemann Hypothesis.” Joint statement, 21 November. https://leanprover-community.github.io/blog/posts/riemann-hypothesis/.
+
+Mathlib documentation. 2026. “Mathlib.NumberTheory.LSeries.RiemannZeta.” Definition of RiemannHypothesis. https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/LSeries/RiemannZeta.html.
 
 rh-lean-roadmap. 2026. *The Riemann Hypothesis and GRH for Dirichlet L-Functions: A Readable Account of the Lean Proof in Alpöge’s Archive*. Version 44. Zenodo, 26 November. https://doi.org/10.5281/zenodo.24562451.
