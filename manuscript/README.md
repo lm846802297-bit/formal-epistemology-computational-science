@@ -4,7 +4,9 @@
 
 *Machine-Checked Proofs and Formalization Interfaces in Mathematical Physics: The Epistemology of Osterwalder–Schrader Reconstruction*
 
-## Complete manuscript
+## Working manuscript
+
+For the exact submitted source and journal record, see the [project guide](../docs/OS_PROJECT_GUIDE.md#manuscript-and-submission).
 
 [Open the integrated manuscript](full_manuscript.md). Editable sections:
 
@@ -29,11 +31,11 @@ The revised paper asks when a machine-checked theorem in one formalization can s
 - Original OS papers and Glimm–Jaffe cited for the mathematical formulations.
 - Repository-reported verification status is attributed to maintainers; this project does not claim an independent Lean rebuild or proof replay.
 - Root BibTeX: **bibliography/references.bib**. The integrated manuscript and root BibTeX file contain the same 23 cited works.
-- EJPS AI-use disclosure is in **docs/EJPS_AI_DISCLOSURE_FOR_AUTHOR_REVIEW.md** and requires author confirmation.
+- The [submission record](../submission/README.md) links to the author-approved AI disclosure.
 
 ## Editorial status
 
-The follow-up critical review of originality and interface scope is complete. DeDeo and Duede's library-lock-in analysis is acknowledged, and the Comparator is described as a record-level audit-to-production interface rather than a cross-project physical bridge. The next phase is author-led source verification and EJPS submission preparation; the manuscript is not yet submission-ready.
+EJPS confirmed receipt on 2026-11-27. The files in this directory are working copies; the [submission record](../submission/README.md) identifies the separate, commit-pinned version.
 
 
 ## Major revision
