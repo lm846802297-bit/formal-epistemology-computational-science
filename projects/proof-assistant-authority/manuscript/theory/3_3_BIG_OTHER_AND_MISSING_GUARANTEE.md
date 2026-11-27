@@ -8,7 +8,7 @@ A formal proof assistant can provide a highly specific guarantee. Lean's kernel 
 
 The question is therefore not whether a guarantee exists at all. A local technical guarantee plainly exists. The question is whether a society can find a final guarantee that secures the whole chain of knowledge and its own procedures of authorization.
 
-Lacan's formula “there is no Other of the Other” addresses precisely the absence of such a final symbolic guarantor. In Seminar VI, session of 8 April 1959, Chapter XVI, “There Is No Other of the Other,” Lacan states that no signifier in the Other can guarantee the truth or authenticate the signifying chain. In Bruce Fink's 2019 published English translation, the relevant chapter begins at p. 291 and the key passage appears at p. 353. The corresponding French edition gives the passage at p. 108.
+Lacan's formula “there is no Other of the Other” addresses precisely the absence of such a final symbolic guarantor. In Seminar VI, session of 8 April 1959, Chapter XVI, “There Is No Other of the Other,” Lacan states that no signifier in the Other can guarantee the truth or authenticate the signifying chain. In Bruce Fink's 2019 published English translation, the relevant chapter begins at p. 291 and spans pp. 291–305; the exact page of the key sentence has not been independently verified, so the chapter/session is cited. The corresponding French edition gives the passage at p. 108; Gallagher's working translation locates it at typescript p. 206.
 
 The claim does not mean that no institutions, rules, or authorities exist. It means that the symbolic order has no ultimate signifier outside itself that can guarantee its complete consistency.
 
