@@ -8,7 +8,7 @@
 
 The public record strongly supports the first three moments: real technical checking, distributed epistemic labour, and credential condensation. The fourth moment varies and cannot be inferred from concise communication alone. The fifth is a conditional feedback mechanism, not a necessary stage of every case.
 
-**AlphaProof Nexus is the strongest borderline candidate for the fifth moment.** The same *Science* paper acknowledges the unreliability of LLM-generated natural-language proofs and reports that experts validated whether the Lean statements captured the original Erdős conjectures. It nevertheless describes the agent as having “autonomously resolved” nine problems and presents the results as evidence for autonomous mathematical discovery. This is direct co-presence of acknowledged mediation and autonomy language. It is not decisive evidence of fetishistic disavowal because “autonomous” may accurately refer to proof search and generation, with expert statement validation occurring after the solve.
+**AlphaProof Nexus provides a defensible existential case for the fifth moment at the level of public and institutional representation.** The same *Science* paper reports that experts validated whether the Lean statements captured the original Erdős conjectures, yet its abstract and Table 1 describe the agent as having “autonomously resolved” the problems. Aarhus University's institutional report makes the co-author's human role explicit—identifying suitable problems, validating solutions, and co-writing natural-language proofs—while retaining the autonomous-resolution framing. The word “autonomous” can accurately describe proof search in a narrow operational sense. The fetishistic structure appears when that narrow truth becomes the public sign of the whole mathematical achievement, while the human and semantic work that qualifies it remains acknowledged in the same communication chain. This is an instance of public-discourse fetishistic disavowal, not a claim about private motives.
 
 Riemann shows powerful institutional certification with its warrant network explicitly described. Navier–Stokes associates a Lean formalization with a public solution claim, but the external critique concerns proof-route correspondence and is not acknowledged by the same institutional chain in the public record reviewed. Liquid Tensor explicitly acknowledges semantic risks and answers them through sanity checks. These three cases do not establish the fifth moment.
 
@@ -63,7 +63,7 @@ Sources: https://openai.com/index/navier-stokes-solution/ ; https://github.com/o
 
 The provenance audit of #26, #741(i), #741(ii), and #125 concerns artifact identity and traceability, not kernel failure or invalidity of all results.
 
-Sources: https://doi.org/10.1126/science.aej2213 ; https://arxiv.org/abs/2605.22763 ; https://www.eurekalert.org/news-releases/1146436 ; https://erdosproblems.ai/wiki/library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search
+Sources: https://doi.org/10.1126/science.aej2213 ; https://arxiv.org/abs/2605.22763 ; https://math.au.dk/en/currently/news/news-item/artikel/gergely-deepmind ; https://www.eurekalert.org/news-releases/1146436 ; https://erdosproblems.ai/wiki/library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search
 
 ## 5. Liquid Tensor Experiment
 
@@ -83,7 +83,7 @@ Sources: https://leanprover-community.github.io/blog/posts/lte-final/ ; https://
 |---|---|---|---|---|---|
 | Riemann | Strong | Strong and visible | Strong | Limited / not established | Not established |
 | Navier–Stokes | Strong formal check | Strong | Strong | Ambiguous association | Not established |
-| AlphaProof Nexus | Strong formal check | Explicit human validation | Strong autonomy framing | Ambiguous | Borderline candidate |
+| AlphaProof Nexus | Strong formal check | Explicit human validation | Strong autonomy framing | Supported at public-discourse level | Affirmative existence case |
 | Liquid Tensor | Strong formal check | Highly visible | Present | Counter-practice | Not established |
 
 The model should therefore distinguish:
@@ -92,7 +92,7 @@ The model should therefore distinguish:
 - fetishistic conversion (objectal displacement);
 - conditional reproduction (fetishistic disavowal after acknowledged overreach).
 
-The four cases do not provide an unambiguous public instance of the fifth moment. AlphaProof is the promising but unresolved candidate; Liquid Tensor is the clearest counter-practice. The fifth moment remains a theoretically specified mechanism with a borderline empirical case, not a demonstrated universal pattern.
+The four cases provide one affirmative existence case for the fifth moment: AlphaProof Nexus. The evidence is strongest at the level of public institutional representation, where the same communication chain acknowledges human validation and retains the autonomous-machine framing. Riemann and Navier–Stokes clarify different configurations, while Liquid Tensor provides a counter-practice. The claim is existential, not a claim about prevalence across all formalization projects.
 
 ## 7. Consequences for the manuscript
 
