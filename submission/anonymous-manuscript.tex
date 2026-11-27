@@ -239,6 +239,22 @@ The OS case should not be taken to imply that every machine-checked result must 
 
 The resulting account is therefore not a linear pipeline in which kernel acceptance is followed automatically by physical interpretation and empirical confirmation. It is a set of distinguishable relations. Kernel checking warrants a derivation in a specified formal system. Formalization correspondence relates the encoded statement to its source mathematical formalism. Inter-formalization warrant relates distinct formal representations and permits theorem reuse when the relevant interfaces are proved. Hypothesis instantiation establishes that a concrete model satisfies the receiving theorem's assumptions. Target-directed inference requires an additional account of representation, purpose, and relevant evidence. These relations may be supported by different kinds of argument, and their requirements depend on the scientific claim at issue.
 
+\subsection{Repeatable checking and reuse in a new context}
+
+Husserl's \emph{Origin of Geometry} distinguishes the transmission of mathematical results in enduring inscriptions from the reactivation of the sense and evidential work sedimented in them (Husserl, 1970, pp. 353--378). Derrida's introduction emphasizes the role of writing in making mathematical objects available beyond an originating act (Derrida, 1989). His discussion of iterability distinguishes a mark's ability to function in another context from validity independently of context (Derrida, 1982, pp. 316--320). These ideas motivate a distinction; they are not premises of the logical argument below. Rechecking a proof in its original environment can vindicate the original derivation without recovering its author's intentions. Reusing it to support a new claim requires establishing that the relevant inferential relations survive the change of representation.
+
+Let \(\Omega\) be the class of admissible interpretations of the background assumptions, let \(s(\omega)\) be the information retained in a handoff, and let \(\chi(\omega)\) be \(1\) or \(0\) according as \(A_3\) holds or fails in \(\omega\). The retained information determines applicability throughout \(\Omega\) exactly when
+\[
+s(\omega)=s(\omega')\ \Longrightarrow\
+\chi(\omega)=\chi(\omega')
+\qquad(\omega,\omega'\in\Omega).
+\]
+Necessity follows because any verdict based solely on the summary must agree on identical summaries. For sufficiency, assign to each realized summary the common value of \(\chi\) on the interpretations sharing it. This tests whether the information determines a verdict, not whether there is an effective decision procedure. For a realized summary, the route is secured when all its admissible interpretations give \(1\), excluded when all give \(0\), and unsettled when both values occur.
+
+The two-record countermodel in Section 3.2 identifies a loss that matters. Both interpretations retain a verified record correspondence, a model-matching record satisfying the qualitative conditions, and a theorem-ready record with a growth bound. They disagree on whether those properties meet in one admissible record. A summary reporting only those separate achievements cannot settle applicability in general. Conversely, a justified attestation that the properties hold together can omit declaration names, proof scripts, and construction history from the summary used to assess applicability. These details may matter for checking the attestation, but they are not additional hypotheses of the theorem.
+
+In the OS case, a model name and an assertion of growth do not say which family comes from the named measure on the receiving zero-diagonal test spaces, or whether that same family satisfies the receiving growth estimate. A proof of that identification and estimate, or a proved transport of the estimate to a model-matching family, would preserve what this application needs. This separates successful rechecking or reuse at the record level from the still-unestablished applicability of the receiving theorem to the source construction. It does not assert that there are two physically admissible Gaussian fields with different reconstruction verdicts.
+
 \subsection{Implications for formalized mathematical physics}
 
 The OS case suggests that the epistemic significance of large formalization projects should not be assessed only by counting checked theorems or examining their local axiom footprints. Such information is important, but it does not describe how results can be reused across formal representations. A mature mathematical formalism often admits several mathematically distinct formulations, and a formalization project necessarily selects one of them. As the project develops, further formalizations may encode related objects and theorems in different records or libraries. The resulting network can support substantial reuse, but its epistemic reliability depends on the quality of the interfaces that connect its components.
@@ -272,6 +288,8 @@ The author used ChatGPT (OpenAI; GPT-6.2; November 2026) for preliminary literat
 
 \noindent DeDeo, S., \& Duede, E. (2026). A correspondence problem for mathematical proof. \emph{Philosophy of Science}, forthcoming. Preprint: arXiv:2603.13680v2.\par\medskip
 
+\noindent Derrida, J. (1982). Signature event context. In \emph{Margins of philosophy} (A. Bass, Trans., pp. 307--330). University of Chicago Press.\par\medskip
+\noindent Derrida, J. (1989). \emph{Edmund Husserl's ``Origin of Geometry'': An introduction} (J. P. Leavey, Jr., Trans.). University of Nebraska Press.\par\medskip
 \noindent Douglas, M. R., Hoback, S., Mei, A., \& Nissim, R. (2026). \emph{Formalization of QFT} [Preprint]. arXiv. \url{https://arxiv.org/abs/2603.15770}\par\medskip
 
 \noindent Douglas, M. R., Yin, X., \& Mei, A. (2026). \emph{OSreconstruction-comparator} [Formal specification and proof-checking project]. GitHub. \url{https://github.com/mrdouglasny/OSreconstruction-comparator}\par\medskip
@@ -292,6 +310,7 @@ The author used ChatGPT (OpenAI; GPT-6.2; November 2026) for preliminary literat
 
 \noindent Imbert, C., \& Ardourel, V. (2023). Formal verification, scientific code, and the epistemological heterogeneity of computational science. \emph{Philosophy of Science}, 90(2), 376--394. \url{https://doi.org/10.1017/psa.2022.78}\par\medskip
 
+\noindent Husserl, E. (1970). The origin of geometry. In \emph{The crisis of European sciences and transcendental phenomenology} (D. Carr, Trans., pp. 353--378). Northwestern University Press.\par\medskip
 \noindent Knuuttila, T. (2021). Epistemic artifacts and the modal dimension of modeling. \emph{European Journal for Philosophy of Science}, 11, 65. \url{https://doi.org/10.1007/s13194-021-00374-5}\par\medskip
 
 \noindent Meadows, J., Zhang, L., \& Freitas, A. (2026). FormalScience: Scalable human-in-the-loop autoformalisation of science with agentic code generation in Lean. In \emph{Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics} (pp. 23059--23077). \url{https://doi.org/10.18653/v1/2026.acl-long.1057}\par\medskip
