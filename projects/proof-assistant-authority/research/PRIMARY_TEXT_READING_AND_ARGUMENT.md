@@ -173,7 +173,7 @@ Jacques Lacan, *The Seminar, Book XI: The Four Fundamental Concepts of Psychoana
 
 ### 10.4 Lacan, *Seminar VI* and “There is no Other of the Other”
 
-Jacques Lacan, *Desire and Its Interpretation: The Seminar of Jacques Lacan, Book VI*, ed. Jacques-Alain Miller, trans. Bruce Fink (Cambridge: Polity, 2019), Chapter XVI, “There Is No Other of the Other,” beginning at p. 291; the key passage is on p. 353 in the published English edition. The corresponding French edition is *Le Séminaire, Livre VI: Le désir et son interprétation* (Paris: La Martinière / Le Champ freudien, 2013), session of 8 April 1959, Chapter XVI, p. 108. Cormac Gallagher's English working translation from unedited typescripts dates the session “8.4.59”; the passage is on typescript page 8 (not the pagination of a published English book).
+Jacques Lacan, *Desire and Its Interpretation: The Seminar of Jacques Lacan, Book VI*, ed. Jacques-Alain Miller, trans. Bruce Fink (Cambridge: Polity, 2019), Chapter XVI, “There Is No Other of the Other,” beginning at p. 291 and spanning pp. 291–305. The exact page of the key sentence within the Bruce Fink translation has not been independently verified; cite the chapter/session rather than inventing a page number. The corresponding French edition is *Le Séminaire, Livre VI: Le désir et son interprétation* (Paris: La Martinière / Le Champ freudien, 2013), session of 8 April 1959, Chapter XVI, p. 108. Cormac Gallagher's English working translation from unedited typescripts dates the session “8.4.59”; the passage is on typescript page 8 (not the pagination of a published English book).
 
 The surrounding passage explicitly says that no signifier in the Other can guarantee the truth or authenticate the signifying chain. This is the primary Lacanian basis for the “no final guarantor” point in the present paper.
 
@@ -183,7 +183,7 @@ Karl Marx, *Capital*, vol. I, Chapter 1, Section 4, “The Fetishism of Commodit
 
 ### 10.6 Page-citation policy for the manuscript
 
-Use page references only after fixing the edition in the bibliography. For Lacan Seminar VI, cite the 2019 Bruce Fink edition, Chapter XVI, pp. 291–305, especially p. 353; the 2013 French edition's corresponding passage is p. 108. Do not use the page number of an unedited typescript as if it were a published-book page. For Seminar XI, use Sheridan pp. 230–235. For Žižek's *Sublime Object*, use the printed page numbers listed above.
+Use page references only after fixing the edition in the bibliography. For Lacan Seminar VI, cite the 2019 Bruce Fink edition, Chapter XVI, pp. 291–305, with the exact passage located by session/chapter; the 2013 French edition's corresponding passage is p. 108. Gallagher's typescript locates it at p. 206. Do not use the page number of an unedited typescript as if it were a published-book page. For Seminar XI, use Sheridan pp. 230–235. For Žižek's *Sublime Object*, use the printed page numbers listed above.
 
 ## 11. Conceptual corrections resulting from the source audit
 
