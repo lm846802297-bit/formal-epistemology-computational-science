@@ -82,6 +82,13 @@ The revised originality claim is narrower. It does not claim the first Žižekia
 - the Science paper’s full author list is supplied;
 - the case references are integrated into the text and bibliography.
 
+## Additional source-level corrections in this revision
+
+- The Riemann case now states the exact Mathlib proposition: every zero of the formalized zeta function, excluding the trivial zeros and s=1, has real part one-half. The Mathlib documentation and the joint Lean FRO/Mathlib statement are cited directly.
+- The foundational objection in Emmerson’s 24 November preprint is reported as a non-peer-reviewed challenge, not adopted as a mathematical conclusion. The official statement’s qualification that the independent checkers are proved sound relative to set theory is now stated alongside the challenge.
+- The Navier–Stokes reference now uses the verified author names and arXiv DOI. Kuldova’s full journal volume and page range are supplied. The Lacan and Sloterdijk sources are included because the revised text explicitly uses them as supporting sources within the Žižekian framework.
+- The use of “epistemic fetishism” is distinguished from Ahlstrom-Vij’s different analytic-epistemological use. The full project-specific expression is retained.
+
 ## Remaining checks before submission
 
 These do not block the current revision from being a complete research draft, but they remain necessary before submission:
