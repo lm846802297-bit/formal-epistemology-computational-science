@@ -110,3 +110,53 @@ Do not claim that a particular announcement changed public trust without a causa
 The strongest current thesis is not that society blindly trusts machines. It is that machine verification can become one credential within a wider social order of scientific authority. The public may rely on the checker indirectly through experts and institutions, while simultaneously remaining ambivalent about AI authorship and human accountability.
 
 The paper's original contribution should be to explain how the genuine technical reliability of a bounded checker is represented, mediated, and sometimes enlarged in the social production of scientific certainty—while also identifying cases in which trust is warranted and public communication preserves the limits of verification.
+
+## 9. Results of the next research pass (27 November 2026)
+
+### 9.1 Public-trust experiment
+
+Chen and Jia (2026), *AI and Ethics* 6, article 223, DOI 10.1007/s43681-026-01039-w, provide a preregistered N=806 experiment with six disclosure conditions. Participants were shown a description of an academic paper and an AI-use statement, not an actual paper or proof. The sample was recruited through Prolific with demographic quotas matching U.S. gender, age, and ethnicity; it should not be described as a probability sample of the U.S. population.
+
+The experiment finds:
+- the no-AI condition has the highest mean on all ten outcomes;
+- the both-theoretical-and-methodological-AI condition has the lowest mean on the eight directional outcomes and lowest perceived ethicality;
+- theory-only versus method-only AI differences are small and not statistically significant on the eight directional outcomes; perceived transparency is higher for method-only AI;
+- clarifying that the authors retained theoretical framing, hypotheses, analyses, and interpretation improves several outcomes relative to a bare language-polishing disclosure;
+- AI-use frequency moderates six of ten outcomes; self-reported AI knowledge and general trust in science do not significantly moderate effects.
+
+This evidence supports the proposition that perceived human intellectual contribution and accountability matter to public evaluation. It does not establish how the public evaluates Lean verification or an AI-generated proof. The dedicated analysis is in CHEN_JIA_EXPERIMENT_ANALYSIS.md.
+
+### 9.2 Revised case-level ideology assessment
+
+The four-case matrix is now in CASE_IDEOLOGY_MATRIX.md. Its provisional result is deliberately differentiated:
+- **Riemann:** a plausible fantasy of machine certification as a visible guarantee, but independent checker reliability is real and expert commentary explicitly distinguishes formal checking from human understanding. Fetishism is possible in some compressed headlines; cynical ideology is not established.
+- **Waring:** an unusual AI-producer/AI-referee loop, but the preprint discloses author rewriting and lacks external verification. This is a case of attempted self-authorization, not evidence of public belief or cynical disavowal.
+- **Navier–Stokes:** strongest candidate for epistemic fetishism at the level of representation, because valid Lean proofs of formal declarations can be made to stand for the correctness of a separate natural-language proof despite a documented semantic mismatch. The mismatch is not a kernel failure or refutation of the theorem.
+- **Erdős:** counter-case in which the paper discloses denominators, human statement validation, and the need for expert review. Public expert reactions and a secondary audit add qualifications; not every use of formal verification is fetishistic.
+
+No case presently establishes cynical ideology in the strict sense. That diagnosis would require evidence that relevant actors acknowledge a limitation and nevertheless continue to reproduce an enlarged guarantee in practice.
+
+### 9.3 Proposed original model
+
+THEORETICAL_MODEL.md develops the concept of **mediated verification authority**: the socially recognized authority that accrues to a scientific claim when a bounded technical check is interpreted through expert testimony, institutional endorsement, and public communication.
+
+The model separates five stages:
+1. knowledge production;
+2. technical checking;
+3. semantic and expert mediation;
+4. institutional and communicative certification;
+5. public interpretation and trust.
+
+It also distinguishes four objects of trust: AI discovery, proof-checker reliability, semantic correspondence, and institutional/communicative reliability.
+
+### 9.4 What Žižek adds beyond Hardwig
+
+Hardwig explains why a layperson can rationally depend on experts and collective cognitive labour. He gives an account of the epistemic legitimacy of dependence, not a general explanation of why a society invests a particular technical object with the symbolic function of a final guarantee.
+
+Žižek adds a different question: how does a social order stage and sustain its relation to uncertainty? Fantasy identifies the imagined guarantee; fetishism identifies how collective relations can appear as a property of an object; cynical disavowal asks whether acknowledged limits remain practically ineffective. These concepts do not replace Hardwig's normative account and should not be used to redescribe all trust as ideology.
+
+The proposed contribution is therefore a two-part account:
+- **Normative:** when is mediated reliance on machine verification warranted?
+- **Critical:** when does the public or institutional representation of that reliance make the machine appear to guarantee more than the verified proposition warrants?
+
+The present evidence supports the architecture of this model, but not yet a population-level causal claim that machine verification increases public trust.
