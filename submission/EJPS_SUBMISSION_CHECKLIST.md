@@ -1,9 +1,11 @@
 # EJPS submission checklist
 
 **Target:** European Journal for Philosophy of Science  
-**Stage:** Submitted to the *European Journal for Philosophy of Science* on 2026-11-27.  
+**Stage:** Submitted; receipt confirmed by EJPS on 2026-11-27.  
 **Manuscript ID:** EPSA-D-26-00900.  
-**Submitted anonymous source snapshot:** `research/ejps-claim-relative-warrant` at `7101c7685b147d7b6e9e067fae851b41d35bd94c`.
+**Submission date:** 2026-11-27.  
+**Receipt confirmation:** EJPS acknowledged successful receipt on 2026-11-27.  
+**Submitted anonymous source snapshot:** branch `research/ejps-claim-relative-warrant` at commit [`7101c7685b147d7b6e9e067fae851b41d35bd94c`](https://github.com/lm846802297-bit/formal-epistemology-computational-science/commit/7101c7685b147d7b6e9e067fae851b41d35bd94c).
 
 ## Author actions
 
@@ -23,7 +25,7 @@
 - [x] Current EJPS double-blind and separate Title Page requirements checked.
 - [x] Anonymous LaTeX source prepared with no author block and empty PDF-author metadata.
 - [x] Separate Title Page template prepared with explicit placeholders.
-- [x] 27-item source-verification checklist prepared; all items remain pending author action.
+- [x] 27-item source-verification checklist prepared; all 27 items remain pending author action.
 - [x] AI-use disclosure author-confirmed and inserted in the manuscript and Title Page; original-source verification remains a separate pending task.
 - [x] Springer Nature `sn-apa` class option used in the blind source.
 
@@ -38,6 +40,8 @@
 - [x] Confirm the Title Page is separate and absent from the blind manuscript PDF.
 - [x] Flatten the anonymous source files into a single upload directory; EJPS instructions prohibit subfolders in the uploaded LaTeX source package.
 
-## Submission record
+## Submission and receipt record
 
-The manuscript was submitted to EJPS as EPSA-D-26-00900 using the anonymous source snapshot identified above. The author-completed Title Page PDF was uploaded separately and is not stored in this repository. The 27-item source-verification checklist remains pending author-level checks; this submission record does not mark any of those items complete.
+The manuscript was submitted to EJPS on 2026-11-27 as **EPSA-D-26-00900**. EJPS confirmed successful receipt on the same date. The submitted anonymous source snapshot is branch `research/ejps-claim-relative-warrant` at commit `7101c7685b147d7b6e9e067fae851b41d35bd94c`. The author-completed Title Page PDF was uploaded separately through the journal portal and is not stored in this repository.
+
+The 27-item original-source verification checklist remains pending author-level checks; the submission and receipt record does not mark those checks complete. No subsequent editorial decision or reviewer report is recorded here.
