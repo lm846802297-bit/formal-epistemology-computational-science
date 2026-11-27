@@ -17,7 +17,7 @@
 
 **Contrast case:** Waring's problem — GPT-6.2 Astra-attributed mathematical preprint without a Lean certificate documented at the cut-off. It is used only to distinguish AI-generated mathematical claims from Lean-certified claims, not as a fifth co-equal Lean case.
 
-**Theoretical orientation:** Žižek's critique of ideology is the principal philosophical lens, focusing on ideological fantasy, fetishism, and cynical ideology. Hardwig's epistemic dependence provides the social-epistemological baseline. Lacan's subject-supposed-to-know is a supporting account of the attribution of a knowing position, not a diagnosis of software or individual researchers.
+**Theoretical orientation:** Žižek's critique of ideology is the central and original philosophical framework: ideological fantasy, epistemic fetishism, and the Big Other as a symbolic guarantee that does not ultimately exist. Hardwig and social epistemology are supporting interlocutors used to distinguish justified dependence from ideological enlargement. Lacan's concepts clarify the symbolic structure; they are not diagnoses of software or individual researchers.
 
 **Relation to the EJPS paper:** The EJPS manuscript supplies a normative baseline for how a checked result can legitimately support a further claim. This project studies how Lean verification and its scope are represented across science and society. It does not revise the EJPS manuscript.
 
@@ -31,6 +31,7 @@
 - [Lean-centered four-case source audit](research/LEAN_CASE_STUDY_AUDIT.md)
 - [Theoretical model: mediated verification authority](research/THEORETICAL_MODEL.md)
 - [Theory of certainty and symbolic guarantee](research/THEORY_OF_CERTAINTY_AND_SYMBOLIC_GUARANTEE.md)
+- [Žižekian core argument](research/ZIZEKIAN_CORE_ARGUMENT.md)
 - [Lean-centered four-case source audit](research/LEAN_CASE_STUDY_AUDIT.md)
 - [Public-text study protocol](research/protocol.md)
 - [Coding guide](research/codebook.md)
