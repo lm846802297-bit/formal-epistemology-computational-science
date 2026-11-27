@@ -67,27 +67,55 @@ Fantasy is not synonymous with rhetorical exaggeration. Its operation must be co
 
 The object analyzed here is the public/institutional credential “Lean-verified,” not Lean software in general. Its authority depends on theorem formulation, formal specification, proof construction, libraries, kernel and toolchain maintenance, semantic comparison, expert scrutiny, institutional recognition, and public explanation. These relations do not create mathematical truth in the same way that labour produces commodities. They produce, maintain, check, interpret, and authorize the artifacts and relations through which a formal result is connected to an intended claim.
 
-The formation of the epistemic fetish can be reconstructed through five connected moments. This is a Žižekian extension developed for formal verification, not a sequence stated by Žižek himself. The moments are analytically ordered rather than a rigid chronology: the first four explain how the credential acquires objectal authority; the fifth explains how that authority can be reproduced after its limits are known.
+The formation and reproduction of the epistemic fetish can be reconstructed through five connected moments. This is a Žižekian extension developed for formal verification, not a sequence stated by Žižek himself. The moments are analytically ordered, not a rigid chronology:
 
 1. **Real technical reliability.** The kernel performs a genuine checking operation. It accepts a proof term for a specified formal proposition under a specified environment. Reproducibility and independent checking make this warrant materially credible.
 2. **Distributed epistemic labour.** The result depends on problem selection, mathematical formulation, formal specification, proof construction, libraries, software maintenance, trusted infrastructure, semantic comparison, expert assessment, and institutional recognition. These are differentiated contributions distributed across people and systems.
 3. **Credential condensation.** Scientific communication condenses this heterogeneous process into the portable status “Lean-verified.” The credential allows a complex result to travel through abstracts, papers, institutional statements, repositories, and public accounts.
 4. **Objectal displacement and symbolic authority.** As the credential circulates, the exact proposition, environment, assumptions, dependencies, and specification relation may become less visible while the credential remains. Authority generated through the network appears to reside autonomously in the machine-certified object. The local warrant acquires a symbolic surplus: the credential can signify that the wider mathematical claim is secure or settled.
-5. **Fetishistic disavowal and reproduction.** Participants may know the precise limits of the kernel check and nevertheless continue to invest in the credential as a broader sign of mathematical closure. This does not mean that they rely irrationally on Lean for the proposition it actually checks. The fetishistic moment appears when the credential retains a wider symbolic function after its technical boundary has been acknowledged.
+5. **Fetishistic disavowal and reproduction.** This is a conditional feedback mechanism, not a necessary stage in every case. It occurs when an actor or institution acknowledges that the credential is being asked to warrant more than the check establishes, yet continues to mobilize it in that broader role. The knowledge of the boundary and the investment beyond it coexist, allowing the credential’s symbolic authority to be reproduced.
 
-The sequence distinguishes formation from reproduction. The first four moments explain how the credential becomes a bearer of authority; the fifth explains how that authority can persist despite explicit knowledge of its limits. The machine's reliability remains real throughout. What changes is the symbolic work that its credential is made to perform.
+The first two moments are enabling conditions; the third gives the achievement a portable form; the fourth is the specifically fetishistic conversion; and the fifth explains how that authority may be sustained after awareness. Condensation alone is not fetishism, and distributed labour does not automatically become invisible. Nor does awareness of the kernel’s scope by itself establish disavowal. The relevant knowledge must concern the mismatch between the credential’s actual warrant and the broader authority it is made to carry.
+
+The sequence can be represented as a formation process with a conditional feedback loop:
+
+\[
+\text{Real reliability}+\text{Distributed labour}
+\longrightarrow
+\text{Credential condensation}
+\longrightarrow
+\text{Objectal displacement}
+\longrightarrow
+\text{Symbolic authority}.
+\]
+
+\[
+\text{Acknowledged boundary}+\text{continued investment beyond it}
+\longrightarrow
+\text{Fetishistic disavowal}
+\circlearrowleft
+\text{reproduction of symbolic authority}.
+\]
 
 The relation is inverted: the network makes the credential meaningful, yet the credential appears as the source that certifies the network. This is the objectal displacement at the centre of the proposed concept.
 
 ### 4.4 Fetishistic disavowal and the persistence of symbolic investment
 
-Žižek's discussion of cynical ideology draws on Sloterdijk's critique of cynical reason (Žižek 1989, 24–27). Recent work distinguishes cynical disavowal from fetishistic disavowal (Kuldova 2019; Black 2025, 118–119). Cynical disavowal maintains a manipulative distance between knowledge and action. Fetishistic disavowal has a different structure: the subject can acknowledge the objective limitation and the subjective appearance through which the object continues to function, yet remain invested in it.
+Žižek’s discussion of cynical ideology draws on Sloterdijk’s critique of cynical reason (Žižek 1989, 24–27). Recent work distinguishes cynical disavowal from fetishistic disavowal (Kuldova 2019; Black 2025, 118–119). Cynical disavowal maintains a manipulative distance between knowledge and action. Fetishistic disavowal has a different structure: the subject can acknowledge the objective limitation and the subjective appearance through which the object continues to function, yet remain invested in it.
 
-In this study, the relevant formula is: “I know that Lean checks a proof term for \(P^*\) under \(\Gamma\), and that the relation between \(P^*\) and the intended claim \(P\) is a distinct task; nevertheless, I continue to invest in ‘Lean-verified’ as a sign of wider mathematical closure.” This is a structural formulation, not a claim about the private psychology of every mathematician.
+For this study, it is not enough that a participant knows that Lean checks a proof term for \(P^*\) under \(\Gamma\), while the relation between \(P^*\) and the intended claim \(P\) is a distinct task. That knowledge is compatible with rational reliance. The stronger structure appears when an actor or institution also recognizes that the public or institutional use of “Lean-verified” is being made to warrant more than the formal check and its documented semantic bridge establish, yet continues to mobilize the credential in that broader role.
 
-Rational reliance must be distinguished from fetishistic disavowal. To rely on Lean for precisely the proposition it checks is justified epistemic dependence. The fetishistic structure appears when the credential continues to carry authority beyond that scope after the boundary has been acknowledged. The knowledge of the limit and the investment in the credential coexist in different registers.
+A case-level diagnosis therefore requires four linked elements:
+1. an explicit acknowledgement of the precise boundary of the check;
+2. a subsequent or continuing use of the same credential as a broader guarantee;
+3. continuity within the same actor or institutional communication chain;
+4. a recognizable practical or legitimating role for that broader use, not merely an isolated phrase.
 
-Disavowal is therefore not necessary for the initial emergence of objectal displacement. It is the mechanism through which that displacement can be reproduced despite awareness. Empirically, it requires evidence that the same actor or institutional communication chain both acknowledges the precise boundary and continues to mobilize the credential as a broader guarantee. A qualification in one document and an unrelated claim elsewhere are not, by themselves, sufficient. Public texts can establish this pattern of representation and practice; they do not establish unconscious motives.
+If expert review or another independent procedure has established the semantic relation between the formal proposition and the intended theorem, a broader claim may be warranted by the combined network. That is not disavowal. Nor is a generic statement that AI systems can make mistakes sufficient to establish knowledge of the specific boundary at issue.
+
+Disavowal is therefore not necessary for the initial emergence of objectal displacement. It is the mechanism through which that displacement can be reproduced despite awareness. The public record can establish an actor’s acknowledged qualification and subsequent representation or practice; it does not, by itself, establish unconscious motives. The analysis concerns the public structure of knowledge and investment, not a speculative diagnosis of private psychology.
+
+
 
 ### 4.5 The missing guarantee
 
@@ -101,7 +129,7 @@ The exact technical warrant is the baseline, not a discriminating indicator of i
 - **O — Objectal displacement:** the credential is represented or practically treated as a self-sufficient source of wider authority, while the semantic, technical, or institutional relations that make it meaningful are backgrounded or displaced. Omission alone is insufficient.
 - **E — Social efficacy:** the representation has a documented role in legitimation, recognition, credibility allocation, institutional action, or a repeated practice. A single phrase without practical or institutional significance does not establish this condition.
 
-The core diagnosis requires S ∧ O ∧ E. These conditions are analytically distinct: a scope mismatch does not by itself establish objectal displacement, and a representation of autonomous authority does not by itself establish a legitimating effect. The five-moment mechanism explains how the credential acquires and reproduces authority; S, O, and E remain the separate diagnostic requirements for assessing a particular case. Fetishistic disavowal explains persistence after awareness, but is not required for the initial emergence of objectal displacement.
+The core diagnosis requires S ∧ O ∧ E. These conditions are analytically distinct: a scope mismatch does not by itself establish objectal displacement, and a representation of autonomous authority does not by itself establish a legitimating effect. The five-moment mechanism explains how the credential acquires authority and how it may be reproduced. Fetishistic disavowal is a conditional feedback mechanism, not a necessary fifth step in every case. It requires explicit knowledge of the relevant overreach, continued broader use of the same credential within the same actor/institutional chain, and a documented legitimating or practical role.
 
 ## 6. Three empirical planes
 
