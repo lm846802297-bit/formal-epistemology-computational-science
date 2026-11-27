@@ -15,7 +15,7 @@
 
 - [x] Anonymous manuscript copy prepared without author name, affiliation, or acknowledgements.
 - [x] Separate title-page template prepared.
-- [ ] Insert author name(s), affiliation(s), corresponding-author email, and ORCID if available.
+- [ ] Insert author name(s), affiliation(s), corresponding-author email, and ORCID if available (details not present in the project records).
 - [ ] Confirm acknowledgements and move identifying material to the title page.
 - [ ] Confirm funding declaration.
 - [ ] Confirm competing-interests declaration.
@@ -23,7 +23,7 @@
 
 ## File-format and final checks
 
-- [ ] Generate the final editable Word (.docx) or LaTeX source package.
+- [x] Generate the editable anonymous LaTeX source and separate title-page LaTeX template. Compilation and PDF inspection remain pending.
 - [ ] Compile/export the review PDF and inspect equations, headings, tables, references, and page breaks.
 - [ ] Check document metadata and file properties for identifying information.
 - [ ] Verify all citations and DOI/URL links once more.
