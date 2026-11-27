@@ -65,7 +65,7 @@ Lacan's discussion concerns the analyst's position in transference, the trust pl
 
 ### 4.2 “There is no Other of the Other”
 
-Jacques Lacan, *Le Séminaire, Livre VI: Le désir et son interprétation* (Paris: La Martinière / Le Champ freudien, 2013), session of 8 April 1959, Chapter XVI, “There is no Other of the Other”; the corresponding French passage is cited at p. 108. In Cormac Gallagher's English working translation from unedited typescripts, the session date is 8 April 1959 and the passage occurs on typescript page 8. Bruce Fink's published English translation, *Desire and Its Interpretation* (Polity, 2019), includes Chapter XVI; the printed page for the exact passage has not yet been independently verified.
+Jacques Lacan, *Le Séminaire, Livre VI: Le désir et son interprétation* (Paris: La Martinière / Le Champ freudien, 2013), session of 8 April 1959, Chapter XVI, “There is no Other of the Other”; the corresponding French passage is cited at p. 108. In Cormac Gallagher's English working translation from unedited typescripts, the session date is 8 April 1959 and the passage occurs at typescript page 206. Bruce Fink's published English translation, *Desire and Its Interpretation* (Polity, 2019), includes Chapter XVI; the printed page for the exact passage has not yet been independently verified.
 
 The passage says that no signifier in the Other can guarantee the truth or authenticate the signifying chain. This is the primary Lacanian source for the absence of a final symbolic guarantee.
 
