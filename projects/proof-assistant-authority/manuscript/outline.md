@@ -22,7 +22,7 @@ The prose should remain academically precise, but the order of presentation is g
    Establish the theoretical grammar: ideology beyond false consciousness; fantasy as the staging of closure around a non-totalizable warrant relation; fetishism as the appearance of relation-dependent authority in object form; disavowal as a secondary mechanism. Fantasy explains the scene of closure; fetishism explains the apparent location of its authority.
 
 4. **The Machine as a Fetish Object**  
-   Develop the article’s own concept. Fix the object as the portable credential “Lean-verified” and explain its three analytical moments: condensation, circulation, and displacement. Derive the distinction between a genuine local warrant and its possible symbolic surplus. Introduce scope extension, objectal displacement, and social efficacy as separate conditions for diagnosis.
+   Develop the article’s own account of how epistemic fetishism forms and reproduces through five connected moments: real technical reliability; distributed epistemic labour; credential condensation in scientific communication; objectal displacement into symbolic authority; and fetishistic disavowal through which investment persists despite acknowledged limits. Distinguish the first four moments of formation from the fifth moment of reproduction. Keep S, O, and E as separate diagnostic conditions.
 
 5. **Four Encounters with Formal Verification**  
    - Riemann: certification, institutional authorization, and foundational contestation.
