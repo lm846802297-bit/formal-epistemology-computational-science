@@ -43,3 +43,16 @@
 ## Remaining author verification
 
 The submitting author must read the cited works and confirm that each source supports the precise interpretation attributed to it. Metadata verification alone does not establish that a paraphrase is faithful. Repository claims should be checked against the pinned commits before submission.
+
+
+## Substantive claim audit integrated (2026-11-27)
+
+The source-critical audit is preserved on branch `audit/submission-source-check-2026-11-27`, commit `b5c4ce03b1157e2af018ff857cf7b166ec1b3ee7`. Its HTML report and CSV evidence table contain 50 claim records covering the 23 cited works. The audit was prepared against manuscript commit `61d565a204b3ff0f76e0c9522651263617abb2a0` (integrated manuscript blob `f080288c9196e9aefe7ee3d6b6d53074f430d11b`). The current PR branch was eight commits ahead at `9ccaece3bfbe0fb76db1a27a14cb614d18a1251c`; the current integrated manuscript blob before this integration was `467e1b0cce41fa0c0a99f0d33b2f2de99641def2`. The audit was mapped to current text rather than applied by stale line number.
+
+Audit artifact Git blob IDs: HTML `4edf3d756b940f017fd844e4231bbd6599252329`; CSV `363e9e332c1a132536d1da9fcbd714bc5aad545f`.
+
+The source pins are OSforGFF `fef84a82937dfd2bb7f672108a72da329d3ef0fd`, OSreconstruction `cf0904e34a7c146a9f312f601e3707dca4a87697`, and Comparator `93cdb40e728ba27b7b1b55efc30d57f7b43de9aa`. Integrated corrections cover Rabe's judgment-preservation terminology and model-reduct direction; DAMF/SC-TPTP scope; E0′ limited to the Section IV forward theorem; the QFT paper's four-dimensional scope versus the OSforGFF all-(D\geq2) corollary; Glimm–Jaffe p. 91 n. 1; Douglas et al. Remark 3.2 attribution for the L1(μ) ergodicity extension; Comparator's 460-line mathematical declaration block, three theorem targets and historical CI; and corrected attributions for Gelfert, Hughes, Suárez, Contessa, and Frigg–Nguyen.
+
+No Lean kernel was rerun. Comparator statements were checked by source comparison, and historical CI logs were inspected. No new Lean build or proof replay is claimed.
+
+**Author verification still required:** the continuation of Glimm and Jaffe (1987), second edition, §6.1(i), containing the full OS4 quantifiers, norm, and time-average statement was not available in the public preview. The author should inspect those pages directly. All 23 source entries remain subject to final author reading and approval.
