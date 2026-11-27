@@ -164,3 +164,49 @@ The defensible novelty claim is:
 **This paper develops a Žižekian account of the social authority of Lean verification. It explains how a bounded and genuine technical guarantee can become a symbolic credential of scientific certainty; how collective epistemic labour may be represented as an autonomous property of the machine; and how this credential may support a fantasy of final guarantee within a symbolic order that, in Lacanian terms, has no final guarantor.**
 
 The paper does not claim that all public trust is ideological, that Lean is unreliable, that formal/semantic distinctions are new, or that the social character of proof has not previously been studied. Its contribution is the specific ideological analysis of the public life of Lean verification.
+## 12. Additional close literature on Žižek, technology, disavowal, and artificial epistemic authority
+
+### 12.1 Matthew Flisfeder (2023): a direct guide to the Žižekian framework
+
+Matthew Flisfeder, “There is no metalanguage; or, Truth has the structure of a fiction: The Žižekian system, between post-ideology and post-truth,” *Enrahonar* 70 (2023), 171–185. DOI: https://doi.org/10.5565/rev/enrahonar.1420.
+
+This article is especially useful because its section structure directly covers the Big Other, the perverse form of cynical ideology, commodity fetishism as the material correlate of ideology, and truth's fictional structure. Flisfeder argues that apparent disbelief in the Big Other does not mean that its symbolic function has disappeared; its operation can persist beneath an explicit post-ideological stance. This helps our project avoid treating public actors' explicit caveats as proof that symbolic authority is absent.
+
+**Role:** contemporary theoretical guide to Žižek, not an application to Lean or machine-checked proofs. Our contribution must be the specific application to the bounded epistemic warrant of proof assistants in scientific knowledge production.
+
+### 12.2 Daniel Hourigan (2009): Žižekian critique of technology and knowledge-production
+
+Daniel Hourigan, *The Phantasmatic Subject of Technology: Slavoj Žižek, Techne, and the Abyss*, PhD thesis, Griffith University (submitted 29 August 2008; repository record published 2009). DOI: https://doi.org/10.25904/1912/3124. Repository: https://research-repository.griffith.edu.au/handle/10072/365491.
+
+Hourigan directly uses Žižek to examine technological fetishization, technological phantasia, the symbolic order of technicity, and the ideology of knowledge-production. The thesis argues that technology can be fetishized as an autonomous order that overdetermines the subject and covers over the contingency and social relations of knowledge-production.
+
+**Novelty consequence:** we cannot claim to be the first to apply Žižek's ideology critique to technology, technological fetishism, or knowledge-production. Our distinction is narrower and more specific: the formal proof assistant as an epistemic apparatus; the difference between its exact kernel-level warrant and the broader scientific claims it may be made to authorize; and the role of theorem statements, proof artifacts, expert validation, and public communication in this process.
+
+### 12.3 Jack Black (2025): distinguishing cynical and fetishistic disavowal
+
+Jack Black, “Examining the Mechanism of Disavowal and Its Two Forms: Cynical Disavowal and Fetishistic Disavowal,” *Theory & Psychology* 35(1) (2025), 117–135. DOI: https://doi.org/10.1177/09593543241308199. Open full text: https://shura.shu.ac.uk/34730/.
+
+Black argues that cynical disavowal and fetishistic disavowal should not be collapsed. Cynical disavowal maintains a manipulative distance and obscures the gap between belief and action; fetishistic disavowal can acknowledge the objective state of affairs while preserving the fetishistic attachment that manages the lack in the Other. Black explicitly discusses the way fetishistic disavowal can coexist with knowledge of the lack rather than simply conceal it.
+
+**Role:** refine our coding of the paper's central phenomenon. If an actor states that Lean's verification is limited but continues to invest it with a wider guarantee, this should not automatically be coded as cynical ideology. Depending on the evidence, fetishistic disavowal may be the more precise hypothesis. Cynical disavowal requires evidence of a different relation between acknowledged knowledge, distance, and practice. The distinction should be tested rather than assumed.
+
+### 12.4 Rico Hauswald (2025): artificial epistemic authorities
+
+Rico Hauswald, “Artificial Epistemic Authorities,” *Social Epistemology* 39(6) (2025), 716–725. DOI: https://doi.org/10.1080/02691728.2025.2449602.
+
+Hauswald asks whether AI systems can be epistemic authorities despite lacking beliefs and communicative intentions in the standard testimonial model. He proposes a functional account: subjects defer to an authority by treating suitable facts about it as reliable indicators of the truth of propositions. His account can accommodate AI systems as well as non-testimonial deference to scientific communities and institutions. He also identifies the identification problem (how to recognize reliable authorities) and the deference problem (what epistemic stance is appropriate).
+
+**Role:** close social-epistemological comparator. It already addresses AI as epistemic authority and deference to groups/institutions. Our paper does not need to re-argue whether Lean or AI qualifies as an epistemic authority. Instead, it asks how a particular technical form of authority—formal verification—can be ideologically invested with a guarantee beyond its domain-specific warrant.
+
+## 13. Revised novelty boundary
+
+The additional literature makes the originality claim more precise:
+
+- Not the first Žižekian critique of technology: Hourigan already provides a substantial Žižekian analysis of technological fetishization and knowledge-production.
+- Not a new general theory of AI epistemic authority: Hauswald directly analyzes artificial epistemic authorities and non-testimonial deference.
+- Not the first account of cynical or fetishistic disavowal: Black (2025) explicitly distinguishes these mechanisms.
+- Not the first account of social trust in science, expert dependence, or the social acceptance of proof: Hardwig, De Millo et al., and the public-trust literature already address these topics.
+
+**Our proposed contribution is the intersection:** a Žižekian analysis of formal proof verification as a specific epistemic and institutional practice in contemporary science. The paper explains how the kernel's genuine but bounded reliability may be transformed into a symbolic guarantee of broader scientific certainty; how the collective epistemic labour behind that reliability may be displaced into the apparent autonomy of the checker; and how fetishistic or cynical forms of disavowal may sustain this symbolic investment.
+
+The four Lean cases are not merely examples of AI authority. They allow us to inspect the precise relation among (i) the proposition actually formalized, (ii) the proof artifact checked, (iii) the human and institutional work that connects it to an intended scientific claim, and (iv) the public authority attributed to “Lean-verified.” This artifact-level specificity is the empirical distinction of the project.
