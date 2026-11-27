@@ -19,10 +19,10 @@ The prose should remain academically precise, but the order of presentation is g
    Explain Lean’s kernel-level warrant, the relation between intended claim and formal proposition, the component-based warrant architecture, and the distinction between rational epistemic dependence and fetishism.
 
 3. **Žižek and the Ideological Structure of Verification**  
-   Develop ideology beyond false consciousness, fantasy as a scene of closure, fetishism as objectal displacement, and disavowal as a secondary mechanism. Keep the Big Other as background.
+   Establish the theoretical grammar: ideology beyond false consciousness; fantasy as the staging of closure around a non-totalizable warrant relation; fetishism as the appearance of relation-dependent authority in object form; disavowal as a secondary mechanism. Fantasy explains the scene of closure; fetishism explains the apparent location of its authority.
 
 4. **The Machine as a Fetish Object**  
-   Fix the object as the credential “Lean-verified.” Explain how authority generated through technical, semantic, and institutional relations may appear to reside autonomously in the credential. Distinguish the proposed concept from ordinary shorthand and warranted reliance.
+   Develop the article’s own concept. Fix the object as the portable credential “Lean-verified” and explain its three analytical moments: condensation, circulation, and displacement. Derive the distinction between a genuine local warrant and its possible symbolic surplus. Introduce scope extension, objectal displacement, and social efficacy as separate conditions for diagnosis.
 
 5. **Four Encounters with Formal Verification**  
    - Riemann: certification, institutional authorization, and foundational contestation.
@@ -31,7 +31,7 @@ The prose should remain academically precise, but the order of presentation is g
    - Liquid Tensor: semantic scrutiny and visible collective labour as a counter-case.
 
 6. **The Ideological Function of Mathematical Certainty**  
-   Compare the cases, state what the evidence does and does not establish, position the contribution against Vallverdú, Kallel–El Louadi, López-Corona, Erfani, Hourigan, and Omodeo, and articulate the conditional originality claim.
+   Return from the cases to the philosophical question. Explain what the comparison establishes, why no case currently meets the full diagnostic conjunction, and what this negative result means for the concept. Distinguish the warrant of a check from the authority of a credential; then locate the contribution against Vallverdú, Kallel–El Louadi, López-Corona, Erfani, Hourigan, and Omodeo.
 
 7. **Conclusion**  
    Return to the opening paradox and state the final philosophical judgement.
