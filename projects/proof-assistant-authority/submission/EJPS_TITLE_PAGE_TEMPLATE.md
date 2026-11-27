@@ -31,6 +31,12 @@
 
 [Confirm whether any financial or non-financial competing interests exist. If none, use: “The author declares no competing interests.”]
 
+## Proposed generative-AI disclosure
+
+The following wording is included in the anonymous manuscript and should also be included in the title-page disclosures after author confirmation:
+
+> ChatGPT (OpenAI; GPT-6.2; November 2026) assisted with preliminary literature discovery; comparison and summarization of cited sources and publicly available Lean-related materials; organization and critical assessment of the argument; and drafting and revision of manuscript prose. ChatGPT was not used to generate new numerical results or Lean proofs for this article. The author retains responsibility for source verification, scholarly judgments, and the final manuscript.
+
 ## Notes for completion
 
 - Do not upload this file as part of the anonymized manuscript.
