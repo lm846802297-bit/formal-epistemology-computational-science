@@ -2,20 +2,19 @@
 
 **Subtitle:** The Ideology of Machine-Checked Proofs in Science
 
-**Empirical focus:** Lean and its role in AI-assisted mathematical discovery, formal verification, and public legitimation.
+**Central thesis:** Lean can acquire a social and ideological function beyond its technical role as a proof assistant. Its genuine but bounded formal assurance may become a public symbol of scientific certainty. Žižek's ideology critique explains how this credential can be invested with the function of a guarantee, how collective epistemic labour may appear as an autonomous machine property, and how Lean may be positioned within a symbolic order that seeks a guarantor despite the absence of any final guarantor.
 
-1. **Introduction:** the rise of Lean-based AI-assisted mathematical discovery; why its authority matters beyond mathematics, for society's trust in scientific knowledge.
-2. **Epistemic dependence and public trust:** Hardwig, expert testimony, collective epistemic labour, institutional trust, and the public's rational dependence on science.
-3. **Žižek's critique of ideology:** ideological fantasy, fetishism, cynical ideology, and the Big Other; distinguish the supporting role of Lacan's subject-supposed-to-know.
-4. **From Lean kernel to public authority:** distinguish formal statement, proof-term checking, semantic correspondence, mathematical understanding, institutional recognition, and public trust.
-5. **Primary Lean case studies:**
-   - Riemann hypothesis: Claude-assisted discovery and extensive Lean verification;
-   - Navier–Stokes: OpenAI multi-agent discovery, Lean formalization, and the natural-language/Lean correspondence dispute;
-   - Erdős problems: AlphaProof Nexus, Lean proof search, formalized conjecture selection, and human statement validation;
-   - Liquid Tensor Experiment: historical case on Lean checking, human scrutiny, and expert confidence.
-6. **Contrast case:** Waring's problem and GPT-6.2 Astra, used to distinguish AI-generated mathematical claims from Lean-certified results.
-7. **Society-wide reception:** population surveys, the Chen–Jia experiment, media coverage, and bounded public-discussion samples. Separate representative survey evidence from self-selected online discourse.
-8. **Discussion:** assess whether the Lean cases support ideological fantasy, epistemic fetishism, cynical disavowal, legitimate epistemic dependence, or hybrid explanations.
-9. **Conclusion:** explain how Lean verification can become a public credential of scientific reliability while preserving the exact limits of what the kernel checks.
+1. **Introduction — Why does society trust what it cannot verify?** Introduce AI-assisted mathematical discovery, Lean certification, and the broader social problem of relying on specialized knowledge.
+2. **The technical object — What does Lean guarantee?** Explain only the necessary technical background: formal proposition, proof term, kernel checking, assumptions, and semantic correspondence. Avoid turning the paper into a Lean manual.
+3. **Žižek's critique of ideology — Fantasy, fetishism, and the Big Other.** Establish the primary theoretical framework from *The Sublime Object of Ideology* and relevant Lacanian texts. Distinguish ideological fantasy from wishful thinking, fetishism from mere admiration, and the Big Other from an actual institution or machine.
+4. **The ideological fantasy of verification.** Analyze how a bounded, reproducible check may be represented as closure of scientific uncertainty.
+5. **Epistemic fetishism of Lean verification.** Analyze how collective mathematical, formalization, software, expert, and institutional labour may appear as an autonomous property of the machine.
+6. **Lean and the Big Other of scientific certainty.** Analyze how Lean can function as a symbolic credential within a social order that seeks a guarantee, while no final guarantor exists.
+7. **Four Lean case studies.** Riemann hypothesis; Navier–Stokes; Erdős/AlphaProof Nexus; Liquid Tensor Experiment. Use each to test and potentially falsify the three ideological mechanisms.
+8. **Society-wide reception.** Analyze the Chen–Jia experiment, public-trust research, institutional announcements, media narratives, and bounded public discussions. Distinguish actual audience evidence from invitations to trust.
+9. **Discussion — Verification relocates uncertainty.** Explain how technical checking reduces one kind of uncertainty while relocating dependence to semantic, interpretive, institutional, and communicative judgments. Compare Žižek's contribution with Hardwig without shifting the theoretical centre away from Žižek.
+10. **Conclusion.** Explain why modern society invests in technologies that make knowledge formally checkable and how such technologies reshape the symbolic understanding of scientific truth.
 
-Coq, Isabelle/HOL, and HOL Light may appear in brief historical comparison, but they are not parallel empirical case families. The paper's main object remains Lean.
+**Contrast case:** Waring/GPT-6.2 Astra is used only to distinguish AI-generated mathematical claims from Lean-certified results.
+
+Coq, Isabelle/HOL, and HOL Light appear only as brief historical context. The empirical focus remains Lean.
