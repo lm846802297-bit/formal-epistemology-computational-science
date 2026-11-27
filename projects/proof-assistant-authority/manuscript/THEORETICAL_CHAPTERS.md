@@ -165,3 +165,30 @@ The central proposition is:
 Lean can sharply reduce uncertainty about whether a proof term establishes a specified formal proposition. It does not by itself settle semantic correspondence, the appropriateness of assumptions, mathematical understanding, novelty, institutional recognition, or public interpretation. The stronger the technical credential becomes, the more important these other forms of mediation may become.
 
 The paper's original contribution is therefore not the familiar observation that formal proof checking has limits. It is a Žižekian account of how a bounded and genuinely reliable technical guarantee can acquire a wider symbolic function in society: it can support a fantasy of certainty, condense collective epistemic labour into a machine object, and occupy the place of a guarantor that the symbolic order cannot ultimately supply.
+# References for the theoretical chapters
+
+## Primary philosophical texts
+
+- Lacan, Jacques. *The Seminar, Book XI: The Four Fundamental Concepts of Psychoanalysis*. Trans. Alan Sheridan. New York: W. W. Norton, 1977. Especially the sessions on transference and the subject supposed to know.
+- Lacan, Jacques. “Proposition of 9 October 1967 on the Psychoanalyst of the School.” Use a scholarly edition/translation and verify pagination before final submission.
+- Marx, Karl. *Capital: A Critique of Political Economy*, Vol. 1. Trans. Ben Fowkes. London: Penguin, 1976. Chapter 1, Section 4, “The Fetishism of the Commodity and Its Secret.”
+- Žižek, Slavoj. *The Sublime Object of Ideology*. London: Verso, 1989. Especially the opening chapter on ideology and fantasy; check page references against the edition actually cited.
+- Žižek, Slavoj, ed. *Mapping Ideology*. London: Verso, 1994. Especially Žižek's “The Spectre of Ideology.”
+- Žižek, Slavoj. *The Plague of Fantasies*. London: Verso, 1997. Relevant for fantasy as a structuring frame rather than a merely imaginary supplement.
+
+## Prior work that sets the novelty boundary
+
+- De Millo, Richard A., Richard J. Lipton, and Alan J. Perlis. “Social Processes and Proofs of Theorems and Programs.” *Communications of the ACM* 22, no. 5 (1979): 271–280. https://doi.org/10.1145/359104.359106.
+- Fetzer, James H. “Program Verification: The Very Idea.” *Communications of the ACM* 31, no. 9 (1988): 1048–1063. https://doi.org/10.1145/48529.48530.
+- Hardwig, John. “Epistemic Dependence.” *The Journal of Philosophy* 82, no. 7 (1985): 335–349. https://www.jstor.org/stable/2026523.
+- Kallel, Maher, and Mohamed El Louadi. “Verification Abundance, Adjudication Scarcity: What Happens to Mathematical Knowledge When Proof Checking Becomes Free.” arXiv:2608.28997 (2026). https://arxiv.org/abs/2608.28997.
+- Iordanou, Kalypso, Antonis Antoniou, and Maura De Vos. “Public Trust in Science: A Systematic Literature Review.” *Journal of Academic Ethics* 24 (2026), article 56. https://doi.org/10.1007/s10805-026-09732-5.
+- Hourigan, Daniel. *The Phantasmatic Subject of Technology: Slavoj Žižek, Techne, and the Abyss*. PhD thesis, Griffith University, 2009. https://doi.org/10.25904/1912/3124.
+
+## Citation and conceptual checks before submission
+
+1. Verify all quotations and page numbers directly against the cited editions of Marx, Lacan, and Žižek. The present draft paraphrases rather than quotes them.
+2. Do not attribute the phrase “epistemic fetishism of Lean verification” to Žižek. It is the paper's proposed analytic extension of Marxian/Žižekian fetishism.
+3. Do not write that Lean “is” the Big Other. The argument concerns its possible symbolic positioning as a credential within an order that seeks a guarantee.
+4. Keep the distinction between the subject-supposed-to-know and the Big Other. The former concerns transference and attribution of knowledge; the latter names the symbolic locus/order.
+5. Do not claim that the three mechanisms have been empirically demonstrated merely because the theoretical vocabulary has been applied. Each requires the case evidence specified in the preceding chapters.
