@@ -53,7 +53,7 @@ A strong diagnosis requires:
 - **O — Objectal displacement:** the credential appears to contain autonomous authority while the relations that make it meaningful are displaced.
 - **E — Social efficacy:** the representation plays a documented role in legitimation, recognition, credibility allocation, institutional action, or repeated practice.
 
-Fantasy explains the scene of closure that may organize S, O, and E. Disavowal is secondary and requires explicit acknowledgement of the precise limitation plus continued broader investment within a traceable actor/institutional chain.
+The formation mechanism has five analytical moments: real technical reliability; distributed epistemic labour; credential condensation; objectal displacement and symbolic authority; and fetishistic disavowal as reproduction after awareness. The first four explain how the credential acquires authority; the fifth explains how that authority can persist despite knowledge of its limits. S, O, and E remain the separate diagnostic requirements. Fetishistic disavowal requires evidence linking explicit boundary knowledge to continued broader investment within the same actor or institutional communication chain.
 
 ## 6. Rival explanations
 
