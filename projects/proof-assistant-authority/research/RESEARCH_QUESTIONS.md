@@ -1,84 +1,53 @@
-# Research-question architecture
+# Research-question architecture — revised
 
-**Project:** *In Lean We Trust? The Ideology of Machine-Checked Proofs in Science*  
+**Project:** *In Lean We Trust?*  
 **Date:** 27 November 2026  
-**Status:** controlling research-question document. This version supersedes the earlier society-wide framing of AI-assisted knowledge production.
+**Status:** controlling research-question document after anonymous review.
 
 ## Central research question
 
-**Under what conditions does the bounded technical warrant of Lean verification acquire an ideological function as a symbolic guarantee of broader mathematical or scientific certainty within contemporary knowledge production and communication?**
+Under what conditions does the genuine but bounded warrant of Lean verification acquire an ideological function as an apparently self-sufficient guarantee of broader mathematical authority?
 
-The paper studies the specific transition from a genuine, local machine check to a possible wider symbolic and institutional guarantee. It does not assume that this transition always occurs.
+The object is the public/institutional credential “Lean-verified,” not Lean software in general or AI trust in general.
 
 ## Core hypothesis
 
-**The Ideological Fetishism of Formal Verification:** the epistemic authority of Lean verification may be ideologically sustained when the genuine reliability of a bounded machine check is represented as an autonomous guarantee of broader scientific certainty, while the human, conceptual, semantic, and institutional relations that make the verification meaningful recede from view.
+The ideological fetishism of formal verification is the objectal displacement through which the socially and semantically mediated authority of a machine-checked result appears to reside autonomously in the credential “Lean-verified,” allowing the warrant of a bounded formal check to stand for a wider mathematical claim.
 
-This is a Žižekian hypothesis to be tested against primary artifacts, institutional descriptions, public representations, and counter-evidence.
+## Focused subquestions
 
-## Four focused subquestions
-
-1. **Technical warrant:** What exact proposition, proof artifact, definitions, axioms, libraries, and trusted environment does Lean check? What follows from that check, and what does not?
-2. **Epistemic mediation:** What human mathematical work, formalization choices, semantic comparisons, expert scrutiny, and institutional assessments connect the checked proposition to the intended scientific claim?
-3. **Ideological operation:** Under what conditions is the bounded formal check represented or used as a broader guarantee of certainty? How do ideological fantasy and fetishistic displacement explain this transition?
-4. **Persistence and resistance:** When do acknowledged limitations coexist with continued symbolic investment in the verification credential? When do visible collective labour, scope statements, and semantic audits prevent or contest that investment?
+1. What exact formal proposition, proof artifact, environment, axioms, dependencies, and checking record are involved?
+2. What is the specification relation between the formal proposition and the intended mathematical claim?
+3. When is the credential made to warrant more than the formal proposition and documented specification relation establish?
+4. When does the credential appear to contain autonomous authority, and what institutional or practical effect does this representation have?
+5. What counter-evidence, qualification, or transparent semantic review prevents the stronger diagnosis?
 
 ## Theoretical division of labour
 
-- **Žižek — core framework:** ideological fantasy, fetishism, and disavowal.
-- **Marx and Lacan — theoretical sources within Žižek's framework:** commodity fetishism, fantasy, the Big Other, and disavowal.
-- **Hardwig — normative baseline:** when is reliance on experts and distributed epistemic labour warranted?
-- **Philosophy of science / social and political epistemology:** disciplinary location and the broader problem of scientific knowledge production and authority.
+- **Žižek:** core framework — ideological fantasy and fetishism; disavowal as secondary.
+- **Marx and Lacan:** theoretical sources internal to the Žižekian framework.
+- **Hardwig:** normative baseline for justified epistemic dependence.
+- **Vallverdú and Kallel–El Louadi:** technical warrant baseline; their component distinctions are not claimed as original.
+- **López-Corona and Erfani:** close interlocutors on human-machine mathematics and ideology critique, respectively.
 
-Do not turn these into four parallel theories. The paper's explanatory framework is Žižekian.
+## Diagnostic requirements
 
-## Primary empirical scope
+Technical warrant is the baseline. A strong diagnosis requires:
+- S — scope extension;
+- O — objectal displacement;
+- E — social efficacy.
 
-| Case | Analytical function |
-|---|---|
-| Riemann hypothesis | Formal certification, expert-community authorization, and AI-mediated exposition |
-| Navier–Stokes | Formal validity versus semantic correspondence with the natural-language proof |
-| Erdős / AlphaProof Nexus | Statement identity, proof provenance, human validation, and institutional mediation |
-| Liquid Tensor Experiment | Counter-case emphasizing collective mathematical labour and semantic checks |
+The diagnostic form is S ∧ O ∧ E. Disavowal is tested separately and requires actor-level evidence.
 
-Waring/GPT is a contrast case only and is not part of the four primary Lean cases.
+## Primary cases
 
-## Evidence protocol
+1. Riemann hypothesis — formal certification, institutional authorization, AI-mediated exposition, foundational challenge.
+2. Navier–Stokes — relation between Lean declarations and a separate natural-language proof.
+3. Erdős / AlphaProof Nexus — proof search, benchmark scope, human statement validation, artifact provenance.
+4. Liquid Tensor Experiment — explicit semantic sanity checks and visible collective labour as a counter-case.
 
-For each case, examine:
-
-1. The exact formal proposition and proof artifact.
-2. The relevant Lean environment, assumptions, and dependencies.
-3. The relation between the formal proposition and the intended informal claim.
-4. The human and institutional labour that makes the result meaningful.
-5. The official description and the third-party/public representation.
-6. Counter-evidence that preserves the scope or makes mediation visible.
-
-Public texts establish representations and documented practices. They do not, by themselves, establish population-level belief or unconscious motives.
-
-## Conceptual safeguards
-
-- A correct Lean proof is not thereby ideological or suspect.
-- Rational reliance on Lean for its exact formal task is not fetishism.
-- Formal derivational validity, semantic correspondence, mathematical understanding, institutional recognition, and public representation are distinct.
-- A headline or compressed description is not sufficient evidence of fetishism.
-- Cynical disavowal requires evidence of a manipulative distance between acknowledged knowledge and practice.
-- Fetishistic disavowal requires evidence that the limitation is acknowledged while the technical object continues to sustain a broader symbolic investment.
-- The three Žižekian concepts are related analytical dimensions, not a deterministic causal sequence.
-
-## Defensible contribution
-
-The paper develops a Žižekian account of how the bounded technical warrant of Lean verification can be invested with broader scientific authority, how collective epistemic labour can appear as an autonomous property of the machine, and how this symbolic investment can persist despite acknowledged limits.
-
-The paper does not claim a new general theory of AI trust, a new distinction between formal validity and semantic fidelity, or the first Žižekian critique of technology.
+The cases are a purposive maximum-variation set, not matched controls or a representative sample. No additional case or population survey is part of this paper.
 
 ## Stopping rule
 
-The research question is sufficiently answered when:
-- the technical scope is established for all four cases;
-- the semantic and institutional mediation is traced;
-- each ideological mechanism is tested against both supporting and counter-evidence;
-- the normative distinction between warranted reliance and ideological enlargement is clear;
-- the originality claim is bounded by the identified prior literature.
-
-After these criteria are met, proceed to manuscript writing rather than expanding into general AI trust, additional proof-assistant systems, or population-level surveys.
+Proceed to manuscript writing when the exact formal object and intended claim are paired in all four cases, S/O/E are assessed separately, counter-evidence and rival explanations are included, and the literature boundaries are explicit. Do not expand the sample or introduce parallel theoretical frameworks.
