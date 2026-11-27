@@ -1,8 +1,11 @@
-# Manuscript outline
+# In Lean We Trust? — Manuscript outline
 
-1. **Problem:** distinguish reporting what the checker accepted from treating the whole scientific claim as settled.
-2. **Normative baseline:** summarize the prior paper's claim-relative criterion and the OS example. Distinguish reliance on a kernel, reliance on domain experts, and attribution of a final verdict.
-3. **Explanations and rivals:** expertise and epistemic dependence; ordinary compression for a lay audience; institutional prestige; possible attribution of authority to a presumed knower. A Lacanian or Žižekian reading is an interpretive hypothesis, not a diagnosis of the authors, users, or software.
-4. **Methods:** compare project declarations and theorem statements, project-authored public summaries, and independently authored retellings. Keep faithful retellings as negative cases.
-5. **Results:** report only coded evidence, including ambiguous cases and plausible alternative readings. Do not infer psychological motivation from a text alone.
-6. **Discussion:** ask what a reader is invited to accept without inspecting it. Keep the distinction between attribution of authority in a document and the question of how real readers respond.
+**Subtitle:** The Ideology of Machine-Checked Proofs in Science
+
+1. **Introduction:** the contemporary rise of machine-checked proofs and the question of how local verification becomes a broader sign of scientific certainty.
+2. **Epistemic dependence and scientific authority:** Hardwig, expert testimony, collective epistemic labour, and the legitimate division of epistemic work.
+3. **Žižek's critique of ideology:** ideological fantasy, fetishism, cynical ideology, and the Big Other. Clarify the distinct role of Lacan's subject-supposed-to-know.
+4. **The ideological structure of formal verification:** develop a claim-relative account of how kernel-level reliability, semantic correspondence, expert labour, and public authority can be conflated or kept distinct.
+5. **Comparative public-text cases:** compare formal artifacts, project-authored statements, and independent retellings across Lean, Coq, Isabelle/HOL, and HOL Light. Include scope-preserving negative cases.
+6. **Discussion:** determine whether the evidence supports ideological fetishism, ordinary compression, legitimate epistemic dependence, institutional authority, or a hybrid explanation. Do not infer reader psychology from public texts alone.
+7. **Conclusion:** explain what formal verification genuinely warrants and how its authority is socially represented in scientific communication.
