@@ -24,13 +24,18 @@ Marx and Lacan are theoretical sources internal to Žižek’s framework. Hardwi
 
 **Limit:** this is a structural analogy, not an identity with the commodity form. The article does not claim that Lean is a commodity in Marx’s technical economic sense or that social labour creates mathematical truth.
 
-### 2.2 Cynical ideology and disavowal
+### 2.2 Cynical ideology and fetishistic disavowal
 
-**Primary locator:** Chapter 1, section “Cynicism as a Form of Ideology”; first English edition, approximately pp. 24–27.
+**Primary locators:** Chapter 1, “How Did Marx Invent the Symptom?”; first English edition, pp. 12–13 and 24–32.
 
-Žižek discusses the limits of a critique that assumes ideology depends only on naive ignorance. His discussion draws on Peter Sloterdijk’s *Critique of Cynical Reason* (1987). The familiar formula about knowing and nevertheless continuing to act should not be attributed to Žižek as an original phrase.
+Žižek introduces the formula “I know very well, but still” in his discussion of fetishistic disavowal and money (pp. 12–13). The key point is that conscious knowledge of money’s material character does not dissolve the practical investment through which it functions as the embodiment of wealth.
 
-**Application:** explicit knowledge of the limits of Lean checking does not automatically show that the credential’s wider symbolic investment has ended. However, this is not established by the mere coexistence of a caveat and continued rational reliance. A disavowal diagnosis requires a precise limitation, continued broader investment, actor-level continuity, and exclusion of contextual resolution.
+Žižek later develops the argument through commodity fetishism. Individuals know that money is an expression of social relations, yet in their actual social activity they act as if it were the immediate embodiment of wealth (pp. 28–30). He calls them “fetishists in practice, not in theory.” He then describes belief as externalized in effective procedures and objects: the social object can appear to believe in place of the subjects who use it (pp. 31–32). This is the most direct primary-text basis for the article’s fifth moment.
+
+This fetishistic structure must be distinguished from cynical reason. In the section “Cynicism as a Form of Ideology” (approximately pp. 24–27), Žižek draws on Sloterdijk’s *Critique of Cynical Reason* (1987) to discuss subjects who know the distance between ideological appearance and social reality yet continue to insist on the mask. Cynical reason and fetishistic disavowal are related but not interchangeable. Kuldova (2019) and Black (2025) offer useful later distinctions, but Žižek’s own account of fetishistic practice and externalized belief supplies the central theoretical derivation.
+
+**Application:** in formal verification, public acknowledgement of human problem selection, semantic validation, and mathematical exposition does not necessarily dissolve the public attribution of the achievement to an autonomous machine. The relevant object is the credential and the communication practice through which the machine remains the apparent bearer of the achievement.
+
 
 ### 2.3 Ideological fantasy
 
@@ -86,11 +91,14 @@ The absence of a final symbolic guarantor is a background premise. It does not i
 
 ## 5. Disavowal: attribution and operational use
 
-The more explicit distinction between cynical and fetishistic disavowal is sharpened in later scholarship:
-- Kuldova (2019), “Fetishism and the Problem of Disavowal.”
-- Black (2025), “Examining the Mechanism of Disavowal and Its Two Forms.”
+The article distinguishes three levels:
 
-The revised article treats fetishistic disavowal as secondary to the initial formation of the credential’s authority but central to explaining its reproduction after the limits are known. It does not attribute the two-form taxonomy to Žižek as if he had formulated it in exactly the same terms. It does not infer unconscious motives from public language.
+1. **Žižek’s primary structure:** fetishistic illusion is embodied in social activity even where actors know the social relations behind the fetish (Žižek 1989, 12–13, 28–32).
+2. **The later conceptual distinction:** Kuldova (2019) and Black (2025) clarify the difference between cynical and fetishistic disavowal. This distinction is used to avoid conflating strategic concealment with the persistence of practical investment.
+3. **The present application:** the public communication chain acknowledges human and semantic mediation while continuing to attribute the mathematical achievement to an apparently autonomous machine.
+
+The fifth moment is not inferred from a participant’s private psychology. It is identified in public practices of attribution: the same research and institutional communication chain names human problem selection, statement validation, and mathematical exposition, yet retains the machine as the autonomous subject of “resolution.” The analysis therefore concerns the public organization of belief and authority, not an unobservable mental state.
+
 
 ## 6. Derivation summary
 
