@@ -73,6 +73,47 @@ The following is a purposive, illustrative sample of public-facing texts and onl
 
 **Initial observations:** Headlines and explainers translate a highly technical proof artifact into the public categories of “AI solved mathematics,” “the holy grail,” and “historic breakthrough.” Nature's 25 November interviews document mixed reactions among mathematicians: awe, excitement, anxiety about professional identity and the future of mathematics, concern about corporate power, and a distinction between formal proof checking and human understanding. These interviews are evidence about named mathematicians, not representative public opinion.
 
+
+## 2.5 New preregistered survey experiment: disclosure of AI use
+
+Catherine Chen and Xinle Jia, “When researchers use AI: public trust, ethical judgments, and the perceived value of academic research,” *AI and Ethics* 6 (2026), article 223. Published 26 March 2026. DOI: https://doi.org/10.1007/s43681-026-01039-w.
+
+This is a peer-reviewed, preregistered survey experiment (N=806), not merely a general attitude poll. Respondents were randomly assigned to one of six author-disclosure statements describing different forms of generative-AI use in academic research. The authors report:
+- highest trust, perceived quality, and ethicality for research described as conducted without AI;
+- lowest evaluations when AI was used for both theoretical and methodological tasks;
+- greater acceptance of AI for methodological tasks (such as coding) than theoretical tasks (such as hypothesis generation);
+- greater acceptance among respondents who personally used AI more frequently;
+- self-reported AI knowledge and general trust in science did not moderate the effects.
+
+**Why it matters:** This gives the project direct evidence that the disclosed location of AI within the knowledge-production process affects public evaluation. It supports a distinction between trust in the scientific product, trust in the researcher, and perceived legitimacy/accountability. It does not test proof assistants, Lean, formal verification, or a concrete mathematical result. The paper should therefore be used as a design precedent and a broader public-trust baseline, not as evidence that the public rejects machine-checked proofs.
+
+## 3.6 Science Media Centre reactions to the Riemann claim
+
+The UK Science Media Centre collected expert comments on 24 November 2026: https://www.sciencemediacentre.org/experts-comment-on-announcement-from-levant-alpoge-that-he-has-solved-the-riemann-hypothesis-with-the-help-of-claude/
+
+The reactions show distinct epistemic thresholds:
+- Bill Oxbury describes the claim as a major achievement if correct and expresses guarded optimism.
+- Thomas Prellberg says experts still need to scrutinize the Lean formalization and establish exactly what was checked; his personal probability judgment is positive but qualified.
+- James Maynard says that if it checks out it would be historic, while emphasizing the need to understand the underlying structure of primes.
+- James Davenport separates checking that the code compiles and contains no gaps from checking that the formal statement is the Riemann hypothesis as understood informally. He calls the current proof a “black box” for mathematicians who cannot understand why it is true.
+- Kit Yates explicitly says formal proof assistants check the proposition they are given and do not make human scrutiny redundant.
+
+This is a particularly useful public expert-mediated case because it distinguishes technical checking, statement correspondence, and conceptual understanding. These are expert comments, not a representative public survey.
+
+## 3.7 Riemann status correction as of 27 November 2026
+
+The evidence must be time-stamped and the terms “verified” and “accepted” must not be used interchangeably.
+
+The 26 November RIEMANN-REV public note reports that the original 17.4-million-line archive and a shorter Claude-produced rewrite are accepted by Lean's kernel and multiple independent checkers, using only the three standard axioms. The shorter versions preserve the same five final statements; the compact edition is 112,827 lines, with 24,850 lines in the proof-specific part. The note also explicitly states that no mathematician has read the proof through and that no accompanying mathematical paper exists. The human-readable write-up is still being developed.
+
+Source: https://nasqret.github.io/riemann-rev/summary/grh-condensed-summary.pdf
+
+The UK Science Media Centre comments of 24 November likewise distinguish machine compilation from expert scrutiny of the theorem statement and from understanding the mathematical argument.
+
+**Correct status at the cut-off:** strong machine-level formal verification is reported; human mathematical understanding and conventional mathematical acceptance remain separate and incomplete. This is not a claim that the proof is invalid. It is also not accurate to say that no independent machine checks have occurred.
+
+This correction replaces any earlier wording in this project that implied that full human review or conventional mathematical acceptance had already occurred.
+
 ### 3.2 Open online discussion
 
 Examples located:
