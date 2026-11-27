@@ -1,47 +1,104 @@
-# Lean-focused public-text and social-reception study protocol
+# Protocol: testing the Žižekian model across four Lean cases
 
-## Research question
-How does Lean-based machine verification become a publicly legible symbol of the reliability of scientific knowledge, and what ideological functions does this symbol perform in contemporary society?
+**Project:** *In Lean We Trust? The Ideology of Machine-Checked Proofs in Science*  
+**Date:** 27 November 2026  
+**Status:** controlling empirical protocol for the first paper.
 
-## Unit of analysis
-A claim about a Lean-verified mathematical result in a dated public text, paired with the exact Lean theorem, definitions, assumptions, source version, and review status that could support it.
+## 1. Research question
 
-## Primary case design
+**Under what conditions does the bounded technical warrant of Lean verification acquire an ideological function as a symbolic guarantee of broader mathematical or scientific certainty within knowledge production and communication?**
 
-Lean is the primary empirical object. Study four cases that differ in AI contribution, formal verification, human review, and public recognition:
+The project studies the specific social-symbolic operation of the Lean-verification credential. It is not a general study of trust in AI or a population-level survey of public attitudes.
 
-1. **Riemann hypothesis:** Claude-assisted discovery; large Lean archive; Lean FRO/Mathlib statement certification; independent proof checkers; distinction between formal verification and human mathematical understanding.
-2. **Navier–Stokes:** OpenAI multi-agent discovery; Lean formalization; independent critique of semantic correspondence between the written paper and pinned Lean source.
-3. **Erdős problems:** AlphaProof Nexus proof search; Lean formal conjectures and proof terms; human validation of statement correspondence; independent audit and expert reactions.
-4. **Liquid Tensor Experiment:** historical Lean case; theorem-level formalization; human expert scrutiny and public claims about what was confirmed.
+## 2. Unit of analysis
 
-**Contrast only:** Waring's problem / GPT-6.2 Astra is retained as a non-Lean contrast case for AI-generated mathematical claims and self-refereeing. It is not treated as a co-equal case in the Lean analysis.
+A dated claim, institutional representation, or documented practice concerning a Lean-verified result, paired with:
+- the exact Lean theorem and proof artifact;
+- definitions, assumptions, dependencies, source version, and check status;
+- the intended informal theorem or scientific claim;
+- the semantic bridge and expert/institutional review;
+- the relevant public or institutional context.
 
-Coq, Isabelle/HOL, and HOL Light may be cited for historical context or contrast, but do not expand the main sample into a multi-system survey.
+A headline is not coded in isolation from its article, linked technical materials, qualifications, or later corrections.
 
-## Evidence collected for each primary Lean case
+## 3. Primary case design
+
+Lean is the primary empirical object. The four cases have distinct analytical functions:
+
+1. **Riemann hypothesis:** formal certification, expert-community authorization, AI-mediated exposition, and the distinction between machine checking and mathematical understanding.
+2. **Navier–Stokes:** formal validity versus disputed correspondence between Lean declarations and a separate natural-language proof.
+3. **Erdős / AlphaProof Nexus:** formal proof search, statement identity, artifact provenance, human validation, and institutional mediation.
+4. **Liquid Tensor Experiment:** collective mathematical labour, definition sanity checks, and visible human-machine collaboration as a counter-case.
+
+Waring/GPT is a contrast case only. Coq, Isabelle/HOL, and HOL Light may appear briefly as historical context, but do not expand the empirical sample.
+
+## 4. Evidence collected for each case
+
+### Technical object
 - exact theorem statement and Lean source/repository version;
-- AI contribution and human contribution;
-- kernel/build result, axioms, placeholders, dependencies, and independent checker reports;
-- correspondence between the formal statement and the intended mathematical claim;
-- mathematical exposition and evidence of human understanding;
-- expert review, institutional recognition, and publication status;
-- project/institutional announcements and independent media reports;
-- public discussion and audience interpretation where available.
+- definitions, assumptions, imported libraries, axioms, placeholders, and dependencies;
+- kernel/build acceptance and independent checker reports;
+- reproducibility and artifact provenance.
 
-## Society-wide evidence
-Use population surveys and survey experiments to contextualize public trust in science and AI. Do not treat general trust-in-science surveys as direct measures of trust in Lean. Use online discussions qualitatively only; they are self-selected and not representative. Distinguish invitations to trust in public communication from actual audience belief.
+### Semantic and mathematical mediation
+- correspondence between the formal proposition and intended theorem;
+- human theorem formulation and formalization choices;
+- mathematical exposition and evidence of understanding;
+- expert scrutiny, statement validation, and review status.
 
-## Coding and rival explanations
-Code AI contribution, formal verification, semantic correspondence, human understanding, institutional recognition, public framing, and audience reception separately. Consider ordinary shorthand, genre conventions, legitimate expert testimony, institutional reputation, explicit qualifications elsewhere, ambiguity, and substantive scope expansion.
+### Institutional and discursive mediation
+- project and institutional announcements;
+- journal and mathematical-community descriptions;
+- independent critiques and expert commentary;
+- selected third-party media accounts where they materially clarify the public representation;
+- explicit qualifications, corrections, and counter-narratives.
 
-## Theory use
-Hardwig explains legitimate epistemic dependence; Žižek's ideological fantasy, fetishism, and cynical disavowal are hypotheses about how authority and certainty are represented; Lacan's subject-supposed-to-know is a supporting account of attribution of a knowing position. Do not infer unconscious motive, transference, or belief from public text alone.
+No new population survey, interview, or experiment is required for this phase.
 
-## Stopping rule
-The initial Lean-focused phase is complete when all four primary Lean cases have pinned formal artifacts and dated public accounts, at least three have independent public retellings, the public-trust baseline and Chen–Jia experiment are analyzed, and each case is coded for AI contribution, verification, semantic correspondence, human review, institutional status, public framing, and evidence limits.
+## 5. Theoretical coding
 
-No additional proof-assistant families or new mathematical cases are to be added during this phase. If evidence fails to support ideological expansion, report legitimate trust and scope-preserving cases.
+The three Žižekian operations are tested across three empirical planes.
 
-## Out of scope
-No new survey, interview, or experiment in this phase. A later experiment may be proposed only if the existing evidence identifies a precise unresolved causal question.
+**Operations**
+- **Fantasy:** does a bounded formal check become a scene of closure for broader uncertainty?
+- **Fetishism:** does the authority generated by a collective network appear as an autonomous property of the machine?
+- **Disavowal:** do acknowledged limits coexist with continued symbolic investment in a broader guarantee?
+
+**Empirical planes**
+- discursive statements;
+- material-institutional procedures;
+- repeated spontaneous-practical reliance.
+
+The Big Other and the absence of a final guarantor are structural background, not a separate case-level mechanism. Hardwig supplies a normative baseline for warranted epistemic dependence; Lacan supplies supporting concepts within the Žižekian framework.
+
+## 6. Rival explanations and coding safeguards
+
+Consider:
+- accurate technical shorthand;
+- genre conventions and headline compression;
+- explicit qualifications elsewhere in the same communication chain;
+- legitimate reliance on expert testimony and a trusted kernel;
+- visible human contribution and semantic audit;
+- institutional reputation;
+- corrections or later clarification.
+
+Do not infer unconscious motives, audience beliefs, or cynical intent from a single text. Distinguish representations and documented institutional practices from population-level reception.
+
+## 7. Stopping rule
+
+The first-paper case phase is complete when:
+1. each of the four cases has a pinned formal artifact and dated primary account;
+2. the exact relation between formal statement and intended claim is recorded;
+3. the collective technical, semantic, and institutional mediation is mapped;
+4. each Žižekian operation is tested against supporting evidence, counter-evidence, and rival explanations;
+5. the evidence threshold for the central diagnosis is applied consistently.
+
+Once these conditions are met, proceed to manuscript drafting. Do not add new mathematical cases, proof-assistant families, or general AI-trust studies.
+
+## 8. Out of scope
+
+- a new population survey or experimental study;
+- a general theory of AI epistemic authority;
+- AI consciousness or moral agency;
+- a multi-system proof-assistant comparison;
+- claims about unconscious motives or public belief unsupported by direct evidence.
