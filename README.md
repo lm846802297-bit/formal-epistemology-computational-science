@@ -1,9 +1,53 @@
 # Formal Epistemology of Computational Science
 
-Public research repository.
+**Working paper:** *Machine-Checked Proofs and Formalization Interfaces in Mathematical Physics: The Epistemology of Osterwalder–Schrader Reconstruction*
 
-The initial research charter, literature review, source register, and paper framework are being submitted for review in a dedicated research branch and pull request.
+## Manuscript status
 
-The project studies what machine-checked proofs establish in physics, using formalized Osterwalder–Schrader reconstruction as its primary case study.
+The major-revision manuscript is available in [manuscript/full_manuscript.md](manuscript/full_manuscript.md). It includes the abstract, Introduction, OS formalization-network analysis, Discussion, Conclusion, and 23 cited references.
 
-Substantive research materials are added through pull requests; this bootstrap file only establishes the default branch.
+- Main text: 7,061 words, excluding abstract and references.
+- Abstract: 206 words, with six keywords.
+- The central argument now concerns **inter-formalization warrant**: the conditions under which a machine-checked result in one formal representation can be reused in another.
+- The follow-up originality review is complete. The manuscript explicitly acknowledges DeDeo and Duede's analysis of library lock-in and limits the Comparator claim to a record-level audit-to-production interface. Author-led source verification, AI-disclosure approval, anonymization, and EJPS formatting remain before submission.
+
+## Revised contribution
+
+The paper distinguishes:
+1. local proof warrant supplied by kernel checking;
+2. correspondence between a source physical formalism and its formal encoding;
+3. inter-formalization warrant supplied by verified interfaces between formal records;
+4. instantiation of theorem hypotheses by a concrete model;
+5. target-directed scientific inference.
+
+The OS case distinguishes a limited positive result (Comparator's proved record-level audit-to-production interface) from a cross-project composition boundary (no public end-to-end instantiation of the pinned OSforGFF object as the exact OSreconstruction input).
+
+This is a bounded, case-based analytical contribution. It does not claim a new general theory of scientific representation, proof interoperability, or cross-model empirical warrant.
+
+## Primary journal target
+
+European Journal for Philosophy of Science (EJPS) remains the recommended first target, with the subscription publishing route (no APC). Journal requirements and the no-fee plan are documented in [Journal Selection and Submission Plan](docs/JOURNAL_SELECTION_AND_SUBMISSION_PLAN.md).
+
+## Research method
+
+Reuse OSforGFF, OSreconstruction, and Comparator as prior results at exact pinned commits. No fork, reimplementation, new Lean build, proof replay, or numerical calculation is claimed. Source inspection is distinguished from independent execution.
+
+## Repository map
+
+- [Complete manuscript](manuscript/full_manuscript.md)
+- [Separate manuscript sections](manuscript/README.md)
+- [Inter-formalization warrant framework](docs/FRAMEWORK.md)
+- [OS reconstruction source audit](docs/OS_RECONSTRUCTION_EPISTEMOLOGICAL_AUDIT.md)
+- [Novelty matrix](docs/NOVELTY_MATRIX.md)
+- [Reference audit](docs/REFERENCE_AUDIT.md)
+- [Journal selection and submission plan](docs/JOURNAL_SELECTION_AND_SUBMISSION_PLAN.md)
+- [Research decisions](docs/DECISIONS.md)
+- [Next bounded task](docs/NEXT_TASK.md)
+- [BibTeX](bibliography/references.bib)
+- [Source register](provenance/SOURCE_REGISTER.csv)
+- [Exact Lean environment pins](provenance/OS_RECONSTRUCTION_ENVIRONMENT.yaml)
+
+
+## EJPS submission preparation
+
+Submission materials are in [`submission/`](submission/README.md). The 23-item original-source checklist and AI-use declaration are awaiting author action. The anonymous LaTeX source and separate Title Page template are prepared. Official Springer-template compilation remains blocked because `sn-jnl.cls` is not installed locally and the current container cannot retrieve the official template archive. The manuscript is not yet ready to submit.
