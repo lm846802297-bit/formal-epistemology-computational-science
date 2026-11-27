@@ -2,7 +2,7 @@
 
 **Manuscript:** *Machine-Checked Proofs and Formalization Interfaces in Mathematical Physics: The Epistemology of Osterwalder–Schrader Reconstruction*  
 **Branch:** `research/initial-literature-review`  
-**Status:** All 23 entries are pending the submitting author's personal verification. The 50-claim source audit is recorded in `docs/PRE_SUBMISSION_SOURCE_AUDIT_INTEGRATION.md`; prior metadata checks and assistant source inspections do not count as author completion.
+**Status:** All 27 entries are pending the submitting author's personal verification. The 50-claim source audit is recorded in `docs/PRE_SUBMISSION_SOURCE_AUDIT_INTEGRATION.md`; prior metadata checks and assistant source inspections do not count as author completion.
 
 For each item, read the original source or inspect the exact pinned repository revision; verify the manuscript paraphrase; record the exact page, section, theorem, or source-file location; correct any inaccurate statement or reference; and only then mark the item complete.
 
@@ -32,6 +32,11 @@ For each item, read the original source or inspect the exact pinned repository r
 | 22 | Suárez (2004) | §3.4 | Inferential conception of representation: representational capacity is directed to a target and supports inferences by competent users. Keep distinct from Contessa's later validity/soundness distinction. | DOI 10.1086/421415; [inf] | [ ] Pending author check |
 | 23 | Yin, Douglas & Mei (2026), OSreconstruction | Abstract; §§2.1, 2.3–2.5; §§3.2–3.3; Conclusion | Zero-diagonal Schwartz input; Wightman output on full Schwartz space; forward theorem hypotheses; original-coordinate estimate for n>0 with separate n=0 normalization; conversion constants alpha′=max(1,alpha), beta′=(d+2)^s, gamma′=gamma+2s; R0′ output and uniqueness among same-pairing families; reverse constructor from a supplied Wightman family; GNS/operator reconstruction outside scope. Distinguish the conditional constructor from a standalone concrete OS/growth input pair. Private massive-free-field and Proca examples are README-reported only, not independently verified. | Commit cf0904e34a7c146a9f312f601e3707dca4a87697; inspect README, OSIIOriginalLinearGrowthCondition, os_to_wightman_osii_original, reverse constructors, and archived CI/source pins. | [ ] Pending author check |
 
+| 24 | Wright (2002) | §3.3 | Distinguish closure from transmission and do not characterize an invalid schematic inference as Wright-style transmission failure. | DOI 10.1111/j.1933-1592.2002.tb00205.x, pp. 331–333 | [ ] Pending author check |
+| 25 | Husserl (1970) | §3.5 | Distinguish written transmission from reactivation; do not treat Lean as a phenomenological analysis. | The Origin of Geometry, appendix VI, pp. 353–378 | [ ] Pending author check |
+| 26 | Derrida (1989) | §3.5 | Writing and the availability of mathematical objects beyond the originating act. | Introduction to Edmund Husserl's Origin of Geometry, Leavey translation | [ ] Pending author check |
+| 27 | Derrida (1982) | §3.5 | Iterability and functioning in a new context, not validity independent of every context. | Signature Event Context, pp. 316–320 | [ ] Pending author check |
+
 ## Author completion record
 
 - Author name: ______________________________
@@ -40,12 +45,12 @@ For each item, read the original source or inspect the exact pinned repository r
 - Manuscript changes made after source audit: ______________________________
 - Final author approval: [ ] Approved [ ] Not yet approved
 
-**Acceptance rule:** the source audit is complete only when all 23 entries have been personally checked by the submitting author and resulting corrections have been incorporated. Metadata matching alone is not sufficient.
+**Acceptance rule:** the source audit is complete only when all 27 entries have been personally checked by the submitting author and resulting corrections have been incorporated. Metadata matching alone is not sufficient.
 
 
 ## Reference-list policy point for author decision
 
-The manuscript cites three public GitHub software artifacts (OSforGFF, OSreconstruction, and OSreconstruction-comparator) as version-pinned research materials. EJPS instructions say the reference list should include works cited in the text and published or accepted for publication. The author should confirm with the editorial office that software repositories are acceptable as software references. If the journal requires a narrower interpretation, preserve exact commit hashes and repository URLs in a footnote or suitable data/code-availability statement, while retaining the associated scholarly papers in the reference list where applicable. Do not remove the version information needed to reproduce the source analysis.
+The manuscript identifies the three pinned software revisions and the public preprint directly in the text as case-study materials. They are not listed as published scholarly works in the bibliography. The source locators below remain records for the author's audit.
 
 
 ## Additional source-audit author check
