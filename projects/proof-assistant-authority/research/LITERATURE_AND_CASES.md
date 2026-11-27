@@ -299,3 +299,37 @@ The key passage for this project is in Slavoj Žižek, *The Sublime Object of Id
 4. Compare the public-reception corpus with Žižek's ideological fantasy, fetishism, and cynical ideology, without diagnosing individual users.
 
 The society-wide research phase is now underway. It is not yet complete: the public sample is strongest for Riemann, and the four cases still require matched public-reception materials.
+
+## 9. New theoretical literature and novelty boundary (27 November 2026)
+
+### 9.1 Kallel & El Louadi: verification abundance and adjudication scarcity
+
+Maher Kallel and Mohamed El Louadi, “Verification Abundance, Adjudication Scarcity: What Happens to Mathematical Knowledge When Proof Checking Becomes Free,” arXiv:2608.28997v1 (29 August 2026): https://arxiv.org/abs/2608.28997.
+
+This is a close prior contribution and must be engaged directly. It distinguishes L1 derivational validity (kernel-checkable), L2 representational fidelity (whether the formal statement means the intended informal question), and L3 epistemic significance (novelty and disciplinary importance). It argues that cheaper machine checking transfers the verification burden to scarce expert adjudication. It analyzes a Lean proof corpus and develops a taxonomy of representational mismatch.
+
+**Overlap:** the distinction between a valid Lean proof and the intended mathematical claim, and the scarcity of human adjudication, are already articulated. They cannot be presented as this paper's original contribution.
+
+**Difference:** the present paper studies the social life of the verification credential beyond the mathematical community: public trust, media representation, institutional legitimation, and the symbolic/ideological function of a visible guarantee. Kallel and El Louadi focus on the epistemic economy of mathematical adjudication; *In Lean We Trust?* asks why that technical credential becomes socially meaningful and how it may shape public conceptions of scientific truth.
+
+### 9.2 De Millo, Lipton & Perlis: the social process of proof
+
+Richard A. De Millo, Richard J. Lipton, and Alan J. Perlis, “Social Processes and Proofs of Theorems and Programs,” *Communications of the ACM* 22(5) (1979), 271–280. DOI: https://doi.org/10.1145/359104.359106.
+
+The paper argues that mathematical confidence is not produced by formal derivation alone; proofs become credible through social practices of reading, criticism, simplification, teaching, generalization, and acceptance. It is a historical precursor for the social dimension of proof. It should be read critically alongside later proof-assistant practice rather than treated as a final refutation of formalization.
+
+### 9.3 Fetzer: formal verification and the represented object
+
+James H. Fetzer, “Program Verification: The Very Idea,” *Communications of the ACM* 31(9) (1988), 1048–1063. DOI: https://doi.org/10.1145/48529.48530.
+
+Fetzer distinguishes algorithms as logical structures from programs as causal models of those structures. His argument is about the gap between formal relations and the object the formal system is intended to represent. This is relevant background for semantic correspondence, but the paper must not simply transfer his conclusions about program behaviour to mathematical proof assistants without argument.
+
+### 9.4 Public trust in science: systematic review
+
+Kalypso Iordanou, Antonis Antoniou, and Maura De Vos, “Public Trust in Science: A Systematic Literature Review,” *Journal of Academic Ethics* 24 (2026), article 56. DOI: https://doi.org/10.1007/s10805-026-09732-5. Published 11 March 2026.
+
+The review synthesizes 124 empirical studies and organizes trust factors into receiver, message, and source categories. It highlights research integrity, scientists' perceived integrity, transparency, epistemic inclusion, prior beliefs, values, communication channels, and open-science practices. It supports a society-wide and multi-factor account of trust, while cautioning against assuming that a single technical credential explains public confidence.
+
+### 9.5 Consequence for the originality claim
+
+The paper's originality must be located in the connection among (i) Lean as a visible technical credential, (ii) public and institutional mediation of scientific knowledge, and (iii) Žižek's account of ideological fantasy and fetishism. It should not claim to have discovered that formal proof checking does not establish semantic correspondence, that mathematical proof has a social dimension, or that public trust depends on source/message/receiver factors.
