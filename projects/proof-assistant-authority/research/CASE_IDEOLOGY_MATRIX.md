@@ -38,3 +38,13 @@ No case presently establishes cynical ideology in the strict sense. A future cla
 3. evidence that this is more than ordinary shorthand, temporary simplification, or a qualification available elsewhere.
 
 Public texts can establish representations and practices, not unconscious motives. Claims about audience awareness require audience research.
+
+## 6. Evidence update (27 November 2026) — supersedes the earlier case coding where inconsistent
+
+**Riemann:** the case now includes the 21 November Lean FRO/Mathlib joint certification and the 26 November rh-lean-roadmap v44 exposition (497-page main text, 963-page appendix, 122-page index). The exposition was written by several AI models from Lean source and cross-checked; it is not accurate to say that no readable account exists. The case tests the combination of machine verification, expert-community authorization, and AI-mediated mathematical exposition.
+
+**Navier–Stokes:** the m+4/m+5 mismatch is source-confirmed in SmoothFamilyTorusInverse.lean at the pinned OpenAI commit. The pressure-flux declaration is also different from the paper's Eq. (10.19), including an additional A_R term and a different proof route. This is the strongest fetishism candidate, but the critique does not allege kernel failure or prove the PDE result false.
+
+**Erdős:** the linked AlphaProof files for #26 and #741(i) do not exactly match their corresponding prose theorem statements; #125's linked file matches the positive-lower-density variant but differs from the original forum Lean file. This strengthens the importance of artifact provenance. The static audit did not build the files, and this project has not rebuilt them; do not infer all nine results invalid.
+
+**Liquid Tensor:** Adam Topaz's 2022 post explicitly discusses the risk of pathological or incorrect definitions and explains the project's readable sanity-check examples. This is now the strongest counter-case: the project deliberately made semantic validation and collective labour visible.
