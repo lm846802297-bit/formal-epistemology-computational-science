@@ -91,6 +91,28 @@ Examples located:
 
 **Inference limit:** Reddit users are self-selected and platform-specific. Votes, comments, and individual statements are not representative of public opinion. Use these threads as examples of interpretive repertoires and discursive positions, not as prevalence estimates or direct evidence of unconscious belief.
 
+
+### 3.3 Navier–Stokes public discussion
+
+Additional public-discussion examples:
+- r/mathematics, “Question about the Lean formalization of the recent Navier–Stokes blow-up result: is compact support of the force postulated rather than proved?” (14 September 2026): https://www.reddit.com/r/mathematics/comments/1wg1zrv/question_about_the_lean_formalization_of_the/
+- r/mathematics, discussion of “Navier-Stokes lost in translation” (7 October 2026): https://www.reddit.com/r/mathematics/comments/1x0anob/navierstokes_lost_in_translation_why_lean_does/
+- r/CFD, reaction to the OpenAI announcement (8 September 2026): https://www.reddit.com/r/CFD/comments/1wb5a8o/navierstokes/
+
+These threads show the public-facing problem changing over time: initial jokes and excitement about a Millennium problem being solved; technical questions about whether the Lean theorem proves the existence and support properties of the required force or assumes them; and later discussion of the mismatch between the written proof and Lean formalization. These are questions and reactions, not independent mathematical findings. In particular, the September thread's questions about compact support should not be treated as proof that the formalization is conditional or incomplete without checking the source theorem and construction.
+
+### 3.4 AlphaProof Nexus public expert mediation
+
+The Science Media Centre Spain's 8 October 2026 page collected several named expert responses: https://sciencemediacentre.es/en/alphaproof-nexus-new-ai-tool-designed-tackle-mathematical-proofs
+
+The reactions are not uniform. One commentator emphasizes the research potential of an open AI proof-search architecture; another criticizes the same nine successes as a result obtainable by a simpler generate-and-verify loop and stresses that Lean cannot ensure the formal statement captures the intended mathematical problem; a third worries about a growing stock of formally certified results that are not yet fully understood and its effect on researcher training. This is an institutional expert-commentary sample, not a survey of ordinary citizens.
+
+A separate audit by Carlos Toledo (https://carlostoledo.co/reports/alphaproof-nexus.html) claims the published proofs replay under two independent kernels but identifies possible problems with the novelty and intended meaning of some OEIS/Erdős claims. The audit explicitly limits its own conclusions: its OEIS readings are AI-generated and not specialist-confirmed, and it does not settle whether all formal Erdős statements match the original problems. Treat it as a secondary audit requiring further specialist review, not a definitive correction of the Science paper.
+
+### 3.5 Waring's problem: early and limited public reception
+
+The Waring preprint was posted on 22 November 2026. The bounded search conducted for this module located the authors' arXiv paper and a dated case record at math.observer, but did not locate a substantial, independently documented public discussion or expert response by 27 November. Record this as “no substantial public-discussion sample located in this search,” not as proof that no discussion exists. The absence of an established public reception is itself relevant to the case's early status.
+
 ## 4. Four-case social-reception matrix
 
 ### Case A — Riemann hypothesis: Claude + Lean
