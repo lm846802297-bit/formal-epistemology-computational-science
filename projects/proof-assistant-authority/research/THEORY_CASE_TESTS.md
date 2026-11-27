@@ -1,181 +1,143 @@
 # Testing the Žižekian model against the four Lean cases
 
-**Project:** *In Lean We Trust? The Ideology of Machine-Checked Proofs in Science*  
-**Date:** 27 November 2026  
-**Status:** operational case-testing document. The theoretical model is defined in THEORETICAL_MODEL.md. Case findings are provisional and source-bounded; this is not a mathematical referee report or a representative survey of public opinion.
+**Project:** *In Lean We Trust?*  
+**Cut-off:** 27 November 2026  
+**Status:** revised case-testing document. The model is defined in THEORETICAL_MODEL.md. Findings are source-bounded and provisional; no case is presumed ideological.
 
-## 1. Common test protocol
+## 1. Common unit of analysis
 
-Each case is assessed against the same evidence chain:
+The unit is a dated public or institutional claim invoking Lean verification as part of the warrant for a mathematical result, paired with the exact formal artifact, intended claim, specification relation, source context, and subsequent responses.
 
-1. **Technical object:** exact formal proposition, proof artifact, definitions, assumptions, environment, and kernel/checker status.
-2. **Semantic bridge:** relation between the formal proposition and the intended theorem or scientific claim.
-3. **Collective mediation:** theorem selection, mathematical formulation, formalization, library/toolchain work, expert scrutiny, and institutional assessment.
-4. **Discursive plane:** exact statements by the researchers, institutions, journals, and media; preserve date, speaker, genre, and surrounding qualification.
-5. **Material-institutional plane:** how the Lean artifact is reviewed, certified, cited, published, or used in institutional decisions.
-6. **Spontaneous-practical plane:** whether a broader reliance on the Lean credential is reproduced as a routine practice. Do not infer this from one announcement.
-7. **Counter-evidence and rival explanations:** accurate shorthand, transparent qualification, visible human contribution, independent review, institutional reputation, and ordinary genre conventions.
+For each case, record:
+1. exact formal proposition and proof artifact;
+2. environment, axioms, dependencies, and checking status;
+3. intended mathematical claim and specification relation;
+4. human, technical, and institutional mediation;
+5. exact public/institutional wording and its genre;
+6. counter-evidence, correction, and rival explanations;
+7. any documented institutional or practical effect.
 
-The five epistemic levels—derivational validity, semantic correspondence, mathematical understanding, significance, and institutional/public recognition—must remain separate.
+The article does not claim to rebuild every repository or independently adjudicate the mathematics. Source-level inspection, reported independent checking, and mathematical adjudication are kept separate.
 
-## 2. How the Žižekian mechanisms are coded
+## 2. Diagnostic requirements
 
-| Mechanism | Case-level question | Positive evidence | Counter-evidence |
-|---|---|---|---|
-| Ideological fantasy | Is a bounded check staged as closure of wider uncertainty? | Recurrent language or practice treating “verified” as a final settlement beyond the formal target | Explicit scope statements and a clear distinction between formal checking and broader acceptance |
-| Fetishistic displacement | Does the machine appear to possess authority independently of the relations that make the check meaningful? | Collective mathematical, semantic, technical, or institutional mediation recedes while autonomous machine authority is foregrounded | Contributors, dependencies, semantic review, and institutional responsibilities remain visible |
-| Disavowal | Does investment in a broader guarantee persist after the relevant limit is acknowledged? | Same actor/institution acknowledges the precise limit and continues a connected practice that exceeds it | Correction, scope-preserving qualification, no continued overreach, or no actor-level connection |
+Technical warrant is the baseline, not an indicator of ideology. A strong diagnosis requires all three:
 
-Disavowal is an additional test, not a required condition for every case of fetishism. “Cynical disavowal” requires stronger evidence of a manipulative distance between acknowledged knowledge and practice. Public wording alone does not reveal unconscious motives.
+- **S — Scope extension:** the credential is made to warrant more than the formal proposition and documented specification relation establish.
+- **O — Objectal displacement:** the credential appears to contain autonomous authority while the relations that make it meaningful are displaced.
+- **E — Social efficacy:** the representation plays a documented role in legitimation, recognition, credibility allocation, institutional action, or repeated practice.
 
-## 3. Riemann hypothesis — Claude-assisted Lean development
+Fantasy explains the scene of closure that may organize S, O, and E. Disavowal is secondary and requires explicit acknowledgement of the relevant limitation plus continued broader investment within a traceable actor/institutional chain.
+
+## 3. Riemann hypothesis — formal certification, institutional authorization, contested meaning
 
 ### Technical and institutional record
-- Levent Alpöge's 20 November 2026 note presents the result as a proof he believes he discovered while working with Claude and releases a Lean development.
-- The original archive and compact rewrite have extensive reported compilation, kernel replay, independent checker runs, and statement comparison with Mathlib.
-- The Lean FRO/Mathlib and Waterloo materials describe the formal statement, checking process, and contributors.
-- The 26 November source audit records the existence of a 1,582-page AI-mediated exposition (497-page main text, 963-page appendix, 122-page index), written by several AI models from Lean source and cross-checked. It is therefore inaccurate to describe the case as having no readable exposition.
-- Expert understanding, independent mathematical assessment, conventional publication, and Clay recognition remain analytically distinct from kernel acceptance and statement comparison.
+- Levent Alpöge released a note and Lean archive on 20 November 2026.
+- The 21 November Lean FRO/Mathlib joint statement expressed full confidence and said that both the statement and proof were certified. It reported expert vetting of the Mathlib statement, successful compilation, independent statement comparison, and acceptance by Lean’s kernel and independent checkers.
+- Andrew Sutherland’s report records 175,187 compiling modules, five headline theorems using only propext, Classical.choice, and Quot.sound, kernel replay, independent checkers, and statement comparison.
+- A shorter rewrite published on 25 November is a distinct artifact with its own verification report.
+- The rh-lean-roadmap project published a 497-page main exposition, 963 pages of longer proofs, and a 122-page index on 26 November. The documentation states that several AI models generated the exposition from the Lean source and cross-checked it.
+- Parker Emmerson posted a non-peer-reviewed preprint on 24 November arguing that the certified derivation does not prove RH in several senses. It grants the derivation and reported checks but disputes the interpretation of what follows from them. This article does not adjudicate that argument.
 
 ### Fantasy test
-**Evidence in favour:** the combination of a historically unresolved problem, an enormous formal archive, multiple independent checker results, and headlines such as “AI solves the Riemann hypothesis” can stage a visible scene of mathematical closure.
+The combination of a very large formal archive, independent checks, an institutional statement of “full confidence,” and a substantial exposition can stage a scene of closure around a historically difficult problem.
 
-**Counter-evidence:** the author's own wording is qualified; expert and institutional accounts distinguish formal certification, statement identity, human mathematical understanding, and community acceptance. The later exposition also changes the earlier picture of the case as lacking a readable account.
+**Counter-evidence:** the joint statement identifies expert vetting and independent comparison; the exposition discloses its AI-mediated provenance; further mathematical explanation is explicitly anticipated; a public foundational challenge contests the meaning of the certification.
 
-**Assessment:** plausible but qualified. The case tests how strong local certification and AI-mediated exposition can symbolize broader certainty without automatically settling every level of mathematical understanding and recognition.
+**Assessment:** the case reveals layered and contested authorization. The available evidence does not establish that the credential is treated as an autonomous guarantee beyond the stated warrant.
 
 ### Fetishism test
-**Evidence in favour:** compressed “Claude + Lean” narratives can background the mathematician's direction, formalizers, Mathlib, kernel/checker developers, and independent human assessment.
+Compressed accounts may attribute the achievement to “AI + Lean,” but the primary institutional record names expert vetting, multiple checkers, Mathlib, and community work.
 
-**Counter-evidence:** the detailed Waterloo and Lean community records make much of the technical and human network visible; the exposition and independent verification work add further mediation rather than simply erasing it.
-
-**Assessment:** mixed. Fetishistic displacement is possible in selected compressed accounts, but it is not established as the dominant representation of the case.
+**Assessment:** objectal displacement is not established. This case is more useful for studying how machine checking and institutional authorization combine, and how that authorization remains open to dispute.
 
 ### Disavowal test
-No strict cynical or fetishistic disavowal is established by the current record. Explicit qualifications and the availability of detailed technical accounts complicate such a diagnosis.
+No disavowal is established. The non-peer-reviewed Emmerson preprint is a public challenge, not evidence that the same institution acknowledged a limitation and continued a broader claim.
 
-**Role in the model:** ambivalent case for the coexistence of strong formal certainty, expert authorization, AI-mediated exposition, and continuing questions about the scope of scientific recognition.
+**Role:** layered institutional authorization and contested meaning of a formal certificate.
 
-## 4. Navier–Stokes — OpenAI discovery and Lean formalization
+## 4. Navier–Stokes — kernel validity and the natural-language proof
 
 ### Technical and semantic record
-- OpenAI's 8 September 2026 announcement presents an analytical proof claim for a finite-time singularity result for three-dimensional incompressible Navier–Stokes with smooth forcing and describes a Lean formalization.
-- The Lean kernel can check the proof terms for the exact formal declarations in the repository.
-- Bastounis, Circelli, and Hansen (arXiv:2610.08144) report discrepancies between the natural-language paper and the Lean formalization, including the derivative count in the inverse estimate of Lemma 8.6 (m+4 in the written proof versus m+5 in the Lean declaration) and a difference in the pressure-flux estimate/proof route.
-- These discrepancies concern correspondence between the formal artifact and the separate natural-language proof. They do not establish a Lean kernel failure or prove the underlying Navier–Stokes result false.
-- The independent critique and subsequent public responses make the correspondence question visible and contested.
+- OpenAI’s 8 September 2026 announcement states that its system produced an analytical proof and a Lean formalization of finite-time singularity formation for a three-dimensional incompressible fluid with smooth external forcing and finite energy. It claims to establish statements C and D of the official Millennium Prize formulation.
+- Bastounis, Circelli, and Hansen (arXiv:2610.08144) distinguish compiling a Lean proof of a formal statement from semantically faithful translation of a natural-language mathematical text.
+- They identify an inverse-estimate discrepancy: the written proof uses m+4 input derivatives, while the corresponding Lean declaration requires m+5. They also identify a difference in the pressure-flux estimate and proof route.
+- These are mismatches between the written proof and the formal artifact. They do not establish a kernel failure or prove the underlying PDE theorem false. The critique explicitly does not adjudicate the correctness of the natural-language proof.
 
 ### Fantasy test
-**Evidence in favour:** an announcement of a solution to a Millennium Prize problem alongside Lean verification can be interpreted as a machine-certified settlement of the full scientific claim.
+The announcement presents a major mathematical result together with a Lean formalization. This can invite a reading in which the formal credential closes the entire question.
 
-**Counter-evidence:** the later critique and public responses distinguish the formal declarations from the written proof. The record contains an explicit dispute about the scope of the guarantee, not a settled demonstration that the mathematical community accepts Lean as the final arbiter.
+**Counter-evidence:** OpenAI says it is sharing both a write-up and a formalization; it does not explicitly say that Lean alone verifies every step of the natural-language paper. The independent critique makes the specification issue public.
 
-**Assessment:** strongest candidate for an enlarged fantasy of verification. The exact inferential gap is between kernel acceptance of formal declarations and the claim that the separate written proof has been faithfully represented.
+**Assessment:** strongest candidate for scope extension, but the exact public inference must not be overstated.
 
 ### Fetishism test
-**Evidence in favour:** the genuine authority of the kernel over the formal declarations may be allowed to stand in for the semantic relation between those declarations and the paper. The machine credential can thereby appear to guarantee a broader object than it checks.
+The mismatch shows that a valid proof of a formal declaration cannot by itself certify faithful translation of the separate written argument. However, the available public wording does not yet demonstrate that the credential was treated as an autonomous source of authority independently of the analytical proof and other review.
 
-**Counter-evidence:** the repository, independent critique, and public response make the mismatch contestable. The semantic mediation is not wholly hidden.
+**Assessment:** objectal displacement remains a candidate, not an established finding.
 
-**Assessment:** strongest candidate for fetishistic displacement at the level of public representation, but the final diagnosis depends on a matched analysis of the original announcement, its qualifications, and the subsequent correction/response chain.
+### Social efficacy and disavowal
+The announcement has public significance, but the current record does not show that the Lean credential itself caused institutional acceptance or continued to function as a broader guarantee after the mismatch was raised. No cynical or fetishistic disavowal is established.
 
-### Disavowal test
-The acknowledged mismatch creates a possible test of persistence. The present record does not establish cynical intent. A stronger fetishistic-disavowal claim requires evidence that the same actor or institutional communication chain acknowledges the precise limit and nevertheless continues to rely on the Lean credential as a broader guarantee.
+**Role:** principal case for testing the gap between formal validity and specification fidelity.
 
-**Role in the model:** principal case for testing the difference between local formal warrant and a broader scientific claim.
-
-## 5. Erdős problems — AlphaProof Nexus
+## 5. Erdős problems — AlphaProof Nexus, human validation, and artifact provenance
 
 ### Technical and institutional record
-- Tsoukalas et al. report 9 solutions among 353 open Erdős problems represented in the formal conjecture repository and 44 proofs among 492 OEIS conjectures attempted. These denominators describe the benchmark represented and attempted, not all open Erdős problems.
-- The Science paper describes Lean-based proof search and reports human validation of the correspondence between the nine formal Erdős statements and the intended conjectures.
-- The project audit identifies artifact/prose provenance issues that must not be exaggerated:
-  - **#26:** the top-level Lean target is a lower-density Tenenbaum variant rather than the prose upper-density theorem, but the same file contains a uniform pointwise lemma strong enough to establish the prose upper-density result.
-  - **#741(i):** the linked AlphaProof file proves an exact-density counterexample; the upper-density theorem exists separately in Formal Conjectures.
-  - **#741(ii):** the cited arXiv v2 link points to a file for Problem 12, while the appropriate #741(ii) proof is located elsewhere.
-- These are target-identity, citation, and provenance issues. They do not establish that all reported results are invalid or that Lean's kernel failed.
+- Tsoukalas et al. report nine solutions among 353 formalized Erdős problems and 44 proofs among 492 OEIS conjectures attempted.
+- The *Science* paper states that experts validated the correspondence between the nine solved Lean statements and the original conjectures. It also reports that the system detected and prompted correction of density misformalizations.
+- A source-level audit found several link/provenance issues:
+  - **#26:** the top-level linked Lean target differs from the upper-density theorem in the prose, but an auxiliary pointwise lemma in the same file is strong enough to establish the prose result.
+  - **#741(i):** the linked file proves an exact-density counterexample; the upper-density theorem exists separately in Formal Conjectures.
+  - **#741(ii):** the cited link points to a file for Problem 12 rather than Problem 741.
+  - **#125:** the linked file proves the relevant lower-density variant but differs from the file first posted in the original forum discussion.
+- These findings concern linked artifact identity and provenance, not kernel failure or invalidity of all reported results.
 
 ### Fantasy test
-**Evidence in favour:** headlines such as “AI solves Erdős problems” can imply autonomous discovery or general mathematical capability beyond the formalized benchmark.
+“AI solves Erdős problems” can compress the human-AI workflow and the scope of the benchmark.
 
-**Counter-evidence:** the primary paper gives denominators, describes the formal conjecture corpus, and reports human statement validation. These disclosures preserve important scope conditions.
+**Counter-evidence:** the primary paper reports denominators, formalized targets, Lean checking, and expert statement validation. It also acknowledges corrections to misformalizations.
 
-**Assessment:** limited and context-dependent. The case tests whether media compression removes the boundaries retained by the technical paper.
-
-### Fetishism test
-**Evidence in favour:** a simplified account that credits only AlphaProof Nexus can background formal conjecture curation, Lean, statement validation, and expert review.
-
-**Counter-evidence:** the Science paper makes the human-AI workflow and validation visible. The source-level audit also makes provenance questions explicit and demonstrates that the credential remains open to scrutiny.
-
-**Assessment:** weak-to-mixed. The case is more useful as a test of transparent mediation than as a clear example of autonomous machine authority.
-
-### Disavowal test
-No cynical or fetishistic disavowal is established. The existence of artifact-link errors does not by itself show that an actor knowingly maintained an enlarged guarantee.
-
-**Role in the model:** mixed case and counter-test for whether explicit human validation and artifact provenance constrain symbolic overreach.
-
-## 6. Liquid Tensor Experiment — historical Lean case
-
-### Technical and institutional record
-- The Lean community announced completion of the formal verification of the main theorem of liquid vector spaces in July 2022.
-- The project record identifies a broad mathematical and formalization network, including contributors and Mathlib dependencies.
-- Scholze's contemporaneous account emphasizes human mathematical interaction and scrutiny as central to his confidence.
-- Adam Topaz's 2022 discussion explicitly addresses the correctness of formal definitions and documents readable sanity-check examples.
-
-### Fantasy test
-**Evidence in favour:** headlines saying Lean “confirmed” or “verified” the result can stage technical closure.
-
-**Counter-evidence:** the primary project record names contributors, and Scholze's account makes human mathematical scrutiny visible.
-
-**Assessment:** weak. The case does not support a strong claim that the machine credential replaces the broader mathematical process.
+**Assessment:** limited and context-dependent.
 
 ### Fetishism test
-**Evidence in favour:** a headline that attributes confirmation to Lean can background the collective project.
+The source audit demonstrates that a published credential still requires traceability from prose claim to exact formal artifact. However, the publication itself makes human validation visible, and the audit does not establish that the credential was treated as autonomous authority.
 
-**Counter-evidence:** the official record and subsequent explanation make collective labour, definition checks, and expert judgement visible.
-
-**Assessment:** weak. This is the strongest counter-case to the claim that formal verification is inherently fetishistic.
+**Assessment:** mixed case; objectal displacement and social efficacy are not established.
 
 ### Disavowal test
-No evidence of disavowal is established. The primary accounts preserve the human and semantic conditions of the formal result.
+No evidence establishes that the same actor or institution acknowledged a specific artifact mismatch and continued to use the credential as a broader guarantee.
 
-**Role in the model:** counter-case showing that formal verification can be integrated into a visible collective epistemic practice rather than represented as an autonomous machine guarantee.
+**Role:** statement identity, provenance, and human validation.
 
-## 7. Cross-case synthesis
+## 6. Liquid Tensor Experiment — semantic scrutiny as counter-case
 
-| Case | Fantasy of closure | Fetishistic displacement | Disavowal | Main function |
+The 15 July 2022 completion announcement states the main theorem and lists mathematical, formalization, technical, library, and institutional contributors. Adam Topaz’s 14 October 2022 discussion explicitly asks how mathematicians can be confident that the definitions introduced in Lean are correct. It describes the possibility of pathological definitions and the creation of a readable examples folder as sanity checks for mathematicians with limited Lean experience. Scholze’s contemporaneous account also emphasizes mathematical interaction and scrutiny.
+
+**Fantasy test:** a headline may present the completion as technical closure, but the primary project record preserves the human and semantic work.
+
+**Fetishism test:** this is strong counter-evidence. The validity of definitions is made an explicit object of public scrutiny rather than being attributed to the machine alone.
+
+**Social efficacy:** the public record documents collective review and semantic sanity checks. It does not establish a causal effect of transparency on audience trust.
+
+**Role:** counter-case showing how a formal verification credential can remain embedded in visible collective and semantic practice.
+
+## 7. Comparative result
+
+| Case | Scope extension | Objectal displacement | Social efficacy | Overall role |
 |---|---|---|---|---|
-| Riemann | Plausible, qualified | Possible in compressed accounts; countered by detailed records | Not established | Ambivalent case: high formal certainty and layered recognition |
-| Navier–Stokes | Strongest candidate | Strongest candidate | Not established; persistence remains to be tested | Formal validity versus semantic correspondence |
-| Erdős / AlphaProof | Limited and context-dependent | Weak-to-mixed | Not established | Transparent mediation and artifact-provenance test |
-| Liquid Tensor | Weak | Weak | Not established | Counter-case: visible collective labour and semantic scrutiny |
+| Riemann | Contested/unclear | Not established | Institutional certification documented, but not as autonomous machine guarantee | Layered authorization |
+| Navier–Stokes | Strongest candidate | Candidate only | Public announcement documented; credential-specific effect uncertain | Formal validity vs specification fidelity |
+| Erdős / AlphaProof | Limited and context-dependent | Not established | Publication and validation documented; no autonomous credential effect established | Provenance and human validation |
+| Liquid Tensor | Weak | Counter-evidence strong | Collective semantic review documented | Counter-case |
 
-## 8. What the four cases establish—and do not establish
+No case currently satisfies S ∧ O ∧ E. The empirical contribution is a differentiated diagnostic comparison, not a claim that Lean is generally fetishized.
 
-The cases support a differentiated thesis:
-- Lean can function as a symbolic credential of mathematical reliability.
-- The strongest candidate for a broader guarantee is the Navier–Stokes announcement/formalization dispute.
-- Riemann demonstrates the coexistence of very strong formal certification with other dimensions of understanding and recognition.
-- Erdős demonstrates the importance of statement identity, provenance, and visible human validation.
-- Liquid Tensor demonstrates that formal verification can be embedded in transparent collective practice.
+## 8. Inference limits
 
-The cases do **not** establish:
-- that all uses of Lean are ideological;
-- that the general public uniformly treats Lean as a final guarantor;
-- that any named researcher has a cynical motive;
-- that a single headline proves fetishism;
-- that a mismatch between a paper and a Lean declaration is a kernel failure or a refutation of the mathematical result.
-
-## 9. Case-level acceptance criteria
-
-A strong case-level diagnosis of the ideological fetishism of formal verification requires:
-1. the exact Lean proposition and check are identified;
-2. the broader claim attributed to the check is identified;
-3. the missing semantic or inferential link is specified;
-4. the collective and institutional relations are traced;
-5. the representation of the machine as autonomous authority is demonstrated;
-6. ordinary shorthand, context, corrections, and counter-evidence are considered.
-
-A disavowal claim additionally requires explicit acknowledgement of the precise limit and continued investment in a broader guarantee within a traceable actor/institutional practice.
-
-If these criteria are not met, the case is coded as warranted reliance, transparent mediation, ambiguity, or insufficient evidence—not as ideological fetishism.
+1. A discrepancy between a formal artifact and a natural-language proof is not a kernel failure.
+2. The Navier–Stokes discrepancies do not prove the PDE theorem false.
+3. The AlphaProof provenance issues do not invalidate all reported results.
+4. The Emmerson preprint is non-peer-reviewed and its mathematical/logical argument is not adjudicated here.
+5. Public texts establish representations and documented practices, not population-level belief or unconscious motive.
+6. A case is not diagnosed as fetishism unless scope extension, objectal displacement, and social efficacy are separately supported.
