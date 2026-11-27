@@ -83,22 +83,27 @@ Primary sources:
 ### Evidence across the five moments
 
 - **M1, real technical reliability:** the system generates formal proof terms and Lean checks them. The article describes Lean-based verification after each proof-search turn and publicly shared formal artifacts.
-- **M2, distributed epistemic labour:** the workflow includes subagents, language models, AlphaProof, evolutionary search, Lean, formal-conjectures, mathematical libraries, and human validation. The article explicitly states that after each Erdős solve, experts validated that the Lean statement faithfully captured the original conjecture. For OEIS, it reports test lemmas against misformalization and manual review.
-- **M3, credential condensation:** the abstract states that the agent “autonomously resolved” nine of 353 open Erdős problems and presents the work as evidence for autonomous mathematical discovery.
-- **M4, objectal displacement:** the abstract foregrounds agent autonomy, while the body makes the human statement-validation work explicit. The credential is therefore condensed into an autonomy narrative, but the publication also discloses the network that makes the results meaningful.
-- **M5, fetishistic disavowal: affirmative public-discourse case.** The same paper reports that experts validated the correspondence between Lean statements and original conjectures, while the abstract and Table 1 retain the autonomous-resolution formulation. Aarhus University's institutional report explicitly identifies Bérczi's role in problem selection, solution validation, and natural-language exposition, yet continues to describe AlphaProof Nexus as autonomously resolving open problems. The narrow operational meaning of autonomy—independent proof search after a formal target is supplied—is compatible with human validation. The wider institutional framing nevertheless allows this narrow autonomy to stand as the public sign of the whole mathematical achievement. The fifth moment is therefore present at the level of public representation, without requiring an inference about authorial intention or private psychology.
+- **M2, distributed epistemic labour:** the workflow includes subagents, language models, AlphaProof, evolutionary search, Lean, formal-conjectures, mathematical libraries, and human validation. The article explicitly states that after each Erdős solve, experts validated that the Lean statement faithfully captured the original conjecture. Its author-contribution statement records human roles in problem selection, validation of generated solutions, and writing natural-language proofs.
+- **M3, credential condensation:** the abstract and Table 1 describe the agent as having “autonomously resolved” nine of 353 formalized Erdős-problem statements. This compresses a complex human–machine research process into a portable autonomy formulation.
+- **M4, objectal displacement:** the agent is the grammatical and public subject of “resolution,” while human contributions appear as problem selection, validation, and exposition. Aarhus University's institutional report identifies these human roles but retains the autonomous-resolution framing. The machine becomes the apparent bearer of the achievement.
+- **M5, fetishistic disavowal: affirmative public-discourse case.** The same research and institutional communication chain explicitly acknowledges human and semantic mediation yet continues to present the agent as having autonomously resolved the problems. The narrow operational meaning of autonomy—independent proof search after a formal target is supplied—is real; the public attribution allows it to signify the resolution of the mathematical problems as a whole.
+
+### S–O–E assessment
+
+- **S — Scope extension:** “autonomously resolved open problems” can extend from autonomous proof search on supplied formal targets to the resolution of the mathematical problems as a whole, including problem selection and validation of the formal statement against the original conjecture.
+- **O — Objectal displacement:** the machine is the public and grammatical bearer of the achievement, while human work is acknowledged but positioned as supporting and validating activity.
+- **E — Social efficacy:** the autonomy formulation appears in the *Science* abstract and table and in the university's official headline and institutional report. It functions as the portable public description through which the achievement is announced and recognized.
 
 ### Assessment
 
-This case establishes the existential claim at the level of public institutional representation. The key distinction is between operational autonomy in proof search and symbolic autonomy in the public attribution of the whole mathematical achievement. The same communication chain acknowledges human problem selection, statement validation, and natural-language exposition, yet retains the autonomous-machine framing as the public description of the result. The narrow operational reading remains possible; it does not remove the symbolic effect of the broader framing. This is a positive instance of fetishistic disavowal in public discourse, not an inference about private motives.
+This case establishes the existential claim at the level of public institutional representation. The key distinction is between operational autonomy in proof search and symbolic autonomy in the public attribution of the whole mathematical achievement. The same communication chain acknowledges human problem selection, statement validation, and natural-language exposition, yet retains the autonomous-machine framing. The narrow operational reading remains true; it does not exhaust the public function of the broader attribution. This is a positive instance of fetishistic disavowal in public discourse, not an inference about private motives.
 
 The provenance audit of #26, #741(i), #741(ii), and #125 concerns the identity and traceability of particular artifacts. It is not evidence of kernel failure or, by itself, of disavowal.
 
 Primary sources:
 - https://doi.org/10.1126/science.aej2213
-- https://math.au.dk/en/currently/news/news-item/artikel/gergely-deepmind
+- https://math.au.dk/aktuelt/nyheder/nyhed/artikel/gergely-deepmind
 - https://arxiv.org/abs/2605.22763
-- https://www.eurekalert.org/news-releases/1146436
 - https://erdosproblems.ai/wiki/library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search
 
 ## 5. Liquid Tensor Experiment
@@ -126,7 +131,7 @@ Primary sources:
 |---|---|---|---|---|---|
 | Riemann | Strong | Strong and visible | Strong | Limited / not established | Not established |
 | Navier–Stokes | Strong formal check | Strong | Strong | Ambiguous association | Not established |
-| AlphaProof Nexus | Strong formal check | Explicit human validation | Strong autonomy framing | Ambiguous | Borderline candidate |
+| AlphaProof Nexus | Strong formal check | Explicit human validation | Strong autonomy framing | Supported at public-discourse level | Affirmative existence case |
 | Liquid Tensor | Strong formal check | Highly visible | Present | Counter-practice | Not established |
 
 The evidence supports a refinement of the model:
@@ -134,16 +139,16 @@ The evidence supports a refinement of the model:
 - The first two moments are enabling conditions, not sufficient causes.
 - Credential condensation is a communicative transformation, not yet fetishism.
 - Objectal displacement is the specifically fetishistic conversion and must be assessed through S, O, and E.
-- Fetishistic disavowal is a conditional feedback mechanism that may reproduce symbolic authority after acknowledged overreach. It is not a necessary step in every case.
-- AlphaProof is the clearest borderline case; Liquid Tensor is the clearest counter-practice.
-- The four cases do not provide an unambiguous public instance of the fifth moment. This makes the fifth moment a theoretically specified mechanism with a promising but unresolved empirical candidate, rather than a demonstrated universal pattern.
+- Fetishistic disavowal is a conditional feedback mechanism that may reproduce symbolic authority through the public acknowledgement of human mediation. It is not a necessary step in every case.
+- AlphaProof is the positive existence case; Liquid Tensor is the clearest counter-practice.
+- The claim is existential: one well-documented public case is sufficient to establish that this configuration can occur. The other cases clarify the conditions and contrasts.
 
 ## 7. Consequences for the manuscript
 
 The main text should:
 1. distinguish formation from reproduction;
 2. distinguish knowledge of the kernel’s technical scope from knowledge that the credential is being used beyond that scope;
-3. treat AlphaProof as a borderline candidate, not proof of disavowal;
+3. treat AlphaProof as the positive existence case for public-discourse fetishistic disavowal;
 4. revise Navier–Stokes language to distinguish theorem-statement fidelity from proof-route correspondence;
 5. present Riemann as composite institutional certification and Liquid Tensor as a transparent semantic counter-practice;
 6. preserve the philosophical claim that genuine technical reliability can support symbolic authority, without claiming that every case or every Lean practice exhibits fetishistic disavowal.
