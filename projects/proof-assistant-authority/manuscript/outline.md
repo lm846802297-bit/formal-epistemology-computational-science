@@ -1,67 +1,57 @@
-# The Ideological Fetishism of Formal Verification — Revised Manuscript Outline
+# Essayistic manuscript structure — *In Lean We Trust?*
 
-**Working title:** *The Ideological Fetishism of Formal Verification: A Žižekian Critique of the Lean-Verification Credential in Mathematical Knowledge Production*
+**Working title:** *The Ideological Fetishism of Formal Verification: A Žižekian Critique of the Lean-Verification Credential in Mathematical Knowledge Production*  
+**Current essayistic draft:** `IN_LEAN_WE_TRUST_ESSAYISTIC_DRAFT.md`  
+**Date:** 27 November 2026
 
-## Central research question
+## Writing principle
 
-Under what conditions does the genuine but bounded warrant of Lean verification acquire an ideological function as an apparently self-sufficient guarantee of broader mathematical authority?
+The article is a philosophical argument with comparative case analysis, not an IMRaD-style empirical report. It begins with a paradox, develops the conceptual problem through dialectical argument, introduces Žižek where the problem requires him, and lets the four cases complicate rather than merely illustrate the theory.
 
-## Central concept
+The prose should remain academically precise, but the order of presentation is governed by the argument rather than by a fixed social-science template. Methodological safeguards and S–O–E diagnostic requirements remain present without dominating the main text.
 
-The ideological fetishism of formal verification is the objectal displacement through which the socially and semantically mediated authority of a machine-checked result appears to reside autonomously in the credential “Lean-verified,” allowing the warrant of a bounded formal check to stand for a wider mathematical claim.
+## Structure
 
-## Theoretical framework
+1. **The Paradox of a Verified Proof**  
+   Begin with the question: what could be ideological about a correct proof? Establish the paradox that genuine technical reliability may make a wider symbolic investment possible.
 
-Žižek is the core theorist. Marx and Lacan are theoretical sources within the Žižekian framework. Hardwig is a normative comparator for warranted epistemic dependence. Vallverdú and Kallel–El Louadi provide the technical warrant baseline; their distinctions are not claimed as original.
+2. **The Limits of Formal Certainty**  
+   Explain Lean’s kernel-level warrant, the relation between intended claim and formal proposition, the component-based warrant architecture, and the distinction between rational epistemic dependence and fetishism.
 
-Three concepts:
-1. Ideological fantasy — the scene of closure.
-2. Fetishism — objectal displacement into the verification credential.
-3. Disavowal — secondary, conditional, higher-evidence mechanism.
+3. **Žižek and the Ideological Structure of Verification**  
+   Develop ideology beyond false consciousness, fantasy as a scene of closure, fetishism as objectal displacement, and disavowal as a secondary mechanism. Keep the Big Other as background.
 
-## Diagnostic architecture
+4. **The Machine as a Fetish Object**  
+   Fix the object as the credential “Lean-verified.” Explain how authority generated through technical, semantic, and institutional relations may appear to reside autonomously in the credential. Distinguish the proposed concept from ordinary shorthand and warranted reliance.
 
-Technical warrant is the baseline. A strong diagnosis requires:
-- S — scope extension;
-- O — objectal displacement;
-- E — social efficacy.
+5. **Four Encounters with Formal Verification**  
+   - Riemann: certification, institutional authorization, and foundational contestation.
+   - Navier–Stokes: formal validity and specification fidelity.
+   - Erdős / AlphaProof Nexus: human statement validation and artifact provenance.
+   - Liquid Tensor: semantic scrutiny and visible collective labour as a counter-case.
 
-Fantasy explains the scene of closure; disavowal is tested separately.
+6. **The Ideological Function of Mathematical Certainty**  
+   Compare the cases, state what the evidence does and does not establish, position the contribution against Vallverdú, Kallel–El Louadi, López-Corona, Erfani, Hourigan, and Omodeo, and articulate the conditional originality claim.
 
-## Proposed structure
+7. **Conclusion**  
+   Return to the opening paradox and state the final philosophical judgement.
 
-1. Introduction: What Is Ideological About a Correct Proof?
-2. What Does a Lean Verification Credential Warrant?
-   - Kernel acceptance
-   - Warrant architecture and specification relation
-   - Rational dependence versus fetishism
-3. A Žižekian Critique of the Verification Credential
-   - Ideology beyond false consciousness
-   - Ideological fantasy
-   - Fetishism
-   - Disavowal
-   - The missing guarantee
-   - Three empirical planes
-4. Diagnostic Model: From Warrant to Ideological Authority
-5. Method and Case Selection
-6. Four Lean Cases
-   - Riemann
-   - Navier–Stokes
-   - Erdős / AlphaProof Nexus
-   - Liquid Tensor
-7. Comparative Discussion and Literature Positioning
-8. Conclusion
+## Non-negotiable analytical safeguards
 
-## Case scope
-
-The four cases are purposive maximum-variation configurations, not matched controls or a representative sample. No additional case or population survey is part of this paper.
-
-## Acceptance criteria
-
-- The exact Lean proposition and intended claim are paired in each case.
-- The distinction between formal warrant and specification relation is explicit.
-- Fantasy and fetishism are derived from Žižek and not reduced to rhetorical exaggeration or social mediation.
-- S, O, and E are assessed separately.
+- The kernel’s actual technical warrant is stated precisely.
+- The formal proposition is distinguished from the intended mathematical claim.
+- Social mediation is not automatically equated with ideology.
+- A scope mismatch is not automatically objectal displacement.
+- Objectal displacement is not automatically social efficacy.
 - Disavowal is not inferred without actor-level evidence.
-- Vallverdú, Kallel–El Louadi, López-Corona, Erfani, and Hourigan are acknowledged with a precise originality boundary.
-- The manuscript does not claim that any case meets the full diagnostic conjunction unless the evidence supports it.
+- The four cases are heterogeneous encounters, not matched controls or a representative sample.
+- No case is claimed to meet the full S ∧ O ∧ E diagnosis unless all three elements are independently supported.
+
+## Supporting research files
+
+- `research/THEORETICAL_MODEL.md`
+- `research/PRIMARY_TEXT_READING_AND_ARGUMENT.md`
+- `research/THEORY_CASE_TESTS.md`
+- `research/CASE_IDEOLOGY_MATRIX.md`
+- `research/LITERATURE_REVIEW_AND_NOVELTY.md`
+- `research/REVISION_RESPONSE_2026-11-27.md`
