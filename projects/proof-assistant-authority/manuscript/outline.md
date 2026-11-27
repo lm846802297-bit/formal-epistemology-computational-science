@@ -22,16 +22,16 @@ The prose should remain academically precise, but the order of presentation is g
    Establish the theoretical grammar: ideology beyond false consciousness; fantasy as the staging of closure around a non-totalizable warrant relation; fetishism as the appearance of relation-dependent authority in object form; disavowal as a secondary mechanism. Fantasy explains the scene of closure; fetishism explains the apparent location of its authority.
 
 4. **The Machine as a Fetish Object**  
-   Develop the article’s own account of how epistemic fetishism forms and reproduces through five connected moments: real technical reliability; distributed epistemic labour; credential condensation in scientific communication; objectal displacement into symbolic authority; and fetishistic disavowal through which investment persists despite acknowledged limits. Distinguish the first four moments of formation from the fifth moment of reproduction. Keep S, O, and E as separate diagnostic conditions.
+   Develop the article’s own account of how epistemic fetishism forms through real technical reliability, distributed epistemic labour, credential condensation, and objectal displacement. Treat fetishistic disavowal as a conditional feedback mechanism that may reproduce symbolic authority after an actor acknowledges that the credential is being used beyond its warrant. Keep S, O, and E as separate diagnostic conditions.
 
 5. **Four Encounters with Formal Verification**  
-   - Riemann: certification, institutional authorization, and foundational contestation.
-   - Navier–Stokes: formal validity and specification fidelity.
-   - Erdős / AlphaProof Nexus: human statement validation and artifact provenance.
-   - Liquid Tensor: semantic scrutiny and visible collective labour as a counter-case.
+   - Riemann: composite institutional certification, with the warrant network explicitly visible.
+   - Navier–Stokes: distinguish theorem-statement fidelity from proof-route correspondence; do not infer actor-level disavowal from an external critique.
+   - Erdős / AlphaProof Nexus: the strongest borderline case, where human statement validation coexists with autonomy language.
+   - Liquid Tensor: semantic risks are explicitly acknowledged and answered through public sanity checks, providing a counter-practice.
 
 6. **The Ideological Function of Mathematical Certainty**  
-   Return from the cases to the philosophical question. Explain what the comparison establishes, why no case currently meets the full diagnostic conjunction, and what this negative result means for the concept. Distinguish the warrant of a check from the authority of a credential; then locate the contribution against Vallverdú, Kallel–El Louadi, López-Corona, Erfani, Hourigan, and Omodeo.
+   Compare how the five moments appear across the cases. Explain why AlphaProof is a borderline rather than decisive instance of fetishistic disavowal, and why rational reliance and transparent semantic validation must be distinguished from fetishistic investment. Then locate the contribution against Vallverdú, Kallel–El Louadi, López-Corona, Erfani, Hourigan, and Omodeo.
 
 7. **Conclusion**  
    Return to the opening paradox and state the final philosophical judgement.
