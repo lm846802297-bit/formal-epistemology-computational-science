@@ -18,6 +18,8 @@
 - [Manuscript outline](manuscript/outline.md)
 - [Literature map and formal cases](research/LITERATURE_AND_CASES.md)
 - [Public trust and social reception](research/PUBLIC_TRUST_AND_RECEPTION.md)
+- [Analytical synthesis and provisional propositions](research/ANALYTICAL_SYNTHESIS.md)
+- [Research question architecture](research/RESEARCH_QUESTIONS.md)
 - [Public-text study protocol](research/protocol.md)
 - [Coding guide](research/codebook.md)
 - [Evidence register](evidence/register.tsv)
