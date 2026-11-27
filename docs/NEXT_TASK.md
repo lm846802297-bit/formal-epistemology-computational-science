@@ -12,7 +12,7 @@ Complete the author-led source and claim audit, then proceed to EJPS submission 
 
 ## Fixed acceptance criteria
 
-1. The author verifies all source-level paraphrases and mathematical claims, particularly the OSforGFF explanatory paper, Rabe (2017), DAMF, SC-TPTP, and the Comparator bridges.
+1. The author verifies all 23 cited works and the 50 mapped claim/evidence records. In particular, inspect the continuation of Glimm and Jaffe (1987), second edition, §6.1(i), to verify the OS4 quantifiers, norm, and time-average formula; also verify the OSforGFF Remark 3.2 attribution, Rabe's theorem and model-reduct direction, DAMF/SC-TPTP scope, and the Comparator source/bridge claims.
 2. Inter-formalization warrant remains a bounded analytical label for warrant relative to formal records, not a new universal theory or technical proof-transfer mechanism. DeDeo and Duede's (2026) library-lock-in and shared-model analysis is acknowledged; no novelty is claimed for correspondence or library dependence generally.
 3. Comparator is described as a record-level audit-to-production interface. Its independence is limited to the import/elaboration/checking boundary; the challenge definitions are copied from the production package's own audit definitions.
 4. The positive Comparator bridge and the absent public OSforGFF-to-OSreconstruction instantiation remain clearly distinguished.
@@ -42,3 +42,10 @@ Prepared under `submission/`: a 23-item author-led source checklist; an AI-use d
 Still pending: author completion of all 23 source checks; author approval of the AI declaration; author completion of Title Page fields; insertion of the approved disclosure into the anonymous manuscript; acquisition of the official Springer template class; local PDFLaTeX compilation and visual/PDF metadata inspection.
 
 Do not mark the manuscript submission-ready until these items are complete.
+
+
+## Source-audit integration status (2026-11-27)
+
+The 50-claim report on `audit/submission-source-check-2026-11-27` commit `b5c4ce03b1157e2af018ff857cf7b166ec1b3ee7` has been mapped to the current manuscript and incorporated into the integrated Markdown manuscript, its four editable section sources, and the anonymous LaTeX source. The support documents now distinguish author-explained OSforGFF correspondence from the Comparator's Lean record bridges, and the public absence finding is bounded to the three pinned revisions.
+
+The one specifically unresolved primary-source check is the continuation of Glimm and Jaffe (1987), second edition, §6.1(i), for the full OS4 quantifiers, norm, and time-average formula. The author must also approve all 23 source paraphrases. No Lean kernel rerun or new proof replay was performed during the source-audit integration.
