@@ -33,6 +33,7 @@
 - [Theoretical model: mediated verification authority](research/THEORETICAL_MODEL.md)
 - [Theory of certainty and symbolic guarantee](research/THEORY_OF_CERTAINTY_AND_SYMBOLIC_GUARANTEE.md)
 - [Žižekian core argument](research/ZIZEKIAN_CORE_ARGUMENT.md)
+- [Primary-text reading and theoretical chapter plan](research/PRIMARY_TEXT_READING_AND_ARGUMENT.md)
 - [Lean-centered four-case source audit](research/LEAN_CASE_STUDY_AUDIT.md)
 - [Public-text study protocol](research/protocol.md)
 - [Coding guide](research/codebook.md)
