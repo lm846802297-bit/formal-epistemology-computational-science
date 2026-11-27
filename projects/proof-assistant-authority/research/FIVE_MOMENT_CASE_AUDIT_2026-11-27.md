@@ -113,7 +113,7 @@ The four cases provide one affirmative existence case for the fifth moment: Alph
 
 1. Distinguish formation from reproduction.
 2. Distinguish knowledge of Lean’s technical scope from knowledge that the credential is being used beyond that scope.
-3. Treat AlphaProof as a borderline candidate, not proof of disavowal.
+3. Treat AlphaProof as the positive existence case for public-discourse fetishistic disavowal.
 4. Distinguish theorem-statement fidelity from proof-route correspondence in Navier–Stokes.
 5. Present Riemann as composite institutional certification and Liquid Tensor as a transparent semantic counter-practice.
 6. Preserve the central philosophical claim that genuine technical reliability can support symbolic authority without claiming that every Lean practice exhibits fetishistic disavowal.
