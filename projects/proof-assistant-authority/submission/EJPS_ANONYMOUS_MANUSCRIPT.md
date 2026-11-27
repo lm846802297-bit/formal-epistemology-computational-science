@@ -1,10 +1,5 @@
 # In Lean We Trust? The Ideology of Machine-Checked Proofs in Science
 
-**Project:** *In Lean We Trust?*  
-**Version:** Essayistic philosophical draft  
-**Evidence cut-off:** 27 November 2026  
-**Genre:** Philosophical argument with comparative case analysis
-
 ## Abstract
 
 What could be ideological about a correct proof? Lean’s kernel provides genuine, bounded warrant for a formal proposition under a specified environment. This article asks how such a local achievement can become a source of wider mathematical authority. Drawing on Slavoj Žižek’s critique of ideology, it develops the concept of the **ideological fetishism of formal verification** through five moments: real technical reliability; distributed epistemic labour; condensation into the credential “Lean-verified”; objectal displacement, through which network-generated authority appears to reside in the credential itself; and, conditionally, fetishistic disavowal, through which symbolic investment persists alongside acknowledged human and semantic mediation. Four cases—the Riemann hypothesis, Navier–Stokes, AlphaProof Nexus’s work on Erdős problems, and the Liquid Tensor Experiment—show contrasting configurations. AlphaProof Nexus provides a positive existence case: the research paper and an associated university account identify human problem selection, validation of formal statements against original conjectures, and mathematical exposition, while continuing to describe the agent as having “autonomously resolved” the problems. The analysis identifies a shift from operational autonomy in proof search to public attribution of the mathematical achievement to the machine. It argues that formal verification’s genuine reliability is not what ideology must explain away, but what it must explain: how a bounded technical guarantee becomes the material support for symbolic authority beyond the operation that produced it.
