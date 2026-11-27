@@ -24,8 +24,8 @@
 
 ## File-format and final checks
 
-- [x] Generate the editable anonymous LaTeX source and separate title-page LaTeX template. Compilation and PDF inspection remain pending.
-- [ ] Compile/export the review PDF and inspect equations, headings, tables, references, and page breaks.
+- [x] Generate the editable anonymous LaTeX source using Springer Nature's `sn-apa` class and a separate title-page LaTeX template. The source is set up for LuaLaTeX; compilation and PDF inspection remain pending.
+- [ ] Compile with LuaLaTeX in an environment containing the Springer Nature `sn-jnl` class files; export the review PDF and inspect equations, headings, references, and page breaks.
 - [ ] Check document metadata and file properties for identifying information.
 - [ ] Verify all citations and DOI/URL links once more.
 - [ ] Confirm the work is not under consideration elsewhere and that all authors approve submission.
