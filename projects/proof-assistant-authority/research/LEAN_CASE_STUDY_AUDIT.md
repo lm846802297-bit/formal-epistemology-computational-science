@@ -179,3 +179,12 @@ No case yet establishes cynical ideology in the strict sense. The public record 
 5. For Liquid Tensor, pair the primary Lean community announcement with Quanta's article and Scholze's contemporaneous statements, respecting their dates.
 
 These are bounded case-audit tasks, not reasons to expand the sample.
+## 9. Update dated 27 November 2026
+
+The original case summaries above are superseded where they conflict with the detailed [CASE_AUDIT_UPDATE_2026-11-27.md](CASE_AUDIT_UPDATE_2026-11-27.md). The main corrections are:
+- Riemann: a 1,582-page mathematical exposition now exists (v44, 26 November), written by several AI models from the Lean source and cross-checked; the Lean FRO and Mathlib Initiative also issued an explicit joint certification on 21 November.
+- Navier–Stokes: the m+4/m+5 and pressure-flux differences have been checked against the exact pinned Lean source declarations.
+- Erdős: specific linked-file/prose mismatches have been identified for #26 and #741(i), while #125's linked file matches a formal variant but differs from the original forum artifact.
+- Liquid Tensor: the project explicitly developed definition sanity checks to address semantic validity for mathematicians with limited Lean experience.
+
+These updates refine the theory tests; they do not establish a kernel failure, invalidate all AI results, or prove cynical ideology.
