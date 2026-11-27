@@ -56,3 +56,8 @@ The source pins are OSforGFF `fef84a82937dfd2bb7f672108a72da329d3ef0fd`, OSrecon
 No Lean kernel was rerun. Comparator statements were checked by source comparison, and historical CI logs were inspected. No new Lean build or proof replay is claimed.
 
 **Author verification still required:** the continuation of Glimm and Jaffe (1987), second edition, §6.1(i), containing the full OS4 quantifiers, norm, and time-average statement was not available in the public preview. The author should inspect those pages directly. All 23 source entries remain subject to final author reading and approval.
+
+
+## Editorial presentation of software sources
+
+The manuscript cites OSforGFF, OSreconstruction, and the Comparator by project name and repository URL, without placing commit hashes or source-integrity checks in the article's prose or reference entries. Exact revisions, file-level comparisons, and proof-checking records remain preserved in the source-audit documentation for reproducibility. This keeps the philosophical article focused on its mathematical and epistemological claims while retaining technical provenance outside the manuscript.

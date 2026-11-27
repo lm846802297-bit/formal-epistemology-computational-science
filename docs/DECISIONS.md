@@ -104,3 +104,6 @@ The paper concerns the epistemic role of machine-checked demonstration within ma
 - **DEC-075:** The public OSreconstruction reverse constructor is distinguished from a standalone concrete forward OS/growth input pair. The private companion examples are reports in the README, not independently inspected proofs.
 - **DEC-076:** The Comparator's historical 2026-11-03 workflow acceptance is reported as historical evidence; no new Lean kernel replay is claimed in the 2026-11-27 source-audit integration.
 - **DEC-077:** Glimm and Jaffe (1987), second edition, pp. 90–91 and p. 91 n. 1 are the accessible primary-source basis. The continuation of §6.1(i) containing the full OS4 quantifiers and time-average formula remains an author verification item.
+
+
+- **DEC-078 (2026-11-27):** Keep the manuscript at the level of scholarly argument. In the main text, describe the Comparator's mathematical and epistemological result without implementation bookkeeping such as line counts, import/header edits, internal Lean declaration names, CI logs, or commit hashes. Preserve exact source pins and detailed verification evidence in the repository's audit records, not in the article's prose.
