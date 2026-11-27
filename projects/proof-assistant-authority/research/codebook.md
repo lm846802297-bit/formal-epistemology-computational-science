@@ -1,91 +1,91 @@
 # Coding guide for the Žižekian study of Lean verification
 
-Every record preserves the exact public wording or institutional practice, source and locator, date/version, Lean theorem and proof artifact, definitions/assumptions, review status, semantic bridge, and reason for classification.
+Every record preserves the exact public wording or institutional practice, source and locator, date/version, formal theorem and proof artifact, environment/axioms/dependencies, checking status, intended claim, specification relation, and counter-evidence.
 
-## 1. Claim-scope code
-
-- **Accurate:** the claim is supported by the cited Lean artifact and does not imply a broader target.
-- **Reasonable compression:** details are omitted, but surrounding context preserves the intended scope or supplies sufficient qualification.
-- **Ambiguous:** materially different readings remain possible or relevant evidence is missing.
-- **Substantive scope expansion:** the claim attributes a stronger conclusion to Lean verification than the formal artifact and documented semantic bridge establish. Identify the exact missing inferential link.
-
-## 2. Technical-warrant code
+## 1. Technical baseline
 
 Record separately:
-- formal theorem statement and namespace;
-- definitions, assumptions, axioms, imported libraries, and dependencies;
-- kernel/build acceptance;
-- admitted placeholders or additional axioms;
-- reproducibility and pinned commit;
-- independent proof-term checker or comparator results;
-- correspondence to the intended mathematical claim;
-- mathematical exposition and human understanding;
-- expert review, publication, and institutional recognition.
+- intended mathematical claim P;
+- formal proposition P*;
+- proof object and provenance;
+- checking procedure and trusted base;
+- axioms, definitions, libraries, and dependencies;
+- independent replication/checking routes;
+- semantic/specification audit;
+- institutional review and recognition.
 
-Never collapse these into one “Lean verified” binary.
+Kernel acceptance establishes derivational validity relative to the specified formal environment. It does not automatically establish the specification relation P ↔ P*.
 
-## 3. Collective-mediation code
+## 2. Scope relation (S)
 
-Record the visibility and role of:
-- problem selection and theorem formulation;
-- mathematical definitions and formalization design;
-- AI contribution (conjecture, strategy, natural-language proof, Lean proof, translation, proof search);
-- Lean/kernel/library/toolchain development and maintenance;
-- semantic comparison and definition sanity checks;
-- expert validation and institutional review;
-- responsibility for public communication.
+- **Absent:** the public/institutional claim stays within the formal proposition and documented specification relation.
+- **Ambiguous:** the exact proposition, claim, or semantic bridge is not sufficiently specified.
+- **Possible extension:** wording may imply a broader warrant, but context or qualification prevents a firm diagnosis.
+- **Supported extension:** a specific claim attributes to the credential a warrant broader than the formal proposition and documented specification relation establish.
 
-For each component, code **foregrounded**, **partly visible**, **backgrounded**, **omitted**, or **not applicable / unknown**.
+Record the exact inferential gap. A technical mismatch alone is not sufficient; identify the claim that is said to follow from the credential.
 
-Do not imply that collective labour creates mathematical truth. It supplies and maintains the artifact, infrastructure, semantic interpretation, and social warrant through which the result is verified and recognized.
+## 3. Objectal displacement (O)
 
-## 4. Three empirical planes
+- **Absent:** the credential is presented as one component of a visible technical, semantic, and institutional network.
+- **Weak/possible:** mediation is compressed or backgrounded, but autonomous authority is not clearly attributed to the credential.
+- **Moderate:** the credential is repeatedly foregrounded as the source of broader authority while necessary relations are backgrounded.
+- **Strong candidate:** the credential is represented or used as a self-sufficient bearer of broader authority, and the displacement is supported by matched source evidence.
 
-- **Discursive plane:** explicit claims in papers, announcements, press releases, institutional pages, and media.
-- **Material-institutional plane:** formal repositories, checking workflows, expert review, certification, publication, and institutional use.
-- **Spontaneous-practical plane:** repeated routine reliance on the Lean credential as a broader warrant. Code only when repeated practices are documented; do not infer it from one statement.
+Omission of contributors alone does not establish objectal displacement.
 
-## 5. Žižekian mechanism codes
+## 4. Social efficacy (E)
 
-### 5.1 Ideological fantasy
-- **Absent:** no representation of the local check as broader closure.
-- **Weak / possible:** isolated or ambiguous closure language, with insufficient evidence of practical role.
-- **Moderate:** repeated representations link formal checking to broader certainty, but scope-preserving context remains significant.
-- **Strong candidate:** recurrent or institutionally consequential representation of the local check as closure beyond its formal scope, with the exact inferential gap identified.
+Record whether the representation has a documented role in:
+- institutional endorsement or certification;
+- acceptance or closure of a dispute;
+- allocation of credibility or expert authority;
+- publication or review decisions;
+- funding, deployment, or other institutional action;
+- repeated routine reliance.
 
-### 5.2 Fetishistic displacement
-- **Absent:** machine is accurately represented as one component in a visible human, semantic, technical, and institutional network.
-- **Weak / possible:** some compression or backgrounding of mediation, but no clear attribution of autonomous authority.
-- **Moderate:** collective mediation is repeatedly backgrounded while machine authority is foregrounded.
-- **Strong candidate:** the broader authority generated through the network is represented or used as an autonomous property of Lean, and the pattern is repeated or institutionally consequential.
+Code as **none established**, **possible**, or **documented**. A public announcement alone does not establish that the Lean credential caused the resulting recognition or decision.
 
-### 5.3 Disavowal
-- **None established:** no evidence of acknowledged limits plus continued broader investment.
-- **Possible fetishistic disavowal:** a limitation is acknowledged and the credential continues to carry broader symbolic weight, but actor-level continuity or practical effect is incomplete.
-- **Supported fetishistic disavowal:** the same actor/institutional practice acknowledges the limitation while continuing to invest in the credential as a broader guarantee.
-- **Possible cynical disavowal:** evidence suggests a manipulative distance between acknowledged knowledge and practice.
-- **Supported cynical disavowal:** actor-level evidence establishes the acknowledged limit, continued overextended practice, and the relevant strategic/manipulative relation.
+## 5. Fantasy of closure
 
-Do not infer unconscious motive. The more demanding disavowal codes require a traceable actor/institutional chain.
+- **Absent:** no representation of the local check as closure of wider uncertainty.
+- **Weak/possible:** isolated closure language with no documented practical role.
+- **Moderate:** repeated representations link formal checking to broader certainty, but qualifications and mediation remain visible.
+- **Strong candidate:** a bounded formal verdict is repeatedly or consequentially staged as the settlement of uncertainty beyond its formal scope.
 
-## 6. Rival explanations
+Fantasy is not synonymous with exaggeration. Identify the gap or antagonism whose appearance of closure is being organized.
+
+## 6. Disavowal (secondary)
+
+- **None established:** no explicit acknowledgement plus continued broader investment.
+- **Possible fetishistic disavowal:** the limitation is acknowledged and broader symbolic investment appears to continue, but actor-level continuity or practical effect is incomplete.
+- **Supported fetishistic disavowal:** the same actor/institutional chain acknowledges the precise limitation and continues to use the credential as a broader guarantee.
+- **Possible cynical disavowal:** evidence suggests a strategic or manipulative distance between acknowledged knowledge and practice.
+- **Supported cynical disavowal:** actor-level evidence establishes the acknowledgement, continued overextended practice, and relevant strategic relation.
+
+Do not infer unconscious motives from wording alone.
+
+## 7. Three empirical planes
+
+- **Discursive:** explicit statements in papers, announcements, institutional pages, and media.
+- **Material-institutional:** repositories, checking workflows, expert review, publication, and institutional certification.
+- **Spontaneous-practical:** repeated routine reliance on the credential as a broader warrant. Code only when repeated practices are documented.
+
+## 8. Rival explanations
 
 Record whether the apparent pattern is better explained by:
-- ordinary shorthand or headline compression;
-- genre conventions;
-- explicit qualifications elsewhere in the same source;
-- legitimate reliance on expert testimony and a trusted kernel;
+- accurate shorthand or genre conventions;
+- explicit qualifications in the same communication chain;
+- justified reliance on experts and a trusted kernel;
+- visible semantic audit and human validation;
 - institutional reputation;
-- transparent human review;
 - later correction or clarification;
 - insufficient evidence.
 
-Strong wording is not automatically distortion.
+## 9. Inference limits
 
-## 7. Inference limits
-
-- Public texts establish representations and invitations to trust, not actual audience belief.
-- Self-selected online posts establish that an interpretation exists, not its prevalence.
-- No unconscious motive, transference, or individual ideological attachment may be attributed from wording alone.
-- A technical mismatch is not automatically a kernel failure or a refutation of the underlying theorem.
-- A case may be coded as warranted reliance, transparent mediation, ambiguity, or insufficient evidence rather than ideological fetishism.
+- Public texts establish representations, not audience belief.
+- A technical mismatch is not automatically a kernel failure or a refutation of the theorem.
+- A preprint critique is not equivalent to peer-reviewed mathematical adjudication.
+- Source-level inspection is not a repository rebuild.
+- Do not infer ideological fetishism unless S, O, and E are separately supported.
