@@ -7,8 +7,9 @@
 
 - [ ] Personally verify all 23 sources in `AUTHOR_SOURCE_VERIFICATION_CHECKLIST.md`.
 - [ ] Record exact page/section/theorem/source-file locations and correct the manuscript as required.
-- [ ] Approve the AI-use statement in `AI_USE_DECLARATION_AUTHOR_APPROVAL.md`; confirm model/version and scope.
-- [ ] Insert the approved AI statement into a suitable part of the anonymous manuscript.
+- [x] Author confirmed the AI-use statement, model/version, and scope on 2026-11-27.
+- [x] Inserted the detailed AI-use disclosure after the methodological paragraph in the Introduction and added an AI Use Declaration before the references.
+- [x] Inserted the same disclosure in the separate Title Page template.
 - [ ] Fill all placeholders in `title-page-template.tex`: name, affiliation, email, ORCID if available, acknowledgements, funding, competing interests, and approved AI statement.
 - [ ] Approve the final title, abstract, keywords, and full text.
 - [ ] Confirm with the EJPS editorial office whether public GitHub software repositories may appear as software references under the journal's rule that references should be published or accepted; if not, move exact commit pins to a footnote or suitable code-availability statement without losing version traceability.
@@ -21,7 +22,7 @@
 - [x] Anonymous LaTeX source prepared with no author block and empty PDF-author metadata.
 - [x] Separate Title Page template prepared with explicit placeholders.
 - [x] 23-item source-verification checklist prepared; all items remain pending author action.
-- [x] AI declaration draft prepared without claiming completed author verification.
+- [x] AI-use disclosure author-confirmed and inserted in the manuscript and Title Page; original-source verification remains a separate pending task.
 - [x] Springer Nature `sn-apa` class option used in the blind source.
 
 ## Technical acceptance still pending

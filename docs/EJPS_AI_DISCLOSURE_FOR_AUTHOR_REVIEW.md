@@ -1,27 +1,13 @@
-# EJPS generative-AI disclosure — author approval required
+# EJPS generative-AI disclosure
 
-**Status:** Proposed wording only. Not approved and not inserted into the anonymous manuscript.
+The author-confirmed statement and its exact placement in the manuscript are maintained in [the submission disclosure record](../submission/AI_USE_DECLARATION_AUTHOR_APPROVAL.md).
 
-## Actual use to be disclosed
+**Status:** Author-confirmed on 2026-11-27; inserted into the Introduction, the Statements and Declarations section, and the separate Title Page template.
 
-ChatGPT (OpenAI; GPT-6.2) has been used during preparation of this manuscript for preliminary literature discovery, comparison and summarization of cited papers and public Lean repositories, organization and critical assessment of the research question and argument, reviewer-style assessment, and substantive drafting and revision of manuscript prose. This is more extensive than routine AI-assisted copy-editing.
+The statement covers ChatGPT (OpenAI; GPT-6.2; November 2026) use for preliminary literature discovery, source comparison and summarization, inspection of public formalization repositories, argument organization and critical assessment, and manuscript drafting and revision. It states that no new numerical results or Lean proofs were generated using ChatGPT and preserves the author's responsibility for source accuracy, scholarly judgment, and the final manuscript.
 
-## Proposed statement
+The 23-item author source-verification checklist remains separate and pending. AI-use approval does not certify that the author has completed that source audit or that the final anonymous PDF has been compiled and inspected.
 
-> **Use of generative AI.** ChatGPT (OpenAI; GPT-6.2) was used during the preparation of this manuscript for preliminary literature discovery, comparison of source materials and public formalization repositories, organization and critical assessment of the argument, and drafting and revision of manuscript prose. The author is responsible for evaluating the AI-assisted material, verifying the cited sources and formalization claims, and approving the final manuscript.
-
-This wording does not claim that the author has already completed the 23-item source audit or approved the final manuscript.
-
-## Required author actions
-
-1. Confirm that the description accurately represents all AI tools and uses during manuscript preparation.
-2. Correct the model/version and time period if needed.
-3. Complete the source-verification checklist personally.
-4. Revise any AI-assisted passages that do not reflect the author's own scholarly judgment.
-5. Approve the final statement and take responsibility for the submitted manuscript.
-
-## EJPS placement
-
-EJPS requires LLM use to be documented in the Methods section or a suitable alternative part if no Methods section is available. This paper has no separate numbered Methods section. The proposed insertion point is a short unnumbered subsection after the methodological paragraph at the end of the Introduction, subject to author approval.
-
-Official instructions: https://link.springer.com/journal/13194/submission-guidelines
+Official policy:
+- https://link.springer.com/journal/13194/submission-guidelines
+- https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers
