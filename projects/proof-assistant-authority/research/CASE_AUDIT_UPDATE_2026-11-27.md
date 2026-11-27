@@ -123,3 +123,51 @@ This makes Liquid Tensor a stronger counter-case than previously described. It d
 4. The Riemann exposition is AI-written and cross-checked; it is a readable mathematical account, not by itself evidence of independent human mathematical acceptance of every argument.
 5. Public texts establish representations and institutional acts, not population-level public belief or unconscious motives.
 6. Cynical ideology remains unestablished. The current evidence supports analysis of fantasy, fetishistic representation, and symbolic authorization, but not a claim of deliberate disavowal.
+
+## 8. Riemann hypothesis: foundational challenge posted 24 November 2026
+
+### 8.1 New source
+
+Parker Emmerson posted the non-peer-reviewed preprint “Alpöge’s Certified Lean Derivation Does Not Prove the Riemann Hypothesis: Granting Every Check, the Hypothesis Follows from a Premise Stronger than Itself” on Preprints.org on 24 November 2026 (DOI: 10.20944/preprints202611.2463.v1).
+
+The accessible abstract grants the existence of the Lean derivation and the reported checks, but argues that the derivation does not establish the Riemann hypothesis in several senses. In particular, it treats consistency of the formal rules as a further premise or “sponsor” and argues that this is stronger than the hypothesis. It also questions whether the derivation is a proof from the zeta series and whether the formal result is certified in ZFC.
+
+**Evidence status:** this is a non-peer-reviewed preprint. The current audit records its metadata and abstract-level claim; it does not adjudicate the full technical argument or endorse its conclusion.
+
+### 8.2 Exact formal statement
+
+The Mathlib documentation identifies the formal definition of RiemannHypothesis as:
+
+\[
+\forall s\in\mathbb{C},\quad
+\zeta(s)=0
+\;\land\;
+s\notin\{-2(n+1):n\in\mathbb{N}\}
+\;\land\;
+s\neq 1
+\;\Longrightarrow\;
+\operatorname{Re}(s)=\frac12.
+\]
+
+The exclusion of s=1 is part of the formal definition because the classical zeta function has a pole there, while the formalized function assigns a value at that point. The exclusion of the negative even integers removes the trivial zeros. The Lean FRO/Mathlib statement says that this Mathlib definition was vetted by experts and that the theorem proved in Alpöge’s archive was compared against it by two independent tools.
+
+### 8.3 Foundational qualification in the official statement
+
+The Lean FRO/Mathlib joint statement says that the con-leche and con-ron checkers come with formal soundness proofs “relative to set theory.” This is an important qualification. The official statement does not claim that the soundness of the checkers is established without any foundational background.
+
+The Emmerson preprint’s abstract directly challenges the significance of this foundational dependence. This is a dispute about the interpretation and epistemic scope of the certification, not evidence of a Lean kernel rejection.
+
+### 8.4 Distinct verification artifacts
+
+The original 17-million-line archive and the shorter rewrite published on 25 November 2026 are distinct artifacts. Andrew Sutherland’s original verification page and shorter-proof verification page must be cited separately. The shorter-proof page records two editions, their separate source commit, independent builds, kernel replay, external checkers, and statement comparisons. Results for one artifact must not be transferred to the other without an explicit source comparison.
+
+### 8.5 Revised case interpretation
+
+The new preprint changes the Riemann case from a simple example of formal certification into a case of layered and contested authorization:
+- Mathlib supplies the formal statement.
+- Experts vet the statement.
+- Lean and independent checkers validate proof artifacts relative to their formal foundations.
+- An AI-mediated exposition makes the argument more accessible.
+- A non-peer-reviewed preprint challenges what the certification entails.
+
+The preprint is not evidence that the proof is false. The official statement is not evidence that all mathematical, foundational, and institutional questions are settled. The case is therefore coded as **contested institutional authorization**, not as an established instance of ideological fetishism.
