@@ -160,3 +160,10 @@ Topaz's 14 October 2022 post explicitly addresses whether the formal definitions
 ### Additional #741(ii) provenance finding
 
 The arXiv v2 Appendix B.4 link for Erdős #741(ii) points to `erdos_12.parts.ii.lean`, a Lean file for Problem 12, rather than a #741(ii) file. The Problem 741 page and static audit identify the correct #741(ii) formalization in Formal Conjectures. Together with the #741(i) exact-density/upper-density mismatch, this means both part-specific Lean links in the preprint are problematic. The appropriate proofs exist elsewhere; this is a source-citation and artifact-provenance problem, not evidence that the results themselves are false. See [CASE_AUDIT_UPDATE_2026-11-27.md](CASE_AUDIT_UPDATE_2026-11-27.md).
+### Further refinement after reading full Lean files and Formal Conjectures
+
+- **#26:** the top-level Lean target is indeed a lower-density Tenenbaum variant, not identical to the prose upper-density theorem. However, the same file contains a uniform pointwise counting lemma with bound 37/90·X for every shift and scale, which is stronger than the prose upper-density bound below 3/4 and suffices to prove the prose result. Thus do not classify #26 as a failed formalization; the issue is target-statement identity and provenance, while the source contains a stronger auxiliary result.
+- **#741(i):** the AlphaProof repository's linked file proves the exact-density counterexample. The upper-density theorem is separately present as `erdos_741.variants.upper` in Formal Conjectures at commit `9d492049e42167b0d2fd58a9e91da3bf160172b5`.
+- **#741(ii):** the arXiv v2 Appendix B.4 link points to `erdos_12.parts.ii.lean`, a file for Problem 12. The appropriate #741(ii) proof is in the mo271 Formal Conjectures fork at commit `486bc8afae062b6711cd16d3466d651ee2880a52`; the upstream Formal Conjectures record points to that proof.
+
+These refinements reinforce the need to distinguish a wrong or non-identical top-level citation from whether the file contains auxiliary lemmas sufficient for the prose theorem. The current audit has not rebuilt the repositories.
