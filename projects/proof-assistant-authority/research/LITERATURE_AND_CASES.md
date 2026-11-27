@@ -201,3 +201,82 @@ Stop or narrow the thesis if the pilot contains only accurate shorthand or canno
 - Further test whether Žižek's ideological-fantasy and fetishism concepts add explanatory value beyond epistemic dependence, institutional authority, and ordinary science-communication analysis.
 
 No claim is made that the public-text study has demonstrated systematic scope expansion or that a psychological mechanism has been established.
+
+
+
+## 8. Society-wide research scope and four-case update (27 November 2026)
+
+The research object is now explicitly society-wide. The project asks how machine verification becomes a publicly legible symbol of the reliability of scientific knowledge. The chain under study runs from result production through formal checking, expert and institutional appraisal, public communication, and audience interpretation. The new module [PUBLIC_TRUST_AND_RECEPTION.md](PUBLIC_TRUST_AND_RECEPTION.md) documents the survey baseline and the first public-reception sample.
+
+### 8.1 Riemann hypothesis — Claude + Lean
+
+The Lean FRO / Mathlib Initiative statement (21 November 2026) reports that the approximately 175,187-module, 17.4-million-line Lean archive compiles, that its formal theorem corresponds to the vetted Mathlib statement of RH, and that exported proof terms pass multiple independent checkers:
+- Alpöge's announcement: https://alpo.ge/
+- Lean FRO / Mathlib statement: https://leanprover-community.github.io/blog/posts/riemann-hypothesis/
+- MIT verification materials: https://math.mit.edu/~asutherland/
+- Waterloo verification materials: https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/
+
+The formal-check status is substantially stronger than an unreviewed natural-language AI proof. It remains distinct from broad human understanding, a complete readable exposition, conventional peer review, and Clay Prize recognition. The same-day human-written Masullo draft is a comparison case in public authorship and reception, not an accepted proof.
+
+The first public-reception sample includes Nature's 20 and 25 November reports, Washington Post, Al Jazeera, and Reddit threads in r/OutOfTheLoop, r/mathematics, r/AskAcademia, and r/mathmemes. These sources show varied public frames: historic breakthrough, awe, confusion about what Lean verifies, anxiety about mathematical careers, and concern about the visibility of human contribution. Reddit is self-selected and cannot estimate prevalence.
+
+### 8.2 Waring's problem — GPT-6.2 Astra
+
+Sam Chow and Rainer Dietmann, “A linear bound in Waring's problem,” arXiv:2611.29821 (22 November 2026): https://arxiv.org/abs/2611.29821
+
+Theorem 1.1 claims (G(k) \ll k); with the lower bound (G(k)\geq k+1), this gives (G(k)\asymp k). The AI statement says the work was carried out by GPT-6.2 Astra, rewritten by the authors, and refereed by GPT-6.2 Astra. The preprint also says (G(k)\leq 8.4k) follows from more sophisticated reasoning but does not demonstrate that bound in the current version.
+
+As of 27 November, this is an arXiv preprint without a Lean formalization, documented independent expert verification, or peer-reviewed publication. AI self-refereeing is not independent review. This case is analytically distinct from Lean-certified work: it foregrounds AI authorship and self-assessment without an external proof certificate.
+
+### 8.3 Navier–Stokes — OpenAI multi-agent discovery + Lean
+
+Primary sources:
+- OpenAI announcement and paper: https://openai.com/index/navier-stokes-solution/
+- Written proof: https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf
+- Lean repository: https://github.com/openai/NavierStokesAndEuler
+- Pinned repository commit: https://github.com/openai/NavierStokesAndEuler/commit/f9e8bc5b38b6e212696e8a30e3e91517af887bbd
+- Formalization metadata: https://github.com/openai/NavierStokesAndEuler/blob/f9e8bc5b38b6e212696e8a30e3e91517af887bbd/formalization.yaml
+- Independent critique: https://arxiv.org/abs/2610.08144
+- OpenAI response reported by New Scientist: https://www.newscientist.com/article/2592824-openai-mistranslated-mathematics-into-code-for-its-navier-stokes-proof/
+
+OpenAI's paper states a finite-time blow-up theorem for three-dimensional incompressible Navier–Stokes with smooth forcing and claims Clay alternatives (C) and (D). The repository records full formalization of the main results, no admitted placeholders, and only the standard Lean axioms; its review field says “self-assessed.” OpenAI says the discovery used an internal multi-agent system, while Lean formalization and verification took a further 17 hours via GPT-6 Astra. The internal discovery model and formalization model are not the same and must not be conflated.
+
+Bastounis, Circelli, and Hansen compare the paper with the Lean source at commit f9e8bc5. They report (i) an (m+4) versus (m+5) derivative discrepancy in the inverse estimate of Lemma 8.6, and (ii) a difference in the pressure-flux estimate and proof route. They explicitly do not claim that the natural-language proof is correct or incorrect; their claim is that the Lean code is not a semantically faithful translation of the written proof. OpenAI told New Scientist it was aware of the mismatch and said it did not show either proof invalid, adding that it would rectify errors in the written proof as they are found.
+
+**Interpretive boundary:** this is evidence of a mismatch between proof artifacts, not a refutation of the underlying Navier–Stokes theorem and not a kernel failure. It is a central case for distinguishing formal validity from semantic correspondence.
+
+### 8.4 Erdős problems — Google DeepMind AlphaProof Nexus
+
+George Tsoukalas et al., “Advancing mathematics research with AI-driven formal proof search,” *Science* 394 (6820) (8 October 2026), 234–239. DOI: https://doi.org/10.1126/science.aej2213. PubMed: https://pubmed.ncbi.nlm.nih.gov/42848891/
+
+The paper reports 9 solutions among 353 open Erdős problems represented as Lean formal statements in the Formal Conjectures repository at the time, and 44 proofs among 492 attempted OEIS conjectures. The authors state that human experts validated the correspondence between the nine Lean statements and the original conjectures; the OEIS conjectures were manually reviewed as correctly formalized and previously unproven. The discussion explicitly says AI-generated informal proofs require careful expert validation and that formal verification can filter which proofs merit human review.
+
+This is a useful scope-preserving case: the authors report denominators, formal statement selection, Lean verification, and human review rather than implying that AI has solved mathematics generally. The public-facing AAAS release is at https://www.eurekalert.org/news-releases/1146436.
+
+### 8.5 Population-level context
+
+Three sources provide distinct, non-interchangeable measures:
+- Wellcome Global Monitor 2026: more than 140,000 respondents in 140 countries; 72% reported some/a lot of trust in science in 2025. https://wellcome.org/insights/reports/wellcome-global-monitor-2026
+- “Trust in scientists and their role in society across 68 countries,” *Nature Human Behaviour* (2025), N=71,922. DOI: https://doi.org/10.1038/s41562-024-02090-5.
+- Bretter et al., “Public skepticism about the use of AI in scientific research,” OSF preprint (5 March 2026), UK representative survey N=1,465. DOI: https://doi.org/10.31234/osf.io/3h5n6_v1.
+
+The third source is directly about public attitudes to AI in research but not specifically machine-checked proofs. The Wellcome and Nature Human Behaviour surveys measure general trust in science/scientists, not attitudes to AI-assisted proofs. None can be used to claim that the four announcements caused a change in public trust.
+
+### 8.6 Consequence for the theory
+
+The cases do not support a single, undifferentiated claim that the public “believes the machine.” They identify at least four possible objects of trust:
+1. the AI system's capacity to discover;
+2. the proof assistant's capacity to check a formal proposition;
+3. experts and institutions' capacity to validate semantic correspondence and significance;
+4. the media account's capacity to represent what has actually been established.
+
+A Žižekian interpretation must be earned by the evidence. Fetishism is a plausible reading when collective labour, formal statement selection, semantic translation, and expert review recede behind an apparently autonomous machine authority. Transparent accounts of human review and scope may instead resist that presentation. The current public-text evidence does not establish unconscious motives or population-wide belief.
+
+### 8.7 Updated bounded tasks
+
+1. Pair one independent public report and one public discussion sample with Waring, Navier–Stokes, and AlphaProof Nexus.
+2. Pin exact theorem statements and public wording for two individual AlphaProof Nexus results.
+3. Check whether OpenAI has published a corrected Navier–Stokes paper or formalization after acknowledging the mismatch.
+4. Compare the public-reception corpus with Žižek's ideological fantasy, fetishism, and cynical ideology, without diagnosing individual users.
+
+The society-wide research phase is now underway. It is not yet complete: the public sample is strongest for Riemann, and the four cases still require matched public-reception materials.
