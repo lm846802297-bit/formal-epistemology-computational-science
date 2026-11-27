@@ -28,7 +28,7 @@ The current author instructions state:
 - Author–date citations and APA 7 reference-list conventions; include full DOI links where available.
 - References should include only works cited in the text and published or accepted for publication.
 
-The revised manuscript has a 206-word abstract and six keywords. Its main text is approximately 7,061 words, excluding the abstract and references, within the journal's stated range. The title, abstract, and section structure are compatible in principle; the remaining formatting work is to apply the journal's LaTeX/Word template, ensure double-blind anonymization, and check the final word count after typesetting.
+The submitted manuscript has a 206-word abstract and six keywords. Its main text is approximately 7,061 words, excluding the abstract and references, within the journal's stated range. The anonymous source was formatted with the official Springer Nature LaTeX class, compiled and inspected locally, and uploaded with a separate Title Page. EJPS confirmed receipt on 2026-11-27. The exact submitted source snapshot is pinned in `submission/EJPS_SUBMISSION_CHECKLIST.md`.
 
 ### Publication cost
 
@@ -38,13 +38,9 @@ No institutional agreement or APC funding is assumed.
 
 ### Generative AI disclosure
 
-The EJPS instructions state that LLM use should be documented in the Methods section or, if no Methods section is available, in a suitable alternative part of the manuscript. The journal distinguishes this from AI-assisted copy-editing, which does not require declaration. The present project used ChatGPT for literature discovery, source comparison, argument organization, and substantive drafting/revision; this is more extensive than copy-editing and must be disclosed.
+The EJPS instructions state that LLM use should be documented in the Methods section or, if no Methods section is available, in a suitable alternative part of the manuscript. The journal distinguishes this from AI-assisted copy-editing, which does not require declaration. The manuscript's substantive use of ChatGPT was disclosed in the Introduction and in an AI Use Declaration before the references. The author confirmed the wording on 2026-11-27, and the disclosure was included in the submitted anonymous manuscript and separate Title Page. The approved wording and scope are preserved in `submission/AI_USE_DECLARATION_AUTHOR_APPROVAL.md`.
 
-**Proposed disclosure for author review (do not submit without author verification):**
-
-> ChatGPT (OpenAI) was used during the preparation of this manuscript to assist with preliminary literature discovery, organization of the argument, and drafting and revision of prose. The author is responsible for independently checking the cited sources, the formalization claims, and the interpretation of the mathematical results, and for approving the final manuscript.
-
-Before submission, the author must personally verify the sources and mathematical claims, revise the prose to reflect their own scholarly judgment, and confirm that the disclosure accurately describes the actual use of AI tools. The AI system is not an author.
+The separate 27-item original-source verification checklist remains pending author-level completion; it is tracked in `submission/AUTHOR_SOURCE_VERIFICATION_CHECKLIST.md` and is not represented as completed by the AI-disclosure approval or by the journal's receipt confirmation.
 
 ## 2. Alternative journals
 
@@ -84,7 +80,7 @@ Post-submission items:
 3. If accepted, select the subscription publication route; do not select Open Choice/APC under the no-author-fee requirement.
 4. Do not submit the manuscript to another journal while it remains under consideration at EJPS.
 
-## 5. Decision
+## 5. Journal-selection decision
 
 EJPS is the recommended first target. It offers the strongest combination of subject fit, established indexing, a suitable article-length range, and a clear subscription route with no APC. Philosophy of Science remains an ambitious alternative; Studies in History and Philosophy of Science is a second alternative if the article's emphasis is adjusted toward scientific practice and the history of mathematical formalisms.
 
