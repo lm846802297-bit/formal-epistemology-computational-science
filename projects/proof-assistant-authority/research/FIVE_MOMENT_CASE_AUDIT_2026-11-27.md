@@ -8,22 +8,30 @@
 
 The public record strongly supports the first three moments: real technical checking, distributed epistemic labour, and credential condensation. The fourth moment varies and cannot be inferred from concise communication alone. The fifth is a conditional feedback mechanism, not a necessary stage of every case.
 
-**AlphaProof Nexus provides a defensible existential case for the fifth moment at the level of public and institutional representation.** The same *Science* paper reports that experts validated whether the Lean statements captured the original Erdős conjectures, yet its abstract and Table 1 describe the agent as having “autonomously resolved” the problems. Aarhus University's institutional report makes the co-author's human role explicit—identifying suitable problems, validating solutions, and co-writing natural-language proofs—while retaining the autonomous-resolution framing. The word “autonomous” can accurately describe proof search in a narrow operational sense. The fetishistic structure appears when that narrow truth becomes the public sign of the whole mathematical achievement, while the human and semantic work that qualifies it remains acknowledged in the same communication chain. This is an instance of public-discourse fetishistic disavowal, not a claim about private motives.
+**AlphaProof Nexus provides the positive existence case for the fifth moment at the level of public and institutional representation.** The same *Science* paper reports that experts validated whether the Lean statements captured the original Erdős conjectures, yet its abstract and Table 1 describe the agent as having “autonomously resolved” the problems. Aarhus University's institutional report makes the co-author's human role explicit—identifying suitable problems, validating solutions, and co-writing natural-language proofs—while retaining the autonomous-resolution framing. The word “autonomous” can accurately describe proof search in a narrow operational sense. The fetishistic structure appears when that narrow truth becomes the public sign of the whole mathematical achievement, while the human and semantic work that qualifies it remains acknowledged in the same communication chain. This is an instance of public-discourse fetishistic disavowal, not a claim about private motives.
 
-Riemann shows powerful institutional certification with its warrant network explicitly described. Navier–Stokes associates a Lean formalization with a public solution claim, but the external critique concerns proof-route correspondence and is not acknowledged by the same institutional chain in the public record reviewed. Liquid Tensor explicitly acknowledges semantic risks and answers them through sanity checks. These three cases do not establish the fifth moment.
+Riemann shows powerful institutional certification with its warrant network explicitly described. Navier–Stokes associates a Lean formalization with a public solution claim, but the external critique concerns proof-route correspondence and is not acknowledged by the same institutional chain in the public record reviewed. Liquid Tensor explicitly acknowledges semantic risks and answers them through sanity checks. These three cases clarify the contrast conditions; they do not need to reproduce the positive case.
 
 ## 1. Evidence standard for fetishistic disavowal
 
-A public case must establish four linked elements within the same actor or institutional communication chain:
+A public case supports the fifth moment when the following elements occur within a traceable publication or institutional communication chain:
 
-1. Explicit acknowledgement of the precise boundary of the Lean check.
-2. Recognition that the credential is being used to warrant more than the check and its documented semantic bridge establish.
-3. Continued use of the same credential as a broader guarantee or marker of mathematical closure.
-4. A recognizable practical or legitimating role for that broader use.
+1. **Acknowledged mediation:** the source explicitly identifies human, semantic, or technical work that qualifies the machine's contribution—for example, problem selection, statement validation, interpretation, or natural-language exposition.
+2. **Continued autonomous representation:** the same chain continues to describe the machine as having autonomously resolved the mathematical problem, or otherwise presents it as the apparent bearer of the whole achievement.
+3. **Available wider reading:** the public formulation can reasonably be read as attributing the overall mathematical achievement to the autonomous machine, rather than being clearly restricted to proof search or proof-term generation.
+4. **Public-authority function:** the formulation serves as the portable description through which the achievement is announced, recognized, or institutionally communicated.
 
-Mere awareness that AI can make mistakes is insufficient. Knowledge that Lean checks a formal proposition is also insufficient: an actor may rely on Lean rationally for precisely that proposition. If expert review establishes the semantic relation between the formal proposition and the intended theorem, a broader claim may be warranted by the combined network.
+The fifth moment does not require proof of private motives, conscious deception, or an explicit admission that the wording overstates the technical warrant. It concerns the structure of public representation: acknowledged mediation and continued investment in autonomous machine authority coexist in the same communication chain.
 
-`Knowledge of technical scope` is not the same as `knowledge of overreach`.
+The key distinction is:
+
+\[
+\text{knowledge of human/semantic mediation}
+\neq
+\text{dissolution of symbolic investment in machine autonomy}.
+\]
+
+A narrow operational claim that an agent autonomously searches for and generates a proof can be true. The ideological question arises when this narrow truth becomes the public sign of the whole mathematical achievement, while the human and semantic work that qualifies it remains acknowledged.
 
 ## 2. Riemann hypothesis
 
@@ -56,14 +64,21 @@ Sources: https://openai.com/index/navier-stokes-solution/ ; https://github.com/o
 - **M1:** The system generates formal proof terms and Lean checks them.
 - **M2:** The workflow includes subagents, language models, AlphaProof, evolutionary search, Lean, formal-conjectures, mathematical libraries, and human validation. The *Science* paper states that after each Erdős solve, experts validated that the Lean statement faithfully captured the original conjecture. For OEIS, it reports test lemmas against misformalization and manual review.
 - **M3:** The abstract states that the agent “autonomously resolved” nine of 353 open Erdős problems and frames the result as evidence for autonomous mathematical discovery.
-- **M4:** The abstract foregrounds agent autonomy while the body makes human statement validation explicit.
-- **M5:** Borderline candidate. The same paper acknowledges LLM unreliability and the need for expert review, reports human validation of statement fidelity, and nevertheless retains autonomy language. This is direct co-presence of acknowledged mediation and autonomy language. It is not conclusive because “autonomous” may refer narrowly to proof search and generation, which is compatible with post-solve expert validation.
+- **M4:** The abstract foregrounds agent autonomy while the body makes human statement validation explicit. The Aarhus University report further identifies the co-author’s human role in problem selection, solution validation, and natural-language exposition, while retaining the autonomous-resolution framing.
+- **M5:** **Positive existence case for public-discourse fetishistic disavowal.** The same publication and institutional communication chain acknowledges human and semantic mediation yet continues to present the agent as having autonomously resolved the mathematical problems. Operational autonomy in proof search is real; the public framing allows this narrower truth to signify the whole mathematical achievement. The acknowledged mediation does not dissolve the autonomous-machine representation.
 
-**Assessment:** strongest candidate for the fifth moment, but the interpretation of “autonomous” is decisive. Treat as a borderline case, not a confirmed diagnosis.
+### Assessment
 
-The provenance audit of #26, #741(i), #741(ii), and #125 concerns artifact identity and traceability, not kernel failure or invalidity of all results.
+AlphaProof establishes the existential claim at the level of public institutional representation. The important distinction is between **operational autonomy**—independent proof search after a formal target is supplied—and **symbolic autonomy**—the attribution of the whole mathematical achievement to the machine. The same communication chain acknowledges human problem selection, statement validation, and natural-language exposition, yet retains the autonomous-machine framing as its public description of the result. This is a positive instance of fetishistic disavowal in public discourse, not an inference about private motives.
 
-Sources: https://doi.org/10.1126/science.aej2213 ; https://arxiv.org/abs/2605.22763 ; https://math.au.dk/en/currently/news/news-item/artikel/gergely-deepmind ; https://www.eurekalert.org/news-releases/1146436 ; https://erdosproblems.ai/wiki/library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search
+The provenance audit of #26, #741(i), #741(ii), and #125 concerns the identity and traceability of particular artifacts. It is not evidence of kernel failure or, by itself, part of the fifth-moment argument.
+
+Sources:
+- https://doi.org/10.1126/science.aej2213
+- https://arxiv.org/abs/2605.22763
+- https://math.au.dk/en/currently/news/news-item/artikel/gergely-deepmind
+- https://www.eurekalert.org/news-releases/1146436
+- https://erdosproblems.ai/wiki/library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search
 
 ## 5. Liquid Tensor Experiment
 
