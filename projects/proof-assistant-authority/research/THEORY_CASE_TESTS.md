@@ -51,7 +51,7 @@ Compressed accounts may attribute the achievement to “AI + Lean,” but the pr
 
 **Assessment:** objectal displacement is not established. This case is more useful for studying how machine checking and institutional authorization combine, and how that authorization remains open to dispute.
 
-### Disavowal test
+### Fetishistic disavowal test
 The public record documents technical qualifications and the independent-checking basis, but does not show the same institutional communication chain acknowledging the precise scope and continuing to mobilize the credential as a broader guarantee. The Emmerson preprint is a public foundational challenge, not evidence of fetishistic disavowal by the certifying institutions.
 
 **Role:** layered institutional authorization and contested meaning of a formal certificate.
@@ -76,7 +76,7 @@ The mismatch shows that a valid proof of a formal declaration cannot by itself c
 
 **Assessment:** objectal displacement remains a candidate, not an established finding.
 
-### Social efficacy and disavowal
+### Social efficacy and fetishistic disavowal
 The announcement has public significance. The current source record identifies the public credential and the subsequent specification critique, but does not establish that the same actor or institutional chain acknowledged the precise mismatch and continued to mobilize Lean verification as a broader guarantee. The fifth moment is therefore a question for the communication history, not an inference from the mismatch alone.
 
 **Role:** principal case for testing the gap between formal validity and specification fidelity.
@@ -105,7 +105,7 @@ The source audit demonstrates that a published credential still requires traceab
 
 **Assessment:** mixed case; objectal displacement and social efficacy are not established.
 
-### Disavowal test
+### Fetishistic disavowal test
 The paper reports human statement validation, while the artifact audit identifies link and provenance issues. The available record does not establish that the same authors or institution acknowledged those specific issues and nevertheless continued to use the Lean credential as a broader guarantee.
 
 **Role:** statement identity, provenance, and human validation.
