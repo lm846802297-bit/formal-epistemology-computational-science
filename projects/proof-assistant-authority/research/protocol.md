@@ -1,104 +1,81 @@
 # Protocol: testing the Žižekian model across four Lean cases
 
-**Project:** *In Lean We Trust? The Ideology of Machine-Checked Proofs in Science*  
+**Project:** *In Lean We Trust?*  
 **Date:** 27 November 2026  
-**Status:** controlling empirical protocol for the first paper.
+**Status:** controlling source-based comparative protocol after anonymous referee revision.
 
 ## 1. Research question
 
-**Under what conditions does the bounded technical warrant of Lean verification acquire an ideological function as a symbolic guarantee of broader mathematical or scientific certainty within knowledge production and communication?**
+Under what conditions does the genuine but bounded warrant of Lean verification acquire an ideological function as an apparently self-sufficient guarantee of broader mathematical authority?
 
-The project studies the specific social-symbolic operation of the Lean-verification credential. It is not a general study of trust in AI or a population-level survey of public attitudes.
+The project studies the public/institutional credential “Lean-verified.” It is not a general study of AI trust or a population-level survey.
 
 ## 2. Unit of analysis
 
-A dated claim, institutional representation, or documented practice concerning a Lean-verified result, paired with:
-- the exact Lean theorem and proof artifact;
-- definitions, assumptions, dependencies, source version, and check status;
-- the intended informal theorem or scientific claim;
-- the semantic bridge and expert/institutional review;
-- the relevant public or institutional context.
+A dated public or institutional claim invoking Lean verification as part of the warrant for a mathematical result, paired with:
+- exact formal proposition and proof artifact;
+- formal environment, axioms, dependencies, and checking status;
+- intended mathematical claim and specification relation;
+- human, technical, and institutional mediation;
+- surrounding communication, qualifications, and subsequent responses;
+- any documented institutional or practical effect.
 
-A headline is not coded in isolation from its article, linked technical materials, qualifications, or later corrections.
+A headline is not coded in isolation from its article, linked technical materials, qualifications, and corrections.
 
-## 3. Primary case design
+## 3. Case selection
 
-Lean is the primary empirical object. The four cases have distinct analytical functions:
+The four cases form a purposive maximum-variation set, not a representative sample or matched-control design:
+1. Riemann hypothesis — formal certification, institutional authorization, AI-mediated exposition, and public foundational challenge.
+2. Navier–Stokes — relation between a Lean formalization and a separate natural-language proof.
+3. Erdős / AlphaProof Nexus — proof search, benchmark scope, human statement validation, and artifact provenance.
+4. Liquid Tensor Experiment — explicit definition sanity checks and visible collective labour as a counter-case.
 
-1. **Riemann hypothesis:** formal certification, expert-community authorization, AI-mediated exposition, and the distinction between machine checking and mathematical understanding.
-2. **Navier–Stokes:** formal validity versus disputed correspondence between Lean declarations and a separate natural-language proof.
-3. **Erdős / AlphaProof Nexus:** formal proof search, statement identity, artifact provenance, human validation, and institutional mediation.
-4. **Liquid Tensor Experiment:** collective mathematical labour, definition sanity checks, and visible human-machine collaboration as a counter-case.
+No additional case is to be added in this paper.
 
-Waring/GPT is a contrast case only. Coq, Isabelle/HOL, and HOL Light may appear briefly as historical context, but do not expand the empirical sample.
+## 4. Source collection
 
-## 4. Evidence collected for each case
+For each case, pair:
+- primary research paper or project announcement;
+- formal repository, exact theorem statement, and pinned commit where available;
+- technical verification report;
+- independent critique or source audit;
+- institutional endorsement, review, or response;
+- selected public representations only where they materially affect the interpretation of the credential.
 
-### Technical object
-- exact theorem statement and Lean source/repository version;
-- definitions, assumptions, imported libraries, axioms, placeholders, and dependencies;
-- kernel/build acceptance and independent checker reports;
-- reproducibility and artifact provenance.
-
-### Semantic and mathematical mediation
-- correspondence between the formal proposition and intended theorem;
-- human theorem formulation and formalization choices;
-- mathematical exposition and evidence of understanding;
-- expert scrutiny, statement validation, and review status.
-
-### Institutional and discursive mediation
-- project and institutional announcements;
-- journal and mathematical-community descriptions;
-- independent critiques and expert commentary;
-- selected third-party media accounts where they materially clarify the public representation;
-- explicit qualifications, corrections, and counter-narratives.
-
-No new population survey, interview, or experiment is required for this phase.
+The evidence cut-off is 27 November 2026. Record whether a claim is based on a primary source, independent audit, reported check, or our own source-level inspection. Do not describe source-level inspection as a repository rebuild or mathematical adjudication.
 
 ## 5. Theoretical coding
 
-The three Žižekian operations are tested across three empirical planes.
+The technical warrant is the baseline, not a positive ideology indicator.
 
-**Operations**
-- **Fantasy:** does a bounded formal check become a scene of closure for broader uncertainty?
-- **Fetishism:** does the authority generated by a collective network appear as an autonomous property of the machine?
-- **Disavowal:** do acknowledged limits coexist with continued symbolic investment in a broader guarantee?
+A strong diagnosis requires:
+- **S — Scope extension:** the credential is made to warrant more than the formal proposition and documented specification relation establish.
+- **O — Objectal displacement:** the credential appears to contain autonomous authority while the relations that make it meaningful are displaced.
+- **E — Social efficacy:** the representation plays a documented role in legitimation, recognition, credibility allocation, institutional action, or repeated practice.
 
-**Empirical planes**
-- discursive statements;
-- material-institutional procedures;
-- repeated spontaneous-practical reliance.
+Fantasy explains the scene of closure that may organize S, O, and E. Disavowal is secondary and requires explicit acknowledgement of the precise limitation plus continued broader investment within a traceable actor/institutional chain.
 
-The Big Other and the absence of a final guarantor are structural background, not a separate case-level mechanism. Hardwig supplies a normative baseline for warranted epistemic dependence; Lacan supplies supporting concepts within the Žižekian framework.
-
-## 6. Rival explanations and coding safeguards
+## 6. Rival explanations
 
 Consider:
 - accurate technical shorthand;
 - genre conventions and headline compression;
-- explicit qualifications elsewhere in the same communication chain;
-- legitimate reliance on expert testimony and a trusted kernel;
-- visible human contribution and semantic audit;
-- institutional reputation;
-- corrections or later clarification.
+- explicit qualifications elsewhere in the communication chain;
+- legitimate reliance on a trusted kernel or expert testimony;
+- visible semantic review and human validation;
+- institutional endorsement that accurately reports scope;
+- correction or withdrawal after a discrepancy is identified.
 
-Do not infer unconscious motives, audience beliefs, or cynical intent from a single text. Distinguish representations and documented institutional practices from population-level reception.
+Do not infer unconscious motives or audience beliefs from public texts.
 
 ## 7. Stopping rule
 
-The first-paper case phase is complete when:
-1. each of the four cases has a pinned formal artifact and dated primary account;
-2. the exact relation between formal statement and intended claim is recorded;
-3. the collective technical, semantic, and institutional mediation is mapped;
-4. each Žižekian operation is tested against supporting evidence, counter-evidence, and rival explanations;
-5. the evidence threshold for the central diagnosis is applied consistently.
+The case phase is complete when:
+1. each case has a dated primary account and identifiable formal artifact;
+2. the formal proposition and intended claim are paired;
+3. specification and provenance issues are recorded;
+4. the three diagnostic requirements are tested separately;
+5. counter-evidence and rival explanations are included;
+6. no case is assigned a stronger diagnosis than its evidence supports.
 
-Once these conditions are met, proceed to manuscript drafting. Do not add new mathematical cases, proof-assistant families, or general AI-trust studies.
-
-## 8. Out of scope
-
-- a new population survey or experimental study;
-- a general theory of AI epistemic authority;
-- AI consciousness or moral agency;
-- a multi-system proof-assistant comparison;
-- claims about unconscious motives or public belief unsupported by direct evidence.
+Once these conditions are met, proceed to manuscript writing and final citation review. Do not expand the case sample or add a population survey.
