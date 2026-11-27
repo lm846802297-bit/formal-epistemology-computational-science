@@ -31,7 +31,7 @@ The prose should remain academically precise, but the order of presentation is g
    - Liquid Tensor: semantic risks are explicitly acknowledged and answered through public sanity checks, providing a counter-practice.
 
 6. **The Ideological Function of Mathematical Certainty**  
-   Compare how the five moments appear across the cases. Use AlphaProof Nexus to establish the existential case for fetishistic disavowal in public institutional representation; distinguish operational proof-search autonomy from the symbolic attribution of the whole mathematical achievement. The central finding is that public acknowledgement of human mediation does not necessarily dissolve symbolic investment in machine autonomy. Then locate the contribution against Vallverdú, Kallel–El Louadi, López-Corona, Erfani, Hourigan, and Omodeo.
+   Compare how the five moments appear across the cases. Use AlphaProof Nexus to establish the existential case for fetishistic disavowal in public institutional representation; distinguish operational proof-search autonomy from the symbolic attribution of the whole mathematical achievement. The fifth-stage finding is that acknowledgement of human mediation does not necessarily dissolve symbolic investment in machine autonomy. The central finding is that public acknowledgement of human mediation does not necessarily dissolve symbolic investment in machine autonomy. Then locate the contribution against Vallverdú, Kallel–El Louadi, López-Corona, Erfani, Hourigan, and Omodeo.
 
 7. **Conclusion**  
    Return to the opening paradox and state the final philosophical judgement.
