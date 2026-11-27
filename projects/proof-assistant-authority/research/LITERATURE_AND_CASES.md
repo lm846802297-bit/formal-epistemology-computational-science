@@ -341,7 +341,7 @@ The exact primary-text locators and the formal comparative review are now record
 
 Important source corrections:
 - Žižek's *Sublime Object* printed pages: commodity fetishism pp. 19–20; cynical reason/Sloterdijk pp. 24–27; ideological fantasy pp. 28–31 (especially p. 30); Big Other pp. 78–80 and 102–105; ideological guarantee pp. 109–110; barred Other/fantasy pp. 136–138.
-- Lacan's “There is no Other of the Other” is in Seminar VI, session 8 April 1959, Chapter XVI. In Bruce Fink's published English translation (Polity 2019), Chapter XVI begins p. 291 and the key passage is p. 353; in the 2013 French edition it is p. 108. It must not be assigned to Seminar XVI or XX.
+- Lacan's “There is no Other of the Other” is in Seminar VI, session 8 April 1959, Chapter XVI. In Bruce Fink's published English translation (Polity 2019), Chapter XVI begins p. 291 and spans pp. 291–305; the exact page of the key sentence has not been independently verified. In the 2013 French edition it is p. 108; Gallagher's working translation locates it at typescript p. 206. It must not be assigned to Seminar XVI or XX.
 - Lacan's subject-supposed-to-know is treated in Seminar XI, Chapter XVIII, pp. 230–235; the key formula is on p. 232. This is a transference concept and is not synonymous with the Big Other.
 - Marx's commodity-fetishism section is cited by the stable locator Capital I, Chapter 1, §4; page numbers are not supplied until the exact translation/edition is fixed.
 
