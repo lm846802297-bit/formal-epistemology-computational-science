@@ -24,7 +24,7 @@ The ideological fetishism of formal verification is the objectal displacement th
 
 ## Theoretical division of labour
 
-- **Žižek:** core framework — ideological fantasy and fetishism; disavowal as secondary.
+- **Žižek:** core framework — ideological fantasy and fetishism; fetishistic disavowal as the mechanism through which symbolic investment may be reproduced after acknowledged limits.
 - **Marx and Lacan:** theoretical sources internal to the Žižekian framework.
 - **Hardwig:** normative baseline for justified epistemic dependence.
 - **Vallverdú and Kallel–El Louadi:** technical warrant baseline; their component distinctions are not claimed as original.
@@ -37,7 +37,7 @@ Technical warrant is the baseline. A strong diagnosis requires:
 - O — objectal displacement;
 - E — social efficacy.
 
-The diagnostic form is S ∧ O ∧ E. Disavowal is tested separately and requires actor-level evidence.
+The diagnostic form is S ∧ O ∧ E. Fetishistic disavowal is tested separately as a reproductive mechanism and requires evidence linking explicit boundary knowledge to continued broader investment within the same actor or institutional communication chain.
 
 ## Primary cases
 
