@@ -17,7 +17,7 @@
 
 **Contrast case:** Waring's problem — GPT-6.2 Astra-attributed mathematical preprint without a Lean certificate documented at the cut-off. It is used only to distinguish AI-generated mathematical claims from Lean-certified claims, not as a fifth co-equal Lean case.
 
-**Theoretical orientation:** Žižek's critique of ideology is the central and original philosophical framework: ideological fantasy, epistemic fetishism, and the Big Other as a symbolic guarantee that does not ultimately exist. Hardwig and social epistemology are supporting interlocutors used to distinguish justified dependence from ideological enlargement. Lacan's concepts clarify the symbolic structure; they are not diagnoses of software or individual researchers.
+**Theoretical orientation:** Žižek's critique of ideology is the central framework. The main mechanisms are ideological fantasy, fetishism/reification, and disavowal (with cynical and fetishistic forms distinguished). The central hypothesis is the ideological fetishism of formal verification: a genuine, bounded machine check may be invested with the symbolic function of guaranteeing broader scientific certainty. Hardwig supplies a normative baseline for justified epistemic dependence; Lacan's subject-supposed-to-know and the missing Big Other are supporting concepts, not competing frameworks.
 
 **Relation to the EJPS paper:** The EJPS manuscript supplies a normative baseline for how a checked result can legitimately support a further claim. This project studies how Lean verification and its scope are represented across science and society. It does not revise the EJPS manuscript.
 
@@ -36,6 +36,7 @@
 - [Theoretical model: mediated verification authority](research/THEORETICAL_MODEL.md)
 - [Theory of certainty and symbolic guarantee](research/THEORY_OF_CERTAINTY_AND_SYMBOLIC_GUARANTEE.md)
 - [Žižekian core argument](research/ZIZEKIAN_CORE_ARGUMENT.md)
+- [Revised controlling theoretical framework](research/REVISED_THEORETICAL_FRAMEWORK.md)
 - [Primary-text reading and theoretical chapter plan](research/PRIMARY_TEXT_READING_AND_ARGUMENT.md)
 - [Formal literature review and originality boundary](research/LITERATURE_REVIEW_AND_NOVELTY.md)
 - [Lean-centered four-case source audit](research/LEAN_CASE_STUDY_AUDIT.md)
