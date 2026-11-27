@@ -39,6 +39,7 @@
 - [Primary-text reading and theoretical chapter plan](research/PRIMARY_TEXT_READING_AND_ARGUMENT.md)
 - [Formal literature review and originality boundary](research/LITERATURE_REVIEW_AND_NOVELTY.md)
 - [Lean-centered four-case source audit](research/LEAN_CASE_STUDY_AUDIT.md)
+- [Updated source-level case audit (27 Nov 2026)](research/CASE_AUDIT_UPDATE_2026-11-27.md)
 - [Public-text study protocol](research/protocol.md)
 - [Coding guide](research/codebook.md)
 - [Evidence register](evidence/register.tsv)
