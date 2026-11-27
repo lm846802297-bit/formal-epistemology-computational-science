@@ -157,3 +157,6 @@ Static source comparison of the pinned AlphaProof result files with the paper's 
 
 ### Liquid Tensor
 Topaz's 14 October 2022 post explicitly addresses whether the formal definitions are correct and documents readable sanity-check examples for mathematicians with minimal Lean experience. This strengthens the case as a counter-example to autonomous machine authority.
+### Additional #741(ii) provenance finding
+
+The arXiv v2 Appendix B.4 link for Erdős #741(ii) points to `erdos_12.parts.ii.lean`, a Lean file for Problem 12, rather than a #741(ii) file. The Problem 741 page and static audit identify the correct #741(ii) formalization in Formal Conjectures. Together with the #741(i) exact-density/upper-density mismatch, this means both part-specific Lean links in the preprint are problematic. The appropriate proofs exist elsewhere; this is a source-citation and artifact-provenance problem, not evidence that the results themselves are false. See [CASE_AUDIT_UPDATE_2026-11-27.md](CASE_AUDIT_UPDATE_2026-11-27.md).
