@@ -272,3 +272,48 @@ Carola Manolino and Cécile Ouvrier-Buffet, “Proof Assistants at the Interplay
 **Defensible contribution:** a Žižekian analysis of how genuine local machine-checking reliability can be invested with broader scientific authority; how collective epistemic labour may be displaced into the apparent autonomy of the checker; and how the symbolic investment may persist despite acknowledged limitations.
 
 The project does not claim to be the first Žižekian critique of technology, the first social epistemology of proof assistants, the first account of formal/semantic mismatch, or the first use of the phrase “epistemic fetishism.”
+
+
+## 15. Revised literature positioning after anonymous review (27 November 2026)
+
+### 15.1 Jordi Vallverdú (2026): warrant architecture
+
+Jordi Vallverdú, “Where Does Mathematical Warrant Live? From the Four-Color Theorem to Mass-Released AI ‘Results’,” *Philosophies* 11(6) (2026), article 224, DOI: 10.3390/philosophies11060224, published 17 November 2026.
+
+Vallverdú’s Locus Thesis argues that properties such as reliability, surveyability, transferability, and explanatory power belong primarily to components of a warrant architecture, and that properties of the whole require explicit composition rules. His architecture includes the intended claim, object-level statement, justificatory object, checking procedure, trusted base, error profile, allocation of epistemic functions, replication routes, and selection profile.
+
+**Consequence for this paper:** the distinction between a formal proposition, proof object, checker, trusted base, and specification relation is not claimed as original. The revised manuscript adopts this component-based account as its technical baseline. Its question is different: when does the credential associated with one component become an apparently autonomous bearer of wider authority, and what legitimating function does that representation perform?
+
+### 15.2 Oliver López-Corona (2026): studio mathematics and human-machine assemblages
+
+Oliver López-Corona, “From Authorial Mathematics to Studio Mathematics: Ecobiontic Forms of Proof after Large Language Models,” arXiv:2608.22194 (2026), DOI: 10.48550/arXiv.2608.22194.
+
+This preprint analyzes proof production as a human-machine assemblage involving LLMs, proof assistants, formal libraries, repositories, provenance, human understanding, challenge rights, and public responsibility.
+
+**Consequence for this paper:** distributed mathematical labour and human-machine assemblages are not claimed as original. The revised article takes the visibility and governance of such labour as empirical context and asks how the authority generated through these relations may appear to reside autonomously in the Lean-verification credential.
+
+### 15.3 Farhang Erfani (2026): ideological functions of AI
+
+Farhang Erfani, “Not ‘Just a Language Model’: AI’s Ideological Functions,” *AI & Society* 41 (2026): 869–881, DOI: 10.1007/s00146-025-02623-0.
+
+Erfani directly examines ideological functions of AI systems, including infrastructure, normalization, subjectification, opacity, and pastiche.
+
+**Consequence for this paper:** the article does not claim to be the first ideology critique of AI. Its object is narrower: the symbolic and institutional function of the credential “Lean-verified” in mathematical knowledge production.
+
+### 15.4 Revised relation to Kallel and El Louadi (2026)
+
+Kallel and El Louadi, “Verification Abundance, Adjudication Scarcity” (arXiv:2608.28997), distinguish derivational validity, representational fidelity, and epistemic significance, and argue that abundant machine checking transfers rather than eliminates the need for expert adjudication.
+
+**Consequence:** the present article does not claim this distinction as original. It asks whether the credential for derivational checking can become an objectal bearer of authority beyond the warrant architecture.
+
+### 15.5 Revised relation to Hourigan (2009), Omodeo (2019), and Erfani (2026)
+
+Hourigan already applies Žižek to technological fetishization and knowledge production. Omodeo develops a broader political epistemology of ideology in science studies. Erfani analyzes ideological functions of AI systems. The present article therefore makes no “first Žižekian critique of technology” or “first ideology critique of AI” claim.
+
+### 15.6 Defensible originality statement
+
+The defensible contribution is:
+
+> A Žižekian diagnostic account of how the genuine but bounded warrant of Lean verification may acquire a wider symbolic function, by examining when the credential “Lean-verified” is made to stand for a broader mathematical claim, when its authority appears autonomous from the relations that make it meaningful, and when this representation has a documented legitimating effect.
+
+This claim is narrower than a general theory of machine trust or social epistemology. It concerns the objectal and legitimating function of a specific technical credential.
