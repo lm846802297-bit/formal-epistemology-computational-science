@@ -1,6 +1,6 @@
 # Journal Selection and Submission Plan
 
-**Review date:** 2026-11-26  
+**Last updated:** 2026-11-27  
 **Primary target:** European Journal for Philosophy of Science (EJPS)  
 **Publication-cost constraint:** no author-paid APC or mandatory publication fee.
 
@@ -74,16 +74,15 @@ The journal is Diamond Open Access and has no author fees. It was founded in 202
 - Preserved exact commit hashes for all three formalization projects.
 - Retained the 206-word abstract and six keywords, which meet the EJPS ranges.
 
-## 4. Remaining acceptance criteria before submission
+## 4. Submission record and post-submission items
 
-1. Author verifies every primary-source and repository claim and approves the final text.
-2. Complete DOI and bibliographic metadata audit, including software-artifact author attribution.
-3. Add the final AI-use disclosure after author review.
-4. Prepare anonymized manuscript and separate title page.
-5. Convert the manuscript to the EJPS LaTeX/Word submission format.
-6. Confirm the final word count and 4–6 keywords.
-7. Confirm the subscription publication route after acceptance; no APC or paid Open Choice option.
-8. Do not submit to another journal simultaneously.
+**Submission completed:** EJPS received the manuscript on 2026-11-27 and confirmed receipt. Manuscript ID: **EPSA-D-26-00900**. The submitted anonymous source is pinned to branch `research/ejps-claim-relative-warrant`, commit `7101c7685b147d7b6e9e067fae851b41d35bd94c`.
+
+Post-submission items:
+1. Complete the 27-item author-led source verification checklist in `submission/AUTHOR_SOURCE_VERIFICATION_CHECKLIST.md`; this remains an author task and is not marked complete.
+2. Monitor the EJPS editorial status and record any editor decision or reviewer reports when received.
+3. If accepted, select the subscription publication route; do not select Open Choice/APC under the no-author-fee requirement.
+4. Do not submit the manuscript to another journal while it remains under consideration at EJPS.
 
 ## 5. Decision
 
@@ -105,6 +104,6 @@ https://link.springer.com/journal/13194/submission-guidelines
 - Do not use subfolders in the uploaded LaTeX source package.
 - LLM use must be documented in Methods or a suitable alternative part of the manuscript.
 
-The current manuscript has 206 abstract words, six keywords, and approximately 7,061 main-text words excluding abstract and references. The 23-item author source checklist, AI declaration draft, blind LaTeX source, and separate Title Page template are prepared under `submission/`. All 23 source checks and AI disclosure approval remain pending author action.
+The submitted manuscript has 206 abstract words, six keywords, and approximately 7,061 main-text words excluding abstract and references. The anonymous manuscript and separate Title Page were uploaded to EJPS. The AI-use disclosure was author-confirmed and included in the submitted materials. The 27-item author source checklist remains pending author action.
 
-The official Springer Nature template archive was identified but could not be downloaded into the current container because outbound DNS/network access is unavailable. PDFLaTeX and latexmk are installed, but `sn-jnl.cls` is not installed locally. The source is therefore prepared but not compiled; no PDF build or visual inspection is claimed.
+The official Springer Nature template was obtained; the anonymous source was compiled locally with `sn-jnl.cls` and PDFLaTeX, producing a 21-page PDF with no LaTeX/package warnings or overfull boxes in the final run. The PDF was inspected for formula/citation/reference presentation and anonymization. EJPS confirmed receipt on 2026-11-27. The receipt is not an editorial decision.
