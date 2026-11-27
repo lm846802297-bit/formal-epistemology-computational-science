@@ -1,6 +1,6 @@
 # Essayistic manuscript structure — *In Lean We Trust?*
 
-**Working title:** *The Ideological Fetishism of Formal Verification: A Žižekian Critique of the Lean-Verification Credential in Mathematical Knowledge Production*  
+**Title:** *In Lean We Trust? The Ideology of Machine-Checked Proofs in Science*  
 **Current essayistic draft:** `IN_LEAN_WE_TRUST_ESSAYISTIC_DRAFT.md`  
 **Date:** 27 November 2026
 
