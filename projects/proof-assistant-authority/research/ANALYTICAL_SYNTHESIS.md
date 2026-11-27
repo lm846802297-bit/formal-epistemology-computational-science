@@ -160,3 +160,15 @@ The proposed contribution is therefore a two-part account:
 - **Critical:** when does the public or institutional representation of that reliance make the machine appear to guarantee more than the verified proposition warrants?
 
 The present evidence supports the architecture of this model, but not yet a population-level causal claim that machine verification increases public trust.
+ 
+## 10. Lean-centered scope decision (27 November 2026)
+
+The empirical analysis is centered on Lean rather than distributed evenly across proof-assistant systems. The four primary cases are:
+1. Riemann hypothesis — Claude-assisted discovery and Lean formal verification.
+2. Navier–Stokes — OpenAI multi-agent discovery and Lean formalization, with a dispute about semantic correspondence to the written proof.
+3. Erdős problems — AlphaProof Nexus proof search and Lean verification, with expert validation of formal statements.
+4. Liquid Tensor Experiment — historical Lean case of formal checking and human mathematical scrutiny.
+
+Waring/GPT-6.2 Astra is a contrast case only: it concerns AI-generated mathematical work without a Lean certificate documented at the cut-off. Coq, Isabelle/HOL, and HOL Light remain historical or conceptual comparators, not parallel case families.
+
+This decision sharpens the paper's question. Rather than asking broadly whether proof assistants acquire authority, the paper asks how **Lean**, as a highly visible formal verification environment in current AI-assisted mathematics, becomes a public credential of scientific reliability. The wider social question remains unchanged: how ordinary audiences understand the relation among AI discovery, Lean checking, expert judgment, institutional recognition, and scientific truth.
