@@ -82,27 +82,29 @@ Primary sources:
 
 ### Evidence across the five moments
 
-- **M1, real technical reliability:** the system generates formal proof terms and Lean checks them. The article describes Lean-based verification after each proof-search turn and publicly shared formal artifacts.
-- **M2, distributed epistemic labour:** the workflow includes subagents, language models, AlphaProof, evolutionary search, Lean, formal-conjectures, mathematical libraries, and human validation. The article explicitly states that after each Erdős solve, experts validated that the Lean statement faithfully captured the original conjecture. Its author-contribution statement records human roles in problem selection, validation of generated solutions, and writing natural-language proofs.
-- **M3, credential condensation:** the abstract and Table 1 describe the agent as having “autonomously resolved” nine of 353 formalized Erdős-problem statements. This compresses a complex human–machine research process into a portable autonomy formulation.
-- **M4, objectal displacement:** the agent is the grammatical and public subject of “resolution,” while human contributions appear as problem selection, validation, and exposition. Aarhus University's institutional report identifies these human roles but retains the autonomous-resolution framing. The machine becomes the apparent bearer of the achievement.
-- **M5, fetishistic disavowal: affirmative public-discourse case.** The same research and institutional communication chain explicitly acknowledges human and semantic mediation yet continues to present the agent as having autonomously resolved the problems. The narrow operational meaning of autonomy—independent proof search after a formal target is supplied—is real; the public attribution allows it to signify the resolution of the mathematical problems as a whole.
+- **M1, real technical reliability:** the agent generates formal proof terms and Lean checks them. The *Science* abstract reports nine successes among 353 open Erdős problems; the denominator refers to formalized statements in the Formal Conjectures repository.
+- **M2, distributed epistemic labour:** after each solve, experts validated that the Lean statement faithfully captured the original conjecture. The author-contribution statement records human roles in problem selection, validation of generated solutions, and writing natural-language proofs. Aarhus University's report identifies Bérczi's role in selecting suitable problems, validating solutions, and co-writing natural-language proofs.
+- **M3, credential condensation:** the *Science* abstract and Table 1 describe the agent as having “autonomously resolved” the problems; Aarhus University's headline and opening account repeat this formulation.
+- **M4, objectal displacement:** the agent is the grammatical subject of “resolved,” and the open mathematical problem is its object. Human labour is acknowledged but positioned as selecting, validating, and explaining around the machine's central act.
+- **M5, fetishistic disavowal: affirmative public-discourse case.** The same research and institutional communication chain acknowledges human and semantic mediation yet continues to present the agent as having autonomously resolved the mathematical problems. The narrow operational meaning of autonomy—proof search after a formal target is supplied—is real; the public attribution allows it to signify the problem-level achievement.
 
 ### S–O–E assessment
 
-- **S — Scope extension:** “autonomously resolved open problems” can extend from autonomous proof search on supplied formal targets to the resolution of the mathematical problems as a whole, including problem selection and validation of the formal statement against the original conjecture.
-- **O — Objectal displacement:** the machine is the public and grammatical bearer of the achievement, while human work is acknowledged but positioned as supporting and validating activity.
-- **E — Social efficacy:** the autonomy formulation appears in the *Science* abstract and table and in the university's official headline and institutional report. It functions as the portable public description through which the achievement is announced and recognized.
+- **S — Agency-attribution extension (S_a):** autonomy in formal proof search is publicly attributed as autonomy in resolving the mathematical problem itself. The shift is from “the agent autonomously searches for and generates a Lean proof” to “the agent autonomously resolved open mathematical problems.” This is not a claim that the theorem is invalid or that the formal statement lacks expert validation.
+- **O — Objectal displacement:** the machine is the grammatical and symbolic bearer of “resolution,” while human work is acknowledged but positioned as selection, validation, and exposition around the machine's central achievement.
+- **E — Social efficacy:** the formulation appears in the *Science* abstract and Table 1 and in Aarhus University's official headline and opening account. It functions as the portable public description through which the achievement is announced and institutionally recognized.
 
 ### Assessment
 
-This case establishes the existential claim at the level of public institutional representation. The key distinction is between operational autonomy in proof search and symbolic autonomy in the public attribution of the whole mathematical achievement. The same communication chain acknowledges human problem selection, statement validation, and natural-language exposition, yet retains the autonomous-machine framing. The narrow operational reading remains true; it does not exhaust the public function of the broader attribution. This is a positive instance of fetishistic disavowal in public discourse, not an inference about private motives.
+The case turns on the public wording's grammatical object and attribution of agency. The technical operation is autonomous proof search over formalized targets, with Lean checking the resulting proof terms and experts validating that the formal statements correspond to the original conjectures. The public description makes the agent the subject of “resolved” and open mathematical problems its object. The institutional report repeats this formulation while explicitly identifying the mathematician's role in problem selection, solution validation, and natural-language exposition. Thus, the agent is not merely credited with generating proofs; it is publicly named as the solver of the mathematical problems, while human contribution is placed in a supporting and validating position.
 
-The provenance audit of #26, #741(i), #741(ii), and #125 concerns the identity and traceability of particular artifacts. It is not evidence of kernel failure or, by itself, of disavowal.
+The narrow operational reading of “autonomous” remains true. The ideological effect lies in the public attribution of the whole achievement to the machine, not in a denial that the proof search was autonomous. This is a positive instance of fetishistic disavowal as a structure of public representation, not an inference about private motives. It establishes the existential claim without implying that all formalization projects exhibit the same structure.
+
+The provenance audit of #26, #741(i), #741(ii), and #125 concerns artifact identity and traceability. It is not evidence of kernel failure or, by itself, of disavowal.
 
 Primary sources:
 - https://doi.org/10.1126/science.aej2213
-- https://math.au.dk/aktuelt/nyheder/nyhed/artikel/gergely-deepmind
+- https://math.au.dk/en/currently/news/news-item/artikel/gergely-deepmind
 - https://arxiv.org/abs/2605.22763
 - https://erdosproblems.ai/wiki/library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search
 
@@ -134,8 +136,9 @@ Primary sources:
 | AlphaProof Nexus | Strong formal check | Explicit human validation | Strong autonomy framing | Supported at public-discourse level | Affirmative existence case |
 | Liquid Tensor | Strong formal check | Highly visible | Present | Counter-practice | Not established |
 
-The evidence supports a refinement of the model:
+The evidence supports a refinement of the diagnostic architecture, not a change to the five-moment model:
 
+- Scope extension has two forms: warrant-scope extension (S_w) and agency-attribution extension (S_a). AlphaProof is analyzed under S_a; the case does not allege that its mathematical results lack warrant.
 - The first two moments are enabling conditions, not sufficient causes.
 - Credential condensation is a communicative transformation, not yet fetishism.
 - Objectal displacement is the specifically fetishistic conversion and must be assessed through S, O, and E.
