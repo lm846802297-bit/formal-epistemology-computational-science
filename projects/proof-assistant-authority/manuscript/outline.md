@@ -27,11 +27,11 @@ The prose should remain academically precise, but the order of presentation is g
 5. **Four Encounters with Formal Verification**  
    - Riemann: composite institutional certification, with the warrant network explicitly visible.
    - Navier–Stokes: distinguish theorem-statement fidelity from proof-route correspondence; do not infer actor-level disavowal from an external critique.
-   - Erdős / AlphaProof Nexus: the strongest borderline case, where human statement validation coexists with autonomy language.
+   - Erdős / AlphaProof Nexus: the positive existence case for public-discourse fetishistic disavowal, where explicit human validation and natural-language exposition coexist with continued autonomous-machine framing.
    - Liquid Tensor: semantic risks are explicitly acknowledged and answered through public sanity checks, providing a counter-practice.
 
 6. **The Ideological Function of Mathematical Certainty**  
-   Compare how the five moments appear across the cases. Explain why AlphaProof is a borderline rather than decisive instance of fetishistic disavowal, and why rational reliance and transparent semantic validation must be distinguished from fetishistic investment. Then locate the contribution against Vallverdú, Kallel–El Louadi, López-Corona, Erfani, Hourigan, and Omodeo.
+   Compare how the five moments appear across the cases. Use AlphaProof Nexus to establish the existential case for fetishistic disavowal in public institutional representation; distinguish operational proof-search autonomy from the symbolic attribution of the whole mathematical achievement. Then locate the contribution against Vallverdú, Kallel–El Louadi, López-Corona, Erfani, Hourigan, and Omodeo.
 
 7. **Conclusion**  
    Return to the opening paradox and state the final philosophical judgement.
