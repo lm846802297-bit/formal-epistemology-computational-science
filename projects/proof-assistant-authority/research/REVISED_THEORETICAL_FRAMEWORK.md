@@ -2,7 +2,7 @@
 
 **Project:** *In Lean We Trust? The Ideology of Machine-Checked Proofs in Science*  
 **Date:** 27 November 2026  
-**Status:** controlling theoretical framework. This document supersedes earlier formulations that placed the Big Other or the subject-supposed-to-know on an equal footing with Žižek's critique of ideology.
+**Status:** controlling conceptual framework. The operational model, diagnostic thresholds, and four-case tests are specified in THEORETICAL_MODEL.md and THEORY_CASE_TESTS.md. This document supersedes earlier formulations that placed the Big Other or the subject-supposed-to-know on an equal footing with Žižek's critique of ideology.
 
 ## 1. The paper's exact object
 
@@ -75,16 +75,31 @@ The distinction is:
 
 An instance of justified reliance is not automatically ideological fetishism. The Žižekian analysis must identify an additional representational or practical mechanism beyond ordinary expert dependence.
 
-## 6. The central mechanism: how formal verification becomes an ideological practice
+## 6. The central mechanism: conditions and ideological operations
 
-1. **Technical operation:** Lean checks a proof term against a formal proposition in a specified environment.
-2. **Epistemic mediation:** human researchers choose the proposition, definitions, assumptions, and formalization; experts assess its intended meaning and significance.
-3. **Institutional authorization:** research groups, universities, journals, and mathematical communities certify, publish, or qualify the result.
-4. **Public representation:** announcements and media accounts select and compress elements of this process, often foregrounding the machine-checking result.
-5. **Ideological investment:** the visible check may function as a symbol of objective certainty beyond its strictly formal scope.
-6. **Disavowal / fetishistic persistence:** even when the limits are known, the verification object may continue to carry the promise of a wider guarantee.
+The operational model is not a deterministic six-stage sequence. It distinguishes the material conditions that make formal verification meaningful from the ideological operations that may enlarge its authority.
 
-This is a model to test, not a deterministic sequence. The process may also be resisted: explicit semantic audits, visible collective authorship, precise scope statements, and independent criticism can prevent or contest the enlargement of the credential.
+**Conditions of possibility**
+- Lean supplies a genuine, bounded technical warrant.
+- The result depends on collective mathematical, formal, technical, semantic, and institutional mediation.
+- No single technical or institutional credential provides a final guarantee of every level of scientific knowledge.
+- Experts and institutions connect the formal artifact to the intended mathematical claim and its significance.
+
+**Three ideological operations**
+1. **Fantasy:** the local check can stage a scene in which wider scientific uncertainty appears to reach closure.
+2. **Fetishism:** the network that makes the check meaningful can appear as an autonomous property of the machine.
+3. **Disavowal:** if the relevant limits are acknowledged, the broader symbolic investment may nevertheless persist. This is conditional and requires additional evidence.
+
+Fantasy and fetishism are mutually reinforcing analytical dimensions, not consecutive stages. Disavowal is not necessary for every instance of fetishism.
+
+**Three empirical planes**, following Žižek's “The Spectre of Ideology,” organize the case evidence:
+- explicit discourse and claims;
+- material-institutional procedures and apparatuses;
+- repeated spontaneous-practical reliance.
+
+A strong diagnosis requires an identified local technical warrant, a demonstrable scope enlargement, displacement of collective mediation into apparent machine autonomy, and repeated or institutionally consequential practice. Ordinary shorthand, context-preserving qualifications, visible human work, and semantic audits count as counter-evidence.
+
+See THEORETICAL_MODEL.md for the complete derivation, evidence threshold, and falsification criteria.
 
 ## 7. Empirical focus and case logic
 
