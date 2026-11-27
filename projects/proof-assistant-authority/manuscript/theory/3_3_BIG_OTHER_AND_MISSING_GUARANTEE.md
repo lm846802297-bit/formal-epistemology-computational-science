@@ -43,7 +43,7 @@ But Lean's guarantee remains internal and conditional: it certifies a proof term
 
 The paradox is not that Lean is unreliable. The paradox is that the stronger and more reproducible a local guarantee becomes, the more tempting it may be to treat it as a guarantee of the whole epistemic order.
 
-The Riemann case tests this proposition because extensive independent checking coexists with the absence of a complete human read-through and a conventional explanatory paper at the relevant date. The Navier–Stokes case tests it because kernel acceptance of formal declarations does not settle their correspondence to a separate natural-language proof. The Erdős case tests it in the opposite direction: the published account makes the formal benchmark, human statement validation, and need for expert review relatively visible. The Liquid Tensor case shows how Lean's authority can be embedded in a transparent collaborative network.
+The Riemann case tests this proposition because extensive independent checking and an expert-community certification now coexist with a substantial mathematical exposition written by several AI models and cross-checked. The exposition makes the proof more legible, but its AI authorship and the community's invitation for further mathematical explanation remain relevant to the distinction between formal certification, explanation, and human mathematical understanding. The Navier–Stokes case tests it because kernel acceptance of formal declarations does not settle their correspondence to a separate natural-language proof. The Erdős case tests it in the opposite direction and also exposes the fragility of artifact correspondence: the published account describes human statement validation, while a source-level audit found that the linked Lean files for some cited results do not exactly match the corresponding prose statements. Liquid Tensor provides the clearer counter-case, since its community explicitly developed definition sanity checks for mathematical readers. The Liquid Tensor case shows how Lean's authority can be embedded in a transparent collaborative network.
 
 ## 6. The ideological function of the missing guarantee
 
@@ -56,3 +56,6 @@ Applied to Lean, the hypothesis is that the machine-checked proof can become a v
 **Lean can acquire symbolic authority not because it is the Big Other, but because it can be positioned as a technical credential within a scientific order that seeks a final guarantor. The Lacanian point is that no such final guarantor exists: the formal check is real and valuable, but its authority remains conditional on semantic, human, and institutional relations that cannot be closed by the kernel itself.**
 
 This argument must not be used to dismiss warranted trust in formal verification. It explains the symbolic function that a genuine technical guarantee may acquire, and it remains open to cases in which public communication preserves the limits of that guarantee.
+
+
+**Updated source audit:** see [CASE_AUDIT_UPDATE_2026-11-27.md](../../research/CASE_AUDIT_UPDATE_2026-11-27.md) for the Riemann exposition, AlphaProof file mismatches, and exact Navier–Stokes source comparisons.
