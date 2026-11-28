@@ -33,6 +33,8 @@ These are contrastive cases, not a statistically representative sample. Time-spe
 - coding-framework.md: common codebook and decision rules.
 - theory-evidence-map.md: theoretical claims, supporting evidence, counter-evidence and inference limits.
 - collection-log.md: dated research activity and unresolved retrieval tasks.
+- `github-event-participation-edges.csv`: 78 actor-event links expanded from 46 selected documentary events; roles are deliberately unresolved where source metadata does not establish them.
+- `github-pr-review-sample.csv`: 23 selected PR metadata and review snapshots across RH, LTE and AlphaProof/Formal Conjectures.
 
 ## Evidence hierarchy
 
