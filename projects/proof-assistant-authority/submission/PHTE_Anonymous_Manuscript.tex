@@ -1,0 +1,166 @@
+\documentclass[pdflatex,sn-apa]{sn-jnl}
+\usepackage{fontspec}
+\usepackage{amsmath,amssymb,amsfonts,mathrsfs}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{xurl}
+\usepackage{enumitem}
+\setlength{\parindent}{0.5in}
+\setlength{\parskip}{0pt}
+\setcounter{secnumdepth}{3}
+\raggedbottom
+\vbadness=10000
+\hypersetup{pdftitle={In Lean We Trust? The Ideology of Machine-Checked Proofs in Science},pdfauthor={},pdfsubject={Anonymous manuscript for double-blind review}}
+\begin{document}
+\title{In Lean We Trust? The Ideology of Machine-Checked Proofs in Science}
+\abstract{Machine checking does not simply make a proof look authoritative. In an organized workflow it can stop a search, admit a proof to a shared archive, and create a result that others can reuse. This paper argues that the very arrangements giving a verification verdict this practical force can also make a collective accomplishment appear to be the independent power of a certified artifact. To distinguish that appearance from ordinary delegation, I compare two hypothetical registers that use the same verifier and acknowledge the same division of labour. Only one lets a correction to the interpretation of the target change whether an accepted proof counts as a solution to the original question. The difference identifies what is disavowed in practice: not the existence of interpretive labour, but its force over a decision that depends on it. The record of Erdős problem \#741(i) shows what is at stake: two accepted artifacts concern different propositions, a preprint points to the wrong one, and a public register distinguishes the earlier variant from the later full solution. Liquid Tensor provides a contrast in which a concern about definitions generates a separate mathematical check. The conclusion is not to weaken machine checking, but to prevent verification authority from making problem-level recognition immune to relevant correction.}
+
+\keywords{formal verification, mathematical practice, ideology critique, fetishistic disavowal, epistemic authority, Lean}
+\maketitle
+\doublespacing
+
+\section{Introduction}
+
+The same agent produced opposite answers to two versions of Erdős problem \#741(i). On the first reading, density had to exist as a limit, and the answer was negative. On the second, positive upper density sufficed, and the answer was affirmative. The proof checker did not reverse its verdict on a proof. Work on the problem changed which proposition it was necessary to prove. A public register distinguishes the first version from the second; a link in a research preprint does not. These are decisions about what a proof counts as, not rival judgments about the correctness of one derivation.
+
+This article argues that formal verification \emph{constitutes} a real form of success without constituting every form of mathematical success. Acceptance can end a search, admit an artifact, and make it available for reuse. Those are practical powers, not impressions produced by a headline. The question is what happens when the same credential is used to close a question or assign credit for resolving it. I distinguish three decisions: accepting a derivation of a specified proposition, recognizing an answer to an intended problem, and assigning credit for the work that produced that answer. They can be made together. Their grounds and their conditions of correction need not coincide.
+
+The article proposes a test of that distinction: hold a valid artifact fixed and ask whether a correction concerning what it proves, or how the achievement was produced, can revise the relevant status. This is also where the application of Žižek is at stake. The same rule that creates a real entitlement to use a verified proof can, when extended to a different decision, insulate that decision from the interpretive work it relies on. It would then deny the force of the judgment in practice, not merely describe it badly. It is important to tell that case from both harmless compression and a misassignment that the practice can correct.
+
+The method is to trace one result across four settings: search, revision of the target, deposit of artifacts, and public recognition. The documents are read for the decisions they record, not as evidence of their authors' or readers' private beliefs. Liquid Tensor tests the proposed distinction against a different procedure for making an interpretive concern operative. Proof Commons and the Lean community's Riemann statement serve as short comparisons of design and public certification respectively. No claim about prevalence follows from this selection.
+
+\section{Certification, closure, and credit}
+
+Write \(C(t,P,\Gamma)\) for acceptance of a proof term \(t\) for the formal proposition \(P\) in a specified environment \(\Gamma\). The operation warrants a derivation relative to that environment. It can support knowledge even when the search that produced the term is opaque (Duede \& Davey, 2025). It does not take as input the historical question \(Q\), the record of how a target was chosen, or a rule of attribution. A separate basis is needed for moving from \(P\) to an answer to \(Q\). Literal equivalence is not needed: a stronger theorem can suffice if the implication is established. Nor must an expert repeat this work for every run. A previously vetted specification can carry it.
+
+\subsection{A non-transfer argument}
+
+Take an accepted derivation of \(P\) and hold its certificate fixed. Consider two records: in one, \(P\) is the claim that addresses \(Q\); in the other, a supported correction shows that \(P\) is a different variant and no bridge from it to the intended answer has been supplied. It is rational to accept the proof in both records and to recognize it as an answer to \(Q\) only in the first. A decision rule that sees only the certificate receives the same input in both records, so cannot make this distinction. If it always promotes the proof to problem-level status in this pair, it does so without warrant in the second record; if it withholds the status in both, it misses a warranted attribution in the first. Thus a certificate \emph{alone} is not an adequate rule of transfer. This is a claim about justification for closing the question on the basis of this proof, not a claim that the question remains mathematically open or cannot be answered by another proof.
+
+Attribution requires a different test. The same theorem and proof can be arrived at by autonomous search, by formalizing a human argument, or by dividing the work. The kernel verdict is indifferent to that history; a claim about who supplied a novel argument or who fixed the target is not. It follows that the certificate cannot decide among those attributions. It does not follow that credit must be distributed equally, that describing a search as autonomous is incorrect, or that every contributor must appear in a short account. A claim about solving the problem on one's own, however, cannot be justified by narrowing the evidence to finding a proof after the target was supplied.
+
+\subsection{When a correction is operative}
+
+A register can encode the distinction in a simple way: append verification to the versioned artifact; make a link from the artifact to the intended question conditional on an independently warranted bridge; and make statements about credit answerable to the actual contribution claimed. If the link is corrected, a valid artifact can remain verified while it ceases to be the evidence for the displayed resolution. If the provenance is corrected, attribution may change even while the answer remains settled. Conversely, merely adding a disclaimer in a note does not make either decision revisable. The relevant evidence is the rule or record that changes the state of the work.
+
+This yields a concrete diagnostic. \emph{Mediation is operative} when a competent correction can change the decision for which it is relevant without requiring the technical proof to be invalidated. \emph{Misassignment} occurs when a credential is displayed or used for a claim it does not warrant; a wrong link can suffice. \emph{Practical disavowal} is the stronger case: the practice acknowledges the relevant dependency, yet a known correction is unable to affect the wider decision because a verification status is treated as enough. A mere lag in updating a link, or lack of evidence that anyone noticed a defect, does not satisfy that condition. One can test the distinction by looking for a documented challenge and its disposition, or an explicit rule specifying how a challenge affects the recorded decision.
+
+\section{The reality of the abstraction}
+
+\subsection{How the verdict acquires practical force}
+
+In Marx's analysis of commodity fetishism, the social character of labour confronts participants in exchange as a property of the products. The point is not that value is a mistaken impression of a thing with no social power. Exchange gives the value form practical force, including for people who recognize its social origin (Marx, 1976, vol. 1, ch. 1, sec. 4). Žižek's example of money sharpens the point: the material body of a coin wears down, yet people act in exchange as if its ability to circulate were independent of that wear. The abstraction is enacted in the transaction; informing participants about the coin does not by itself alter the transaction (Žižek, 1989, ch. 1).
+
+A verification rule has a similarly practical, but distinct, structure. For proof acceptance it can disregard whether a person, a search procedure, or both supplied the steps. When a repository or search system lets a passing verdict end a run or admit a result, it makes the abstraction effective. The accepted artifact can be reused without rehearsing the history of its derivation. That is a gain, not an ideological defect. It is possible because the rule holds fixed the proposition and the conditions of checking; it does not establish how that proposition was chosen or whether it answers the original question.
+
+The tension arises when a mark designed to travel independently of the proof's history is also allowed to travel independently of the conditions that make the proof count as a solution. A public register may use the mark to confer status, and later reports may take that status as their starting point. To those who meet the result downstream, the mark can then appear to carry in itself the authority which the rules and the underlying work jointly give it. This is a mechanism by which a practice \emph{could} organize perception and subsequent action, not a claim about what any individual reader in the case below believed. The structural comparison with Marx stops here: it concerns an authority constituted through practice, not an identification of proof status with exchange value.
+
+\subsection{Two registers, one verifier}
+
+Consider two hypothetical registers. Both use the same proof checker, start from the same accepted proof of a stated proposition, and publicly acknowledge that mathematicians determine how the target relates to the original question. Now suppose the responsible reviewers determine, on grounds the project recognizes as competent, that the formal target concerns a variant and does not settle the original question. The accepted proof remains valid.
+
+In the first register, the verification label stays on the proof, but the record no longer presents it as closing the original question. It remains available to researchers as a result about a variant. In the second register, the correction is visible in the notes, but the rule that exports the record as solved reads only the verification flag. A report that draws on this export continues to treat the proof as an answer to the original question. Nothing in this example turns on an error in the checker or on whether a participant privately believes the correction.
+
+What the second register disavows in practice is the project’s own judgement that the result does not answer the question it is recorded as settling. More exactly, it denies that judgement the authority to alter the link by which this proof counts as a solution to that question. The correction is not hidden; it is deprived of its consequence. This is a sharper diagnostic than calling a press release misleading. A wrong link may be accidental, and a result responsibly reviewed before automation need not be reviewed again at every use. The relevant contrast is whether an acknowledged correction can change the relevant decision when its grounds are challenged. Credit can be tested in the same way: a correction about who supplied an argument can change the attribution without requiring a different mathematical verdict.
+
+The two registers are not a reconstruction of two existing platforms. They isolate a difference in the powers that otherwise identical verification and disclosure can create. One allows the warranted abstraction from proof history to do useful work without suppressing relevant semantic or provenance judgements. The other makes the green mark a practical substitute for those judgements. A story of autonomous resolution may reinforce that substitution, but it is the rule for what can change a decision, not the story in isolation, that makes the stronger diagnosis possible.
+
+\section{Tracing a result: Erdős problem \#741(i)}
+
+\subsection{The search ends; the question changes}
+
+Erdős (1994, p.~263, sec.~1.5) asks whether a set \(A\) whose self-sumset has positive density can always be partitioned into two disjoint sets whose self-sumsets also have positive density. He does not specify the limiting operation at this point in the text. For a set \(B\subseteq\mathbb N\), natural density is the limit of \(d_N(B)=|B\cap[1,N]|/N\), when it exists. Upper density is its limit superior. The change of reading matters to the hypothesis and to the requirement on the two parts of the partition. It is not the correction of a typographical error, nor a simple weakening of only the conclusion.
+
+AlphaProof Nexus searched for proofs of supplied formal targets. Its validator checked changes to the target and compilation, and the resulting feedback influenced subsequent search. Validated sketches could enter a population database even before they were complete; completion of a proof was a separate terminal condition. Thus the proof procedure organized work before publication, but neither the compilation of a sketch nor the acceptance of a proof guaranteed that the target was the intended one (Tsoukalas et al., 2026, sec.~2, fig.~2).
+
+Under the natural-density reading the agent found a counterexample. The team reports that, following Thomas Bloom's observation about the intended meaning, the target was revised to upper density and the agent proved the revised proposition (Tsoukalas et al., 2026, sec.~3 and Supplement B.4). The revised argument partitions \(A\) using rapidly growing alternating blocks. The two self-sumsets need only attain positive proportions along subsequences, potentially at different scales. Evidence adequate for that purpose need not establish that either proportion has a positive limit. The new result leaves the earlier disproof intact: the two propositions ask different questions.
+
+There are two productive contributions in this sequence. The search and check gave the team a usable derivational result, including a result that helped identify a problem with the initial formulation. Bloom's intervention redirected the search and changed the question to which a subsequent result could be attached. The intervention did not by itself supply a proof; the earlier proof did not by itself identify the intended reading. In this case, the distinction between interpretation and search explains a change in the work performed and not just a difference in how that work might be described.
+
+\subsection{The two proof artifacts and the changing register}
+
+The two outcomes can be compared at the level of their formal declarations. The file named \path{erdos_741.parts.i.lean} in the AlphaProof Nexus results repository concludes with \texttt{answer(False)} and \texttt{HasPosDensity}, expressing the disproof under the natural-density interpretation. The upper-density proof appears as \path{erdos_741.variants.upper} in the pinned Formal Conjectures version; it has \texttt{answer(True)} and uses \texttt{upperDensity}. The statements and target proof bodies are distinct (AlphaProof Nexus Results, n.d.; Formal Conjectures, 2026). This is an inspection of the recorded propositions and proof artifacts, not a new replay of the Lean builds.
+
+The contribution register maintained by Terence Tao and collaborators lists a March 31 result as partial: it includes a result on a variant of part (i), as well as a solution to part (ii). It separately lists the April 16 result as a full Lean solution. The current Formal Conjectures catalogue also distinguishes the upper-density result, the disproof for exact density, and a lower-density variant marked open. Its statement stubs link out to the proof artifacts; a stub is not itself a proof (Formal Conjectures, n.d.; \textit{AI contributions to Erdős problems}, n.d.). The dates in the public register mark the recorded results, not the dates on which every judgement was first made.
+
+This is a case of operative mediation. The object that counts as evidence for closing the intended question changes while the first proof remains a result worth retaining. The change is visible both in the search that had to be done and in the classification of distinct outputs. Neither effect is explained by a generic change in confidence in Lean. Had the bearing of the first proof on the original question been a matter of attaching a single, irrevocable status to the problem number, the first proof could not have been preserved as a correct answer to a variant while being distinguished from the answer to the intended question.
+
+\subsection{A misassigned artifact and a compressed attribution}
+
+The arXiv version 2 supplement gives the informal upper-density argument, but the link immediately identified as its Lean proof leads to the natural-density disproof just described (Tsoukalas et al., 2026, arXiv version 2, Supplement B.4; \url{https://arxiv.org/html/2605.22763v2}). The corrected upper-density proof exists at the separate commit. Moving a reader from the prose to the wrong artifact makes it possible to verify a valid result without verifying the support asserted by the link. The error is therefore one of evidential assignment, not of derivational validity and not evidence against the upper-density theorem. It is specific to the linked version inspected here. By itself it does not show that the authors or any registry knowingly refused to correct the link.
+
+Aarhus University's announcement is a different document and makes a different move. Its opening assigns autonomous resolution of open mathematical problems to the system. Its headline credits a human co-author, and the body refers to formalized inputs, credits human validation and exposition, and calls these systems collaborators (Behrend, 2026). On a reasonable narrow reading, autonomy refers to proof search after a target has been supplied. On the broader reading suggested by the opening, autonomy belongs to the achievement of solving the original problems. The body gives a reader good reason to limit the scope, even though the opening does not do so. No evidence here shows that the wording controlled the mathematical register or blocked any correction.
+
+The case thus gives three distinct results, not three demonstrations of ideology: the search protocol gives machine checking practical force; the preprint link misassigns one artifact; the contribution record differentiates the two results. The announcement shows how that differentiation can disappear in a summary of the achievement. Only evidence that a consequential distinction was acknowledged but made powerless in an actual decision would support the stronger attribution of disavowal.
+
+\section{Making a correction count}
+
+\subsection{Liquid Tensor: a definition check that can fail}
+
+In the Liquid Tensor Experiment, an early successful Lean check reduced Scholze's uncertainty about a part of the proof before the entire project was complete (Scholze, 2021; Mathlib Community, 2022). Later, Topaz (2022) describes a different issue: confidence that new formal definitions capture the mathematics. If the extension groups were defined to be trivial, a theorem that some such groups vanish could pass a check for the wrong reason. The project supplied an independent sanity check, among others: for \(n>1\), the expected computation \(\operatorname{Ext}^{1}(\mathbb{Z}/n,\mathbb{Z}/n)\cong\mathbb{Z}/n\) cannot hold if the groups are defined to be always trivial. The case does not certify every definition by a single example. It exhibits a distinct check that rules out a particular semantic defect. A failed check would warrant inspecting the definition, not asking the kernel to recheck the vanishing proof under the same definition.
+
+This contrast is selected because the two cases distinguish what should change after a challenge. In \#741(i), a disputed interpretation redirects proof search and changes the scope of the result recorded. In Liquid Tensor, a possible defect in a definition generates an additional mathematical task. Neither practice treats the validity of an accepted proof as a reason to deny the challenge a consequence.
+
+\subsection{Rules for acceptance and rules for public certification}
+
+Proof Commons makes the separation explicit in its design: code can automatically verify a proof against a pinned, registered statement, while the review status of the statement's fidelity is exposed separately. A proof mark is not a semantic review mark (Proof Commons, n.d.). This is a comparison of rules, not evidence about adoption at scale. The Lean FRO and Mathlib Initiative's Riemann statement provides a public analogue: it makes expert scrutiny of the statement, reproduction of compilation, comparison against a reference declaration, and checks of the proof part of the stated basis for certification (Lean FRO \& Mathlib Initiative, 2026). An official announcement can communicate several grounds together without presenting any one as a substitute for the others. A separate boundary is whether a formal proof establishes the same theorem as a written argument or checks the written argument itself (Cotton, 2026).
+
+\section{What follows for ideology critique}
+
+The separation between derivational validity and fidelity to the problem is not new. Vallverdú (2026) assigns epistemic properties to distinct parts of the warrant architecture, and Kallel and El Louadi (2026) distinguish derivation, representational fidelity, and significance in their preprint on verification abundance (\url{https://arxiv.org/abs/2608.28997}). De Toffoli and Tanswell (2026) describe mathematical practice as a hybrid epistemic network. The proposal here concerns what those relations can \emph{do at a decision point}: a judgement can be named accurately yet have no power to alter a recognition or attribution that depends on it. That is a different question from who knows the proof, where warrant resides, or who can be rationally trusted.
+
+Erfani (2026) argues that the ideological operation of AI is not exhausted by the accuracy of what systems say: infrastructure and routine procedures can present contingent arrangements as technical necessities. This case distinguishes an additional possibility. The underlying procedure does not merely pass as objective; it establishes something independently of how the result is described. The fact that proof acceptance is technically warranted does not turn a later rule for closing questions into a technical necessity. The critic can therefore affirm the efficacy of the verifier while contesting which decisions its verdict is allowed to settle.
+
+A practical consequence follows. Keep separate what is verified, what question the proof supports, and what contribution is being credited. This does not require three separate bureaucracies. It requires that the corresponding grounds can change the decisions that depend on them. Under a single undifferentiated solved flag, correcting a correspondence can either leave a wrong evidential link standing or make a valid variant result disappear. A versioned record can retain the first proof while detaching it from the wrong claim. A separate provenance record can likewise revise an attribution without reopening a valid theorem. More words of disclosure are not the remedy if the underlying decision does not respond to either change.
+
+\section{Conclusion}
+
+The lesson of Erdős \#741(i) is not that machine verification failed. It is that keeping a correct result and revising what it counts as are compatible. The two proof artifacts answer different questions. The preprint's link misassigns one of them; the contribution register, by keeping the variant apart from the full solution, shows that recognition need not inherit that misassignment. Liquid Tensor likewise shows that a challenge about meaning can add a mathematical check without calling the original verifier into question.
+
+The Žižekian claim is about a practice's power, not just its public vocabulary. A verification credential can really govern which proofs enter circulation; that power is what makes it plausible to treat the credential as independently governing closure and credit. When an arrangement acknowledges the grounds of a wider decision but makes their correction ineffectual, the denial is enacted by the arrangement. The documented cases show the stakes and the availability of alternatives; the two-register comparison identifies the stronger condition without imputing it to a named institution. The resulting position is to preserve the verifier's authority over accepting derivations and to reject any rule that makes closure or attribution immune to a correction of the grounds on which it depends.
+
+\noindent\textit{Use of generative AI.} ChatGPT (OpenAI) assisted with literature discovery, comparison of sources, discussion of the argument, and drafting and revision of its exposition and case analyses. The author is responsible for the final text.
+
+\section*{References}
+\begingroup\raggedright
+
+\noindent\hangindent=0.5in\hangafter=1 \emph{AI contributions to Erdős problems}. (n.d.). GitHub Wiki. Retrieved November 28, 2026, from \url{https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems}\par\medskip
+
+\noindent\hangindent=0.5in\hangafter=1 AlphaProof Nexus Results. (n.d.). \emph{Erdős 741, part (i): Natural-density disproof} [Lean source file]. GitHub. Retrieved November 28, 2026, from \url{https://github.com/google-deepmind/alphaproof-nexus-results/blob/main/APNOutputs/ErdosProblems/erdos_741.parts.i.lean#L1374-L1379}\par\medskip
+
+\noindent\hangindent=0.5in\hangafter=1 Behrend, M. (2026, June 19). \emph{Aarhus mathematician co-authors Google DeepMind breakthrough on machine-verified proofs of open problems}. Aarhus University. \url{https://math.au.dk/en/currently/news/news-item/artikel/gergely-deepmind}\par\medskip
+
+\noindent\hangindent=0.5in\hangafter=1 Cotton, P. (2026, September 24). \emph{The formal statement}. Navier–Stokes Guide. \url{https://navier.microprediction.org/formal.html}\par\medskip
+
+\noindent\hangindent=0.5in\hangafter=1 De Toffoli, S., \& Tanswell, F. (2026). \emph{The technological turn in mathematics} [Preprint]. arXiv. \url{https://arxiv.org/abs/2607.07162}\par\medskip
+
+\noindent\hangindent=0.5in\hangafter=1 Duede, E., \& Davey, K. (2025). A priori knowledge in an era of computational opacity: The role of artificial intelligence in mathematical discovery. \emph{Philosophy of Science, 92}(5), 1394–1404. \url{https://doi.org/10.1017/psa.2025.10160}\par\medskip
+
+\noindent\hangindent=0.5in\hangafter=1 Erdős, P. (1994). Some problems in number theory, combinatorics and combinatorial geometry. \emph{Mathematica Pannonica, 5}(2), 261--269. \url{https://mathematica-pannonica.ttk.pte.hu/articles/mp05-2/mp05-2-261-269.pdf}\par\medskip
+
+\noindent\hangindent=0.5in\hangafter=1 Erfani, F. (2026). Not “just a language model”: AI’s ideological functions. \emph{AI \& Society, 41}, 869–881. \url{https://doi.org/10.1007/s00146-025-02623-0}\par\medskip
+
+\noindent\hangindent=0.5in\hangafter=1 Formal Conjectures. (2026, April 16). \emph{Erdős 741, part (i): Upper-density proof} [Lean source file]. GitHub. \url{https://github.com/google-deepmind/formal-conjectures/blob/9d492049e42167b0d2fd58a9e91da3bf160172b5/FormalConjectures/ErdosProblems/741.lean#L206-L217}\par\medskip
+
+\noindent\hangindent=0.5in\hangafter=1 Formal Conjectures. (n.d.). \emph{Erdős problem 741} [Lean source file]. GitHub. \url{https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/741.lean}\par\medskip
+
+\noindent\hangindent=0.5in\hangafter=1 Lean FRO \& Mathlib Initiative. (2026, November 21). \emph{Lean verification of the Riemann hypothesis} [Joint statement]. \url{https://leanprover-community.github.io/blog/posts/riemann-hypothesis/}\par\medskip
+
+\noindent\hangindent=0.5in\hangafter=1 Marx, K. (1976). \emph{Capital: A critique of political economy} (Vol. 1; B. Fowkes, Trans.). Penguin Books. (Original work published 1867)\par\medskip
+
+\noindent\hangindent=0.5in\hangafter=1 Mathlib Community. (2022, July 15). \emph{Completion of the Liquid Tensor Experiment}. Lean Community Blog. \url{https://leanprover-community.github.io/blog/posts/lte-final/}\par\medskip
+
+\noindent\hangindent=0.5in\hangafter=1 Proof Commons. (n.d.). \emph{Verification}. \url{https://proofcommons.org/verification.html}\par\medskip
+
+\noindent\hangindent=0.5in\hangafter=1 Scholze, P. (2021, June 5). \emph{Half a year of the Liquid Tensor Experiment: Amazing developments}. Xena Project. \url{https://xenaproject.wordpress.com/2021/06/05/half-a-year-of-the-liquid-tensor-experiment-amazing-developments/}\par\medskip
+
+\noindent\hangindent=0.5in\hangafter=1 Topaz, A. (2022, October 14). \emph{Definitions in the Liquid Tensor Experiment}. Lean Community Blog. \url{https://leanprover-community.github.io/blog/posts/lte-examples/}\par\medskip
+
+\noindent\hangindent=0.5in\hangafter=1 Tsoukalas, G., Kovsharov, A., Shirobokov, S., Surina, A., Firsching, M., Bérczi, G., Ruiz, F. J. R., Suggala, A., Wagner, A. Z., Wieser, E., Yu, L., Huang, A., Horváth, M. Z., Ferraiuolo, A., Michalewski, H., Grosu, C., Lockhart, E., Hubert, T., Balog, M., . . . Chaudhuri, S. (2026). Advancing mathematics research with AI-driven formal proof search. \emph{Science, 394}(6820), 234–239. \url{https://doi.org/10.1126/science.aej2213}\par\medskip
+
+\noindent\hangindent=0.5in\hangafter=1 Vallverdú, J. (2026). Where does mathematical warrant live? From the Four-Color Theorem to mass-released AI “results”. \emph{Philosophies, 11}(6), Article 224. \url{https://doi.org/10.3390/philosophies11060224}\par\medskip
+
+\noindent\hangindent=0.5in\hangafter=1 Žižek, S. (1989). \emph{The sublime object of ideology}. Verso.\par\medskip
+
+\endgroup
+\end{document}
