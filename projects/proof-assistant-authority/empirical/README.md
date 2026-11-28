@@ -35,6 +35,8 @@ These are contrastive cases, not a statistically representative sample. Time-spe
 - collection-log.md: dated research activity and unresolved retrieval tasks.
 - `github-event-participation-edges.csv`: 78 actor-event links expanded from 46 selected documentary events; roles are deliberately unresolved where source metadata does not establish them.
 - `github-pr-review-sample.csv`: 23 selected PR metadata and review snapshots across RH, LTE and AlphaProof/Formal Conjectures.
+- `stage1-github-acceptance.md`: acceptance record for the four-case GitHub collaboration and contribution-network study.
+- `stage2-theory-synthesis-acceptance.md`: acceptance record for the AlphaProof/LTE theoretical synthesis.
 
 ## Evidence hierarchy
 
