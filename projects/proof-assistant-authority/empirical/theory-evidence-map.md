@@ -73,3 +73,37 @@ A central philosophical claim should normally have:
 - an explicit statement of what the evidence does not establish.
 
 For claims about practical belief or fetishistic disavowal, require at least two distinct records: one documenting acknowledged limits and another documenting practical substitution or continued investment. A single headline is insufficient.
+
+
+## 6. Two-case synthesis: AlphaProof Nexus and Liquid Tensor (2026-11-28)
+
+The detailed analysis is in `two-case-theory-synthesis.md`. The central refinement is to keep three levels distinct:
+
+1. credential circulation and institutionalized recognition;
+2. warrant-scope transfer from a local kernel warrant to wider problem closure/solver attribution;
+3. fetishistic disavowal, which additionally requires acknowledged lack plus observable practical substitution.
+
+### Updated case judgments
+
+| Concept | AlphaProof Nexus | Liquid Tensor | Revised inference |
+|---|---|---|---|
+| Credential-centred recognition | Strong: benchmark count, agent solver-position, PR #3778 status change | Weak as a machine-solver structure; public recognition is distributed across human contributors and formal artifacts | Different public recognition procedures are directly observable |
+| Warrant-scope transfer | Partial/localized: especially headline, benchmark and solver attribution; detailed paper and PRs retain expert validation and target correction | Constrained at project-workflow and exposition level by Blueprint, examples, human semantic review and provenance | Transfer is variable, not an intrinsic property of Lean |
+| Fetish-form | Plausible in the portable machine proof credential and solver-centred public status | Not established as a machine-centred form; trust is distributed across people, tools, examples and institutions | Analyze the object and public practice, not the tool in isolation |
+| Fetishistic disavowal | Not established community-wide; public records also preserve human validation and corrections | Not established; semantic audit is a counter-practice | Do not infer disavowal from tool use or status alone |
+| Practical belief | Public records show practical reliance on formal outputs; actor-specific “I know but all the same” remains unproven | Scholze's account grounds trust in human interaction and correction; this is compatible with rational reliance | Public practice does not give direct access to private belief |
+| Subject position | Agent visibly occupies solver-position; humans validate, formalize, integrate and review | Machine is presented as assistant/checker; human mathematical agency and credit are distributed | Solver attribution is socially organized |
+| Big Other | Material supports include benchmark, Science publication, formal-conjecture register and Erdős database | Material supports include Scholze/Commelin authority, Zulip interaction, Blueprint, Mathlib and project community | These are supports of recognition, not the big Other itself |
+| Counter-practice | Human validation, target corrections, variant-specific status and independent audit constrain the headline | Semantic examples, public discussion and named contribution constrain certificate-only attribution | LTE demonstrates a procedural constraint; causal effect on downstream recognition is not shown |
+
+### Updated theoretical evidence rules
+
+- A public status transition supports recognition, not automatically fetishism.
+- A solver label supports attribution analysis, not a claim that the agent independently performed every task.
+- Public semantic auditability supports a counter-practice only where the correspondence/provenance work is part of the actual workflow; public availability alone does not show readership or causal effect.
+- For a strong fetishistic-disavowal claim, require evidence that a known gap is practically subordinated to the credential in subsequent recognition or action.
+- The AlphaProof/LTE comparison is contrastive, not a matched causal test. Task, project aim, division of labour, audience and institutional setting differ.
+
+### Novelty boundary
+
+Kallel & El Louadi (2026) already distinguish derivational validity, representational fidelity and epistemic significance and discuss adjudication scarcity. López-Corona (2026) already studies studio mathematics, distributed production, provenance and contribution-authority traces, including LTE. The article's distinctive claim must therefore remain the Žižekian account of how a genuine local proof warrant can become a material bearer of wider public recognition and solver attribution through a fetish-form. Do not claim originality for the three-layer distinction, distributed labour, or LTE as a collaborative case.
