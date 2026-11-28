@@ -150,3 +150,49 @@ Report purposive sampling as purposive, not random or exhaustive.
 ## 7. Inter-coder reliability
 
 If a second human coder becomes available, independently code a preselected subset (e.g. 10–20%), resolve disagreements transparently and report an appropriate agreement measure. Until then, describe the work as single-researcher qualitative coding, not inter-coder validated.
+
+
+## 8. Contribution-network relation coding
+
+Represent the public collaboration archive as a typed, time-stamped graph. Do not treat a flat contributor count as a network.
+
+### Node types
+
+- `PERSON_ACCOUNT`: public GitHub account or named institutional author.
+- `PROJECT_TEAM`: organization or research team.
+- `REPOSITORY`: GitHub repository.
+- `ARTIFACT`: paper, Lean file, theorem declaration, proof archive, Blueprint, dataset.
+- `STATUS_REGISTER`: problem database, benchmark or formal conjecture register.
+- `REVIEW_EVENT`: PR review, issue comment, approval or independent audit.
+
+### Edge types
+
+| Edge | Meaning | Minimum evidence |
+|---|---|---|
+| `AUTHORED` | Actor opened PR, issue or paper | Author metadata |
+| `COMMITTED` | Actor authored/committed a repository change | Commit metadata |
+| `REVIEWED` | Actor commented on or reviewed an artifact | Review/comment record |
+| `APPROVED` | Actor submitted an approval | APPROVED review state |
+| `REQUESTED_CHANGE` | Actor requested a correction or revision | Review/comment text |
+| `MERGED` | Maintainer merged a PR | Merge metadata |
+| `CORRECTED` | Actor changed a statement/definition after a critique | Before/after commit or PR diff |
+| `ATTRIBUTED_TO` | Public artifact assigns solver/author/validator role | Explicit text or status field |
+| `STATUS_ASSIGNED` | Register assigns solved/open/disproved status | Versioned register diff |
+| `LINKED_TO` | One artifact points to another proof/source | Repository metadata or explicit link |
+| `REPLAYED` | Independent actor re-runs/checks artifact | Audit/reproduction record |
+| `REUSED` | Later work imports, cites or extends artifact | Citation, dependency or source import |
+
+### Edge attributes
+
+Every edge should carry: event date, source ID, immutable version/locator, polarity, confidence, and whether it is direct or inferred.
+
+### Network measures to report
+
+- PR authorship count (activity proxy, not intellectual contribution).
+- Review participation count (must separate comments from approvals).
+- Merge/approval concentration.
+- Role diversity (author, formalizer, validator, maintainer, auditor).
+- Cross-role participation (e.g. same account authors and reviews).
+- Artifact provenance path (source theorem → formal statement → proof → status record → downstream reuse).
+
+Do not calculate centrality or make network-level causal claims until the relevant event corpus is complete and the sampling boundary is stated. A purposive PR sample supports qualitative role mapping, not population-level social network statistics.
