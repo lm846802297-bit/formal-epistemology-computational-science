@@ -3,7 +3,7 @@
 **Date:** 2026-11-28  
 **Empirical basis:** Stage 1 GitHub collaboration and contribution-network study, accepted in `stage1-github-acceptance.md`.  
 **Cases:** AlphaProof Nexus / Formal Conjectures and Liquid Tensor Experiment.  
-**Status:** second-stage analytical synthesis; no manuscript edits made.
+**Status:** completed second-stage analytical synthesis after Stage 1 acceptance; no manuscript edits made. Acceptance record: stage2-theory-synthesis-acceptance.md.
 
 ## 1. Research question
 
