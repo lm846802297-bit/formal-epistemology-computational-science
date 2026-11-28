@@ -1,7 +1,7 @@
 # Riemann Hypothesis — Public Recognition and Knowledge Reuse
 
 **Snapshot:** 2026-11-28  
-**Primary sources:** RH-01 through RH-10 in source-register.md.
+**Primary sources:** RH-01 through RH-16 and SEARCH-RH-01 in source-register.md.
 
 ## 1. Recognition
 
@@ -11,11 +11,17 @@ The result also received broad public-media attention (Nature, Washington Post, 
 
 The most important development after the initial announcement is the G.R.H. Polymath project, launched on 24 November by Anurag Sahay, Will Sawin and Lior Silberman. Its stated goals include coordinating mathematical work, reconstructing a human-readable proof, checking the literature and investigating generalizations. This is direct evidence of mathematical-community participation, not merely repetition of a headline.
 
-## 2. Independent verification
+The existing public-reception file also contains Reddit discussions from several communities. These are useful for identifying public interpretive repertoires—historic-breakthrough framing, questions about what RH states, confusion between formal verification and mathematical understanding, and professional-identity concerns. They are self-selected discussions, not a representative measure of public or mathematical-community belief.
+
+## 2. Independent verification and public challenge
 
 The MIT verification archive and Waterloo page document independent checking of the original archive and readable refactor. The Waterloo page records several independent checking routes and publishes both a 45-page proof outline and a longer 265-page guide.
 
-The verification evidence supports a strong claim about formal derivational validity for the pinned formal statements and environments. It does not make human mathematical assimilation identical to kernel acceptance.
+A non-peer-reviewed preprint by Parker Emmerson, posted on 24 November 2026, challenges the epistemic and foundational significance of the certification. Its abstract grants the existence of the Lean derivation and reported checks, but argues that the derivation depends on a foundational premise whose significance is not captured by the headline. The Lean FRO/Mathlib statement itself describes checker soundness as relative to set theory.
+
+The Emmerson preprint is recorded as public counter-evidence, not as an adjudicated disproof. It does not report a Lean kernel rejection. The dispute concerns the interpretation and scope of the certification.
+
+The verification evidence supports a strong claim about formal derivational validity for the pinned statements and environments. It does not make human mathematical assimilation identical to kernel acceptance.
 
 ## 3. Human reconstruction and artifact reuse
 
@@ -31,7 +37,7 @@ The generated CONTRIBUTORS file lists 192 accounts and 6,079 merged-PR counts, i
 
 The strongest downstream use currently located is reconstruction, independent replay, proof exposition and collective research. No later mathematical paper or formal project was located that uses the new RH result as a premise in a subsequent theorem.
 
-This is a positive finding about the current trajectory: the result's early afterlife is primarily translation and assimilation rather than theorem-level dependency.
+This is a bounded finding about the current trajectory: the result's early afterlife is primarily translation and assimilation rather than theorem-level dependency.
 
 ## 5. Attribution and subject positions
 
@@ -45,6 +51,7 @@ The machine is publicly positioned as a proof-search and formalization aid; the 
 **Independent formal checking:** strong and multiply documented.  
 **Human mathematical assimilation:** actively underway, not complete at the snapshot date.  
 **Artifact reuse:** strong in refactoring and reconstruction.  
+**Public contestation:** present, including a non-peer-reviewed foundational critique.  
 **Theorem-level downstream dependence:** not located in the bounded search.
 
-The dominant post-verification trajectory is **certification → archival preservation → independent replay → human reconstruction**.
+The dominant post-verification trajectory is **certification → archival preservation → independent replay → public contestation and human reconstruction**.
