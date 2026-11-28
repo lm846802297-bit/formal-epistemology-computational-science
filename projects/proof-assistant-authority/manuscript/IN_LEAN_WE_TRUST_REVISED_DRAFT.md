@@ -87,26 +87,26 @@ The distinction matters because the article does not equate social mediation wit
 
 ### 3.1 Ideology beyond false consciousness
 
-In “The Spectre of Ideology,” Žižek challenges the assumption that ideology can be identified simply by the falsity of explicit beliefs. The ideological function of a position depends not only on its propositional content but also on its relation to a social practice and the position from which it is articulated (Žižek 1994). A statement can be true and still function ideologically. This does not mean that every true statement is ideological, or that truth is reducible to power. It means that factual accuracy alone does not settle the question of ideological function.
+In “The Spectre of Ideology,” Žižek challenges the assumption that ideology can be identified simply by the falsity of explicit beliefs. The ideological function of a position depends not only on its propositional content but also on the position it occupies within a social practice (Žižek 1994). A statement can be factually accurate and still participate in an ideological relation. This does not mean that every true statement is ideological, or that truth is reducible to power. It means that factual accuracy alone does not settle the question of ideological function.
 
-Applied to formal verification, the statement “Lean checked this proof” may be entirely accurate. The ideological question is what that statement is made to authorize. Does it refer to the exact formal proposition and the environment in which it was checked? Or is the credential made to stand for the correctness, significance, or final acceptance of a wider mathematical claim without the relevant specification and interpretive relations being established?
+Applied to formal verification, the statement “Lean checked this proof” may be entirely accurate. The question is what that statement is made to authorize. Does it refer to the exact formal proposition and the environment in which it was checked? Or is the credential made to stand for the correctness, significance, or final acceptance of a wider mathematical claim without the relevant specification and interpretive relations being established?
 
-The analysis must therefore distinguish four phenomena:
+Four phenomena must remain distinct:
 
 1. **Factual accuracy:** whether the statement about Lean’s checking is true.
 2. **Rhetorical compression:** whether a short description omits technical detail while remaining accurate in context.
-3. **Institutional legitimation:** whether a credential is used by a recognized institution to authorize or endorse a result.
+3. **Institutional recognition:** whether a recognized community or institution confers status on the result.
 4. **Ideological function:** whether the credential is made to appear as an autonomous guarantee of a wider claim, thereby displacing the relations on which its warrant depends.
 
-These phenomena can overlap, but they are not interchangeable. A press release is not ideological merely because it is short. An institutional endorsement is not fetishistic merely because it carries authority. The concept developed here applies only where a more specific objectal and legitimating operation can be shown.
+These phenomena can overlap, but they are not interchangeable. A press release is not ideological merely because it is short. Institutional recognition is not fetishistic merely because it carries authority. The concept developed here applies only where a more specific objectal and legitimating operation can be shown.
 
 ### 3.2 Ideological fantasy: the scene of closure
 
-In *The Sublime Object of Ideology*, Žižek’s account of fantasy goes beyond the idea that ideology is a false image concealing an otherwise complete reality. Fantasy provides coordinates through which social reality is experienced and helps sustain the appearance of coherence where a constitutive gap or antagonism remains (Žižek 1989, 28–31).
+In The Sublime Object of Ideology, Žižek’s account of fantasy goes beyond the idea that ideology is a false image concealing an otherwise complete reality. Fantasy provides coordinates through which social reality is experienced and helps sustain the appearance of coherence where a constitutive gap remains (Žižek 1989, 28–31).
 
 The relevant gap in formal verification is not a defect in the kernel. It is the non-identity between the formal object that is checked and the intended mathematical claim to which it is connected. This relation can be rigorously audited, but it is not established by the same operation that checks the proof term. The wider warrant also depends on assumptions, definitions, provenance, mathematical interpretation, and institutional evaluation.
 
-The fantasy of formal verification arises when the kernel’s local verdict is staged as the point at which this wider chain of uncertainty has been closed. The certificate appears to settle not only whether \(t\) proves \(P^*\), but also whether \(P^*\) is the intended claim, whether the result has the significance attributed to it, and whether the relevant mathematical questions are settled.
+The fantasy of formal verification arises when the kernel’s local verdict is staged as the point at which this wider chain of uncertainty has been closed. The certificate appears to settle not only whether \\(t\\) proves \\(P^*\\), but also whether \\(P^*\\) is the intended claim, whether the result has the significance attributed to it, and whether the relevant mathematical questions are settled.
 
 The distinction can be represented as:
 
@@ -124,29 +124,29 @@ which is a technical result, whereas
 
 is not a consequence of kernel acceptance alone.
 
-The fantasy is not necessarily an explicit belief that Lean proves empirical reality or certifies every mathematical interpretation. It is a possible symbolic organization of the verification event: the local check becomes the visible scene in which the broader demand for certainty appears to have been satisfied. The fantasy does not eliminate the specification relation; it makes the unresolved work of that relation appear already handled.
+The fantasy is not necessarily an explicit belief that Lean verifies empirical reality or certifies every mathematical interpretation. It is a possible symbolic organization of the verification event: the local check becomes the visible scene in which the broader demand for certainty appears to have been satisfied. The fantasy does not eliminate the specification relation; it makes the work of that relation appear already handled.
 
-This distinction also prevents an overextension of Žižek. Not every use of a certificate stages closure. A source that explicitly identifies the formal proposition, trusted base, semantic review, and limits of the result may resist the fantasy by keeping the different warrant components visible.
+This distinction also prevents an overextension of Žižek. Not every use of a certificate stages closure. A source that identifies the formal proposition, trusted base, semantic review, human contributions, and limits of the result may resist the fantasy by keeping the different warrant components visible.
 
 ### 3.3 Fetishism: the credential as objectal bearer of authority
 
-Marx’s account of commodity fetishism concerns the way relations among producers assume the appearance of relations among things (*Capital*, vol. I, ch. 1, §4). Žižek’s discussion in *The Sublime Object of Ideology* emphasizes the form through which an effect generated by a network of relations can appear to reside autonomously in an object (Žižek 1989, 19–20).
+Marx’s account of commodity fetishism concerns the way relations among producers assume the appearance of relations among things (Marx 1976 [1867], vol. I, ch. 1, §4). Žižek emphasizes the form through which an effect generated by a network of relations can appear to reside autonomously in an object (Žižek 1989, 19–20).
 
 The present article proposes a structural extension of this insight to the **Lean-verification credential**. The object of analysis is not Lean software in itself. It is the credential “Lean-verified” as it circulates in research papers, institutional announcements, repositories, and public accounts.
 
 The credential depends on a network that includes:
-- the selection and formulation of the intended theorem;
-- the formal specification and definitions;
-- the proof object and its dependencies;
+- selection and formulation of the intended theorem;
+- formal specification and definitions;
+- proof object and its dependencies;
 - Lean’s kernel, libraries, and trusted environment;
 - software and library maintenance;
 - statement comparison and semantic scrutiny;
 - expert assessment and institutional recognition;
-- the public description of what the result establishes.
+- public description of what the result establishes.
 
 These elements perform different epistemic functions. Collective labour does not create mathematical truth in the same way that labour produces commodities. It produces, maintains, checks, interprets, and authorizes the artifacts and relations through which a formal result is connected to an intended mathematical claim.
 
-The fetishistic hypothesis arises when the authority generated through this network appears to reside autonomously in the credential itself. The credential then seems to contain the guarantee, rather than to certify one component of a wider architecture. This is more specific than the omission of contributors from a short announcement. Omission is relevant only when it contributes to a representation or practice in which the credential is treated as self-sufficient, and the relations necessary to interpret its scope are displaced.
+The fetishistic hypothesis arises when the authority generated through this network appears to reside autonomously in the credential itself. The credential then seems to contain the guarantee, rather than to certify one component of a wider architecture. This is more specific than the omission of contributors from a short announcement. Omission matters only when it contributes to a representation or practice in which the credential is treated as self-sufficient and the relations necessary to interpret its scope are displaced.
 
 The concept can therefore be defined as follows:
 
@@ -154,57 +154,85 @@ The concept can therefore be defined as follows:
 
 This is a proposed Žižekian extension, not a term coined by Žižek. The analogy with commodity fetishism is structural rather than identical: the article does not claim that Lean is a commodity in Marx’s technical economic sense, or that mathematical validity is produced by social labour.
 
-### 3.4 Disavowal: a secondary and conditional mechanism
+### 3.4 Fetishistic disavowal: a secondary and conditional mechanism
 
-Žižek’s discussion of cynical ideology draws on Sloterdijk’s critique of cynical reason (Sloterdijk 1987; Žižek 1989, ch. 1, “Cynicism as a Form of Ideology”). The familiar formula that subjects know what they are doing and nevertheless continue to do it should not be presented as Žižek’s original coinage. More recent scholarship distinguishes cynical disavowal from fetishistic disavowal (Kuldova 2019; Black 2025).
+Žižek’s discussion of cynical ideology draws on Sloterdijk’s critique of cynical reason (Sloterdijk 1987; Žižek 1989, ch. 1). The formula “I know very well, but nevertheless” is a shorthand for a particular structure of disavowal; it should not be treated as a definition of every form of disavowal. More important for this article is Žižek’s account of fetishistic belief as a practical relation. Subjects may know in theory that money is an expression of social relations while, in their social activity, treating it as the immediate embodiment of wealth. Žižek describes them as “fetishists in practice, not in theory”; belief is externalized in the object and in effective social procedures (Žižek 1989, pp. 28–32). Scholarship distinguishes cynical disavowal from fetishistic disavowal (Kuldova 2019; Black 2025).
 
-For this article, disavowal is not a necessary condition of fetishism. A credential may perform an objectal and legitimating function without the available evidence showing that a particular actor explicitly acknowledged its limitations. Disavowal is a stronger and separate claim.
+Disavowal is not a necessary condition of fetishism. A credential may perform an objectal and legitimating function without evidence that a particular actor explicitly acknowledged its limitations. Fetishistic disavowal is a stronger and separate claim: it requires an identifiable acknowledgement of the relevant limitation, continued practical investment in a broader guarantee, and evidence that the acknowledged gap is subordinated to the credential in a consequential practice. The belief at issue is not inferred from private psychology. It is located in the public or institutional practice through which the credential is treated as if it carried the wider guarantee.
 
-A plausible diagnosis of fetishistic disavowal requires:
-1. an explicit acknowledgement of the precise limitation of the formal check;
-2. continued use of the same credential as a broader guarantee;
-3. a traceable connection between the acknowledgement and the subsequent practice within the same actor or institutional communication chain;
-4. evidence that the discrepancy is not resolved by context, ordinary shorthand, correction, or a scope-preserving qualification.
+The AlphaProof case provides a candidate for testing this mechanism, not a completed diagnosis: the Science paper reports expert validation of the formal statements and itemizes human contributions, while its public summary compresses nine heterogeneous formal statements into the claim of “nine Erdős problems” solved by the agent. Whether this is objectal displacement, conventional benchmark shorthand, or a scope-preserving description must be decided from the full communication chain and the exact variant-level artifacts. The Navier–Stokes case illustrates a different limit: independent criticism and continued technical reuse coexist, but that coexistence alone does not establish disavowal. Reuse may be limited to benchmarking, porting, auditing, or infrastructure integration rather than reliance on the theorem as a mathematical premise. Riemann’s reconstruction activity and LTE’s explicit semantic-audit practices provide further counter-patterns to any assumption that formal verification necessarily displaces interpretation.
 
-Cynical disavowal requires still stronger evidence of a strategic or manipulative distance between acknowledged knowledge and practice. Public wording alone cannot establish unconscious motives. None of the four cases in this study is classified as demonstrating cynical disavowal.
+The article therefore does not infer unconscious motives, cynical intent, or community-wide disavowal from public wording. The relevant empirical question is narrower: where an acknowledged gap remains, does a repeated practice continue to organize judgment, attribution, or institutional action as if the wider guarantee had already been secured?
 
 ### 3.5 The missing guarantee: the Big Other as background
 
 The Lacanian/Žižekian idea that there is no complete Big Other and no “Other of the Other” provides a structural background to the argument (Lacan 2019, ch. XVI; Žižek 1989, Part II). No final symbolic authority can guarantee the consistency of the entire order from outside it. This does not imply that mathematical proof is impossible or that all standards are arbitrary.
 
-Lean is not the Big Other. It may be positioned as a technical credential within a symbolic order involving experts, journals, mathematical communities, and institutions. The relevant question is whether the credential is made to function as if it supplied a final guarantee of every level of mathematical knowledge. The Big Other is therefore a supporting premise, not a separate empirical mechanism and not a fourth co-equal concept.
+Lean is not the Big Other. The Big Other names the symbolic locus of language, law, norms, and recognition, not an empirical institution. Neither Lean nor a journal, university, or research organization is itself the Big Other; each may be a site where symbolic rules and recognitions are enacted. Lean may be positioned as a technical credential within this symbolic order. The relevant question is whether the credential is made to function as if it supplied a final guarantee of every level of mathematical knowledge. The Big Other is therefore a supporting premise, not a separate empirical mechanism and not a fourth co-equal concept.
 
-### 3.6 Three empirical planes
+The subject-supposed-to-know is also distinct from the Big Other. In Seminar XI, it names a position of knowledge attributed to a subject within a transferential relation; it is not a generic synonym for trust in software or experts (Lacan 1977, pp. 230–35, especially p. 232). The concept can be used cautiously to examine when a mathematician, solver, expert, or institutional representative is installed in a knowing position. A Lean certificate is not itself the subject-supposed-to-know; at most, it can function as a signifier or credential through which such an attribution is supported or displaced. The paper does not diagnose the public as being in a literal psychoanalytic transference relation with Lean.
 
-Žižek’s “The Spectre of Ideology” distinguishes explicit doctrine, the materiality of ideological apparatuses, and the more elusive spontaneous operation of ideology in social reality (Žižek 1994, 9–10). This distinction informs the empirical design:
+### 3.6 Recognition, credit, and the archive: supporting perspectives
 
-1. **Discursive plane:** papers, technical reports, institutional statements, press releases, and media accounts.
-2. **Material-institutional plane:** repositories, proof-checking workflows, review procedures, publication practices, and institutional acts of recognition.
-3. **Spontaneous-practical plane:** repeated practices in which a Lean credential is treated as a default warrant for broader claims.
+Marx–Lacan–Žižek remain the explanatory core. Three supporting perspectives clarify empirical processes that the core framework does not need to absorb.
 
-These are empirical planes, not additional theoretical mechanisms. The third plane requires evidence of repeated practice; it cannot be inferred from a single announcement.
+**Bourdieu and Merton: recognition and credit.** Bourdieu's account of the scientific field explains how scientific authority and scientific capital are produced through struggles over recognition, position, autonomy, and legitimate competence (Bourdieu 2004, pt. II, chs. 2–4). Merton's studies of priority and the Matthew effect explain how scientific institutions allocate credit and how recognition can accrue unevenly to already prominent contributors (Merton 1957; 1968). These approaches help analyze solver attribution, authorship, institutional status, and the separation of proof discovery from formalization, validation, maintenance, and exposition. They explain how recognition is distributed and converted into credit; they do not replace the Žižekian account of objectal displacement.
+
+**Derrida: archive and repeatability.** Derrida links the archive's principle of commencement to commandment and describes archontic authority as involving custody, interpretation, classification, and consignation—the gathering of records into a unified corpus (Derrida 1996, pp. 1–4). This perspective is useful for versioned repositories, branch histories, pinned commits, contributor files, and proof archives: these are not simply passive memory stores, since versioning, access, and maintenance shape which artifacts remain retrievable and authoritative. The analogy is limited. A Git repository is not identical to the political or psychoanalytic archive Derrida analyzes, and the framework does not by itself explain why a preserved artifact acquires wider epistemic authority.
+
+**Hardwig and the sociology of proof: rational dependence and material production.** Hardwig's account of epistemic dependence provides the normative baseline for justified reliance on expertise (Hardwig 1985, pp. 335–40). De Millo, Lipton, and Perlis (1979) analyze the social processes through which mathematical proofs become accepted; MacKenzie (1998) examines the relation between computers and mathematical proof; and Rosental (2003) ethnographically documents the production and certification of a logical theorem in AI through heterogeneous evaluation practices and interactions among a community of interlocutors. These studies establish that proof credibility and certification already have a social history. The present article does not claim to discover that proof is socially negotiated. Its narrower question concerns the symbolic function of the Lean-verification credential. These accounts, together with Hardwig, also prevent the analysis from treating every reliance on experts, repositories, or formal tools as ideological.
+
+### 3.7 Post-verification circulation
+
+The empirical comparison identifies five distinct modes through which a formal artifact circulates during and after its release into a research community:
+
+1. **Credentialization:** a proof, solver, or formal statement receives status and is represented as a recognized result.
+2. **Translation:** the formal artifact is reconstructed as a human-readable mathematical argument, exposition, or domain-specific interpretation.
+3. **Integration:** code, declarations, dependencies, or proof artifacts enter another repository, benchmark, library, or toolchain.
+4. **Assimilation:** the result becomes a premise, method, or object in subsequent mathematical research. The strongest form is theorem-level dependence in a later result.
+5. **Archival stabilization:** version pins, source histories, contributor records, citations, and documentation make the artifact repeatable and retrievable.
+
+These modes are analytically distinct and need not occur in a fixed order. Riemann exhibits strong credentialization, translation, and archival stabilization while theorem-level assimilation is not yet evidenced in the present source record. Navier–Stokes exhibits substantial integration and reproducibility work alongside a continuing dispute about paper-to-Lean correspondence. AlphaProof Nexus exhibits credentialization and distributed attribution; its separate quantum-graph result enters translation and further mathematical development, whereas the nine Erdős outputs have no located downstream theorem dependence. LTE exhibits methodological diffusion and related library infrastructure without direct reuse of its original Lean 3 theorem.
+
+Existing software-citation scholarship already analyses how citation and dependency graphs provide context, traceability, reproducibility, trust, authority, and credit for software artifacts (Druskat 2020; Smith et al. 2016). The present fivefold scheme does not claim to introduce software citation, dependency graphs, or transitive credit. Its purpose is to distinguish, in formal mathematical cases, public credentialization and human translation from technical integration, theorem-level assimilation, and archival stabilization.
+
+Post-verification circulation is a descriptive model, not a new philosophical theory and not a claim that every artifact passes through all five modes. These modes do not themselves establish warrant-scope transfer: technical integration may occur without theorem-level use, translation may increase understanding, and archival stabilization may increase reproducibility. Warrant-scope transfer must be established separately by showing that the credential's local warrant is publicly or institutionally attributed to a wider claim without an adequately supported bridge. The circulation model describes pathways; the S/O/E diagnostic evaluates when a particular pathway becomes an ideological conversion.
+
+### 3.8 Three empirical planes
+
+Žižek's “The Spectre of Ideology” distinguishes ideology as explicit doctrine, ideology in its material externality of practices and institutions, and the more elusive spontaneous operation of ideology in social reality (Žižek 1994, pp. 9–10). The present study operationalizes these as three empirical planes:
+
+1. **Discursive plane:** papers, technical reports, institutional statements, press releases, and media accounts that describe what Lean verification establishes.
+2. **Material-institutional plane:** repositories, proof-checking workflows, review procedures, publication practices, status registers, and institutional acts of recognition.
+3. **Spontaneous-practical plane:** repeated practices in which a Lean credential is treated as a default warrant for claims broader than the formal proposition.
+
+These planes are not additional theoretical mechanisms. The third plane requires evidence of repeated practice and cannot be inferred from a headline, a citation, a successful build, or technical artifact reuse alone. The Stage 3 corpus documents the first two planes extensively; it does not yet establish a repeated practice, within any of the four cases, of treating the credential as a comprehensive guarantee.
 
 ## 4. Diagnostic Model: From Warrant to Ideological Authority
 
 ### 4.1 The constitutive gap and its possible ideological management
 
-The central problem is not that formal verification leaves everything uncertain. It resolves a specific class of uncertainty with unusual precision. The problem is that the warrant of a formal check belongs to a component of a wider architecture. The relation between the intended claim and the formal specification, the provenance of the artifact, and the institutional interpretation of the result remain distinct tasks.
+The central problem is not that formal verification leaves everything uncertain. It resolves a specific class of uncertainty with unusual precision. The warrant of a formal check belongs to one component of a wider architecture. The relation between the intended claim and the formal specification, the provenance of the artifact, and the institutional interpretation of the result remain distinct tasks.
 
-This creates a structural tension between two requirements:
-- mathematical knowledge needs precise, reproducible, and publicly communicable warrants;
-- the relevance of a formal artifact to an intended mathematical claim depends on specification and interpretation that are not identical to kernel checking.
+The empirical study therefore distinguishes six dimensions:
+- kernel-level derivational validity;
+- fidelity of the formal statement and definitions to the intended mathematics;
+- human mathematical understanding and interpretation;
+- institutional recognition and attribution;
+- downstream artifact or methodological reuse;
+- theorem-level mathematical dependence.
 
-The tension is not a failure of formalization. It is a feature of the relation between a formal representation and the claim it represents. The ideological operation becomes possible when a portable credential appears to resolve this tension by itself.
+These dimensions can interact, but none is a substitute for another. A build or repository import establishes technical integration, not necessarily mathematical reliance. A citation can establish recognition or contextual use without establishing that the theorem is used as a premise. A human-readable reconstruction can advance understanding without yet being a complete independent proof.
 
 ### 4.2 Diagnostic requirements
 
-The technical warrant is the baseline for analysis, not an indicator that distinguishes ideological from non-ideological use. For each case, the study first identifies the exact proposition, proof artifact, environment, axioms, dependencies, and checking record.
+The technical warrant is the baseline for analysis, not an indicator that distinguishes ideological from non-ideological use. For each case, the study identifies the exact proposition, proof artifact, environment, axioms, dependencies, and checking record.
 
-A strong diagnosis of the ideological fetishism of formal verification requires three further conditions:
+A strong diagnosis of the ideological fetishism of formal verification requires three further conditions. The central operation tested here is **warrant-scope transfer**: a non-deductive movement in public or institutional attribution from the warrant that Lean supplies for a formal proposition to a broader intended mathematical claim, or to claims about its significance or settled status, without an adequately supported specification and interpretive bridge. This is not an inference performed by Lean. It is a transfer of epistemic authority in representation and practice.
 
-- **S — Scope extension:** a public or institutional representation attributes to the Lean credential a warrant broader than the checked proposition and the documented semantic bridge establish. The exact inferential gap must be identified.
+- **S — Warrant-scope transfer (scope extension):** a public or institutional representation attributes to the Lean credential a warrant broader than the checked proposition and the documented semantic bridge establish. The exact inferential gap must be identified.
 - **O — Objectal displacement:** the credential is represented or practically treated as a self-sufficient source of the wider authority, while the semantic, technical, or institutional relations that make it meaningful are backgrounded or displaced. Mere omission of contributors is insufficient.
-- **E — Social efficacy:** the representation has a documented role in legitimation, recognition, credibility allocation, institutional action, or a repeated practice. A single phrase without a demonstrable practical or institutional role does not establish this condition.
+- **E — Social efficacy:** the representation has a documented role in legitimation, recognition, credibility allocation, institutional action, or repeated practice. A single phrase without a demonstrable practical or institutional role does not establish this condition.
 
 The diagnostic form is:
 
@@ -214,7 +242,7 @@ The diagnostic form is:
 
 The exact technical warrant is a necessary descriptive baseline, but it is not itself evidence of ideology. The three requirements are analytically distinct. Scope extension concerns what the credential is made to warrant; objectal displacement concerns where the authority appears to reside; social efficacy concerns what the representation does in practice.
 
-**Fantasy** explains how the conjunction can appear as a scene of closure. It is not a synonym for overstatement. **Disavowal** is tested separately and is not required for the core diagnosis.
+Fantasy explains how the conjunction can appear as a scene of closure. Disavowal is tested separately and is not required for the core diagnosis.
 
 ### 4.3 Rival explanations and counter-evidence
 
@@ -225,10 +253,10 @@ The following alternatives must be examined before a case is diagnosed:
 - justified reliance on a trusted kernel or expert testimony;
 - visible semantic review and human validation;
 - institutional endorsement that accurately reports the scope of the check;
-- correction, clarification, or withdrawal after a discrepancy is identified.
+- correction, clarification, or withdrawal after a discrepancy is identified;
+- technical reuse that does not involve theorem-level reliance.
 
-A case should be classified as warranted reliance, transparent mediation, ambiguous representation, or insufficient evidence when S, O, or E is not established. This is not a retreat from the theory; it is what makes the concept discriminating.
-
+A case should be classified as warranted reliance, transparent mediation, ambiguous representation, or insufficient evidence when S, O, or E is not established. This is what makes the concept discriminating rather than universal.
 ## 5. Method and Case Selection
 
 ### 5.1 Unit of analysis
@@ -356,6 +384,7 @@ The article therefore advances a conditional rather than universal thesis. Forma
 
 ---
 
+
 ## References
 
 Ahlstrom-Vij, Kristoffer. 2021. “Esoteric Reliabilism.” *Episteme* 18 (4): 603–623. https://doi.org/10.1017/epi.2019.39.
@@ -366,7 +395,13 @@ Bastounis, Alexander, Fabian Circelli, and Anders C. Hansen. 2026. “Navier–S
 
 Black, Jack. 2025. “Examining the Mechanism of Disavowal and Its Two Forms: Cynical Disavowal and Fetishistic Disavowal.” *Theory & Psychology* 35 (1): 117–135. https://doi.org/10.1177/09593543241308199.
 
+Bourdieu, Pierre. 2004. *Science of Science and Reflexivity*. Translated by Richard Nice. Chicago: University of Chicago Press.
+
 De Millo, Richard A., Richard J. Lipton, and Alan J. Perlis. 1979. “Social Processes and Proofs of Theorems and Programs.” *Communications of the ACM* 22 (5): 271–280. https://doi.org/10.1145/359104.359106.
+
+Derrida, Jacques. 1996. *Archive Fever: A Freudian Impression*. Translated by Eric Prenowitz. Chicago: University of Chicago Press.
+
+Druskat, Stephan. 2020. “Software and Dependencies in Research Citation Graphs.” *Computing in Science & Engineering* 22 (2): 8–21. https://doi.org/10.1109/MCSE.2019.2952840.
 
 Duede, Eamon, and Kevin Davey. 2025. “A Priori Knowledge in an Era of Computational Opacity: The Role of Artificial Intelligence in Mathematical Discovery.” *Philosophy of Science* 92 (5): 1394–1404. https://doi.org/10.1017/psa.2025.10160.
 
@@ -386,11 +421,15 @@ Kallel, Maher, and Mohamed El Louadi. 2026. “Verification Abundance, Adjudicat
 
 Kuldova, Tereza. 2019. “Fetishism and the Problem of Disavowal.” *Qualitative Market Research: An International Journal* 22 (5): 766–780. https://doi.org/10.1108/QMR-12-2016-0125.
 
+Lacan, Jacques. 1977. *The Four Fundamental Concepts of Psycho-Analysis*. Edited by Jacques-Alain Miller. Translated by Alan Sheridan. New York: W. W. Norton.
+
 Lacan, Jacques. 2019. *Desire and Its Interpretation: The Seminar of Jacques Lacan, Book VI*. Edited by Jacques-Alain Miller. Translated by Bruce Fink. Cambridge: Polity. Chapter XVI, “There Is No Other of the Other.”
 
 Lean FRO and Mathlib Initiative. 2026. “Lean Verification of the Riemann Hypothesis.” Joint statement, 21 November. https://leanprover-community.github.io/blog/posts/riemann-hypothesis/.
 
 López-Corona, Oliver. 2026. “From Authorial Mathematics to Studio Mathematics: Ecobiontic Forms of Proof after Large Language Models.” arXiv:2608.22194. https://doi.org/10.48550/arXiv.2608.22194.
+
+MacKenzie, Donald. 1998. “Computers and the Sociology of Mathematical Proof.” In *Proceedings of the Third BCS-FACS Northern Formal Methods Workshop*, 1–28. Electronic Workshops in Computing. https://doi.org/10.14236/ewic/NFM1998.13.
 
 Mathlib Community. 2022. “Completion of the Liquid Tensor Experiment.” Lean Community Blog, 15 July. https://leanprover-community.github.io/blog/posts/lte-final/.
 
@@ -398,15 +437,23 @@ Mathlib Documentation. 2026. “Mathlib.NumberTheory.LSeries.RiemannZeta.” Def
 
 Marx, Karl. 1976 [1867]. *Capital: A Critique of Political Economy*, vol. 1. Translated by Ben Fowkes. London: Penguin. Chapter 1, section 4, “The Fetishism of Commodities and the Secret Thereof.”
 
+Merton, Robert K. 1957. “Priorities in Scientific Discovery: A Chapter in the Sociology of Science.” *American Sociological Review* 22 (6): 635–659. https://doi.org/10.2307/2089193.
+
+Merton, Robert K. 1968. “The Matthew Effect in Science: The Reward and Communication Systems of Science Are Considered.” *Science* 159 (3810): 56–63. https://doi.org/10.1126/science.159.3810.56.
+
 Omodeo, Pietro Daniel. 2019. *Political Epistemology: The Problem of Ideology in Science Studies*. Cham: Springer. https://doi.org/10.1007/978-3-030-23120-0.
 
 OpenAI. 2026. “On the Navier–Stokes Millennium Prize Problem.” 8 September. https://openai.com/index/navier-stokes-solution/.
 
 rh-lean-roadmap. 2026. *The Riemann Hypothesis and GRH for Dirichlet L-Functions: A Readable Account of the Lean Proof in Alpöge’s Archive*. Version 44. Zenodo, 26 November. https://doi.org/10.5281/zenodo.24562451.
 
+Rosental, Claude. 2003. “Certifying Knowledge: The Sociology of a Logical Theorem in Artificial Intelligence.” *American Sociological Review* 68 (4): 623–644. https://doi.org/10.1177/000312240306800407.
+
 Scholze, Peter. 2021. “Half a Year of the Liquid Tensor Experiment: Amazing Developments.” 5 June. https://xenaproject.wordpress.com/2021/06/05/half-a-year-of-the-liquid-tensor-experiment-amazing-developments/.
 
 Sloterdijk, Peter. 1987. *Critique of Cynical Reason*. Translated by Michael Eldred. Minneapolis: University of Minnesota Press.
+
+Smith, Arfon M., Daniel S. Katz, Kyle E. Niemeyer, and FORCE11 Software Citation Working Group. 2016. “Software Citation Principles.” *PeerJ Computer Science* 2:e86. https://doi.org/10.7717/peerj-cs.86.
 
 Sutherland, Andrew. 2026a. “Verification Files for the Lean Proof of the Riemann Hypothesis.” MIT. Last updated 25 November. https://math.mit.edu/~drew/grh/.
 
