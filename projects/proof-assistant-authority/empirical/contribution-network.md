@@ -40,7 +40,7 @@ A PR author is not automatically the mathematical author. A reviewer is not auto
 | homeowmorphism | Creates sibling original-source archive and cache | Issue #56 discussion; sibling repository and PR #93 |
 | tsarihan | Independent Apple Silicon reproduction | Issue #8738 |
 | carlostoledo1891 | Independent formal verification audit | Issue #8747 |
-| harryt ong / Visio-Vanitas / dial481 | Independent structural dependency analyses and responses | Issue #96 discussion; allegations and replies remain contested |
+| harrytong / Visio-Vanitas / dial481 | Independent structural dependency analyses and responses | Issue #96 discussion; allegations and replies remain contested |
 
 Observed network structure:
 - Deicyde and kim-em occupy visible governance/maintenance positions.
