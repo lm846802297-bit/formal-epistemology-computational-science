@@ -404,9 +404,13 @@ Alpöge, Levent. 2026. “The Riemann Hypothesis.” Research note and Lean arch
 
 Bastounis, Alexander, Fabian Circelli, and Anders C. Hansen. 2026. “Navier–Stokes Lost in Translation: Why Lean Verification of AI Autoformalisation Does Not Guarantee Correct Natural Language Proofs.” arXiv:2610.08144. https://doi.org/10.48550/arXiv.2610.08144.
 
+Becker, Lars, María Inés de Frutos-Fernández, Leo Diedering, Floris van Doorn, Sébastien Gouëzel, Evgenia Karunus, Edward van de Meent, Pietro Monticone, Jasper Mulder-Sohn, Jim Portegies, Joris Roos, Michael Rothgang, James Sundstrom, and Jeremy Tan. 2026. “Formalizing Carleson’s Theorem in Lean.” arXiv:2609.31334v1. https://arxiv.org/abs/2609.31334.
+
 Black, Jack. 2025. “Examining the Mechanism of Disavowal and Its Two Forms: Cynical Disavowal and Fetishistic Disavowal.” *Theory & Psychology* 35 (1): 117–135. https://doi.org/10.1177/09593543241308199.
 
 Bourdieu, Pierre. 2004. *Science of Science and Reflexivity*. Translated by Richard Nice. Chicago: University of Chicago Press.
+
+Commelin, Johan, and Adam Topaz. 2024. “Abstraction Boundaries and Spec-Driven Development in Pure Mathematics.” *Bulletin of the American Mathematical Society* 61 (2): 241–255. https://doi.org/10.1090/bull/1831.
 
 De Millo, Richard A., Richard J. Lipton, and Alan J. Perlis. 1979. “Social Processes and Proofs of Theorems and Programs.” *Communications of the ACM* 22 (5): 271–280. https://doi.org/10.1145/359104.359106.
 
@@ -429,6 +433,8 @@ Hardwig, John. 1985. “Epistemic Dependence.” *The Journal of Philosophy* 82 
 Hourigan, Daniel. 2009. *The Phantasmatic Subject of Technology: Slavoj Žižek, Techne, and the Abyss*. PhD thesis, Griffith University. https://doi.org/10.25904/1912/3124.
 
 Kallel, Maher, and Mohamed El Louadi. 2026. “Verification Abundance, Adjudication Scarcity: What Happens to Mathematical Knowledge When Proof Checking Becomes Free.” arXiv:2608.28997. https://doi.org/10.48550/arXiv.2608.28997.
+
+Krenn, Mario, et al. 2026. “A Tensor-Algebraic No-Go Theorem for High-Dimensional Photonic Greenberger–Horne–Zeilinger States Discovered with AlphaProof Nexus.” arXiv:2611.26300. https://arxiv.org/abs/2611.26300.
 
 Kuldova, Tereza. 2019. “Fetishism and the Problem of Disavowal.” *Qualitative Market Research: An International Journal* 22 (5): 766–780. https://doi.org/10.1108/QMR-12-2016-0125.
 
