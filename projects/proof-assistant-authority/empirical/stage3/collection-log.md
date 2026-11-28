@@ -37,3 +37,45 @@ Important method leads:
 4. Populate the evidence ledger with exact immutable locators and counter-evidence.
 5. Produce case reports only after each case's evidence has been screened.
 
+
+## 2026-11-28 — Four-case collection and Stage 3 acceptance
+
+### Existing public-reception materials integrated
+- Mapped the pre-existing Riemann media sample, Science Media Centre comments, Reddit threads, Navier–Stokes public discussion, AlphaProof expert responses and general survey baselines into the Stage 3 evidence ledger.
+- Excluded Waring's problem from the four-case corpus as specified.
+- Kept population surveys as contextual sources only; none measures trust in Lean or machine-checked proofs.
+
+### Riemann
+- Added the Polymath launch, Waterloo independent-check/reconstruction page, readable refactor and Adriazola reconstruction.
+- Verified the community repository's original/alpoge/main branch provenance and contributor-file caveat.
+- Found strong independent formal checking and substantial human reconstruction; no downstream theorem dependency located.
+
+### Navier–Stokes
+- Compared the 8 September and 10 September OpenAI commits. The second adds 188 changed files, 19,388 additions and 79 deletions, including the candidate/theorem files that discharge energy and force-support obligations.
+- Inspected the Bastounis–Circelli–Hansen critique, New Scientist/OpenAI response, KCL summary, cert-machine audit and SafeVerifyAgent audit.
+- Added three downstream technical reuse records: Vilin97 reproducible benchmark with SHA-256 provenance manifest, KTS Global Lean 4 port, and Tengoku formal-library integration.
+- No later theorem-level mathematical dependence located.
+
+### AlphaProof
+- Pinned the nine Erdős proof files at archive commit 42f344cfa9d57154f36e6b9bef1f71760a438c54 and recorded their Git blob SHAs.
+- Confirmed that the nine files contain no explicit sorry/admit or axiom declarations; this is a source inspection, not a substitute for the recorded build/replay evidence.
+- Re-read the Science paper's author contribution statement and the exact problem table. The nine entries represent seven unique problem numbers and include parts/variants; #26 is a Tenenbaum variant.
+- Added the Krenn quantum-graph follow-up, the Formal Conjectures proof commit, and the separate Rishi Rajasekaran all-orders proof/Palomar record. Kept the latter separate from AlphaProof attribution.
+- No direct downstream use of the nine Erdős outputs located.
+
+### Liquid Tensor
+- Inspected the Lean3 repository, toolchain pin, Blueprint and later literature.
+- Found explicit methodological uptake in the Carleson formalization: definition-sanity-check strategy traced to LTE and Blueprint used in the project.
+- Found related Mathlib4 condensed infrastructure used by Atlas Lean, but not a direct port of the LTE theorem/proof code.
+- No direct downstream import of the LTE target theorem/proof located.
+
+### Theory selection and reviewer-evaluation integration
+- Consulted the uploaded paper-evaluation file and mapped its three root questions (fetish-form, practical investment, real effects) to the four-case evidence.
+- Selected Marx–Lacan–Žižek as the core mechanism; added Bourdieu/Merton for recognition, Derrida for archive/versioning, and Hardwig/STS as the baseline.
+- De-prioritized Han as a core framework on current evidence.
+- Added post-verification circulation as a candidate middle-range model, with explicit novelty constraints from Kallel & El Louadi, López-Corona, Druskat, FORCE11, De Millo et al., MacKenzie, Rosental, Mathlib network work and TheoremGraph.
+
+### Acceptance
+- Created stage3-acceptance.md and manuscript-revision-plan.md.
+- Stage 3 accepted at the documentary scope stated in the acceptance record.
+- No Stage 1/2 files, PR #6, PR #7 or manuscript files were modified in this Stage 3 branch.
