@@ -123,7 +123,7 @@ The public recognition and integration network is visible in `google-deepmind/fo
 
 The public result archive is small and author-concentrated, but the integration network is not. Human maintainers and reviewers convert outputs into community statements, correct target mismatches, distinguish variants, assign attribution, and change public statuses. AlphaProof is therefore both a proof producer and, in some cases, a diagnostic instrument for discovering defects in existing formalizations.
 
-The #4384 record is particularly important: it demonstrates that public status and solver attribution are mediated by sustained human review rather than being automatically conferred by the output archive.
+The #4384 record is particularly important: it demonstrates that public status and solver attribution are mediated by sustained human review rather than being automatically conferred by the output archive. The seven-PR sample preserves exact merge SHAs for the selected Formal Conjectures events.
 
 ## 6. Liquid Tensor Experiment: concentrated mathematical collaboration and public semantic work
 
@@ -208,5 +208,7 @@ This supports the research question about how the same formal verification techn
 - `github-event-ledger.csv`: 46 dated event records with source URLs, immutable locators, codes and inference limits.
 - `liquid-tensor-pr-census.csv`: all 57 PRs returned by the repository search, with author, date, merge state, commit count, additions, deletions and comment count. A proper CSV parse confirms 49 merged PRs, 8 not merged (6 closed unmerged and 2 open), and 15 author accounts.
 - `riemann-contributors-top.csv`: top 20 accounts from the pinned generated contributor file; the complete 192-account file remains the source of record.
+- `alphaproof-formal-conjectures-pr-sample.csv`: seven selected AlphaProof-related PRs with merge SHAs and comment-actor counts.
+- `navier-stokes-commit-history.csv`: the two public Navier–Stokes commits.
 
 The event ledger is a selected evidence set, not a full census of all repository activity. The LTE PR census is complete for the search result returned at the snapshot date.
