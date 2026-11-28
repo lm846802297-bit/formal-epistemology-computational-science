@@ -120,4 +120,4 @@ Key question: does public semantic auditability redistribute authority and make 
 | GH-LTE-03 | [Liquid Tensor PR #95–#126 sample](https://github.com/leanprover-community/lean-liquid/pulls?q=is%3Apr) | Semantic examples, documentation and review | inspected | Key records #95–#107, #113, #115, #120, #121, #126. |
 | GH-NS-03 | [Navier–Stokes commit history](navier-stokes-commit-history.csv) | Machine-readable public release history | inspected | Two commits by one public account at the snapshot date. |
 
-Machine-readable event-level records are in `github-event-ledger.csv`; the complete LTE PR census and pinned Riemann contributor snapshot are separate CSV files.
+Machine-readable event-level records are in `github-event-ledger.csv`; `github-event-participation-edges.csv` expands its 46 records into 78 actor-event links, retaining unresolved roles where the actor field alone does not establish a specific action; `github-pr-review-sample.csv` records 23 purposively selected PRs with issue-comment counts, review states, and immutable merge SHAs.  the complete LTE PR census and pinned Riemann contributor snapshot are separate CSV files.
