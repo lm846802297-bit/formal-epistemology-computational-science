@@ -1,9 +1,9 @@
 # In Lean We Trust? The Ideology of Machine-Checked Proofs in Science
 
 **Project:** *In Lean We Trust?*  
-**Version:** Stage 2 working manuscript — revised Abstract and Sections 1–3  
+**Version:** Stage 3 working manuscript — revised Abstract and Sections 1–5  
 **Evidence cut-off:** 28 November 2026  
-**Status:** Sections 1–3 revised; Sections 4–7 retained from the seven-section baseline pending Stages 3–4.
+**Status:** Sections 1–5 revised; Sections 6–7 retained from the seven-section baseline pending Stage 4.
 
 ## Abstract
 
@@ -130,7 +130,7 @@ Riemann is not an example of a machine credential wholly detached from its warra
 
 On 8 September 2026, OpenAI announced a result for the Navier–Stokes existence and smoothness problem, presenting an analytical write-up alongside a Lean formalization (OpenAI, 2026a). The announcement describes an internal multi-agent process and states that the Lean formalization and verification followed the system’s resolution. The formal artifact is a genuine checked object; the separate question is how it corresponds to the written mathematical argument.
 
-Bastounis, Circelli, and Hansen (2026) identify differences between the paper and the Lean declarations, including the derivative count in the inverse estimate of Lemma 8.6 and a different pressure-flux estimate and proof route. Their criticism concerns paper-to-Lean correspondence. It does not show that the kernel accepted an invalid proof or establish that the formal theorem is false. The source-level comparison and the kernel verdict are distinct forms of evidence.
+Bastounis et al. (2026) identify differences between the paper and the Lean declarations, including the derivative count in the inverse estimate of Lemma 8.6 and a different pressure-flux estimate and proof route. Their criticism concerns paper-to-Lean correspondence. It does not show that the kernel accepted an invalid proof or establish that the formal theorem is false. The source-level comparison and the kernel verdict are distinct forms of evidence.
 
 A second tension concerns priority and attribution in the surrounding research. In his signed statement, Tristan Buckmaster describes a personal collaboration with Levent Alpöge, involving Claude and Codex, that produced results for the forced Euler and Boussinesq equations. He credits the underlying research programme to Diego Córdoba and Luis Martínez-Zoroa, whose earlier work supplied the starting point for the construction (Buckmaster, 2026). Buckmaster also recounts discussions with OpenAI about concurrent publication and authorship. He explicitly states that he had not seen OpenAI’s proof and did not know whether his and Alpöge’s data had been used; his statement is an account of those conversations, not an adjudication of the underlying claims.
 
@@ -142,7 +142,7 @@ The case thus has two analytically distinct dimensions: a correspondence problem
 
 Tsoukalas and colleagues report that AlphaProof Nexus “autonomously resolved 9 of 353 open Erdős problems” (Tsoukalas et al., 2026). The nine entries in Table 1 are formalized statements associated with seven problem numbers; they include parts and variants, and the #26 entry is a Tenenbaum variant rather than an original problem posed by Erdős. The paper also describes human contributions to problem selection, statement formulation, validation of the correspondence between Lean statements and original conjectures, natural-language exposition, and repository integration.
 
-Erdős problem #846 provides a particularly clear distinction between formal validity and mathematical novelty. The AlphaProof Nexus Lean proof gives a negative answer to the problem and passed the project’s formal checks. The point raised by the later audit is not that the proof is invalid. It is that the negative answer was already implied by published mathematics. Reiher, Rödl, and Sales (2024, Theorem 1.5) establish a multidimensional colouring-versus-density result: for a finite configuration (F), they construct a set in which every finite colouring contains a monochromatic homothetic copy of (F), while every finite subset contains a proportionally large (F)-free subset. Specializing (F) to a collinear triple in the plane gives the two properties needed for a counterexample to #846: every finite subset contains a large subset with no three collinear, while no finite partition can consist entirely of sets with no three collinear. The Erdős Problems entry for #846 records Rödl’s observation that the negative answer follows from the Reiher–Rödl–Sales result after a suitable projection (Erdős Problems, n.d.).
+Erdős problem #846 provides a particularly clear distinction between formal validity and mathematical novelty. The AlphaProof Nexus Lean proof gives a negative answer to the problem and passed the project’s formal checks. The point raised by the later audit is not that the proof is invalid. It is that the negative answer was already implied by published mathematics. Reiher et al. (2024, Theorem 1.5) establish a multidimensional colouring-versus-density result: for a finite configuration (F), they construct a set in which every finite colouring contains a monochromatic homothetic copy of (F), while every finite subset contains a proportionally large (F)-free subset. Specializing (F) to a collinear triple in the plane gives the two properties needed for a counterexample to #846: every finite subset contains a large subset with no three collinear, while no finite partition can consist entirely of sets with no three collinear. The Erdős Problems entry for #846 records Rödl’s observation that the negative answer follows from the Reiher–Rödl–Sales result after a suitable projection (Erdős Problems, n.d.).
 
 Hedegreen’s audit, *Nine Became Eight*, therefore removes #846 from a strict count of newly resolved open problems while retaining the validity of the formal proof. It reports eight newly resolved problems out of 353 under its novelty criterion, rather than the nine reported in the AlphaProof paper (Hedegreen, 2026). The audit is a public classification review, not a peer-reviewed mathematical correction; its author explicitly limits the claim and does not present the work as an independent specialist verification of every proof. The mathematical basis for the #846 reclassification is the earlier published theorem and the problem record, not the authority of the audit alone.
 
@@ -227,17 +227,19 @@ Alpöge, L. (2026, November 20). *Remark* [Research note]. https://alpo.ge/remar
 
 Bastounis, A., Circelli, F., & Hansen, A. C. (2026). *Navier–Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs* [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2610.08144
 
+Becker, L., de Frutos-Fernández, M. I., Diedering, L., van Doorn, F., Gouëzel, S., Karunus, E., van de Meent, E., Monticone, P., Mulder-Sohn, J., Portegies, J., Roos, J., Rothgang, M., Sundstrom, J., & Tan, J. (2026). Formalizing Carleson’s theorem in Lean. arXiv:2609.31334. https://arxiv.org/abs/2609.31334.
+
 Behrend, M. (2026, October 23). *Aarhus mathematician co-authors Google DeepMind breakthrough on machine-verified proofs of open problems*. Aarhus University. https://math.au.dk/en/currently/news/news-item/artikel/gergely-deepmind
 
 Black, J. (2025). Examining the mechanism of disavowal and its two forms: Cynical disavowal and fetishistic disavowal. *Theory & Psychology, 35*(1), 117–135. https://doi.org/10.1177/09593543241308199
 
 Bourdieu, P. (2004). *Science of science and reflexivity* (R. Nice, Trans.). University of Chicago Press.
 
+Buckmaster, T. (2026, September 8). *Statement regarding recent OpenAI announcement and the work with Levent Alpöge* [Signed statement]. NYU Courant. https://cims.nyu.edu/~tristanb/statement.pdf.
+
 Clay Mathematics Institute. (2018). *Rules for the Millennium Prize Problems*. https://www.claymath.org/millennium-problems/rules/.
 
 Clay Mathematics Institute. (n.d.). *Riemann Hypothesis*. Retrieved November 28, 2026, from https://www.claymath.org/millennium/Riemann-Hypothesis/.
-
-Buckmaster, T. (2026, September 8). *Statement regarding recent OpenAI announcement and the work with Levent Alpöge* [Signed statement]. NYU Courant. https://cims.nyu.edu/~tristanb/statement.pdf.
 
 Cotton, P. (2026, September 24). *The formal statement*. Navier–Stokes Guide. https://navier.microprediction.org/formal.html
 
@@ -253,9 +255,9 @@ Erdős Problems. (n.d.). *Problem #846*. Retrieved November 28, 2026, from https
 
 Erfani, F. (2026). Not “just a language model”: AI’s ideological functions. *AI & Society, 41*, 869–881. https://doi.org/10.1007/s00146-025-02623-0
 
-Hedegreen, D. (2026, July 21). *Nine became eight*. Hedegreen Research. https://hedegreenresearch.com/articles/nine-became-eight/.
-
 Hardwig, J. (1985). Epistemic dependence. *The Journal of Philosophy, 82*(7), 335–349. https://doi.org/10.2307/2026523
+
+Hedegreen, D. (2026, July 21). *Nine became eight*. Hedegreen Research. https://hedegreenresearch.com/articles/nine-became-eight/.
 
 Hourigan, D. (2009). *The phantasmatic subject of technology: Slavoj Žižek, techne, and the abyss* [Doctoral dissertation, Griffith University]. https://doi.org/10.25904/1912/3124
 
@@ -264,7 +266,6 @@ Kallel, M., & El Louadi, M. (2026). *Verification abundance, adjudication scarci
 Lacan, J. (1977). *The four fundamental concepts of psycho-analysis* (J.-A. Miller, Ed.; A. Sheridan, Trans.). W. W. Norton.
 
 Lacan, J. (2019). *Desire and its interpretation: The seminar of Jacques Lacan, Book VI* (J.-A. Miller, Ed.; B. Fink, Trans.). Polity.
-
 
 Lean FRO & Mathlib Initiative. (2026, November 21). *Lean verification of the Riemann hypothesis* [Joint statement]. https://leanprover-community.github.io/blog/posts/riemann-hypothesis/
 
