@@ -6,7 +6,7 @@
 
 ## Working manuscript
 
-For the exact submitted source and journal record, see the [project guide](../docs/OS_PROJECT_GUIDE.md#manuscript-and-submission).
+See the [project guide](../docs/OS_PROJECT_GUIDE.md#manuscript-and-source-files) for the anonymous LaTeX source.
 
 [Open the integrated manuscript](full_manuscript.md). Editable sections:
 
@@ -31,12 +31,7 @@ The revised paper asks when a machine-checked theorem in one formalization can s
 - Original OS papers and Glimm–Jaffe cited for the mathematical formulations.
 - Repository-reported verification status is attributed to maintainers; this project does not claim an independent Lean rebuild or proof replay.
 - Root BibTeX: **bibliography/references.bib**. The integrated manuscript and root BibTeX file contain the same 23 cited works.
-- The [submission record](../submission/README.md) links to the author-approved AI disclosure.
-
-## Editorial status
-
-EJPS confirmed receipt on 2026-11-27. The files in this directory are working copies; the [submission record](../submission/README.md) identifies the separate, commit-pinned version.
-
+- The [preparation materials](../submission/README.md) links to the author-approved AI disclosure.
 
 ## Major revision
 

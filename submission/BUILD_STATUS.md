@@ -1,20 +1,5 @@
-# EJPS LaTeX build and submitted-version status
+# Anonymous LaTeX build notes
 
-**Date:** 2026-11-27  
-**Status:** Anonymous manuscript compiled and inspected locally using Springer Nature's official `sn-jnl.cls` and PDFLaTeX (`sn-apa`); subsequently submitted to EJPS, which confirmed receipt.
-
-**Journal:** *European Journal for Philosophy of Science*  
-**Manuscript ID:** EPSA-D-26-00900  
-**Submission date:** 2026-11-27  
-**Receipt confirmation:** 2026-11-27  
-**Submitted source snapshot:** branch `research/ejps-claim-relative-warrant` at `7101c7685b147d7b6e9e067fae851b41d35bd94c`.
-
-- The build produced a 21-page PDF. There were no LaTeX or package warnings or overfull boxes in the final run.
-- The PDF Author field is blank. No known author name, affiliation, email, ORCID, or account name appeared in the extracted manuscript text. The separate title page was not included.
-- The anonymous source bundle is flat, with `anonymous-manuscript.tex` and the official `sn-jnl.cls`. The historical missing-template log records an earlier attempt only.
-- The three software revisions and the public preprint are linked as case-study materials in the manuscript, not listed as published scholarly works in the bibliography.
-- The exact anonymous LaTeX source identified above was used to compile the PDF uploaded to EJPS; the submitted manuscript body is not modified by this status update.
-- The author-completed Title Page PDF was uploaded separately through the journal portal. It is intentionally not stored in this repository; `title-page-template.tex` remains a placeholder template.
-- EJPS confirmed successful receipt on 2026-11-27. This confirms submission intake, not an editorial decision or peer-review outcome.
+The anonymous manuscript was compiled locally with Springer Nature's `sn-jnl.cls`, PDFLaTeX, and the `sn-apa` option. The inspected build had 21 pages, no LaTeX or package warnings, and no overfull boxes. The PDF author field was blank. The source bundle is flat, and the separate title-page template contains placeholders.
 
 Official template: https://www.springernature.com/gp/authors/campaigns/latex-author-support

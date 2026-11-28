@@ -4,11 +4,10 @@
 
 This paper asks when a theorem checked in one formalization can warrant an inference in another formalization of the same physical theory. It distinguishes kernel checking, correspondence with the source formalism, verified interfaces between formal records, concrete model instantiation, and the target scientific inference. The case study separates Comparator's checked record-level interface from the question of whether the pinned OSforGFF object satisfies the exact OSreconstruction input.
 
-## Manuscript and submission
+## Manuscript and source files
 
-- [Exact submitted anonymous LaTeX source](https://github.com/lm846802297-bit/philosophy-papers/blob/7101c7685b147d7b6e9e067fae851b41d35bd94c/submission/anonymous-manuscript.tex), pinned to commit `7101c76`.
-- [Working Markdown manuscript](../manuscript/full_manuscript.md) and [section index](../manuscript/README.md). These are editable research copies, not the submitted snapshot.
-- [EJPS submission record](../submission/README.md).
+- [Anonymous LaTeX source and preparation materials](../submission/README.md).
+- [Working Markdown manuscript](../manuscript/full_manuscript.md) and [section index](../manuscript/README.md).
 
 ## Research materials
 
