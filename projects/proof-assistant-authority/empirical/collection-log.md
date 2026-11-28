@@ -94,6 +94,16 @@ Study these carefully before claiming novelty for a three-layer warrant distinct
 - `alphaproof-formal-conjectures-pr-sample.csv` (7 selected integration/review PRs)
 - `navier-stokes-commit-history.csv` (2 public commits)
 
+### PR review snapshot and event-network data
+
+- Retrieved PR metadata and review-event snapshots for eight purposively selected Riemann PRs (#1, #7, #8, #12, #64, #101, #115, #9842), eight LTE PRs (#95, #96, #104, #107, #113, #120, #121, #126), and seven AlphaProof/Formal Conjectures PRs (#3778, #4384, #3737, #3721, #3643, #3604, #2398).
+- Selected LTE PR review events: #95 (9 COMMENTED + 1 APPROVED), #96 (1 APPROVED), #104 (1 APPROVED), #107 (5 COMMENTED + 1 APPROVED), #113 (8 COMMENTED + 1 APPROVED), #120 (1 APPROVED while still open), #121 (no review event returned), #126 (2 COMMENTED + 1 APPROVED).
+- Selected AlphaProof/Formal Conjectures PRs: #4384 (135 issue comments and 49 review events: 46 COMMENTED, 3 APPROVED), #3721 (1 CHANGES_REQUESTED and 1 APPROVED), #2398 (2 APPROVED and 2 COMMENTED), and approval events on #3778, #3737, #3643 and #3604.
+- The selected Riemann aggregate PR records returned no PR review events through the review endpoint. Some descriptions refer to reviewed component PRs, approvals or merge-queue checks; these are not recoded as review events on the aggregate PR itself.
+- Added github-pr-review-sample.csv with 23 PR snapshots, exact merge SHAs where merged, and separate issue-comment/review-event counts.
+- Expanded 46 event records into 78 actor-event links in github-event-participation-edges.csv. The relation is deliberately NAMED_AS_ACTOR_IN_EVENT; the CSV does not infer author/reviewer/approver role from a semicolon-separated actor field. Typed qualitative roles remain in contribution-network.md.
+- A complete network graph is still not claimed: event participation edges are a reproducible event index, not a complete social network or co-authorship graph.
+
 ### Important methodological conclusions
 
 - Do not compare raw PR counts across the four repositories: their purposes and histories differ.
