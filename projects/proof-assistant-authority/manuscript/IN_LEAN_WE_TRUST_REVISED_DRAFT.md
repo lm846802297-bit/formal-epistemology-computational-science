@@ -168,7 +168,7 @@ The article therefore does not infer unconscious motives, cynical intent, or com
 
 The Lacanian/Žižekian idea that there is no complete Big Other and no “Other of the Other” provides a structural background to the argument (Lacan 2019, ch. XVI; Žižek 1989, Part II). No final symbolic authority can guarantee the consistency of the entire order from outside it. This does not imply that mathematical proof is impossible or that all standards are arbitrary.
 
-Lean is not the Big Other. It may be positioned as a technical credential within a symbolic order involving experts, journals, mathematical communities, and institutions. The relevant question is whether the credential is made to function as if it supplied a final guarantee of every level of mathematical knowledge. The Big Other is therefore a supporting premise, not a separate empirical mechanism and not a fourth co-equal concept.
+Lean is not the Big Other. The Big Other names the symbolic locus of language, law, norms, and recognition, not an empirical institution. Neither Lean nor a journal, university, or research organization is itself the Big Other; each may be a site where symbolic rules and recognitions are enacted. Lean may be positioned as a technical credential within this symbolic order. The relevant question is whether the credential is made to function as if it supplied a final guarantee of every level of mathematical knowledge. The Big Other is therefore a supporting premise, not a separate empirical mechanism and not a fourth co-equal concept.
 
 The subject-supposed-to-know is also distinct from the Big Other. In Seminar XI, it names a position of knowledge attributed to a subject within a transferential relation; it is not a generic synonym for trust in software or experts (Lacan 1977, pp. 230–35, especially p. 232). The concept can be used cautiously to examine when a mathematician, solver, expert, or institutional representative is installed in a knowing position. A Lean certificate is not itself the subject-supposed-to-know; at most, it can function as a signifier or credential through which such an attribution is supported or displaced. The paper does not diagnose the public as being in a literal psychoanalytic transference relation with Lean.
 
@@ -184,7 +184,7 @@ Marx–Lacan–Žižek remain the explanatory core. Three supporting perspective
 
 ### 3.7 Post-verification circulation
 
-The empirical comparison identifies five distinct modes through which a formal artifact may circulate after its initial verification:
+The empirical comparison identifies five distinct modes through which a formal artifact circulates during and after its release into a research community:
 
 1. **Credentialization:** a proof, solver, or formal statement receives status and is represented as a recognized result.
 2. **Translation:** the formal artifact is reconstructed as a human-readable mathematical argument, exposition, or domain-specific interpretation.
