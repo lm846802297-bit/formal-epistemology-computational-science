@@ -59,4 +59,4 @@ This is not interview-based ethnography: no interviews have been conducted. Inte
 
 ## Current status
 
-Initial source register and coding framework are being established. The corpus is not yet exhaustive; systematic repository history, public reception and downstream reuse collection remain open.
+The first-pass GitHub collaboration survey is archived. The LTE PR census is complete for the 57 PRs returned by the repository search; RH uses the generated contributor snapshot plus a purposive PR/issue sample; Navier–Stokes has a two-commit repository history and no public PR/issues; AlphaProof's results archive is fully inventoried at six commits/four issues, with selected Formal Conjectures PRs sampled. Systematic reception and downstream reuse collection remain open.
