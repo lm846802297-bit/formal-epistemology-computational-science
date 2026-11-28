@@ -1,0 +1,58 @@
+pr_number,title,author,created_at,state,merged,commits,additions,deletions,comment_count
+1,add upgrade lean workflow to CI,robertylewis,2021-02-07,closed,true,1,18,0,2
+43,"bump mathlib, remove for_mathlib/fin",ericrbg,2021-06-24,closed,true,1,5,54,0
+44,Add scripts to ensure Theorem 9.5 remains sorry-free #37,bentoner,2021-06-26,closed,false,4,33,0,6
+45,"New CI, which generates and consumes an olean cache. Progress on #38; closes #37.",bentoner,2021-06-26,closed,true,20,487,0,2
+47,Make lint outcome green.,bentoner,2021-06-28,closed,true,1,1,0,0
+48,"only upload archives from master to Azure, into new directory",robertylewis,2021-06-30,closed,true,1,3,3,0
+49,Disable old CI. Revert this to re-enable.,bentoner,2021-06-30,closed,true,1,3,27,1
+50,Disable old CI. Revert this to re-enable.,bentoner,2021-06-30,closed,true,1,3,27,0
+79,attempt at speeding up a lemma in thm69.lean,jcommelin,2022-01-10,closed,true,2,65,65,0
+84,feat Submodules of free modules over PIDs are free.,faabian,2022-02-25,closed,true,1,0,0,0
+85,feat Submodules of free modules over PIDs are free.,faabian,2022-02-25,closed,true,6,849,0,0
+88,update elan url,bryangingechen,2022-05-03,closed,true,2,3,3,0
+89,remove sorries in pid,vihdzp,2022-07-17,closed,true,1,18,11,0
+90,Minibump,riccardobrasca,2022-07-17,closed,false,9,66,62,1
+91,fix typo in ci label,jcommelin,2022-07-18,closed,false,1,1,1,0
+92,This is just to test if it passes CI,riccardobrasca,2022-07-18,closed,false,1,1,0,0
+93,missed a change in CI description: thm95 -> liquid_tensor_experiment,bentoner,2022-07-18,closed,true,1,1,1,2
+94,Bump up to May 19th,riccardobrasca,2022-07-18,closed,true,58,850,445,1
+95,Start on examples folder with file on pBanach,adamtopaz,2022-07-18,closed,true,6,80,0,26
+96,A start on universal delta functors,adamtopaz,2022-07-18,closed,true,3,116,0,1
+97,Effaceable implies universal,adamtopaz,2022-07-19,closed,true,11,365,14,1
+98,example: real numbers are a conditionally complete linearly ordered field,jcommelin,2022-07-19,closed,true,3,21,0,3
+99,Ci improvements,bentoner,2022-07-19,closed,true,3,17,1,1
+100,typo,bentoner,2022-07-19,closed,true,2,1,1,1
+101,CI correctness fix,bentoner,2022-07-19,closed,true,2,1,1,1
+102,Upload oleans for non-master branches too,bentoner,2022-07-20,closed,false,2,1,1,1
+103,Bump until June 10th,riccardobrasca,2022-07-20,closed,true,9,74,58,1
+104,"computation of Ext^1(ℤ/nℤ, ℤ/nℤ)",jcommelin,2022-07-20,closed,true,2,52,34,1
+105,Ext universal,adamtopaz,2022-07-20,closed,true,7,104,1,3
+106,add move comment,vihdzp,2022-07-20,closed,true,1,1,0,1
+107,More on the Ext example file,adamtopaz,2022-07-20,closed,true,4,50,1,14
+108,Bump mathlib to July 03,jcommelin,2022-07-21,closed,true,10,220,279,1
+109,mathlib bump (universe edition),jcommelin,2022-07-22,closed,true,38,712,387,1
+110,bump to mathlib master,jcommelin,2022-07-25,closed,true,13,366,457,1
+111,add a bit to the examples/real,adamtopaz,2022-07-27,closed,true,3,12,4,9
+112,bump to august 6,riccardobrasca,2022-08-06,closed,false,3,1579,1209,1
+113,Add the example file for Radon measures,adamtopaz,2022-08-15,closed,true,148,2606,1,19
+114,chore(examples/pBanach): fix typos,adomani,2022-08-16,closed,true,2,3,3,1
+115,Profinite example file,adamtopaz,2022-08-16,closed,true,3,39,0,2
+116,Some notation fixes for the example files,adamtopaz,2022-08-16,closed,true,6,74,21,2
+117,Adds lp as an example of a pBanach space.,adamtopaz,2022-08-24,closed,true,19,460,0,3
+118,add condensed ab examples,adamtopaz,2022-08-25,closed,true,2,45,0,1
+119,README: update,jcommelin,2022-08-26,closed,true,5,34,31,8
+120,add more comments,kbuzzard,2022-08-27,open,false,3,8,6,2
+121,comment profinite example,kbuzzard,2022-08-27,open,false,1,60,15,1
+122,bump mathlib to 09 aug 2022,jcommelin,2022-08-30,closed,true,32,637,929,1
+123,bump mathlib to 31 aug 2022,YaelDillies,2022-08-31,closed,true,11,122,610,1
+124,Remove `.` in section headings,jcommelin,2022-08-31,closed,true,1,4,4,1
+125,Removed typo and suggested some changes,faenuccio,2022-09-01,closed,true,3,1,2,5
+126,Some modifications to the example files.,adamtopaz,2022-09-14,closed,true,15,326,135,9
+127,Bump to September 24th,riccardobrasca,2022-09-24,closed,true,9,52,63,2
+128,rename profinite.lean -> cond.lean,adamtopaz,2022-10-12,closed,true,2,10,0,1
+129,some minor modifications,adamtopaz,2022-10-13,closed,true,1,5,5,1
+130,rename exact_with_constant to strongly_exact,jcommelin,2023-07-14,closed,true,1,47,47,0
+131,Fix typo in README,pitmonticone,2023-10-05,closed,true,1,1,1,3
+132,chore: pin GitHub Actions to commit SHAs,kim-em,2026-09-28,closed,true,1,13,13,0
+133,chore: date the branch-named action pin comments,kim-em,2026-10-02,closed,true,1,2,2,0
