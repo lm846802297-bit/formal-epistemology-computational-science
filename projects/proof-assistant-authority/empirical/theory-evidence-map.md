@@ -107,3 +107,31 @@ The detailed analysis is in `two-case-theory-synthesis.md`. The central refineme
 ### Novelty boundary
 
 Kallel & El Louadi (2026) already distinguish derivational validity, representational fidelity and epistemic significance and discuss adjudication scarcity. López-Corona (2026) already studies studio mathematics, distributed production, provenance and contribution-authority traces, including LTE. The article's distinctive claim must therefore remain the Žižekian account of how a genuine local proof warrant can become a material bearer of wider public recognition and solver attribution through a fetish-form. Do not claim originality for the three-layer distinction, distributed labour, or LTE as a collaborative case.
+
+
+## 7. Stage 2 independent synthesis after Stage 1 acceptance
+
+The full analysis is recorded in two-case-theory-synthesis.md. The following are the calibrated judgments after incorporating the PR review sample and event-participation data.
+
+| Claim | AlphaProof Nexus | Liquid Tensor | Evidential status |
+|---|---|---|---|
+| Credential-centred recognition | Benchmark/headline, proof archive and variant-specific status record foreground the prover agent | Public recognition distributed across mathematical contributors, Lean artifacts, Blueprint and examples | Different recognition architectures are observable |
+| Warrant-scope transfer | Candidate only in headline/benchmark compression of formal statements into “Erdős problems”; PR #3778 itself is variant-specific and reviewed | Constrained at workflow/exposition level where definition behaviour and semantic correspondence are made explicit | Variable and localized; not a universal property of Lean |
+| Fetishistic disavowal | Not established; expert validation, statement corrections and status specificity remain visible | Not established; semantic review and provenance remain visible | No community-wide or actor-private disavowal inference |
+| Practical belief | Institutional reliance on proof artifacts and status records is observable; private “I know but all the same” is not | Scholze explicitly grounds trust in human interaction and correction; rational reliance remains compatible with the evidence | Public practice, not private psychology |
+| Subject position | Agent is publicly assigned proof-discovery/solver role; humans validate, formalize, integrate and review | Machine is assistant/checker; human mathematical agency and credit are distributed | Publicly assigned roles observable; machine is not thereby a Lacanian subject |
+| Big Other | Science publication, benchmark, Formal Conjectures and Erdős register act as material supports of recognition | Scholze/Commelin authority, Zulip, Blueprint, Mathlib and project community support recognition | Interpretive mapping only; none is literally the Big Other |
+| Semantic auditability | Human validation and correction occur in integration network, but are less structurally foregrounded in the output archive | Examples, Blueprint, review and discussion make semantic work an explicit part of project practice | LTE constrains certificate-only attribution at workflow level; downstream causal effect unknown |
+
+### Revised inference rules
+
+1. A formal status change can be warranted recognition of a precisely specified formal variant; do not code it automatically as warrant-scope transfer.
+2. A headline that compresses formal statements and variants into a count of original mathematical problems is a stronger candidate for public scope expansion; examine the exact wording and its circulation.
+3. Agent solver attribution can be appropriate for proof search over supplied formal targets while human target selection and semantic validation remain distinct.
+4. Semantic auditability constrains warrant-scope transfer only when it is operative in the workflow and recognition procedure; repository availability alone is insufficient.
+5. Fetishistic disavowal requires acknowledged lack plus observable practical substitution. Neither AlphaProof nor LTE currently meets this threshold at the level of community-wide or private belief.
+6. The AlphaProof/LTE contrast is not a matched causal test. Differences in task, aim, division of labour, audience and institutional setting remain alternative explanations.
+
+### Revised theoretical conclusion
+
+Warrant-scope transfer is a variable public process. The evidence supports studying how genuine local proof warrants become material supports for broader recognition and attribution. It does not support treating every public credential, benchmark, status transition or use of Lean as fetishistic. LTE provides a procedural counter-practice that keeps semantic judgment and provenance visible, without proving that trust or symbolic investment disappears.
