@@ -194,6 +194,8 @@ The empirical comparison identifies five distinct modes through which a formal a
 
 These modes are analytically distinct and need not occur in a fixed order. Riemann exhibits strong credentialization, translation, and archival stabilization while theorem-level assimilation is not yet evidenced in the present source record. Navier–Stokes exhibits substantial integration and reproducibility work alongside a continuing dispute about paper-to-Lean correspondence. AlphaProof Nexus exhibits credentialization and distributed attribution; its separate quantum-graph result enters translation and further mathematical development, whereas the nine Erdős outputs have no located downstream theorem dependence. LTE exhibits methodological diffusion and related library infrastructure without direct reuse of its original Lean 3 theorem.
 
+Existing software-citation scholarship already analyses how citation and dependency graphs provide context, traceability, reproducibility, trust, authority, and credit for software artifacts (Druskat 2020; Smith et al. 2016). The present fivefold scheme does not claim to introduce software citation, dependency graphs, or transitive credit. Its purpose is to distinguish, in formal mathematical cases, public credentialization and human translation from technical integration, theorem-level assimilation, and archival stabilization.
+
 Post-verification circulation is a descriptive model, not a new philosophical theory and not a claim that every artifact passes through all five modes. These modes do not themselves establish warrant-scope transfer: technical integration may occur without theorem-level use, translation may increase understanding, and archival stabilization may increase reproducibility. Warrant-scope transfer must be established separately by showing that the credential's local warrant is publicly or institutionally attributed to a wider claim without an adequately supported bridge. The circulation model describes pathways; the S/O/E diagnostic evaluates when a particular pathway becomes an ideological conversion.
 
 ### 3.8 Three empirical planes
@@ -204,7 +206,7 @@ Post-verification circulation is a descriptive model, not a new philosophical th
 2. **Material-institutional plane:** repositories, proof-checking workflows, review procedures, publication practices, status registers, and institutional acts of recognition.
 3. **Spontaneous-practical plane:** repeated practices in which a Lean credential is treated as a default warrant for claims broader than the formal proposition.
 
-These planes are not additional theoretical mechanisms. The third plane requires evidence of repeated practice and cannot be inferred from a headline, a citation, a successful build, or technical artifact reuse alone. The Stage 3 corpus documents the first two planes extensively; it does not yet establish a repeated practice of treating the credential as a comprehensive guarantee across the mathematical community.
+These planes are not additional theoretical mechanisms. The third plane requires evidence of repeated practice and cannot be inferred from a headline, a citation, a successful build, or technical artifact reuse alone. The Stage 3 corpus documents the first two planes extensively; it does not yet establish a repeated practice, within any of the four cases, of treating the credential as a comprehensive guarantee.
 
 ## 4. Diagnostic Model: From Warrant to Ideological Authority
 
@@ -391,13 +393,15 @@ Alpöge, Levent. 2026. “The Riemann Hypothesis.” Research note and Lean arch
 
 Bastounis, Alexander, Fabian Circelli, and Anders C. Hansen. 2026. “Navier–Stokes Lost in Translation: Why Lean Verification of AI Autoformalisation Does Not Guarantee Correct Natural Language Proofs.” arXiv:2610.08144. https://doi.org/10.48550/arXiv.2610.08144.
 
-Bourdieu, Pierre. 2004. *Science of Science and Reflexivity*. Translated by Richard Nice. Chicago: University of Chicago Press.
-
 Black, Jack. 2025. “Examining the Mechanism of Disavowal and Its Two Forms: Cynical Disavowal and Fetishistic Disavowal.” *Theory & Psychology* 35 (1): 117–135. https://doi.org/10.1177/09593543241308199.
+
+Bourdieu, Pierre. 2004. *Science of Science and Reflexivity*. Translated by Richard Nice. Chicago: University of Chicago Press.
 
 De Millo, Richard A., Richard J. Lipton, and Alan J. Perlis. 1979. “Social Processes and Proofs of Theorems and Programs.” *Communications of the ACM* 22 (5): 271–280. https://doi.org/10.1145/359104.359106.
 
 Derrida, Jacques. 1996. *Archive Fever: A Freudian Impression*. Translated by Eric Prenowitz. Chicago: University of Chicago Press.
+
+Druskat, Stephan. 2020. “Software and Dependencies in Research Citation Graphs.” *Computing in Science & Engineering* 22 (2): 8–21. https://doi.org/10.1109/MCSE.2019.2952840.
 
 Duede, Eamon, and Kevin Davey. 2025. “A Priori Knowledge in an Era of Computational Opacity: The Role of Artificial Intelligence in Mathematical Discovery.” *Philosophy of Science* 92 (5): 1394–1404. https://doi.org/10.1017/psa.2025.10160.
 
@@ -446,6 +450,8 @@ rh-lean-roadmap. 2026. *The Riemann Hypothesis and GRH for Dirichlet L-Functions
 Rosental, Claude. 2003. “Certifying Knowledge: The Sociology of a Logical Theorem in Artificial Intelligence.” *American Sociological Review* 68 (4): 623–644. https://doi.org/10.1177/000312240306800407.
 
 Scholze, Peter. 2021. “Half a Year of the Liquid Tensor Experiment: Amazing Developments.” 5 June. https://xenaproject.wordpress.com/2021/06/05/half-a-year-of-the-liquid-tensor-experiment-amazing-developments/.
+
+Smith, Arfon M., Daniel S. Katz, Kyle E. Niemeyer, and FORCE11 Software Citation Working Group. 2016. “Software Citation Principles.” *PeerJ Computer Science* 2:e86. https://doi.org/10.7717/peerj-cs.86.
 
 Sloterdijk, Peter. 1987. *Critique of Cynical Reason*. Translated by Michael Eldred. Minneapolis: University of Minnesota Press.
 
