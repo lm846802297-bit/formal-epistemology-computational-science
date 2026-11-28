@@ -49,7 +49,7 @@ The candidate **post-verification circulation** model describes the ways a forma
 4. Assimilation — use as a premise or object in subsequent mathematical research.
 5. Archival stabilization — versioning, source pins, provenance and documentation.
 
-The stages are not necessarily linear. A case can have strong recognition and technical integration but little theorem-level assimilation. The four cases make this divergence visible.
+The modes are not necessarily linear and can occur in parallel or independently. A case can have strong recognition and technical integration but little theorem-level assimilation. The four cases make this divergence visible.
 
 The candidate concept is not presented as a priority claim. It must be positioned against prior work before publication.
 
@@ -66,3 +66,17 @@ The distinctive candidate contribution is the four-case comparison of how public
 ## 6. Next revision boundary
 
 The first manuscript revision round changes only the theoretical framework. Case-section changes and abstract/conclusion changes follow in separate rounds. No fifth case is added.
+
+
+## 7. Stage 3 final selection update
+
+The final four-case comparison strengthens the conditional version of the framework and rules out a universal pipeline.
+
+- Riemann demonstrates recognition, replay and reconstruction without located theorem-level dependence.
+- Navier–Stokes demonstrates substantial technical artifact reuse while the paper-to-Lean intermediate correspondence remains contested.
+- AlphaProof demonstrates that formal proof search can feed back into statement correction (#125 and #741), while the nine Erdős outputs remain distinct from the human-digested quantum-graph follow-up.
+- LTE demonstrates explicit downstream uptake of semantic definition checks and Blueprint practice, while the original Lean 3 theorem code is not directly imported by the later projects inspected.
+
+The most defensible contribution is therefore not a general theory of trust in proof assistants. It is a source-pinned account of how formal warrants acquire different afterlives—credentialization, translation, integration, assimilation or archival stabilization—and how those paths condition the conversion of bounded technical reliability into symbolic authority.
+
+The core Marx–Lacan–Žižek framework is retained. The post-verification circulation model remains a descriptive middle-range contribution, not a substitute for the philosophical framework. Bourdieu/Merton, Derrida, Hardwig and STS retain the auxiliary roles specified in theory-synthesis.md.
