@@ -48,6 +48,10 @@ Observed network structure:
 - External auditors can enter the public record through issues without becoming repository contributors.
 - A conflict over archival fidelity versus refactoring produces a sibling repository, not simply a code-level resolution.
 
+### 2.1 PR metadata and review surface
+
+A compact PR snapshot was retrieved for eight purposively selected repository events (#1, #7, #8, #12, #64, #101, #115 and #9842). For these eight PRs, the connector returned no PR review events; several merge descriptions nevertheless refer to component reviews, approvals or merge-queue checks. Absence of a review object in the aggregate PR endpoint is not evidence that no review or approval took place. Exact merge SHAs and metadata are recorded in github-pr-review-sample.csv.
+
 ## 3. Navier–Stokes network
 
 | Account / actor | Observed role | Evidence |
@@ -87,6 +91,10 @@ Observed network structure:
 - AlphaProof output is not simply accepted as a finished theorem: human review corrects the target, narrows the claim, changes status and records attribution.
 - The agent also acts as a source of counterexamples that exposes errors in existing formalizations.
 
+### 4.1 PR review metadata
+
+Seven purposively selected Formal Conjectures PRs were checked against issue comments and review events. PR #4384 records 135 issue comments and 49 review events (46 COMMENTED, 3 APPROVED), with codrut3, mo271, eric-wieser and Paul-Lez participating in the review stream. PR #3721 records one CHANGES_REQUESTED and one APPROVED review by mo271. PRs #3778, #3737, #3643 and #3604 each have an approval event; PR #2398 has two approvals and two comments. Exact merge SHAs and review counts are in github-pr-review-sample.csv.
+
 ## 5. Liquid Tensor network
 
 | Account / actor | Observed role | Evidence |
@@ -112,6 +120,10 @@ Observed network structure:
 - Buzzard's open documentation PRs expose a negotiation over the intended audience and what counts as sufficient public explanation.
 - Semantic auditability is produced by collaboration; it is not a default property of the kernel or repository.
 
+### 5.1 PR review metadata
+
+Eight purposively selected LTE PRs were checked for issue comments and review events. The sample includes #95 (26 comments; 9 COMMENTED and 1 APPROVED review events), #96 (one approval), #104 (one approval), #107 (14 comments; five COMMENTED and one APPROVED), #113 (19 comments; eight COMMENTED and one APPROVED), #120 (two comments and one approval, while still open), #121 (one comment and no review event returned), and #126 (nine comments; two COMMENTED and one APPROVED). Reviewers include Commelin, Topaz, Adomani, Brasca and the PR author. This gives direct evidence of iterative documentation and semantic-example review, while preserving the distinction between issue comments and formal review states.
+
 ## 6. Cross-case network patterns
 
 | Pattern | Riemann | Navier–Stokes | AlphaProof | LTE |
@@ -129,3 +141,4 @@ Observed network structure:
 - PR counts measure platform activity, not intellectual contribution.
 - The absence of public PRs/issues does not prove absence of internal collaboration.
 - Public comments evidence public positions and actions, not private belief.
+- The event-participation edge CSV records actors named in selected events; it does not assign authorship/review/approval roles where the source field is ambiguous. A complete typed social network would require wider issue, fork, citation and downstream-dependency collection.
