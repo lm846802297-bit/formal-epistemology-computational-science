@@ -91,6 +91,8 @@ Study these carefully before claiming novelty for a three-layer warrant distinct
 - `github-event-ledger.csv` (46 event records)
 - `liquid-tensor-pr-census.csv` (57 PR records)
 - `riemann-contributors-top.csv` (20-account snapshot)
+- `alphaproof-formal-conjectures-pr-sample.csv` (7 selected integration/review PRs)
+- `navier-stokes-commit-history.csv` (2 public commits)
 
 ### Important methodological conclusions
 
@@ -106,6 +108,6 @@ Study these carefully before claiming novelty for a three-layer warrant distinct
 
 1. Complete a targeted review of RH PR/review histories beyond the purposive sample, especially source-attribution and proof-refactor batches.
 2. Expand Formal Conjectures sampling around AlphaProof results and collect review threads for the selected PRs.
-3. Capture exact head/merge commit SHAs for all selected PRs.
+3. Capture exact head/merge commit SHAs for all selected PRs; seven AlphaProof/Formal Conjectures merge SHAs are now recorded in the PR-sample CSV.
 4. Search downstream citations, imports, forks and actual reuse for all four cases.
 5. Complete the public reception sample and record counter-evidence.
