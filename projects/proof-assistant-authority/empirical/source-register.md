@@ -101,6 +101,13 @@ Key question: does public semantic auditability redistribute authority and make 
 9. Study M-14 and M-15 carefully before claiming novelty for a three-layer warrant distinction, distributed labour or the LTE comparison.
 
 
+## G. Research-stage acceptance records
+
+| ID | Source | Evidence role | Status |
+|---|---|---|---|
+| ST-01 | [Stage 1 GitHub acceptance](stage1-github-acceptance.md) | Scope and acceptance of four-case GitHub collaboration archive study | Completed at stated documentary scope |
+| ST-02 | [Stage 2 theoretical synthesis acceptance](stage2-theory-synthesis-acceptance.md) | AlphaProof/LTE comparison, warrant-scope transfer and inference limits | Completed; no manuscript edits |
+
 ## F. GitHub collaboration archives and contribution-network sources
 
 | ID | Source | Type / evidence role | Status | Main use / caveat |
