@@ -65,3 +65,47 @@ Study these carefully before claiming novelty for a three-layer warrant distinct
 7. Archive raw artifacts and compute SHA-256 only after actual retrieval.
 8. Retrieve full texts for MacKenzie and De Toffoli/Tanswell where lawful access permits.
 9. Record inaccessible sources rather than replacing them with summaries.
+
+
+## 2026-11-28 — First-pass GitHub collaboration and contribution-network survey
+
+### Repository census
+
+- Riemann: inspected repository README and generated CONTRIBUTORS.md. The contributor file lists 192 accounts and sums to 6,079 merged-PR counts, including the earlier `alpoge` branch history. Created a top-20 CSV snapshot.
+- Navier–Stokes: inspected the full public commit history. Two commits, both by `balexeev-oai`; root commit `8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538` adds 2,496 files / 616,833 lines. No public PRs or issues found in the repository.
+- AlphaProof results archive: six commits (five by `aferr`, one CI commit by `eric-wieser`), four issues, no PRs. Inspected issues #1–#4. The QuantumOptics `sorry` issue is explicitly separated from the Erdős proof set.
+- Formal Conjectures: purposively inspected PRs #3778, #4384, #3737, #3721, #3643, #3604 and #2398. PR #4384 has 53 commits and 135 comments, including detailed review of statement scope and an m=8-only result.
+- Liquid Tensor: enumerated 57 PRs and 76 issues. Fetched all 57 PR metadata records; 49 merged, 6 closed unmerged and 2 open; 15 PR author accounts. 49 issue titles are automatic-upgrade failures and are excluded from substantive human-interaction coding.
+
+### Event-level evidence captured
+
+- Riemann: cache/build PRs, import cleanup, out-of-scope proof proposal, source provenance, donor-runner infrastructure, reviewed batch merges, citation/attribution audit, original-archive versus refactor dispute, structural audit discussion, independent replay and checker reports.
+- Navier–Stokes: two release commits and external critique as a separate scholarly channel.
+- AlphaProof: output archive authorship, missing natural-language artifact request, proof provenance issue, independent replay, Formal Conjectures status change, extensive OEIS statement review, attribution corrections and counterexample-led formalization fixes.
+- LTE: CI/sorry-free workflow, theorem milestones, p-Banach and Ext semantic examples, Radon/profinite examples, open documentation/audience negotiations.
+
+### Machine-readable outputs
+
+- `github-collaboration-analysis.md`
+- `contribution-network.md`
+- `github-event-ledger.csv` (46 event records)
+- `liquid-tensor-pr-census.csv` (57 PR records)
+- `riemann-contributors-top.csv` (20-account snapshot)
+
+### Important methodological conclusions
+
+- Do not compare raw PR counts across the four repositories: their purposes and histories differ.
+- The Riemann contributor count includes earlier `alpoge` history and is not a measure of theorem authorship.
+- Navier–Stokes' lack of public PRs/issues is a property of the public repository, not proof of no internal collaboration.
+- AlphaProof's results archive is not the same as its human integration network; Formal Conjectures is essential.
+- The AlphaProof QuantumOptics `sorry` issue is not evidence that the Erdős proof items contain `sorry`.
+- LTE has a concentrated author/reviewer network; the examples and docs are collaboratively produced and reviewed.
+- No raw repository files have been archived locally in this step; therefore no SHA-256 values are claimed. Immutable Git commit/blob identifiers and PR numbers are recorded instead.
+
+### Remaining Stage 1 tasks
+
+1. Complete a targeted review of RH PR/review histories beyond the purposive sample, especially source-attribution and proof-refactor batches.
+2. Expand Formal Conjectures sampling around AlphaProof results and collect review threads for the selected PRs.
+3. Capture exact head/merge commit SHAs for all selected PRs.
+4. Search downstream citations, imports, forks and actual reuse for all four cases.
+5. Complete the public reception sample and record counter-evidence.
