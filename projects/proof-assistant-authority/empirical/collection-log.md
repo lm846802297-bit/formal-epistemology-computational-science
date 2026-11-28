@@ -142,3 +142,33 @@ Study these carefully before claiming novelty for a three-layer warrant distinct
 ### Next sequential step
 
 Complete the remaining Stage 1 evidence collection on public reception and downstream reuse before treating the overall empirical phase as closed. Only after that should the theory-evidence map be finalized and manuscript revisions considered.
+
+
+## 2026-11-28 — Sequential research-stage acceptance
+
+### Stage 1: GitHub collaboration archives and contribution networks
+
+- Accepted at the documentary scope stated in stage1-github-acceptance.md.
+- Added 78 actor-event links from 46 selected event records. These are named participation edges, not inferred author/reviewer roles.
+- Added a 23-PR metadata/review sample across Riemann, LTE and AlphaProof/Formal Conjectures, including immutable merge SHAs where available.
+- Updated contribution-network.md with PR review event counts and the distinction between issue comments and formal review states.
+- Stage 1 does not claim a complete typed social network, full internal collaboration history, or a downstream reuse census.
+
+### Stage 2: AlphaProof/LTE theoretical synthesis
+
+- Conducted after Stage 1 acceptance.
+- Revised two-case-theory-synthesis.md and theory-evidence-map.md.
+- Main refinement: credential circulation, warrant-scope transfer and fetishistic disavowal are three distinct levels.
+- AlphaProof: credential-centred recognition and agent solver attribution are observable; possible scope compression is localized to headline/benchmark framing. PR #3778 is a reviewed variant-specific status change, not automatically an unwarranted transfer.
+- LTE: semantic auditability is a procedural counter-practice built through examples, Blueprint, discussion and review; causal effects on downstream recognition are not demonstrated.
+- Neither case establishes community-wide private belief or universal fetishistic disavowal.
+- No manuscript text was changed.
+
+### Acceptance records
+
+- stage1-github-acceptance.md
+- stage2-theory-synthesis-acceptance.md
+
+### Next research boundary
+
+The two requested sequential tasks are complete. The wider empirical phase still has distinct future work: systematic public reception, downstream citations/reuse, exact raw artifact archiving with SHA-256, and any interview-based research under a separate consent/ethics protocol. These are not retroactively treated as completed.
