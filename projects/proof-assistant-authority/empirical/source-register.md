@@ -99,3 +99,23 @@ Key question: does public semantic auditability redistribute authority and make 
 7. Archive raw source files and compute SHA-256 only after actual retrieval.
 8. Retrieve full texts for M-01, M-02 and M-11 where lawful access permits.
 9. Study M-14 and M-15 carefully before claiming novelty for a three-layer warrant distinction, distributed labour or the LTE comparison.
+
+
+## F. GitHub collaboration archives and contribution-network sources
+
+| ID | Source | Type / evidence role | Status | Main use / caveat |
+|---|---|---|---|---|
+| GH-RH-01 | [Riemann repository README](https://github.com/leanprover-community/riemann-hypothesis/blob/main/README.md) | Project scope and branch provenance | inspected; blob `6a98a3faa41f6c59cf0fb4b8e4d4b4ca7c45c1d1` | Describes main/alpoge/original branch roles and project goals. |
+| GH-RH-02 | [Riemann CONTRIBUTORS.md](https://github.com/leanprover-community/riemann-hypothesis/blob/main/CONTRIBUTORS.md) | Generated contributor counts | inspected; blob `f8e211a17347be739b2b89ab582ca4bbb0f97cdf` | 192 accounts; summed 6,079 merged-PR counts, including alpoge history. Not theorem authorship. |
+| GH-RH-03 | [Riemann GitHub event sample](github-event-ledger.csv) | PR/issue and audit events | inspected | Selected PRs #1, #7, #8, #12, #64, #101, #115, #9842; Issues #39, #47, #56, #96, #8738, #8747. |
+| GH-NS-01 | [OpenAI NavierStokesAndEuler commit 8937a8f4](https://github.com/openai/NavierStokesAndEuler/commit/8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538) | Root release commit | inspected; immutable SHA | 2,496 files and 616,833 added lines; author `balexeev-oai`. |
+| GH-NS-02 | [OpenAI NavierStokesAndEuler commit f9e8bc5b](https://github.com/openai/NavierStokesAndEuler/commit/f9e8bc5b38b6e212696e8a30e3e91517af887bbd) | Follow-up release commit | inspected; immutable SHA | Same author; repository has two commits and no public PRs/issues in the inspected snapshot. |
+| GH-APN-01 | [AlphaProof Nexus results commit history](https://github.com/google-deepmind/alphaproof-nexus-results/commits/main) | Output archive provenance | inspected | Six commits: five by `aferr`, one CI commit by `eric-wieser`. |
+| GH-APN-02 | [Formal Conjectures PR #3778](https://github.com/google-deepmind/formal-conjectures/pull/3778) | Localized status transition | inspected | Upper-density variant of #741; agent attribution and approval. |
+| GH-APN-03 | [Formal Conjectures PR #4384](https://github.com/google-deepmind/formal-conjectures/pull/4384) | Human review and integration of AlphaProof OEIS outputs | inspected | 53 commits, 135 comments, detailed statement correction. |
+| GH-APN-04 | [Formal Conjectures PR #3737](https://github.com/google-deepmind/formal-conjectures/pull/3737), [#3721](https://github.com/google-deepmind/formal-conjectures/pull/3721), [#3643](https://github.com/google-deepmind/formal-conjectures/pull/3643), [#3604](https://github.com/google-deepmind/formal-conjectures/pull/3604), [#2398](https://github.com/google-deepmind/formal-conjectures/pull/2398) | Attribution, provenance, and counterexample-led correction | inspected | Purposive sample, not full Formal Conjectures PR census. |
+| GH-LTE-01 | [Liquid Tensor PR census](liquid-tensor-pr-census.csv) | Complete PR search result for repository snapshot | inspected | 57 PRs, 49 merged, 6 closed unmerged, 2 open, 15 author accounts. |
+| GH-LTE-02 | [Liquid Tensor issues](https://github.com/leanprover-community/lean-liquid/issues) | Project task and CI history | inspected | 76 issues returned; 49 are automated-upgrade failures and excluded from substantive interaction counts. |
+| GH-LTE-03 | [Liquid Tensor PR #95–#126 sample](https://github.com/leanprover-community/lean-liquid/pulls?q=is%3Apr) | Semantic examples, documentation and review | inspected | Key records #95–#107, #113, #115, #120, #121, #126. |
+
+Machine-readable event-level records are in `github-event-ledger.csv`; the complete LTE PR census and pinned Riemann contributor snapshot are separate CSV files.
