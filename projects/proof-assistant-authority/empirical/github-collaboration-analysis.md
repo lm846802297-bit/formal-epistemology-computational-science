@@ -52,7 +52,7 @@ This is a repository-maintenance activity measure, not a count of RH theorem aut
 
 ### 3.3 Selected workflow and governance events
 
-- **PR #1 (20 Feb 2026 in the project record):** configures Mathlib cache retrieval. The author tested a clean clone and reported 8,690 cache files downloaded.
+- **PR #1 (20 November 2026):** configures Mathlib cache retrieval. The author tested a clean clone and reported 8,690 cache files downloaded.
 - **PR #7:** adds a public Cloudflare/Lake cache and verified archive bootstrap. This is infrastructure for reproducible builds and external access.
 - **PR #8:** simplifies Main imports and removes six modules considered unreachable. The change triggered a provenance discussion because the README and mirror check still described the source as unmodified.
 - **PR #12:** an external contributor proposed additional RH reductions from a collaborative Principia project. It was closed without merge. The repository's stated scope distinguishes maintenance of the published proof from accepting new mathematical results.
@@ -69,7 +69,7 @@ This is a repository-maintenance activity measure, not a count of RH theorem aut
 - **Issue #39:** an AI-assisted table initially listed 105 named statements and 83 not-yet-reviewed statements. The author later withdrew the proposal for a references file because source locations were missing. A small source-checked batch found that a Linnik statement initially called faithful was only a close match. Maintainer Deicyde later stated that many AI-added literature references were wrong and that citations should not be added until a checkable process exists. This is a concrete example of community review resisting unverified attribution.
 - **Issue #47 and PR #64:** a provenance check became stale after source edits; the issue identified the mismatch and PR #64 documented the exact submission commit and declared source delta.
 - **Issue #56:** participants debated whether to preserve Alpöge's original code unchanged in a sibling archive while continuing to refactor the working repository. Maintainer Deicyde agreed that exact preservation was valuable but defended a separate clean, performant importable version. A sibling `riemann-hypothesis-original` repository was subsequently created.
-- **Issue #96:** a public structural audit alleged that trivial predicates appeared in the dependency chain. Other contributors supplied dependency analyses and counter-readings. This is evidence of contestation and audit work, not a settled proof that the theorem is invalid.
+- **Issue #96:** a public structural audit alleged that trivial predicates appeared in the dependency chain. Other contributors supplied dependency analyses and counter-readings. The issue itself explicitly says it is not claiming the proof is wrong and notes that the author had not completed an independent compilation. This is evidence of contestation and audit work, not a settled proof that the theorem is invalid.
 - **Issue #8738:** an independent Apple Silicon reproduction reports matching SHA-256 inputs and successful `con-ron` verification of all five headline theorems.
 - **Issue #8747:** an independent check reports both editions building from source, three standard axioms, and several independent checkers accepting the formal claims. The author explicitly says that nobody read the mathematics; this is evidence for derivational verification, not a complete semantic audit.
 
@@ -201,3 +201,12 @@ The four cases exhibit four different public organizations of mathematical labou
 - Liquid Tensor: semantic auditability is built through collaborative examples, documentation and mathematical review.
 
 This supports the research question about how the same formal verification technology can participate in different authority and subject-position structures. It does not yet establish the second-stage Žižekian interpretation. The next stage must test whether these differences constrain or facilitate warrant-scope transfer, especially in the AlphaProof/LTE comparison.
+
+
+## 10. Machine-readable research artifacts
+
+- `github-event-ledger.csv`: 46 dated event records with source URLs, immutable locators, codes and inference limits.
+- `liquid-tensor-pr-census.csv`: all 57 PRs returned by the repository search, with author, date, merge state, commit count, additions, deletions and comment count. A proper CSV parse confirms 49 merged PRs, 8 not merged (6 closed unmerged and 2 open), and 15 author accounts.
+- `riemann-contributors-top.csv`: top 20 accounts from the pinned generated contributor file; the complete 192-account file remains the source of record.
+
+The event ledger is a selected evidence set, not a full census of all repository activity. The LTE PR census is complete for the search result returned at the snapshot date.
