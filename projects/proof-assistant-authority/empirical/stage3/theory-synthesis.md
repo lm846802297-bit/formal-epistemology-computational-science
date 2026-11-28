@@ -109,3 +109,25 @@ No priority claim is made. The next manuscript round should state this contribut
 Retain Marx–Lacan–Žižek as the core framework. Use Bourdieu/Merton, Derrida, Hardwig and STS only for their distinct supporting tasks. Introduce post-verification circulation as an empirical middle-range model rather than a replacement philosophical theory.
 
 The first manuscript revision round changes only the theoretical framework. The case sections, abstract and conclusion remain unchanged until that round is reviewed.
+
+
+## 8. Empirical calibration of the theoretical roles
+
+The four cases support retaining the selected framework, but they do not support applying every concept uniformly to every case.
+
+| Theoretical resource | Strongest empirical anchor | Calibrated role |
+|---|---|---|
+| Marx: objectified labour / commodity fetishism | AlphaProof's distributed problem selection, proof search, human statement review, Lean formalization, exposition and repository integration; Navier–Stokes' downstream packaging and benchmarking | Explain how heterogeneous labour can become condensed into a portable proof artifact or solver credential. Do not claim that the artifact literally conceals all labour in every case. |
+| Lacan: Big Other / subject-supposed-to-know | Institutional certification and solver attribution in Riemann and AlphaProof; formal status registers and named validation authorities | Explain how institutions and formal systems are positioned as guarantors, and how the solver/certificate is assigned a knowing position. The Big Other is the symbolic locus of authorization, not a person or software system. |
+| Žižek: practical belief, fantasy and disavowal | The Navier–Stokes coexistence of explicit paper-to-Lean criticism with continued technical reuse is a possible site for testing; Riemann's ongoing reconstruction and LTE's semantic-audit practices provide counter-patterns | Keep the mechanism conditional. Acknowledged criticism plus continued use is not by itself disavowal. The analysis must show that the acknowledged gap is practically subordinated to the certificate and that this changes judgment, attribution or action. |
+| Bourdieu / Merton: symbolic capital, priority and credit | AlphaProof author-contribution statements, solver attribution, Formal Conjectures status transitions, and the separation of original proof authorship from later reconstruction | Explain the conversion of recognition into credit, visibility and field position. |
+| Derrida: archive, trace and iterability | Riemann's original/alpoge/main branches, pinned source versions, reconstruction maps, and the versioned Navier–Stokes benchmark | Explain how version selection, preservation and replay make some claims retrievable and authoritative. |
+| Hardwig / STS | Expert validation, repository maintenance, audit, porting, review and library infrastructure across all four cases | Establish rational epistemic dependence and the material organization of knowledge production as the baseline against which ideology is diagnosed. |
+
+### Revised theoretical judgment
+
+The empirical record strengthens Marx and Lacan as the structural core and Bourdieu/Merton and Derrida as supporting accounts of recognition and archival stabilization. Žižek remains essential to the paper's distinctive explanatory mechanism, but the cases require a narrower claim: practical belief and disavowal are not presumed from the existence of formal verification, public attention, or continued artifact reuse. They must be demonstrated in a specific episode of acknowledged limitation and consequential reliance.
+
+This means the paper should not argue that all four cases are examples of ideological fetishism to the same degree. They are comparative cases that expose different circulation paths and provide both positive and negative evidence for the proposed mechanism. The Navier–Stokes record supplies a particularly useful test of artifact reuse under acknowledged correspondence criticism; Riemann and LTE show that reconstruction and semantic auditability can remain active rather than being displaced.
+
+The theoretical contribution is therefore a conditional account of how objectified labour and symbolic authorization can produce warrant-scope transfer, with Žižek explaining the practical persistence of that transfer only where the empirical conditions are present.
