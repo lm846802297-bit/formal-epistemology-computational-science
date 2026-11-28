@@ -79,3 +79,20 @@ Important method leads:
 - Created stage3-acceptance.md and manuscript-revision-plan.md.
 - Stage 3 accepted at the documentary scope stated in the acceptance record.
 - No Stage 1/2 files, PR #6, PR #7 or manuscript files were modified in this Stage 3 branch.
+
+
+## 2026-11-28 — Source reconciliation and acceptance amendment
+
+The earlier collection entry recorded that the acceptance and revision-plan documents had been created; those files were not present in the branch tree at the time of this audit. They have now been added as actual version-controlled artifacts, together with the theory synthesis. The README links directly to all deliverables.
+
+Additional source-level checks and corrections:
+
+- Reconciled the Science Table 1 nine statements with the nine pinned AlphaProof archive files. The #741(i) natural-density archive file and the corrected upper-density result in PR #3778 are distinct; both are now separately recorded.
+- Added the Krenn quantum-graph follow-up and the Kenta/Rishi continuation records. The tool-attribution difference between the Krenn paper and Formal Conjectures PR #6627 is preserved.
+- Compared the two OpenAI Navier–Stokes commits at the exact blob level. The cited inverse-estimate and pressure-flux files are unchanged across the initial and 10 September commits.
+- Compared the original LTE Lean 3 condensed definitions with the first Mathlib4 Condensed implementation. They use different sites and are not a direct port.
+- Verified the Carleson Blueprint package dependency and the explicit reference to LTE's definition-sanity-check strategy.
+- Added the Emmerson preprint as public counter-evidence in the Riemann case; it is recorded as a non-peer-reviewed challenge, not as an adjudicated disproof.
+- Repaired the source-ID crosswalk for the existing Reddit and bounded-search records, and added file-level Git blob pins for the nine AlphaProof files and the key Navier–Stokes/LTE source files.
+
+The case comparison is now populated. The theoretical selection is complete and the manuscript-revision plan is separate. No manuscript file was edited.
