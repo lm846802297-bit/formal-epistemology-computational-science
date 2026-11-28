@@ -373,13 +373,13 @@ The article therefore advances a conditional rather than universal thesis. Forma
 ---
 
 
+## References
+
 Bourdieu, Pierre. 2004. *Science of Science and Reflexivity*. Translated by Richard Nice. Chicago: University of Chicago Press.
 
 Derrida, Jacques. 1996. *Archive Fever: A Freudian Impression*. Translated by Eric Prenowitz. Chicago: University of Chicago Press.
 
 Merton, Robert K. 1973. *The Sociology of Science: Theoretical and Empirical Investigations*. Chicago: University of Chicago Press.
-
-## References
 
 Ahlstrom-Vij, Kristoffer. 2021. “Esoteric Reliabilism.” *Episteme* 18 (4): 603–623. https://doi.org/10.1017/epi.2019.39.
 
