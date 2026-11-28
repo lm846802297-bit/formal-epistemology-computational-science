@@ -32,6 +32,9 @@ These sources cannot establish that the public trusts or distrusts Lean. They pr
 | RH-08 | [Jimmie Adriazola reconstruction](https://github.com/jimjamzola/RH-Alpoge-Reconstruction) | README blob 43b538f8e6c0b65e8dcb55d8cdd9c41b47b7a1e3 | Human-readable reconstruction; explicitly incomplete and conditional |
 | RH-09 | [Nature coverage](https://www.nature.com/articles/d41586-026-03812-7) and [Nature follow-up](https://www.nature.com/articles/d41586-026-03835-0) | 2026-11-20 and 2026-11-25 | Public representation and named mathematician reactions |
 | RH-10 | [Science Media Centre expert comments](https://www.sciencemediacentre.org/experts-comment-on-announcement-from-levant-alpoge-that-he-has-solved-the-riemann-hypothesis-with-the-help-of-claude/) | 2026-11-24 | Expert distinction between kernel checking, statement correspondence and understanding |
+| RH-11 | [Alpöge, “Remark”](https://alpo.ge/remark.pdf) | 2026-11-20 | First-person account of collaboration with Claude and division of mathematical work |
+| RH-12 | [Clay Mathematics Institute, Riemann Hypothesis](https://www.claymath.org/millennium/Riemann-Hypothesis/) | Status checked 2026-11-28; page labels problem “Active” | Official institutional status; not a prize award or acceptance statement |
+| RH-13 | [Clay Mathematics Institute, Millennium Prize rules](https://www.claymath.org/millennium-problems/rules/) | Rules adopted 2018-09-26; accessed 2026-11-28 | Qualifying publication, two-year interval, and general-acceptance requirements for prize consideration |
 
 The community README states that the original branch preserves the first public release, the alpoge branch preserves earlier cleanup history, and main is based on a readable refactor. The generated contributor file lists 192 accounts and 6,079 merged-PR counts, including the earlier alpoge history. These are repository-maintenance measures, not theorem authorship.
 
@@ -50,6 +53,7 @@ The community README states that the original branch preserves the first public 
 | NS-09 | [Vilin97 formalization benchmark](https://github.com/Vilin97/ns-formalization-benchmark) | README blob and upstream/provenance.json pinned in repository | Direct artifact reuse, source SHA-256 manifest and reproducible build comparison |
 | NS-10 | [KTS Global Lean proof port](https://github.com/kts-global/lean-proofs-public) | Release s437-v1; [Zenodo record](https://doi.org/10.5281/zenodo.23535805) | Lean 4 port and R2/R3 verification package; not an independent mathematical proof |
 | NS-11 | [Tengoku formal library](https://github.com/competemath/tengoku) | NOTICE and NavierStokesEuler/ComparatorSolution.lean | Downstream library integration with upstream attribution |
+| NS-12 | [Buckmaster signed statement](https://cims.nyu.edu/~tristanb/statement.pdf) | 2026-09-08; four-page signed statement | Buckmaster’s account of the Alpöge collaboration, upstream Córdoba–Martínez-Zoroa programme, OpenAI discussions, and stated limits of his knowledge |
 
 The OpenAI repository has two public commits and no public issues in the inspected snapshot. The first-to-second commit comparison reports 188 changed files, 19,388 additions and 79 deletions.
 
@@ -67,6 +71,9 @@ The OpenAI repository has two public commits and no public issues in the inspect
 | AP-08 | [Rishi Rajasekaran Krenn-conjecture proof](https://github.com/rrajasek95/krenn-conjecture/tree/56f495ae11cf4729e6173477cb25afff7342c8cf) | Commit 56f495ae11cf4729e6173477cb25afff7342c8cf | Separate GPT/Claude-assisted all-orders proof; no human expert review recorded |
 | AP-09 | [Formal Conjectures PR #6627](https://github.com/google-deepmind/formal-conjectures/pull/6627) and [PR #8283](https://github.com/google-deepmind/formal-conjectures/pull/8283) | PR #6627 open; #8283 merged | External proof registration and narrower N=6 integration |
 | AP-10 | [Palomar registry entry](https://palomar-registry.org/entry.html?id=PALOMAR-2026-11-27-000065) | PALOMAR-2026-11-27-000065 | External formal-verification record for the separate all-orders proof |
+| AP-11 | [Reiher, Rödl & Sales, “Colouring versus density in integers and Hales–Jewett cubes”](https://doi.org/10.1112/jlms.12987) | *Journal of the London Mathematical Society* 110(5), e12987; first published 2024-10-10; Theorems 1.5 and 1.7 | Prior published result implying the negative answer to Erdős #846 under the collinear-triple specialization |
+| AP-12 | [Erdős Problems #846](https://www.erdosproblems.com/846) | Page checked 2026-11-28 | Catalogue record for the planar problem; notes Rödl’s observation that RRS24 implies a counterexample after suitable projection |
+| AP-13 | [Hedegreen, “Nine Became Eight”](https://hedegreenresearch.com/articles/nine-became-eight/) | 2026-07-21, version 1.0 | External row-level novelty audit; retains eight newly resolved results and reclassifies #846 while explicitly limiting its mathematical review |
 
 The nine Erdős proof files are pinned in AP-02. Their individual blob SHAs are recorded in the evidence ledger. The list contains nine formal statements but only seven unique problem numbers; it includes parts and variants, and the #26 item is a Tenenbaum variant rather than an original Erdős problem.
 
@@ -102,6 +109,8 @@ The nine Erdős proof files are pinned in AP-02. Their individual blob SHAs are 
 | López-Corona (2026), [From Authorial Mathematics to Studio Mathematics](https://arxiv.org/abs/2608.22194) | Studio mathematics, provenance, understanding audit and contribution-authority trace | Direct novelty constraint; do not claim distributed authorship, provenance or LTE collaboration as new |
 
 ## Search boundary
+
+The Stage 3 manuscript update adds RH-11–RH-13, NS-12 and AP-11–AP-13. These sources were checked directly for the Claude collaboration, CMI status and prize rules, Buckmaster’s attribution account, and the #846 novelty reclassification.
 
 Searches covered:
 - Exact titles, DOI and arXiv records for the four cases and their named follow-up projects.
