@@ -1,0 +1,1 @@
+record_id,case,source_id,source_title,canonical_url,author_or_institution,event_date,access_date,version_or_commit,locator,evidence_class,reuse_level,artifact_or_claim_used,actor_role,short_excerpt_or_event,supported_claim,counter_evidence,inference_limit,polarity,confidence,raw_sha256,git_blob_sha256,follow_up,search_query_or_method
