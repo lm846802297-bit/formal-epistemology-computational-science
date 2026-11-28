@@ -111,3 +111,24 @@ Study these carefully before claiming novelty for a three-layer warrant distinct
 3. Capture exact head/merge commit SHAs for all selected PRs; seven AlphaProof/Formal Conjectures merge SHAs are now recorded in the PR-sample CSV.
 4. Search downstream citations, imports, forks and actual reuse for all four cases.
 5. Complete the public reception sample and record counter-evidence.
+
+
+## 2026-11-28 — Second-stage theoretical synthesis: AlphaProof and LTE
+
+- Reopened the exact manuscript snapshot at blob `403657444bff5686bf795872b26005f73bce8409` and reviewed the theoretical framework, AlphaProof subsection, LTE subsection, contribution statement and conclusion.
+- Re-examined the full texts of Kallel & El Louadi (2026) and López-Corona (2026) as priority novelty checks.
+- Created `two-case-theory-synthesis.md`.
+- Updated `theory-evidence-map.md` with case-specific judgments and inference limits.
+- No manuscript text was changed.
+
+### Main synthesis
+
+- AlphaProof provides strong evidence of credential-centred recognition and asymmetrical solver attribution, but only localized/partial warrant-scope transfer. Human validation, statement correction, variant-specific status and independent replay constrain the stronger fetishistic interpretation.
+- LTE provides a documented counter-practice: semantic checks and provenance are made operative in project workflow and public exposition. It constrains certificate-only attribution at the procedural level, but the evidence does not show that it causally changes downstream community recognition.
+- Neither case establishes community-wide private belief or universal fetishistic disavowal.
+- The comparison is contrastive, not a matched causal test.
+- Kallel & El Louadi already distinguish derivational validity, representational fidelity and epistemic significance; López-Corona already develops studio mathematics and contribution-authority trace. The distinctive claim must remain the Žižekian account of how a genuine local warrant becomes a material bearer of wider public recognition and attribution.
+
+### Next sequential step
+
+Complete the remaining Stage 1 evidence collection on public reception and downstream reuse before treating the overall empirical phase as closed. Only after that should the theory-evidence map be finalized and manuscript revisions considered.
