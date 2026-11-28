@@ -485,3 +485,50 @@ Vallverdú, Jordi. 2026. “Where Does Mathematical Warrant Live? From the Four-
 Žižek, Slavoj. 1989. *The Sublime Object of Ideology*. London: Verso.
 
 Žižek, Slavoj. 1994. “The Spectre of Ideology.” In *Mapping Ideology*, edited by Slavoj Žižek, 1–33. London: Verso.
+
+## Primary documentary and repository sources
+
+### Riemann hypothesis
+
+Adriazola, Jimmie. 2026. “RH-Alpoge-Reconstruction.” GitHub repository, accessed 28 November 2026. https://github.com/jimjamzola/RH-Alpoge-Reconstruction.
+
+Leanprover Community. 2026. “riemann-hypothesis” repository. README and generated contributor snapshot, accessed 28 November 2026. https://github.com/leanprover-community/riemann-hypothesis.
+
+Rubinstein, Michael. 2026. “Alpöge/Claude Proof of the Generalized Riemann Hypothesis.” University of Waterloo, updated 27 November. https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/.
+
+Sahay, Anurag, Will Sawin, and Lior Silberman. 2026. “G.R.H. Polymath.” Guest post on Terence Tao’s *What’s New*, 24 November. https://terrytao.wordpress.com/2026/11/24/g-r-h-polymath/.
+
+### Navier–Stokes
+
+KTS Global. 2026. “lean-proofs-public,” release s437-v1. Zenodo record. https://doi.org/10.5281/zenodo.23535805.
+
+New Scientist. 2026. “OpenAI Mistranslated Mathematics into Code for Its Navier–Stokes Proof, Say Researchers.” 8 October. https://www.newscientist.com/article/2592824-openai-mistranslated-mathematics-into-code-for-its-navier-stokes-proof/.
+
+OpenAI NavierStokesAndEuler. 2026. Public Lean repository, commits 8937a8f4 (8 September) and f9e8bc5b (10 September). https://github.com/openai/NavierStokesAndEuler.
+
+SafeVerifyAgent. 2026. “Navier–Stokes deep audit.” GitHub repository, accessed 28 November 2026. https://github.com/GasStationManager/SafeVerifyAgent/tree/main/audits/nse-deep.
+
+Tengoku contributors. 2026. “tengoku” formal library repository, NOTICE and Navier–Stokes integration. https://github.com/competemath/tengoku.
+
+Toledo, Carlos. 2026a. “cert-machine” Navier–Stokes audit corpus. GitHub repository, commit 47a01c2e076d3b0e5e95262bb1030f5ed5873382. https://github.com/carlostoledo1891/cert-machine/tree/47a01c2e076d3b0e5e95262bb1030f5ed5873382/corpus/navier-stokes.
+
+Vilin97. 2026. “ns-formalization-benchmark” repository, README and pinned provenance manifest. https://github.com/Vilin97/ns-formalization-benchmark.
+
+### AlphaProof Nexus
+
+Google DeepMind Formal Conjectures. 2026a. “Erdős #741 upper-density variant,” pull request #3778. https://github.com/google-deepmind/formal-conjectures/pull/3778.
+
+Google DeepMind Formal Conjectures. 2026b. “Monochromatic quantum graphs,” pull request #6627. https://github.com/google-deepmind/formal-conjectures/pull/6627.
+
+Rajasekaran, Rishi. 2026. “krenn-conjecture” repository, commit 56f495ae11cf4729e6173477cb25afff7342c8cf. https://github.com/rrajasek95/krenn-conjecture.
+
+Toledo, Carlos. 2026b. “AlphaProof Nexus: independent audit.” https://carlostoledo.co/reports/alphaproof-nexus.html.
+
+### Liquid Tensor Experiment
+
+Atlas Lean Contributors. 2026. “Atlas Lean” repository, condensed topological-rings development, commit 4eb2a94dcb1e933e6bf0a7a8ba5da6771d62c343. https://github.com/facebookresearch/atlas-lean.
+
+Leanprover Community. 2022. “lean-liquid” repository. Lean 3.48.0 and Mathlib3 revision 5947fb69cc1fdfebaba1e1b1f0a04f26f0f612bf. https://github.com/leanprover-community/lean-liquid.
+
+Mathlib Contributors. 2026. “Mathlib4 Condensed.Basic.” Source file, accessed 28 November 2026. https://github.com/leanprover-community/mathlib4/blob/master/Mathlib/Condensed/Basic.lean.
+
